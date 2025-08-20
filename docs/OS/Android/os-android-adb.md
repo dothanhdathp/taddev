@@ -217,3 +217,25 @@ adb shell pm grant your.package.name android.permission.INTERNET
 - Trong đó thì:
     - `pm list packages -3` là lệnh hiển thị danh sách toàn bộ ứng dụng từ bên thứ ba.
     - `pm uninstall` dùng để xóa ứng dụng.
+
+## Chọn thiết bị
+
+Nếu có hơn một thiết bị được kết nối, dùng thêm cờ `-s ID` để chọn thiết bị. ID lấy bằng `adb devices` ở đây:
+
+Ví dụ:
+
+- Tìm DI thiết bị:
+    ```txt
+    devices
+    List of devices attached
+    WCR7N18505010318        device
+    192.168.10.123:5555     offline
+    ```
+- Chạy một số command, ví dụ ở đây là vào __*shell*__:
+    ```txt
+    adb -s WCR7N18505010318 shell
+    ```
+
+## Check Information
+
+### Check API & Android Version

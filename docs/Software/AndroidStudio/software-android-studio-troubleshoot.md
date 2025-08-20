@@ -1,9 +1,19 @@
 # Troubleshoot
 
-!!! bug "Bug 1"
+## Unable to make field private final java.lang.String ...
+
+!!! bug "Bug"
     Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @38919b44
 
-!!! bug "Bug 2"
+Với lỗi này thì vào tệp __gradle.properties__ và thêm `--add-opens java.base/java.io=ALL-UNNAMED` và `org.gradle.jvmargs` kiểu như này:
+
+```txt
+org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8 --add-opens java.base/java.io=ALL-UNNAMED
+```
+
+## Could not create parent directory ...
+
+!!! bug "Bug"
     Could not create parent directory for lock file C:\Program Files\...\gradle-x.x.x-bin.zip.lck
 
 Lỗi này xảy ra do cái tệp mà bạn cài đặt Android Studio ấy đang để quyền của __Admin__ mà ứng dụng thì lại là quyền __User__ nên ứng dụng không thể tạo được các tệp cần thiết.
