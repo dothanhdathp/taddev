@@ -5,11 +5,14 @@ Trang tải về ở đây:
 - [https://gstreamer.freedesktop.org/documentation/installing/index.html](https://gstreamer.freedesktop.org/documentation/installing/index.html)
 - Vì thời gian không cho phép nên một số đầu mục mình sẽ để lại, tập trung chủ yếu vào __*Android*__ và __*Linux*__ thôi.
 
-## Hệ điều hành
+## Tải về cho Windows
 
-## Windows
+Tham khảo đường dẫn này dể có bản cập nhập mới nhất cho Windows: [link](https://gstreamer.freedesktop.org/download/#windows)
 
-## Linux
+- Hoặc có thể tải xuống trực tiếp bản cài đặt ở đây: 
+    - [gstreamer-1.0-msvc-x86_64-1.26.5.msi](https://gstreamer.freedesktop.org/data/pkg/windows/1.26.5/msvc/gstreamer-1.0-msvc-x86_64-1.26.5.msi)
+
+## Tải về cho Linux
 
 !!! abstract "Abstract"
     __GStreamer__ được tích hợp sẵn trong tất cả các bản phân phối Linux. Chúng tôi khuyên bạn nên sử dụng phiên bản mới nhất của một bản phân phối có tốc độ phát triển nhanh như __Fedora__, __Ubuntu__ _(không phải LTS)_, __Debian__ sid hoặc __OpenSuse__ để nhận bản phát hành __GStreamer__ mới nhất.
@@ -33,5 +36,7 @@ sudo apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgst
 ## Gói phát triển
 
 ### Android
+
+Lựa chọn các bản cài đặt 
 
 ### iOS

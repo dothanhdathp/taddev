@@ -82,12 +82,19 @@ nav:
       - Tải về: Developer/GStreamer/gstreamer-installing.md
       - Foundations: Developer/GStreamer/gstreamer-foundations.md
       - GStreamer Note: Developer/GStreamer/gstreamer-notebook.md
-      - Tutorial:
-        - Tutorial: Developer/GStreamer/gstreamer-u-tutorial.md
-        - Hello world!: Developer/GStreamer/gstreamer-u-hello-world.md
-        - Khái Niệm: Developer/GStreamer/gstreamer-u-gstreamer-concepts.md
-        - Đường Ống Động: Developer/GStreamer/gstreamer-u-dynamic-pipelines.md
-        - Pipeline Graphs: Developer/GStreamer/gstreamer-u-pipeline-graphs.md
+      - Basic Tutorials:
+        - Tutorial: Developer/GStreamer/gstreamer-b-tutorial.md
+        - Hello world!: Developer/GStreamer/gstreamer-b-hello-world.md
+        - Khái Niệm: Developer/GStreamer/gstreamer-b-gstreamer-concepts.md
+        - Đường Ống Động: Developer/GStreamer/gstreamer-b-dynamic-pipelines.md
+        - Pipeline Graphs: Developer/GStreamer/gstreamer-b-pipeline-graphs.md
+      - GStreamer Windows:
+        - Geting Start: Developer/GStreamer/gstreamer-windows.md
+      - GStreamer Android:
+        - Geting Start: Developer/GStreamer/gstreamer-android.md
+        - Dựng thư viện: Developer/GStreamer/gstreamer-android-build-gstreamer.md
+        - Application 0: Developer/GStreamer/gstreamer-android-first-application-0.md
+        - Application 1: Developer/GStreamer/gstreamer-android-first-application-1.md
       - Command Tools:
         - Tools: Developer/GStreamer/gstreamer-tools.md
         - Stream Video: Developer/GStreamer/gstreamer-tools-stream-video.md
@@ -104,8 +111,6 @@ nav:
         - Fallbacksrc: Developer/GStreamer/gstreamer-pipeline-samples-fallbacksrc.md
         - Live Stream, ...: Developer/GStreamer/gstreamer-pipeline-samples-live-stream.md
         - Python Opencv: Developer/GStreamer/gstreamer-pipeline-samples-python-opencv.md
-      - GStreamer Windows:
-        - Geting Start: Developer/GStreamer/gstreamer-windows.md
       - Another:
         - Graphs: Developer/GStreamer/gstreamer-pipeline-graphs.md
 
