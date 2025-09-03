@@ -5,7 +5,7 @@
 __Custom ListView__ là cách thay đổi thành phần của từng phần tử trong __ListView__, biến danh sách trở thành một danh sách mới tuỳ chỉnh thú vị hơn. Trước tiên làm ví dụ đơn giản làm ví dụ, một __ListView__ với _tiêu đề_ và _chú thích_.
 
 <figure markdown="span">
-    ![alt text](img/dev-android-app-listview-custom-0.png)
+    ![alt text](img/android-dev-app-listview-custom-0.png)
     <figcaption>ListView example</figcaption>
 </figure>
 

@@ -6,7 +6,7 @@ Phần đặc biệt của ứng dụng này sẽ là sử dụng trực tiếp 
 
 ## Tạo Ứng Dụng Mẫu
 
-Ở bước này sẽ tạo một ứng dụng mẫu chỉ cần có một __TextView__ là được rồi. Xem hướng dẫn ở [First Application](../../Developer/Android/dev-android-first-application.md) để xem cách dựng một ứng dụng mẫu.
+Ở bước này sẽ tạo một ứng dụng mẫu chỉ cần có một __TextView__ là được rồi. Xem hướng dẫn ở [First Application](../../Developer/Android/android-dev-first-application.md) để xem cách dựng một ứng dụng mẫu.
 
 Nhưng ở đây mình sẽ dùng Kotlin để code, cũng tương tự thôi!
 

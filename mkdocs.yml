@@ -1,4 +1,4 @@
-site_name: Tad Zeila Document
+site_name: Computer Science
 theme:
   name: material
   logo: assets/logo/cat_white.png
@@ -36,229 +36,123 @@ plugins:
 
 nav:
   # ---------- Home (Main page) ----------
-  - Home: 
-    - About me: index.md
-    - Example: example.md
-  # ---------- Developer ----------
-  - Developer:
-    - Developer: Developer/dev.md
-    - Một số khái niệm:
-      - OOP: Developer/OOP/oop.md
-    - Technique:
-      - DataStruct:
-        - Overview: Developer/DataStruct/dev-dataStruct-overview.md
-      - Algorithm:
-        - Overview: Developer/Algorithm/dev-algorithm-overview.md
-        - Sorting:
-          - About Sort: Developer/Algorithm/dev-algorithm-sort.md
-          - Selection Sort: Developer/Algorithm/dev-algorithm-selection-sort.md
-          - Bubble Sort: Developer/Algorithm/dev-algorithm-bubble-sort.md
-          - Insertion Sort: Developer/Algorithm/dev-algorithm-insertion-sort.md
-          - Quick Sort: Developer/Algorithm/dev-algorithm-quick-sort.md
-          - Counting Sort: Developer/Algorithm/dev-algorithm-counting-sort.md
-        - Hash:
-          - FNV1a: Developer/Algorithm/dev-algorithm-hashing-fnv1a.md
-      - Design Pattern:
-        - Overview: Developer/Design_Pattern/dev-design-pattern-overview.md
-    - Android Developer:
-      - Android Application:
-        - First Application: Developer/Android/dev-android-first-application.md
-        - Activity: Developer/Android/dev-android-app-activity.md
-        - ListView:
-          - ListView: Developer/Android/dev-android-app-listview.md
-          - ListView Custom: Developer/Android/dev-android-app-listview-custom.md
-        - Menu Option: Developer/Android/dev-android-menu-option.md
-        - JNI:
-          - Create JNI: Developer/Android/dev-android-application-jni.md
-          - JNI Type: Developer/Android/dev-android-jni-type.md
-    - FTXUI:
-      - Getting Start: Developer/FTXUI/dev-lib-ftxui.md
-      - Example: Developer/FTXUI/dev-lib-ftxui-example.md
-    - ROS2: Developer/ROS2/dev-ros2.md
-    - Qt:
-      - Overview: Developer/Qt/qt.md
-    - GStreamer:
-      - About: Developer/GStreamer/gstreamer.md
-      - Tải về: Developer/GStreamer/gstreamer-installing.md
-      - Foundations: Developer/GStreamer/gstreamer-foundations.md
-      - GStreamer Note: Developer/GStreamer/gstreamer-notebook.md
-      - Basic Tutorials:
-        - Tutorial: Developer/GStreamer/gstreamer-b-tutorial.md
-        - Hello world!: Developer/GStreamer/gstreamer-b-hello-world.md
-        - Khái Niệm: Developer/GStreamer/gstreamer-b-gstreamer-concepts.md
-        - Đường Ống Động: Developer/GStreamer/gstreamer-b-dynamic-pipelines.md
-        - Pipeline Graphs: Developer/GStreamer/gstreamer-b-pipeline-graphs.md
-      - GStreamer Windows:
-        - Geting Start: Developer/GStreamer/gstreamer-windows.md
-      - GStreamer Android:
-        - Geting Start: Developer/GStreamer/gstreamer-android.md
-        - Dựng thư viện: Developer/GStreamer/gstreamer-android-build-gstreamer.md
-        - Application 0: Developer/GStreamer/gstreamer-android-first-application-0.md
-        - Application 1: Developer/GStreamer/gstreamer-android-first-application-1.md
-      - Command Tools:
-        - Tools: Developer/GStreamer/gstreamer-tools.md
-        - Stream Video: Developer/GStreamer/gstreamer-tools-stream-video.md
-      - Pipeline Samples:
-        - Intro:  Developer/GStreamer/gstreamer-pipeline-samples.md
-        - Tips for Debug: Developer/GStreamer/gstreamer-pipeline-samples-tips-for-debug.md
-        - Video: Developer/GStreamer/gstreamer-pipeline-samples-video.md
-        - Audio: Developer/GStreamer/gstreamer-pipeline-samples-audio.md
-        - Mux Video and Audio: Developer/GStreamer/gstreamer-pipeline-samples-mux-video-and-audio.md
-        - Media File: Developer/GStreamer/gstreamer-pipeline-samples-media-file.md
-        - Network Streaming: Developer/GStreamer/gstreamer-pipeline-samples-network-streaming.md
-        - Mixing: Developer/GStreamer/gstreamer-pipeline-samples-mixing.md
-        - SHM (Shared Memory): Developer/GStreamer/gstreamer-pipeline-samples-shm.md
-        - Fallbacksrc: Developer/GStreamer/gstreamer-pipeline-samples-fallbacksrc.md
-        - Live Stream, ...: Developer/GStreamer/gstreamer-pipeline-samples-live-stream.md
-        - Python Opencv: Developer/GStreamer/gstreamer-pipeline-samples-python-opencv.md
-      - Another:
-        - Graphs: Developer/GStreamer/gstreamer-pipeline-graphs.md
-
-  # ---------- Programming ----------
-  - Compiled:
-    - Compiled language: Programming/compiled-language.md
-    - C: Programming/c/c.md
-    - C++:
-      - Overview: Programming/cpp/cpp-0-overview.md
-      - Install: Programming/cpp/cpp-0-install.md
-      - Tutorial:
-        - HelloWorld: Programming/cpp/cpp-0-helloworld.md
-        - Data Types: Programming/cpp/cpp-1-datatypes.md
-        - Basic Operator: Programming/cpp/cpp-1-basic-operator.md
-        - Flow Control: Programming/cpp/cpp-1-flow-control.md
-        - Input and Output: Programming/cpp/cpp-1-input-and-output.md
-        - Condition & Loop: Programming/cpp/cpp-1-condition-loop.md
-        - Command Line Arguments: Programming/cpp/cpp-1-command-line-arguments.md
-        - Basic Bit Operator: Programming/cpp/cpp-1-bit-operator.md
-        - Namespace: Programming/cpp/cpp-1-namespace.md
-        - Define: Programming/cpp/cpp-1-define.md
-        - Include: Programming/cpp/cpp-1-include.md
-        - Feature:
-          - Function: Programming/cpp/cpp-2-function.md
-          - Lambda: Programming/cpp/cpp-2-lambda.md
-          - Function as Parameter: Programming/cpp/cpp-2-function-as-parameter.md
-        - Pointer:
-          - Pointer: Programming/cpp/cpp-3-pointer.md
-          - Smart Pointer: Programming/cpp/cpp-3-smart-pointer.md
-          - Raw Pointer: Programming/cpp/cpp-3-raw-pointer.md
-          - Memory Model: Programming/cpp/cpp-3-memory-model.md
-      - STANDARD LIBRARY STD:
-        - Datatype:
-          - std::string: Programming/cpp/cpp-3-std-string.md
-          - std::vector: Programming/cpp/cpp-3-std-vector.md
-          - std::list: Programming/cpp/cpp-3-std-list.md
-          - std::unordered_map: Programming/cpp/cpp-3-std-unordered_map.md
-        - Function:
-          - std::sort: Programming/cpp/cpp-3-std-sort.md
-          - std::make_share: Programming/cpp/cpp-3-std-make_share.md
-          - std::distance: Programming/cpp/cpp-3-std-distance.md
-          - std::hash: Programming/cpp/cpp-3-std-hash.md
-          - std::unique: Programming/cpp/cpp-3-std-unique.md
-          - std::shuffle: Programming/cpp/cpp-3-std-shuffle.md
-          - std::rotate: Programming/cpp/cpp-3-std-rotate.md
-      - Project:
-        - Giải bảng Sudoku:  Programming/cpp/cpp-project-solver-sudoku.md
-      - Reference & Document: Programming/cpp/cpp-reference-document.md
-    - C#: Programming/c-sharp/c-sharp.md
-    - Rust:
-      - Setup: Programming/Rust/rust-setup.md
-      - Document: Programming/Rust/rust-document.md
-      - Tutorial:
-        - HelloWorld: Programming/Rust/rust-helloworld.md
-        - Variables: Programming/Rust/rust-variables.md
-        - I/O Printer: Programming/Rust/rust-io-printer.md
-  - Hybrid:
-    - Hybrid language: Programming/hybrid-language.md
-    - Java:
-      - Overview:
-        - Java: Programming/Java/java-introduce.md
-        - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
-        - Install: Programming/Java/java-install.md
-        - HelloWorld: Programming/Java/java-helloworld.md
-      - Basic:
-        - Basic Syntax: Programming/Java/java-basic-synctax.md
-        - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
-    - Javascript:
-      - Getting Start: Programming/Javascript/javascript.md
-    - Python:
-      - Python Common Setup: Programming/Python/python.md
-      - Cài đặt:
-        - Resased Version: Programming/Python/python-resased-version.md
-        - Any Version: Programming/Python/python-any-version.md
-      - Lập trình:
-        - Hello World: Programming/Python/python-hello-world.md
-    - Kotlin:
-      - Kotlin: Programming/Kotlin/kotlin.md
-      - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
-    - PhP: Programming/php/php.md
-  - Interpreted:
-    - Interpreted language: Programming/interpreted-language.md
-  # ---------- Non Programming ----------
-  # Các ngôn ngữ không phải để lạo trình
-  - Non-P:
-    - Non Programming: NonProgramming/non-programming-language.md
-    - Web:
-      - HTML: NonProgramming/html/html.md
-      - CSS: NonProgramming/css/css.md
-    - Draw Chart:
-      - Mermaid:
-        - Overview: NonProgramming/Mermaid/mermaid-overview.md
-      - PlantUml: NonProgramming/PlantUml/plantuml.md
-    - Document Writer:
-      - Markdown: NonProgramming/Markdown/markdown.md
-      - Latex: NonProgramming/LaTex/latex.md
-      - Katex: NonProgramming/KaTex/katex.md
-  # ---------- Practice ----------
-  - Practice:
-    - Prepare: Developer/practice/practice.md
-    - Leetcode:
-      - Leetcode 39: Developer/practice/leetcode-0039.md
-      - Leetcode 46: Developer/practice/leetcode-0046.md
-      - Leetcode 47: Developer/practice/leetcode-0047.md
-      - Leetcode 1486: Developer/practice/leetcode-1486.md
-  # ---------- Operator System ----------
-  - Operator System:
-    - Common:
-      - OS Overview: OS/os.md
+  - Common:
+    - About: index.md
+    - OS:
+      - OS: OS/os.md
       - File System: OS/os-file-system.md
-    - Ubuntu:
-      - Overview & Install: OS/Ubuntu/os-ubuntu-family-overview-and-install.md
-      - Install: OS/Ubuntu/os-ubuntu-install.md
-      - System:
-        - Folder Hierarch: OS/Ubuntu/os-ubuntu-system-folder-hierarch.md
-        - System File: OS/Ubuntu/os-ubuntu-system-file.md
-        - File: OS/Ubuntu/os-ubuntu-file.md
-      - Tools:
-        - Grep: OS/Ubuntu/os-ubuntu-tools-grep.md
-        - Tree: OS/Ubuntu/os-ubuntu-tools-tree.md
-        - FFmpeg: OS/Ubuntu/os-ubuntu-tools-ffmpeg.md
-        - Minicom: OS/Ubuntu/os-ubuntu-tools-minicom.md
-        - Tmux: OS/Ubuntu/os-ubuntu-tools-tmux.md
-        - Tar: OS/Ubuntu/os-ubuntu-tools-tar.md
-    - Windows:
-      - Overview: OS/Windows/os-windows-overview.md
-      - Một số lệnh thường dùng: OS/Windows/os-windows-cmd-common-command.md
-      - System:
-        - Macro PATH: OS/Windows/os-windows-common-path.md
-        - Environment Variables: OS/Windows/os-windows-environment-variables.md
-        - Startup Process: OS/Windows/os-windows-startup-process.md
-        - Service Tag, Manufacture: OS/Windows/os-windows-service-tag-and-manufacture.md
-        - Start Menu: OS/Windows/os-windows-service-start-menu.md
-      - Network: OS/Windows/os-windows-network.md
-      - Shell:
-        - Command Prompt:
-          - Getting Start: OS/Windows/os-windows-cmd-getting-start.md
-          - Command: OS/Windows/os-windows-cmd-command.md
-          - Write Script: OS/Windows/os-windows-cmd-write-scripts.md
-        - Power Shell:
-          - Getting Start: OS/Windows/os-windows-ps-getting-start.md
-      - Regedit: OS/Windows/os-windows-regedit.md
-      - Custom:
-        - Usercmd: OS/Windows/os-windows-custom-usercmd.md
-        - Open with: OS/Windows/os-windows-custom-open-with.md
-    - Android:
-      - Overview: OS/Android/os-android-overview.md
-      - ADB: OS/Android/os-android-adb.md
+    - Knowledge:
+      - OOP: Dev/OOP/oop.md
+      - DataStruct:
+        - Overview: Dev/DataStruct/dev-dataStruct-overview.md
+      - Algorithm:
+        - Overview: Dev/Algorithm/dev-algorithm-overview.md
+        - Sorting:
+          - About Sort: Dev/Algorithm/dev-algorithm-sort.md
+          - Selection Sort: Dev/Algorithm/dev-algorithm-selection-sort.md
+          - Bubble Sort: Dev/Algorithm/dev-algorithm-bubble-sort.md
+          - Insertion Sort: Dev/Algorithm/dev-algorithm-insertion-sort.md
+          - Quick Sort: Dev/Algorithm/dev-algorithm-quick-sort.md
+          - Counting Sort: Dev/Algorithm/dev-algorithm-counting-sort.md
+        - Hash:
+          - FNV1a: Dev/Algorithm/dev-algorithm-hashing-fnv1a.md
+      - Design Pattern:
+        - Overview: Dev/Design_Pattern/dev-design-pattern-overview.md
+  # ---------- Developer ----------
+  - Framework:
+    - ROS2: Framework/ROS2/dev-ros2.md
+    - Qt:
+      - Overview: Framework/Qt/qt.md
+    - GStreamer:
+      - About: Framework/GStreamer/gstreamer.md
+      - Tải về: Framework/GStreamer/gstreamer-installing.md
+      - Foundations: Framework/GStreamer/gstreamer-foundations.md
+      - GStreamer Note: Framework/GStreamer/gstreamer-notebook.md
+      - Basic Tutorials:
+        - Tutorial: Framework/GStreamer/gstreamer-b-tutorial.md
+        - Hello world!: Framework/GStreamer/gstreamer-b-hello-world.md
+        - Khái Niệm: Framework/GStreamer/gstreamer-b-gstreamer-concepts.md
+        - Đường Ống Động: Framework/GStreamer/gstreamer-b-dynamic-pipelines.md
+        - Pipeline Graphs: Framework/GStreamer/gstreamer-b-pipeline-graphs.md
+      - GStreamer Windows:
+        - Geting Start: Framework/GStreamer/gstreamer-windows.md
+      - GStreamer Android:
+        - Geting Start: Framework/GStreamer/gstreamer-android.md
+        - Dựng thư viện: Framework/GStreamer/gstreamer-android-build-gstreamer.md
+        - Application 0: Framework/GStreamer/gstreamer-android-first-application-0.md
+        - Application 1: Framework/GStreamer/gstreamer-android-first-application-1.md
+      - Command Tools:
+        - Tools: Framework/GStreamer/gstreamer-tools.md
+        - Stream Video: Framework/GStreamer/gstreamer-tools-stream-video.md
+      - Pipeline Samples:
+        - Intro:  Framework/GStreamer/gstreamer-pipeline-samples.md
+        - Tips for Debug: Framework/GStreamer/gstreamer-pipeline-samples-tips-for-debug.md
+        - Video: Framework/GStreamer/gstreamer-pipeline-samples-video.md
+        - Audio: Framework/GStreamer/gstreamer-pipeline-samples-audio.md
+        - Mux Video and Audio: Framework/GStreamer/gstreamer-pipeline-samples-mux-video-and-audio.md
+        - Media File: Framework/GStreamer/gstreamer-pipeline-samples-media-file.md
+        - Network Streaming: Framework/GStreamer/gstreamer-pipeline-samples-network-streaming.md
+        - Mixing: Framework/GStreamer/gstreamer-pipeline-samples-mixing.md
+        - SHM (Shared Memory): Framework/GStreamer/gstreamer-pipeline-samples-shm.md
+        - Fallbacksrc: Framework/GStreamer/gstreamer-pipeline-samples-fallbacksrc.md
+        - Live Stream, ...: Framework/GStreamer/gstreamer-pipeline-samples-live-stream.md
+        - Python Opencv: Framework/GStreamer/gstreamer-pipeline-samples-python-opencv.md
+      - Another:
+        - Graphs: Framework/GStreamer/gstreamer-pipeline-graphs.md
+  - Librarys:
+    - FTXUI:
+      - Getting Start: Dev/FTXUI/dev-lib-ftxui.md
+      - Example: Dev/FTXUI/dev-lib-ftxui-example.md
+  # ---------- Operator System ----------
+  - Linux:
+    - Overview & Install: OS/Linux/linux-family-overview-and-install.md
+    - Install: OS/Linux/linux-install.md
+    - System:
+      - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md
+      - System File: OS/Linux/linux-system-file.md
+      - File: OS/Linux/linux-file.md
+    - Tools:
+      - Grep: OS/Linux/linux-tools-grep.md
+      - Tree: OS/Linux/linux-tools-tree.md
+      - FFmpeg: OS/Linux/linux-tools-ffmpeg.md
+      - Minicom: OS/Linux/linux-tools-minicom.md
+      - Tmux: OS/Linux/linux-tools-tmux.md
+      - Tar: OS/Linux/linux-tools-tar.md
+      - Sed: OS/Linux/linux-tools-sed.md
+  - Windows:
+    - Overview: OS/Windows/os-windows-overview.md
+    - Một số lệnh thường dùng: OS/Windows/os-windows-cmd-common-command.md
+    - System:
+      - Macro PATH: OS/Windows/os-windows-common-path.md
+      - Environment Variables: OS/Windows/os-windows-environment-variables.md
+      - Startup Process: OS/Windows/os-windows-startup-process.md
+      - Service Tag, Manufacture: OS/Windows/os-windows-service-tag-and-manufacture.md
+      - Start Menu: OS/Windows/os-windows-service-start-menu.md
+    - Network: OS/Windows/os-windows-network.md
+    - Shell:
+      - Command Prompt:
+        - Getting Start: OS/Windows/os-windows-cmd-getting-start.md
+        - Command: OS/Windows/os-windows-cmd-command.md
+        - Write Script: OS/Windows/os-windows-cmd-write-scripts.md
+      - Power Shell:
+        - Getting Start: OS/Windows/os-windows-ps-getting-start.md
+    - Regedit: OS/Windows/os-windows-regedit.md
+    - Custom:
+      - Usercmd: OS/Windows/os-windows-custom-usercmd.md
+      - Open with: OS/Windows/os-windows-custom-open-with.md
+  - Android:
+    - Overview: OS/Android/android-overview.md
+    - ADB: OS/Android/android-adb.md
+    - Dev App:
+      - First App: OS/Android/android-dev-first-application.md
+      - Activity: OS/Android/android-dev-app-activity.md
+      - ListView:
+        - ListView: OS/Android/android-dev-app-listview.md
+        - ListView Custom: OS/Android/android-dev-app-listview-custom.md
+      - Menu Option: OS/Android/android-dev-menu-option.md
+    - JNI:
+      - Create JNI: OS/Android/android-dev-application-jni.md
+      - JNI Type: OS/Android/android-dev-jni-type.md
   # ---------- Software ----------
   - Software:
     - Overview: Software/software.md
@@ -281,6 +175,7 @@ nav:
       - Download: Software/Qt/qt-software-qt-creator.md
     - Putty: Software/Other/putty.md
     - Sambashare: Software/Other/sambashare.md
+    - Scrcpy: Software/Other/scrcpy.md
     - Thảo luận:
       - IDE & Code Editor: Software/software-paper-ide-code-editor.md
   # ---------- Tools ----------

@@ -14,14 +14,14 @@ _Ngắn gọn hơn. **JNI** để bạn sử dụng code **C/C++** trong ngôn n
 Trong Android Studio có hỗ trợ lựa chọn này để tạo nhanh module __C++__
 
 <figure markdown="span">
-    ![alt text](dev-android-application-jni-0.png)
+    ![alt text](android-dev-application-jni-0.png)
     <figcaption>Add C++ to Module</figcaption>
 </figure>
 
 Thông thường, mọi _module C++_ sẽ được thêm vào đường dẫn `src\main\cpp`
 
 <figure markdown="span">
-    ![alt text](dev-android-application-jni-1.png)
+    ![alt text](android-dev-application-jni-1.png)
     <figcaption></figcaption>
 </figure>
 

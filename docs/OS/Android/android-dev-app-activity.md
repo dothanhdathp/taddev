@@ -17,7 +17,7 @@ Một __activity__ về cơ bản có bốn trạng thái:
 Biểu đồ sau đây cho thấy các đường dẫn trạng thái quan trọng của một __activity__. Các hình chữ nhật hình vuông đại diện cho các phương thức gọi lại mà bạn có thể thực hiện để thực hiện các __activity__ khi __activity__ di chuyển giữa các trạng thái. Các hình bầu dục màu là các trạng thái chính mà __activity__ có thể được đưa vào.
 
 <figure markdown="span">
-    ![alt text](img/dev-android-app-activity-0.png)
+    ![alt text](img/android-dev-app-activity-0.png)
     <figcaption>Image caption</figcaption>
 </figure>
 
@@ -88,7 +88,7 @@ Activity kế thừa các API cái sẽ được gọi trong mỗi thời điể
 - protected void __onStop__()
 - protected void __onDestroy__()
 
-Những event này sẽ được gọi tại thời điểm tương ứng. Ngoại trừ __onCreate()__, các event còn lại có thể không cần thiết phải khai báo vào trong ứng dụng, nghĩa là chỉ cần để đơn giản như [First Application](./dev-android-first-application.md) là được rồi.
+Những event này sẽ được gọi tại thời điểm tương ứng. Ngoại trừ __onCreate()__, các event còn lại có thể không cần thiết phải khai báo vào trong ứng dụng, nghĩa là chỉ cần để đơn giản như [First Application](./android-dev-first-application.md) là được rồi.
 
 Nhưng trong tiến trình xử lý các vấn đề như khi ứng dụng bị người dùng kéo xuống, ngắt hoạt động ngay lập tức, ... thì các event này rất quan trọng, nên nhớ. Đoạn mã cho chúng như sau:
 
