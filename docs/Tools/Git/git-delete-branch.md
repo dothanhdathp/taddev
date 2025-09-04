@@ -2,26 +2,30 @@
 
 ## How
 
-Để làm được điều này đầu tiên bạn cần phải tạo branch mới, xóa branch hiện tại và cập nhật lại!
-
-Checkout/create orphan branch (this branch won't show in git branch command):
-
-git checkout --orphan latest_branch
-Add all the files to the newly created branch:
-
-git add -A
-Commit the changes:
-
-git commit -am "commit message"
-Delete main (default) branch (this step is permanent):
-
-git branch -D main
-Rename the current branch to main:
-
-git branch -m main
-Finally, all changes are completed on your local repository, and force update your remote repository:
-
-git push -f origin main
+- Để làm được điều này đầu tiên bạn cần phải tạo branch mới, xóa branch hiện tại và cập nhật lại!
+    ```bash
+    git checkout --orphan latest_branch
+    ```
+- Thêm tất cả các tệp vào nhánh mới được tạo:
+    ```bash
+    git add -A
+    ```
+- Cam kết các thay đổi:
+    ```bash
+    git commit -am "commit message"
+    ```
+- Xóa nhánh chính (mặc định) (bước này là vĩnh viễn):
+    ```bash
+    git branch -D main
+    ```
+- Đổi tên nhánh hiện tại thành `main`:
+    ```bash
+    git branch -m main
+    ```
+- Cuối cùng, tất cả các thay đổi được hoàn thành trên kho lưu trữ cục bộ của bạn và buộc cập nhật kho lưu trữ từ xa của bạn:
+    ```bash
+    git push -f origin main
+    ```
 
 ```bash
 function delete_git_history()
