@@ -259,7 +259,7 @@ Tại thời điểm này, đáng để giới thiệu xe buýt __gstreamer__ ch
 
 __Messages__ có thể được trích xuất từ bus đồng bộ với __GST_BUS_TIMED_POP_FILTERED () __ và anh chị em của nó, hoặc không đồng bộ, sử dụng tín hiệu (hiển thị trong hướng dẫn tiếp theo).Ứng dụng của bạn phải luôn luôn để mắt đến xe buýt để được thông báo về các lỗi và các vấn đề khác liên quan đến phát lại.
 
-Phần còn lại của mã là chuỗi dọn dẹp, giống như trong chương 1 [Hello World!](gstreamer-u-hello-world.md)
+Phần còn lại của mã là chuỗi dọn dẹp, giống như trong chương 1 [Hello World!](gstreamer-b-hello-world.md)
 
 ## Conclusion _(Phần kết luận)_
 

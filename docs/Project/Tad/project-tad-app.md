@@ -38,20 +38,23 @@ npm run dist
 
     ```json
     {
-    "docsServer": "https://dothanhdathp.github.io/taddocs/",
+    "devServer": "https://dothanhdathp.github.io/taddev/",
+    "codeServer": "https://dothanhdathp.github.io/tadcode/",
     "booksServer": "https://dothanhdathp.github.io/tadbooks/",
     "diaryServer": "https://dothanhdathp.github.io/taddiary/",
-    "studyServer": "https://dothanhdathp.github.io/taddiary/",
-    "docsPath": "D:\\Git\\taddocs",
-    "booksPath": "D:\\Git\\tadbooks",
-    "worksPath": "D:\\Git\\tadworks",
-    "diaryPath": "D:\\Git\\taddiary",
-    "studyPath": "D:\\Git\\tadstudy",
-    "docsPort": 8000,
-    "booksPort": 8001,
-    "worksPort": 8002,
-    "diaryPort": 8003,
-    "studyPort": 8004
+    "studyServer": "https://dothanhdathp.github.io/tadstudy/",
+    "devPath": "D:\\Doc\\taddev",
+    "codePath": "D:\\Doc\\tadcode",
+    "booksPath": "D:\\Doc\\tadbooks",
+    "worksPath": "D:\\Doc\\tadworks",
+    "diaryPath": "D:\\Doc\\taddiary",
+    "studyPath": "D:\\Doc\\tadstudy",
+    "devPort": 8000,
+    "codePort": 8001,
+    "booksPort": 8002,
+    "worksPort": 8003,
+    "diaryPort": 8004,
+    "studyPort": 8005
     }
     ```
 

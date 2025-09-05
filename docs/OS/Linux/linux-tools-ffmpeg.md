@@ -13,6 +13,18 @@ sudo apt install ffmpeg
 
 ## Chơi nhạc
 
+Để chơi nhạc đơn giản chỉ cần:
+
+```bash
+ffplay file.mp3
+```
+
+Thêm cờ `-autoexit` sẽ tự động thoát khi kết thúc
+
+```bash
+ffplay -autoexit file.mp3
+```
+
 ## Chuyển đổi
 
 ### Chuyển đổi dữ liệu pcm thành wav
@@ -32,9 +44,10 @@ ffmpeg -f s16le -ar 44.1k -ac 2 -i file.pcm file.wav
 ffmpeg -i input.flv -f s16le -acodec pcm_s16le output.raw
 ```
 
-### Chuyển đổi định dạng theo đuôi
+### Chuyển đổi định dạng
 
-Chuyển đổi tệp tin từ loại này sang loại khác:
+Chuyển đổi tệp tin từ loại này sang loại khác. Trung bình cách này khác với cách sử dụng tệp pcm _(raw data)_ vì bản chất nó đã có đầy đủ các thông số của dữ liệu nằm trong tên tệp rồi. Miễn là các tệp có đầy đủ thông tin thì sự chuyển đổi được diễn ra bình thường.
+
 ```bash
 ffmpeg -i input.wav output.mp3
 ```

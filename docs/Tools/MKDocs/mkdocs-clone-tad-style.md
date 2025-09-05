@@ -6,7 +6,7 @@
 
 ## Chuẩn bị
 
-[Tải về Python và cài đặt](../../Programming/Python/python.md)
+[Tải về Python và cài đặt](https://dothanhdathp.github.io/tadcode/Programming/Python/python/)
 
 Dùng các lệnh dưới này để cài đặt các gói cần thiết. Chọn một trong các kiểu sau cài đặt __*tùy loại hệ thống*__.
 

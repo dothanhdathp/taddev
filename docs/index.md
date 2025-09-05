@@ -8,28 +8,15 @@ Trong tất cả thì trang này là trang chủ chứa khá nhiều thông tin.
 
 Nội dung của cục này xoay quanh nhiều các vấn đề về lập trình như OOP, học các ngôn ngữ lập trình, hệ điều hành, ..
 
-## Example
+## Một số nội dung tiếp tục
 
 !!! note "Note"
 
-!!! abstract "Abstract"
+    __ffmpeg:__
+    
+    - Nghiên cứu về cách dùng và nhúng chúng vào trong dự ans
+    
+    __gstreamer:__
 
-!!! bug "Bug"
-
-!!! danger "Danger"
-
-!!! example "Example"
-
-!!! failure "Failure"
-
-!!! info "Info"
-
-!!! question "Question"
-
-!!! quote "Quote"
-
-!!! success "Success"
-
-!!! tip "Tip"
-
-!!! warning "Warning"
+    - Xây dựng đường ống
+    - Truyền UDP và __*MultiCasting*__
