@@ -10,3 +10,10 @@
 
 - Trang chủ: [https://gstreamer.freedesktop.org/](https://gstreamer.freedesktop.org/)
 - Tài liệu API: [https://gstreamer.freedesktop.org/documentation/index.html](https://gstreamer.freedesktop.org/documentation/index.html)
+
+## Đọc thêm
+
+- 
+- 
+- 
+- 
