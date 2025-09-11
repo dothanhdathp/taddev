@@ -18,6 +18,11 @@ wget https://download.anydesk.com/AnyDesk.exe
 
 Tải về trực tiếp `AnyDesk.exe` và chạy thôi.
 
+Nhưng quá trình sử dụng sẽ vướng _lisences_ thế nên hãy dùng bản crack này:
+
+- [_Anydesk full không lisences (google drive)_](https://drive.google.com/file/d/12DIt9FGeRvLS7prDeDmb9ucBqC5L5k5X/view?usp=sharing)
+- Nguồn: [_https://phanmemvui.com/anydesk-full-crack/_](https://phanmemvui.com/anydesk-full-crack/)
+
 #### Linux
 
 Với Linux tải về bản `anydesk_7.0.2-1_amd64.deb` tại:

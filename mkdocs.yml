@@ -185,6 +185,7 @@ nav:
     - Putty: Software/Other/putty.md
     - Sambashare: Software/Other/sambashare.md
     - Scrcpy: Software/Other/scrcpy.md
+    - AnyDesk: Software/AnyDesk/anydesk.md
     - Thảo luận:
       - IDE & Code Editor: Software/software-paper-ide-code-editor.md
   # ---------- Tools ----------
@@ -245,7 +246,6 @@ nav:
       - Create App: Tools/Electron/electron-create-app.md
       - Load Link: Tools/Electron/electron-load-link.md
       - Troubleshoots: Tools/Electron/electron-troubleshoots.md
-    - AnyDesk: Tools/AnyDesk/anydesk.md
   - Project:
     - Tad App: 
       - Mô tả: Project/Tad/project-tad-app.md

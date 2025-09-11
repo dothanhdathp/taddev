@@ -149,8 +149,10 @@ adb shell input tap X Y
     - `-h`: this message
     - `-p`: lưu tệp dưới dạng `png`
     - `-d`: Chỉ định ID hiển thị vật lý để chụp (default: 129)
-
-
+- Để lấy _screen-id_ thì dùng:
+    ```text
+    dumpsys SurfaceFlinger --display-id
+    ```
 ## Open App
 
 ### Default apps
