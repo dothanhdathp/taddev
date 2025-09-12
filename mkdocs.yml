@@ -102,6 +102,11 @@ nav:
         - Python Opencv: Framework/GStreamer/gstreamer-pipeline-samples-python-opencv.md
       - Another:
         - Graphs: Framework/GStreamer/gstreamer-pipeline-graphs.md
+      - Ví dụ:
+        - Ubuntu:
+          - Tutorial 1: Framework/GStreamer/gstreamer-ubuntu-tutorial-1.md
+        - Android:
+          - Tutorial 1: Framework/GStreamer/gstreamer-android-tutorial-hello-world.md
   - Libs:
     - Libs: Libs/libs.md
     - FTXUI:
@@ -276,6 +281,8 @@ markdown_extensions:
       clickable_checkbox: true
 
 extra_javascript:
+  - assets/scripts/tablesort.min.js
+  - assets/scripts/tablesort.js
   - assets/scripts/katex.js
   - assets/scripts/keyevent.js
   - https://unpkg.com/katex@0/dist/katex.min.js
