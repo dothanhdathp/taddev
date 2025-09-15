@@ -10,6 +10,4 @@ Hệ thống tệp trong Ubuntu rất đơn giản.
 ls -la
 ```
 
-
-
 ## Sao chép và di chuyển
