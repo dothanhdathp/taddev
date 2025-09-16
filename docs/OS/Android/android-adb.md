@@ -5,7 +5,30 @@
 
 Là công cụ hỗ trợ _debug_ dành cho các thiết bị __Android__. Công cụ này được phát triển bởi __Google__ giúp đọc các tệp nhật ký hệ thống, truy xuất dữ liệu và điều khiển thiết bị Android. Cái quan trọng là tuân thủ quyền bảo mật hệ thống và phát triển.
 
-## Mở ADB
+## Tải về ABD
+
+### Windows
+
+### Ubuntu/Linux
+
+Thường thì chỉ cần dùng lệnh:
+
+```bash
+sudo apt-get install android-tools-adb
+```
+
+Nhưng nếu có lỗi thường là thiếu bản phụ thuộc, có thể dùng phiên bản đầy đủ như sau:
+
+```bash
+sudo apt-get install android-libadb
+sudo apt-get install android-sdk-platform-tools-common
+sudo apt-get install android-libbase
+sudo apt-get install android-tools-adb
+```
+
+## Chế độ ADB
+
+### Mở ADB trên Android
 
 Trên các thiết bị Android, để mở ADB có thể dùng cách sau:
 
@@ -18,7 +41,7 @@ Trên các thiết bị Android, để mở ADB có thể dùng cách sau:
     - `USB Debugging`: Cho phép debug qua __USB__
     - `Wireless Debugging` _(Chỉ từ Andoroid 11)_: Cho phép debug qua __Wifi__
 
-## Bật ADB Wireless
+### Bật ADB Wireless
 
 Trong một số trường hợp, ADB Wireless sẽ không có sẵn lựa chọn trong __Developer Settings__ mà cần mở thông qua `ADB USB`, đây là lệnh:
 
@@ -31,7 +54,9 @@ adb start-service
 - `adb tcpip 5555`
 - `adb kill-service` rồi `adb start-service` để _reset service_
 
-## Gửi KeyEvent
+## Cơ chế điều khiển chung
+
+### Gửi KeyEvent
 
 ```bash
 adb shell input keyevent <key_id/key_string>
@@ -126,7 +151,7 @@ adb shell input keyevent <key_id/key_string>
     | KEYCODE_SEARCH                   |   84   |
     | TAG_LAST_KEYCODE                 |   85   |
 
-## Gửi vị trí chạm màn hình
+### Chạm màn hình
 
 ```bash
 adb shell input tap X Y
@@ -135,7 +160,7 @@ adb shell input tap X Y
 - `X`: tọa độ của con trỏ trên trục hoành
 - `Y`: tọa độ của con trỏ trên trục tung
 
-## Capture Screen
+### Capture Screen - Chụp màn hình
 
 - Chụp màn hình bằng lệnh:
     ```bash
@@ -153,7 +178,7 @@ adb shell input tap X Y
     ```text
     dumpsys SurfaceFlinger --display-id
     ```
-## Open App
+### Mở ứng dụng
 
 ### Default apps
 

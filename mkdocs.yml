@@ -114,6 +114,7 @@ nav:
       - Example: Libs/FTXUI/lib-ftxui-example.md
     - NanoHTTPD:
       - Getting Start: Libs/NanoHTTPD/lib-nanohttpd.md
+
   # ---------- Operator System ----------
   - Linux:
     - Overview & Install: OS/Linux/linux-family-overview-and-install.md
@@ -134,6 +135,7 @@ nav:
       - Sed: OS/Linux/linux-tools-sed.md
     - Trick:
       - HTTP Server: OS/Linux/linux-http-server.md
+      - Startup Script: OS/Linux/linux-startup-script.md
   - Windows:
     - Overview: OS/Windows/os-windows-overview.md
     - Một số lệnh thường dùng: OS/Windows/os-windows-cmd-common-command.md
