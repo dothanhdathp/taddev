@@ -73,3 +73,29 @@ Rồi điền `ip` và `$NAME` ở trên vào.
     ![alt text](img/software-sambashare-1.png)
     <figcaption>Select Ip</figcaption>
 </figure>
+
+## Mở ổ trên Ubuntu
+
+Đầu tiên tải công cụ
+
+```text
+sudo apt install cifs-utils
+```
+
+Tạo một thư mục để gán tệp
+
+```text
+mkdir ~/samba/$NAME
+```m
+
+Gán địa chỉ ổ ảo vào ~/samba/$NAME
+
+```text
+sudo mount -t cifs //$IP/$NAME ~/samba/$NAME -o username=dtdat,password=$PASS
+```
+
+_Trường hợp __$PASS__ có mỗi dấu cách thì làm như này_
+
+```text
+sudo mount -t cifs //$IP/$NAME ~/samba/$NAME -o username=dtdat,password=\ ,iocharset=utf8
+```

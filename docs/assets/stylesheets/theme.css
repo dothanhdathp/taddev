@@ -61,15 +61,15 @@
 .md-footer {
     background-color: #434a74;
 }
-
-body {
-  font-family: var(--primary-family);
+.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
+  font-weight: bold;
+  text-decoration: underline;
 }
   
 .md-typeset h1 {
   font-weight: bold;
   text-align: center;
-  color:var(--primary-theme-color);
+  color:var(--md-typeset-a-color);
 }
   
 h2 {

@@ -102,11 +102,10 @@ nav:
         - Python Opencv: Framework/GStreamer/gstreamer-pipeline-samples-python-opencv.md
       - Another:
         - Graphs: Framework/GStreamer/gstreamer-pipeline-graphs.md
-      - Ví dụ:
-        - Ubuntu:
-          - Tutorial 1: Framework/GStreamer/gstreamer-ubuntu-tutorial-1.md
-        - Android:
-          - Tutorial 1: Framework/GStreamer/gstreamer-android-tutorial-hello-world.md
+      - Ubuntu Tutorial:
+        - Tutorial 1: Framework/GStreamer/gstreamer-ubuntu-tutorial-1.md
+      - Android Tutorial:
+        - Tutorial 1: Framework/GStreamer/gstreamer-android-tutorial-1.md
   - Libs:
     - Libs: Libs/libs.md
     - FTXUI:
@@ -157,6 +156,7 @@ nav:
     - Custom:
       - Usercmd: OS/Windows/os-windows-custom-usercmd.md
       - Open with: OS/Windows/os-windows-custom-open-with.md
+    - Key: OS/Windows/os-windows-buyed-key.md
   - Android:
     - Overview: OS/Android/android-overview.md
     - ADB: OS/Android/android-adb.md
