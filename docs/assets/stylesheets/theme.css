@@ -46,6 +46,27 @@
     --md-primary-fg-color: #383d5b;
 }
 
+/* Light theme */
+[data-md-color-scheme=default] {
+  --md-default-bg-color: #e4e4e4;
+  --custom-color-theme-h1--theme: #00276a;
+  --custom-color-theme-h2--theme: #00276a;
+  --custom-color-theme-h3--theme: #005e7b;
+  --custom-color-theme-h4--theme: #ff5e00;
+  --custom-color-theme-h5--theme: #ff7c2f;
+  --custom-color-theme-h6--theme: #004b55;
+}
+/* Dark theme */
+[data-md-color-scheme=slate] {
+  --md-default-bg-color: #1e1e1e;
+  --custom-color-theme-h1--theme: #6182ff;
+  --custom-color-theme-h2--theme: #4f95ff;
+  --custom-color-theme-h3--theme: #45a8bb;
+  --custom-color-theme-h4--theme: #dba022;
+  --custom-color-theme-h5--theme: #dba022;
+  --custom-color-theme-h6--theme: #f990ff;
+}
+
 /* Full width = max-width: initial; or try 100% or 1280px or ...  */
 /* .md-grid {
   max-width: initial;
@@ -69,30 +90,27 @@
 .md-typeset h1 {
   font-weight: bold;
   text-align: center;
-  color:var(--md-typeset-a-color);
+  color: var(--custom-color-theme-h1--theme);
 }
-  
-h2 {
-    color: gray;
-    font-weight: bold;
-}
-
-h3 {
+.md-typeset h2 {
+  color: #808080;
   font-weight: bold;
-  color:var(--secondary-theme-color);
+  color: var(--custom-color-theme-h2--theme);
 }
-
-h4 {
-    color:var(--tertiary-theme-color);
+.md-typeset h3 {
+    font-weight: bold;
+    color: var(--custom-color-theme-h3--theme);
 }
-
-h5 {
-    color:var(--quaternary-theme-color);
+.md-typeset h4 {
+    font-weight: bold;
+    color: var(--custom-color-theme-h4--theme);
 }
-
-h6 {
+.md-typeset h5 {
+    color: var(--custom-color-theme-h5--theme);
+}
+.md-typeset h6 {
     font-style: italic;
-    color:var(--quaternary-theme-color);
+    color: var(--custom-color-theme-h6--theme);
 }
 
 mark.green {
