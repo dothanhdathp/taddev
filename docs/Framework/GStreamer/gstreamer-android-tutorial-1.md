@@ -2,11 +2,19 @@
 
 ## Mục đích
 
-Ví dụ  này chỉ nhằm mục đích thử nghiệm thư viện của __*gstreamer*__. Phần lập trình không đặt nặng. Dù vậy việc bắt đầu bằng một ví dụ như này thực sự cũng hơi dài với người mới.
+- Sử dụng thư viện của __*gstream*__ để hiển thị ra số hiệu phiên bản được sử dụng.
 
-## Chuẩn bị
+## Github
 
-### Gstreamer binaries
+Năm trong dự án [_gstreamer-kotlin-example_](https://github.com/dothanhdathp/gstreamer-android-example) trên nhánh [_gstreamer-kotlin-example-1_](https://github.com/dothanhdathp/gstreamer-android-example/tree/gstreamer-kotlin-example-1)
+
+```text
+git clone git@github.com:dothanhdathp/gstreamer-android-example.git -b gstreamer-kotlin-example-1
+```
+
+## Gstreamer Binary
+
+### Gstreamer Binary cho Android
 
 Đầu tiên cần tải về tệp binary của gstreamer và giải nén nó. Ở đây là ví dụ nên mình sẽ dùng phiên bản mới nhất, ổn định nhất được biết đến ở thời điểm viết bài này là `gstreamer-1.0-android-universal-1.26.1`
 
@@ -31,11 +39,7 @@ Trong thư mục __gstreamer-1.0-android-universal-1.26.1__ thường sẽ có b
 
 ### Source Code
 
-Dùng lệnh sau để kéo `source-code` về! Đây là lệnh viết sẵn và có sẵn một số cài đặt sẵn sàng để dùng
-
-```text
-git clone --branch gstreamer-kotlin-example-1 git@github.com:dothanhdathp/gstreamer-android-example.git
-```
+Tải về mã nguồn trong phần [Github](#github).
 
 ### Config Build
 
@@ -68,7 +72,18 @@ GSTREAMER_ROOT_ANDROID := D:/Work/gstreamer-1.0-android-universal-1.26.5
 !!! note "Build"
     Sau khi cài đặt xong mọi thứ chỉ cần bấm nút để bắt đầu dựng chương trình. Nếu không có gì thay đổi thì sẽ dựng thành công.
 
-## Phân tich chương trình
+## Phân tích chương trình
+
+### Tài nguyên bắt buộc
+
+#### GStreamer
+
+Class __GStreamer__ phải có và package của nó phải là __*package org.freedesktop.gstreamer*__
+
+#### Assets
+
+Class __GStreamer__ sẽ cần sao chép một số tài nguyên cần có để hỗ trợ như là __*font*__ và __*certs*__. Và chúng cần để đúng ở đường dẫn `src/assets` _(ngang hàng với main)_
+
 
 ### Application
 
@@ -77,4 +92,29 @@ GSTREAMER_ROOT_ANDROID := D:/Work/gstreamer-1.0-android-universal-1.26.5
 
 ```kotlin
 private external fun nativeGetGStreamerInfo(): String
+```
+
+### Hoạt động
+
+```puml
+@startuml
+participant MainActivity
+participant GStreamer
+participant "<<JNI>>"
+participant libgstreamer_jni
+participant libgstreamer_android
+
+MainActivity -> MainActivity: //internal init()//
+MainActivity -> MainActivity: loadLibrary("gstreamer_android")
+MainActivity -> MainActivity: loadLibrary("gstreamer_jni")
+MainActivity -> MainActivity: onCreate()
+MainActivity -> GStreamer : init
+GStreamer -> GStreamer : //copyFonts//
+GStreamer -> GStreamer : //copyCaCertificates//
+GStreamer -> "<<JNI>>" : nativeInit()
+MainActivity -> "<<JNI>>" : nativeGetGStreamerInfo
+"<<JNI>>" -> libgstreamer_jni : gst_native_get_gstreamer_info
+libgstreamer_jni -> libgstreamer_android : gst_version_string
+libgstreamer_android --> MainActivity : //GSTreamer version as String//
+@enduml
 ```

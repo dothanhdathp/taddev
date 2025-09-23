@@ -105,7 +105,9 @@ nav:
       - Ubuntu Tutorial:
         - Tutorial 1: Framework/GStreamer/gstreamer-ubuntu-tutorial-1.md
       - Android Tutorial:
-        - Tutorial 1: Framework/GStreamer/gstreamer-android-tutorial-1.md
+        - GStreamer 1: Framework/GStreamer/gstreamer-android-tutorial-1.md
+        - GStreamer 2: Framework/GStreamer/gstreamer-android-tutorial-2.md
+        - GStreamer 4: Framework/GStreamer/gstreamer-android-tutorial-4.md
   - Libs:
     - Libs: Libs/libs.md
     - FTXUI:

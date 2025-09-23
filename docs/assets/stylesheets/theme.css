@@ -31,7 +31,7 @@
     --quaternary-theme-color: #8b1a8f90; /* Light theme text */
     --soft-gray-theme-color: #E2E2E2; /* Accent color */
     --code-color: black;
-    --code-background-color: #fdddb490;
+  --code-background-color: #fdddb490;
     --code-font-family: "JetBrains Mono";
     --md-bg-light-color: #d3d3e9;
     --md-bg-dark-color: #020226;
@@ -53,7 +53,7 @@
   --custom-color-theme-h2--theme: #00276a;
   --custom-color-theme-h3--theme: #005e7b;
   --custom-color-theme-h4--theme: #ff5e00;
-  --custom-color-theme-h5--theme: #ff7c2f;
+  --custom-color-theme-h5--theme: #ff2200;
   --custom-color-theme-h6--theme: #004b55;
 }
 /* Dark theme */
