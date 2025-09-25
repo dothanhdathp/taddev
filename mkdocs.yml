@@ -82,8 +82,6 @@ nav:
       - GStreamer Android:
         - Geting Start: Framework/GStreamer/gstreamer-android.md
         - Dựng thư viện: Framework/GStreamer/gstreamer-android-build-gstreamer.md
-        - Application 0: Framework/GStreamer/gstreamer-android-first-application-0.md
-        - Application 1: Framework/GStreamer/gstreamer-android-first-application-1.md
       - Command Tools:
         - Tools: Framework/GStreamer/gstreamer-tools.md
         - Stream Video: Framework/GStreamer/gstreamer-tools-stream-video.md

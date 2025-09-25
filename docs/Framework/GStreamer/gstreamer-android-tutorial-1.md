@@ -110,7 +110,7 @@ MainActivity -> MainActivity: loadLibrary("gstreamer_jni")
 MainActivity -> MainActivity: onCreate()
 MainActivity -> GStreamer : init
 GStreamer -> GStreamer : //copyFonts//
-GStreamer -> GStreamer : //copyCaCertificates//
+GStreamer -> GStreamer : //copyCertificates//
 GStreamer -> "<<JNI>>" : nativeInit()
 MainActivity -> "<<JNI>>" : nativeGetGStreamerInfo
 "<<JNI>>" -> libgstreamer_jni : gst_native_get_gstreamer_info
