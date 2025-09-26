@@ -224,13 +224,12 @@ nav:
     - Git:
       - About Git: Tools/Git/git-about.md
       - Install: Tools/Git/git-install.md
-      - Tutorial 1:
+      - Tutorial:
         - Git Config: Tools/Git/git-config.md
         - Git Example: Tools/Git/git-example.md
         - Git Beginer: Tools/Git/git-beginer.md
-        - Git Clone: Tools/Git/git-clone.md
-      - Tutorial 2:
         - Delete Branch: Tools/Git/git-delete-branch.md
+        - Git Ignore: Tools/Git/git-ignore.md
       - How to:
         - Custom Commands: Tools/Git/git-custom-commands.md
     - Github:

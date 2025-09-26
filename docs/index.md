@@ -20,3 +20,13 @@ Nội dung của cục này xoay quanh nhiều các vấn đề về lập trìn
 
     - Xây dựng đường ống
     - Truyền UDP và __*MultiCasting*__
+    
+    __Android + Kotlin__
+
+    Tham khảo nhiều hơn các dự án ở [AndyHa23](https://github.com/AndyHa23/), đặc biệt:
+
+    - [_gstreamer-android-samples_](https://github.com/AndyHa23/gstreamer-android-samples): Ví dụ về gstreamer cho Android. Mình biết cái này đầu tiên.
+    - [_android-core-architecture_](https://github.com/AndyHa23/android-core-architecture): Một số kiến trúc lập trình ứng dụng căn bản dành cho nhiều mục đích. <mark>Dự án này đáng để tham khảo và phát triển để mở rộng vốn hiểu biết về nhiều mặt khác nhau nữa của lập trình Kotlin</mark>.
+        - [_android-core-architecture-lite_](https://github.com/AndyHa23/android-core-architecture-lite)
+    - [_wifi-p2p-streaming_](https://github.com/AndyHa23/wifi-p2p-streaming): Về các dự án truyền dẫn Camera
+    - [_paymentwall-android-sdk_](https://github.com/AndyHa23/paymentwall-android-sdk): Hệ thống thanh toán online
