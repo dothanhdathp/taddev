@@ -69,6 +69,21 @@ http://localhost:8000/
 
 Vậy là xong, sẽ có một trang web hiện lên và bạn đã có một trang web tài liệu cho riêng mình rồi đó.
 
+## Bắt đầu với Mkdocs tren Linux
+
+```
+source venv/bin/activate
+```
+```
+pip install pymdown-extensions
+pip install mkdocs
+pip install mkdocs-material
+pip install mkdocs-network-graph-plugin
+```
+```
+deactivate
+```
+
 ## Tham khảo
 
 - [Trang chủ Mkdocs](https://www.mkdocs.org)
