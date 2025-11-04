@@ -1,0 +1,340 @@
+site_name: Computer Science
+theme:
+  name: material
+  logo: assets/logo/cat_white.png
+  text: Noto Serif Medium
+  code: Roboto Mono Medium
+  highlightjs: true
+  hljs_style: github
+  hljs_style_dark: github-dark
+  palette:
+  - scheme: default
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-4
+      name: Switch to dark mode
+  - scheme: slate
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-7
+      name: Switch to light mode
+  features:
+    - content.code.annotation
+    - content.code.copy
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.instant
+    - navigation.footer
+    - navigation.tracking
+
+plugins:
+  - search
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+  - graph
+
+nav:
+  # ---------- Home (Main page) ----------
+  - Home:
+    - Preface: index.md
+    - Intro:
+      - OS: OS/os.md
+      - File System: OS/os-file-system.md
+  - DataStruct & Algorithm:
+    - Kiến thức:
+      - Lập trình hướng đối tượng: Dev/OOP/oop.md
+      - Độ phức tạp thuật toán: Dev/Algorithm/dev-algorithm-algorithmic-complexity.md
+    - Algorithm:
+      - Overview: Dev/Algorithm/dev-algorithm-overview.md
+      - Sorting:
+        - About Sort: Dev/Algorithm/dev-algorithm-sort.md
+        - Selection Sort: Dev/Algorithm/dev-algorithm-selection-sort.md
+        - Bubble Sort: Dev/Algorithm/dev-algorithm-bubble-sort.md
+        - Insertion Sort: Dev/Algorithm/dev-algorithm-insertion-sort.md
+        - Quick Sort: Dev/Algorithm/dev-algorithm-quick-sort.md
+        - Counting Sort: Dev/Algorithm/dev-algorithm-counting-sort.md
+      - Hash:
+        - FNV1a: Dev/Algorithm/dev-algorithm-hashing-fnv1a.md
+    - DataStruct:
+      - Overview: Dev/DataStruct/dev-dataStruct-overview.md
+  - Design Pattern:
+    - Overview: Dev/Design_Pattern/dev-design-pattern-overview.md
+  # ---------- Developer ----------
+  - Framework:
+    - ROS2: Framework/ROS2/dev-ros2.md
+    - Qt:
+      - Overview: Framework/Qt/qt.md
+    - GStreamer:
+      - About: Framework/GStreamer/gstreamer.md
+      - Tải về: Framework/GStreamer/gstreamer-installing.md
+      - Foundations: Framework/GStreamer/gstreamer-foundations.md
+      - GStreamer Note: Framework/GStreamer/gstreamer-notebook.md
+      - Basic Tutorials:
+        - Tutorial: Framework/GStreamer/gstreamer-b-tutorial.md
+        - Hello world!: Framework/GStreamer/gstreamer-b-hello-world.md
+        - Khái Niệm: Framework/GStreamer/gstreamer-b-gstreamer-concepts.md
+        - Đường Ống Động: Framework/GStreamer/gstreamer-b-dynamic-pipelines.md
+        - Pipeline Graphs: Framework/GStreamer/gstreamer-b-pipeline-graphs.md
+      - Command Tools:
+        - Tools: Framework/GStreamer/gstreamer-tools.md
+        - Stream Video: Framework/GStreamer/gstreamer-tools-stream-video.md
+      - Pipeline Samples:
+        - Intro:  Framework/GStreamer/gstreamer-pipeline-samples.md
+        - Tips for Debug: Framework/GStreamer/gstreamer-pipeline-samples-tips-for-debug.md
+        - Video: Framework/GStreamer/gstreamer-pipeline-samples-video.md
+        - Audio: Framework/GStreamer/gstreamer-pipeline-samples-audio.md
+        - Mux Video and Audio: Framework/GStreamer/gstreamer-pipeline-samples-mux-video-and-audio.md
+        - Media File: Framework/GStreamer/gstreamer-pipeline-samples-media-file.md
+        - Network Streaming: Framework/GStreamer/gstreamer-pipeline-samples-network-streaming.md
+        - Mixing: Framework/GStreamer/gstreamer-pipeline-samples-mixing.md
+        - SHM (Shared Memory): Framework/GStreamer/gstreamer-pipeline-samples-shm.md
+        - Fallbacksrc: Framework/GStreamer/gstreamer-pipeline-samples-fallbacksrc.md
+        - Live Stream, ...: Framework/GStreamer/gstreamer-pipeline-samples-live-stream.md
+        - Python Opencv: Framework/GStreamer/gstreamer-pipeline-samples-python-opencv.md
+      - Another:
+        - Graphs: Framework/GStreamer/gstreamer-pipeline-graphs.md
+      - Ubuntu Tutorial:
+        - Tutorial 1: Framework/GStreamer/gstreamer-ubuntu-tutorial-1.md
+      - Bắt đầu với Windows:
+        - Geting Start: Framework/GStreamer/gstreamer-windows.md
+      - Bắt đầu với Android:
+        - Geting Start: Framework/GStreamer/gstreamer-android.md
+        - Dựng thư viện: Framework/GStreamer/gstreamer-android-build-gstreamer.md
+        - Android Tutorial:
+          - GStreamer 1: Framework/GStreamer/gstreamer-android-tutorial-1.md
+          - GStreamer 2: Framework/GStreamer/gstreamer-android-tutorial-2.md
+          - GStreamer 3: Framework/GStreamer/gstreamer-android-tutorial-3.md
+          - GStreamer 4: Framework/GStreamer/gstreamer-android-tutorial-4.md
+          - NamiDtv2Example:
+            - NamiDtv2Example: Framework/GStreamer/gstreamer-android-nami-dtvbt2-example.md
+            - Full Chart: Framework/GStreamer/gstreamer-android-nami-dtvbt2-example-full-chart.md
+  - Libs:
+    - Libs: Libs/libs.md
+    - FTXUI:
+      - FTXUI: Libs/FTXUI/ftxui.md
+      - Build: Libs/FTXUI/ftxui-build.md
+      - Example: Libs/FTXUI/ftxui-example.md
+    - NanoHTTPD:
+      - Getting Start: Libs/NanoHTTPD/lib-nanohttpd.md
+  # ---------- Operator System ----------
+  - Linux:
+    - Overview & Install: OS/Linux/linux-family-overview-and-install.md
+    - Install: OS/Linux/linux-install.md
+    - System:
+      - System Info: OS/Linux/linux-system-info.md
+      - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md
+      - System File: OS/Linux/linux-system-file.md
+      - File: OS/Linux/linux-file.md
+      - Alsa: OS/Linux/linux-alsa.md
+      - Storage: OS/Linux/linux-storage.md
+    - Tools:
+      - Grep: OS/Linux/linux-tools-grep.md
+      - Tree: OS/Linux/linux-tools-tree.md
+      - FFmpeg: OS/Linux/linux-tools-ffmpeg.md
+      - Minicom: OS/Linux/linux-tools-minicom.md
+      - Tmux: OS/Linux/linux-tools-tmux.md
+      - Tar: OS/Linux/linux-tools-tar.md
+      - Sed: OS/Linux/linux-tools-sed.md
+      - NetCat: OS/Linux/linux-tools-netcat.md
+    - Trick:
+      - HTTP Server: OS/Linux/linux-http-server.md
+      - Startup Script: OS/Linux/linux-startup-script.md
+  - Windows:
+    - Overview: OS/Windows/os-windows-overview.md
+    - Một số lệnh thường dùng: OS/Windows/os-windows-cmd-common-command.md
+    - System:
+      - Macro PATH: OS/Windows/os-windows-common-path.md
+      - Environment Variables: OS/Windows/os-windows-environment-variables.md
+      - Startup Process: OS/Windows/os-windows-startup-process.md
+      - Service Tag, Manufacture: OS/Windows/os-windows-service-tag-and-manufacture.md
+      - Start Menu: OS/Windows/os-windows-service-start-menu.md
+    - Network: OS/Windows/os-windows-network.md
+    - Shell:
+      - Command Prompt:
+        - Getting Start: OS/Windows/os-windows-cmd-getting-start.md
+        - Command: OS/Windows/os-windows-cmd-command.md
+        - Write Script: OS/Windows/os-windows-cmd-write-scripts.md
+      - Power Shell:
+        - Getting Start: OS/Windows/os-windows-ps-getting-start.md
+    - Regedit: OS/Windows/os-windows-regedit.md
+    - Custom:
+      - Usercmd: OS/Windows/os-windows-custom-usercmd.md
+      - Open with: OS/Windows/os-windows-custom-open-with.md
+    - Key: OS/Windows/os-windows-buyed-key.md
+  - Android:
+    - Overview: OS/Android/android-overview.md
+    - ADB: OS/Android/android-adb.md
+    - Dev App:
+      - First App: OS/Android/android-dev-first-application.md
+      - Activity: OS/Android/android-dev-app-activity.md
+      - ListView:
+        - ListView: OS/Android/android-dev-app-listview.md
+        - ListView Custom: OS/Android/android-dev-app-listview-custom.md
+      - Menu Option: OS/Android/android-dev-menu-option.md
+    - JNI:
+      - Create JNI: OS/Android/android-dev-application-jni.md
+      - JNI Type: OS/Android/android-dev-jni-type.md
+  # ---------- Software ----------
+  - Software:
+    - Overview: Software/software.md
+    - VSCode:
+      - Install: Software/VSCode/software-vscode-install.md
+      - Settings: Software/VSCode/software-vscode-settings.md
+      - Keybindings: Software/VSCode/software-vscode-keybindings.md
+      - Snippets: Software/VSCode/software-vscode-snippets.md
+      - Extensions: Software/VSCode/software-vscode-extensions.md
+      - Custom: Software/VSCode/software-vscode-my-custom.md
+      - Trick: Software/VSCode/software-vscode-trick.md
+    - Android Studio:
+      - Overview: Software/AndroidStudio/software-android-studio-overview.md
+      - Install: Software/AndroidStudio/software-android-studio-install.md
+      - Gradle: Software/AndroidStudio/software-android-gradle.md
+      - SDK: Software/AndroidStudio/software-android-studio-sdk.md
+      - Theme: Software/AndroidStudio/software-android-studio-theme.md
+      - Troubleshoot: Software/AndroidStudio/software-android-studio-troubleshoot.md
+    - QtCreator:
+      - Download: Software/Qt/qt-software-qt-creator.md
+    - Putty: Software/Other/putty.md
+    - Sambashare: Software/Other/sambashare.md
+    - Scrcpy: Software/Other/scrcpy.md
+    - AnyDesk: Software/AnyDesk/anydesk.md
+    - Thảo luận:
+      - IDE & Code Editor: Software/software-paper-ide-code-editor.md
+  # ---------- Tools ----------
+  - Tools:
+    - Tools: Tools/tools.md
+    - MKDocs:
+      - MKDocs: Tools/MKDocs/mkdocs.md
+      - Theme: Tools/MKDocs/mkdocs-theme.md
+      - CSS: Tools/MKDocs/mkdocs-css.md
+      - Script: Tools/MKDocs/mkdocs-script.md
+      - Plugins: Tools/MKDocs/mkdocs-plugins.md
+      - Katex: Tools/MKDocs/mkdocs-katex.md
+      - Mermaid: Tools/MKDocs/mkdocs-mermaid.md
+      - PlantUml: Tools/MKDocs/mkdocs-plantuml.md
+      - Extensions: Tools/MKDocs/mkdocs-markdown-extensions.md
+      - Markdocs Github Publish: Tools/MKDocs/mkdocs-github-publish.md
+      - Markdocs Lv2: Tools/MKDocs/mkdocs_lv2.md
+      - Markdocs Clone Tad: Tools/MKDocs/mkdocs-clone-tad-style.md
+      - Markdocs Issue: Tools/MKDocs/mkdocs-issue.md
+      - Markdocs Projects: Tools/MKDocs/mkdocs-projects.md
+    - Make:
+      - Introduce: Tools/Make/make.md
+      - Install: Tools/Make/make-install.md
+      - Getting Start: Tools/Make/make-getting-start.md
+      - Template: Tools/Make/make-template.md
+    - Yocto:
+      - Overview: Tools/Yocto/yocto-overview.md
+      - Bitbake: Tools/Yocto/yocto-bitbake.md
+    - Git:
+      - About Git: Tools/Git/git.md
+      - Install: Tools/Git/git-install.md
+      - SSH: Tools/Git/git-ssh.md
+      - Common:
+        - Git Config: Tools/Git/git-config.md
+        - Git Clone: Tools/Git/git-clone.md
+        - Git Branch: Tools/Git/git-branch.md
+        - Git Ignore: Tools/Git/git-ignore.md
+        - Git Diff: Tools/Git/git-diff.md
+      - Git Example: Tools/Git/git-example.md
+      - Git Beginer: Tools/Git/git-beginer.md
+      - How to:
+        - Custom Commands: Tools/Git/git-custom-commands.md
+    - Github:
+      - Github Overview: Tools/Github/github-overview.md
+      - Github Start: Tools/Github/github-start.md
+      - Github Page: Tools/Github/github-page.md
+    - Repo:
+      - Repo Overview: Tools/Repo/repo.md
+      - Repo for Win: Tools/Repo/repo-windows.md
+      - Inside .repo: Tools/Repo/repo-repo-inside.md
+    - MSYS2:
+      - Overview: Tools/msys2/msys2.md
+      - Install: Tools/msys2/msys2-install.md
+      - Pacman: Tools/msys2/msys2-pacman.md
+      - Package: Tools/msys2/msys2-package.md
+    - NodeJS:
+      - Overview: Tools/NodeJS/nodejs.md
+      - Getting Start: Tools/NodeJS/nodejs-getting-start.md
+    - Electron:
+      - Electron: Tools/Electron/electron.md
+      - Create App: Tools/Electron/electron-create-app.md
+      - Load Link: Tools/Electron/electron-load-link.md
+      - Troubleshoots: Tools/Electron/electron-troubleshoots.md
+    - yt-dlp:
+      - yt-dlp: Tools/yt-dlp/yt-dlp.md
+  - Project:
+    - Tad App: 
+      - Mô tả: Project/Tad/project-tad-app.md
+    - Pokedex: 
+      - README: Project/Pokedex/project-pokedex.md
+  - Dump 0:
+    - Dump Page: index.md
+  - Dump 2:
+    - Dump Page: index.md
+  - Dump 3:
+    - Dump Page: index.md
+  - Dump 4:
+    - Dump Page: index.md
+  - Dump 5:
+    - Dump Page: index.md
+  - Dump 6:
+    - Dump Page: index.md
+  - Dump 7:
+    - Dump Page: index.md
+  - Dump 8:
+    - Dump Page: index.md
+  - Dump 9:
+    - Dump Page: index.md
+  - Dump 10:
+    - Dump Page: index.md
+  - Dump 11:
+    - Dump Page: index.md
+  - Dump 12:
+    - Dump Page: index.md
+
+extra_css:
+  - assets/stylesheets/theme.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+extra_javascript:
+  - assets/scripts/tablesort.min.js
+  - assets/scripts/tablesort.js
+  - assets/scripts/katex.js
+  - assets/scripts/keyevent.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - js/graph.js
+
+graph:
+  enabled: true
+  output_file: assets/network/graph.json
+  include_homepage: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dothanhdathp
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/tad.zeila?locale=vi_VN
