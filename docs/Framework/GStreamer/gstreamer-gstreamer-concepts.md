@@ -1,4 +1,4 @@
-# GStreamer Concepts
+# \[GStreamer\] Concepts
 
 ## Mục tiêu
 

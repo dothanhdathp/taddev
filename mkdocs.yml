@@ -55,7 +55,7 @@ nav:
         - Concepts: Framework/GStreamer/gstreamer-gstreamer-concepts.md
         - Elements:
           - Source:
-              - Video: Framework/GStreamer/gstreamer-tools-stream-video.md
+              - Video: Framework/GStreamer/gstreamer-element-video-source.md
               - Audio: Framework/GStreamer/gstreamer-tools-stream-video.md
               - Playbin: Framework/GStreamer/gstreamer-tools-stream-video.md
           - Elements:
@@ -114,7 +114,6 @@ nav:
     - Zorin:
       - Install Zorin: OS/Linux/linux-install-zorin.md
       - Menu App: OS/Linux/linux-zorin-menu-app.md
-
     - System:
       - System Info: OS/Linux/linux-system-info.md
       - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md

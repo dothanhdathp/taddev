@@ -1,4 +1,4 @@
-# GStreamer
+# \[GStreamer\] About
 
 ## Chung
 

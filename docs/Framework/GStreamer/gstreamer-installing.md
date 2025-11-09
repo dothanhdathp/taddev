@@ -1,4 +1,4 @@
-# Installing GStreamer
+# \[GStreamer\] Installing GStreamer
 
 Trang tải về ở đây:
 
