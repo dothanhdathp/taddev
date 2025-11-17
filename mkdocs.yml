@@ -36,17 +36,16 @@ plugins:
   - graph
 
 nav:
-  # ---------- Home (Main page) ----------
+  ##################################################################################################################################
   - Home:
     - Preface: index.md
     - Intro:
       - OS: OS/os.md
       - File System: OS/os-file-system.md
-  # ---------- Developer ----------
+    - AI: ai.md
+  ##################################################################################################################################
   - Framework:
     - ROS2: Framework/ROS2/dev-ros2.md
-    - Qt:
-      - Overview: Framework/Qt/qt.md
     - GStreamer:
       - About: Framework/GStreamer/gstreamer.md
       - Tải về: Framework/GStreamer/gstreamer-installing.md
@@ -99,6 +98,7 @@ nav:
           - NamiDtv2Example:
             - NamiDtv2Example: Framework/GStreamer/gstreamer-android-nami-dtvbt2-example.md
             - Full Chart: Framework/GStreamer/gstreamer-android-nami-dtvbt2-example-full-chart.md
+  ##################################################################################################################################
   - Libs:
     - Libs: Libs/libs.md
     - FTXUI:
@@ -107,7 +107,7 @@ nav:
       - Example: Libs/FTXUI/ftxui-example.md
     - NanoHTTPD:
       - Getting Start: Libs/NanoHTTPD/lib-nanohttpd.md
-  # ---------- Operator System ----------
+  ##################################################################################################################################
   - Linux:
     - Overview & Install: OS/Linux/linux-family-overview-and-install.md
     - Install Ubuntu: OS/Linux/linux-install-ubuntu.md
@@ -134,6 +134,7 @@ nav:
     - Trick:
       - HTTP Server: OS/Linux/linux-http-server.md
       - Startup Script: OS/Linux/linux-startup-script.md
+  ##################################################################################################################################
   - Windows:
     - Overview: OS/Windows/os-windows-overview.md
     - Một số lệnh thường dùng: OS/Windows/os-windows-cmd-common-command.md
@@ -156,6 +157,7 @@ nav:
       - Usercmd: OS/Windows/os-windows-custom-usercmd.md
       - Open with: OS/Windows/os-windows-custom-open-with.md
     - Key: OS/Windows/os-windows-buyed-key.md
+  ##################################################################################################################################
   - Android:
     - Overview: OS/Android/android-overview.md
     - ADB: OS/Android/android-adb.md
@@ -169,33 +171,39 @@ nav:
     - JNI:
       - Create JNI: OS/Android/android-dev-application-jni.md
       - JNI Type: OS/Android/android-dev-jni-type.md
-  # ---------- Software ----------
-  - Software:
-    - Overview: Software/software.md
+  ##################################################################################################################################
+  - Dev Tools:
     - VSCode:
-      - Install: Software/VSCode/software-vscode-install.md
-      - Settings: Software/VSCode/software-vscode-settings.md
-      - Keybindings: Software/VSCode/software-vscode-keybindings.md
-      - Snippets: Software/VSCode/software-vscode-snippets.md
-      - Extensions: Software/VSCode/software-vscode-extensions.md
-      - Custom: Software/VSCode/software-vscode-my-custom.md
-      - Trick: Software/VSCode/software-vscode-trick.md
+      - Install: DevTools/VSCode/software-vscode-install.md
+      - Settings: DevTools/VSCode/software-vscode-settings.md
+      - Keybindings: DevTools/VSCode/software-vscode-keybindings.md
+      - Snippets: DevTools/VSCode/software-vscode-snippets.md
+      - Extensions: DevTools/VSCode/software-vscode-extensions.md
+      - Custom: DevTools/VSCode/software-vscode-my-custom.md
+      - Trick: DevTools/VSCode/software-vscode-trick.md
     - Android Studio:
-      - Overview: Software/AndroidStudio/software-android-studio-overview.md
-      - Install: Software/AndroidStudio/software-android-studio-install.md
-      - Gradle: Software/AndroidStudio/software-android-gradle.md
-      - SDK: Software/AndroidStudio/software-android-studio-sdk.md
-      - Theme: Software/AndroidStudio/software-android-studio-theme.md
-      - Troubleshoot: Software/AndroidStudio/software-android-studio-troubleshoot.md
-    - QtCreator:
-      - Download: Software/Qt/qt-software-qt-creator.md
-    - Putty: Software/Other/putty.md
-    - Sambashare: Software/Other/sambashare.md
-    - Scrcpy: Software/Other/scrcpy.md
-    - AnyDesk: Software/AnyDesk/anydesk.md
-    - Thảo luận:
-      - IDE & Code Editor: Software/software-paper-ide-code-editor.md
-  # ---------- Tools ----------
+      - Overview: DevTools/AndroidStudio/software-android-studio-overview.md
+      - Install: DevTools/AndroidStudio/software-android-studio-install.md
+      - Gradle: DevTools/AndroidStudio/software-android-gradle.md
+      - SDK: DevTools/AndroidStudio/software-android-studio-sdk.md
+      - Theme: DevTools/AndroidStudio/software-android-studio-theme.md
+      - Troubleshoot: DevTools/AndroidStudio/software-android-studio-troubleshoot.md
+    - Qt:
+      - Overview: DevTools/Qt/qt.md
+      - QtCreator: DevTools/Qt/qt-software-qt-creator.md
+    - Make:
+      - Introduce: DevTools/Make/make.md
+      - Install: DevTools/Make/make-install.md
+      - Getting Start: DevTools/Make/make-getting-start.md
+      - Template: DevTools/Make/make-template.md
+    - Yocto:
+      - Overview: DevTools/Yocto/yocto-overview.md
+      - Bitbake: DevTools/Yocto/yocto-bitbake.md
+    - Repo:
+      - Repo Overview: DevTools/Repo/repo.md
+      - Repo for Win: DevTools/Repo/repo-windows.md
+      - Inside .repo: DevTools/Repo/repo-repo-inside.md
+  ##################################################################################################################################
   - Tools:
     - Tools: Tools/tools.md
     - MKDocs:
@@ -214,36 +222,6 @@ nav:
       - Markdocs Issue: Tools/MKDocs/mkdocs-issue.md
       - Markdocs Projects: Tools/MKDocs/mkdocs-projects.md
       - MKDocs TadApp: Tools/MKDocs/mkdocs-for-tadapp.md
-    - Make:
-      - Introduce: Tools/Make/make.md
-      - Install: Tools/Make/make-install.md
-      - Getting Start: Tools/Make/make-getting-start.md
-      - Template: Tools/Make/make-template.md
-    - Yocto:
-      - Overview: Tools/Yocto/yocto-overview.md
-      - Bitbake: Tools/Yocto/yocto-bitbake.md
-    - Git:
-      - About Git: Tools/Git/git.md
-      - Install: Tools/Git/git-install.md
-      - SSH: Tools/Git/git-ssh.md
-      - Common:
-        - Git Config: Tools/Git/git-config.md
-        - Git Clone: Tools/Git/git-clone.md
-        - Git Branch: Tools/Git/git-branch.md
-        - Git Ignore: Tools/Git/git-ignore.md
-        - Git Diff: Tools/Git/git-diff.md
-      - Git Example: Tools/Git/git-example.md
-      - Git Beginer: Tools/Git/git-beginer.md
-      - How to:
-        - Custom Commands: Tools/Git/git-custom-commands.md
-    - Github:
-      - Github Overview: Tools/Github/github-overview.md
-      - Github Start: Tools/Github/github-start.md
-      - Github Page: Tools/Github/github-page.md
-    - Repo:
-      - Repo Overview: Tools/Repo/repo.md
-      - Repo for Win: Tools/Repo/repo-windows.md
-      - Inside .repo: Tools/Repo/repo-repo-inside.md
     - MSYS2:
       - Overview: Tools/msys2/msys2.md
       - Install: Tools/msys2/msys2-install.md
@@ -259,6 +237,35 @@ nav:
       - Troubleshoots: Tools/Electron/electron-troubleshoots.md
     - yt-dlp:
       - yt-dlp: Tools/yt-dlp/yt-dlp.md
+  ##################################################################################################################################
+  - Software:
+    - Overview: Software/software.md
+    - Putty: Software/Other/putty.md
+    - Sambashare: Software/Other/sambashare.md
+    - Scrcpy: Software/Other/scrcpy.md
+    - AnyDesk: Software/AnyDesk/anydesk.md
+    - Thảo luận:
+      - IDE & Code Editor: Software/software-paper-ide-code-editor.md
+  ##################################################################################################################################
+  - Git:
+    - About Git: Git/git.md
+    - Install: Git/git-install.md
+    - SSH: Git/git-ssh.md
+    - Common:
+      - Git Config: Git/git-config.md
+      - Git Clone: Git/git-clone.md
+      - Git Branch: Git/git-branch.md
+      - Git Ignore: Git/git-ignore.md
+      - Git Diff: Git/git-diff.md
+    - Git Example: Git/git-example.md
+    - Git Beginer: Git/git-beginer.md
+    - How to:
+      - Custom Commands: Git/git-custom-commands.md
+    - Github:
+      - Github Overview: Git/Github/github-overview.md
+      - Github Start: Git/Github/github-start.md
+      - Github Page: Git/Github/github-page.md
+  ##################################################################################################################################
   - Project:
     - Tad App: 
       - Mô tả: Project/Tad/project-tad-app.md
