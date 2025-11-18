@@ -46,29 +46,29 @@ nav:
   ##################################################################################################################################
   - Framework:
     - ROS2: Framework/ROS2/dev-ros2.md
-    - GStreamer:
+    - ▏GStreamer:
       - About: Framework/GStreamer/gstreamer.md
       - Tải về: Framework/GStreamer/gstreamer-installing.md
       - Gst Tools: Framework/GStreamer/gstreamer-tools.md
-      - Khái Niệm:
+      - ▏Khái Niệm:
         - Concepts: Framework/GStreamer/gstreamer-gstreamer-concepts.md
-        - Elements:
-          - Source:
+        - ▏Elements:
+          - ▏Source:
               - Video: Framework/GStreamer/gstreamer-element-video-source.md
               - Audio: Framework/GStreamer/gstreamer-tools-stream-video.md
               - Playbin: Framework/GStreamer/gstreamer-tools-stream-video.md
-          - Elements:
+          - ▏Elements:
               - Test: Framework/GStreamer/gstreamer-tools-stream-video.md
       - GStreamer Note: Framework/GStreamer/gstreamer-notebook.md
-      - Basic Tutorials:
+      - ▏Basic Tutorials:
         - Tutorial: Framework/GStreamer/gstreamer-b-tutorial.md
         - Hello world!: Framework/GStreamer/gstreamer-b-hello-world.md
         - Đường Ống Động: Framework/GStreamer/gstreamer-b-dynamic-pipelines.md
         - Pipeline Graphs: Framework/GStreamer/gstreamer-b-pipeline-graphs.md
       - Stream Video: Framework/GStreamer/gstreamer-tools-stream-video.md
-      - Pipeline Samples (Self):
+      - ▏Pipeline Samples (Self):
         - Simple:  Framework/GStreamer/gstreamer-pipeline-samples-simple.md
-      - Pipeline Samples:
+      - ▏Pipeline Samples:
         - Intro:  Framework/GStreamer/gstreamer-pipeline-samples.md
         - Tips for Debug: Framework/GStreamer/gstreamer-pipeline-samples-tips-for-debug.md
         - Video: Framework/GStreamer/gstreamer-pipeline-samples-video.md
@@ -81,16 +81,16 @@ nav:
         - Fallbacksrc: Framework/GStreamer/gstreamer-pipeline-samples-fallbacksrc.md
         - Live Stream, ...: Framework/GStreamer/gstreamer-pipeline-samples-live-stream.md
         - Python Opencv: Framework/GStreamer/gstreamer-pipeline-samples-python-opencv.md
-      - Another:
+      - ▏Another:
         - Graphs: Framework/GStreamer/gstreamer-pipeline-graphs.md
-      - Ubuntu Tutorial:
+      - ▏Ubuntu Tutorial:
         - Tutorial 1: Framework/GStreamer/gstreamer-ubuntu-tutorial-1.md
-      - Bắt đầu với Windows:
+      - ▏Bắt đầu với Windows:
         - Geting Start: Framework/GStreamer/gstreamer-windows.md
-      - Bắt đầu với Android:
+      - ▏Bắt đầu với Android:
         - Geting Start: Framework/GStreamer/gstreamer-android.md
         - Dựng thư viện: Framework/GStreamer/gstreamer-android-build-gstreamer.md
-        - Android Tutorial:
+        - ▏Android Tutorial:
           - GStreamer 1: Framework/GStreamer/gstreamer-android-tutorial-1.md
           - GStreamer 2: Framework/GStreamer/gstreamer-android-tutorial-2.md
           - GStreamer 3: Framework/GStreamer/gstreamer-android-tutorial-3.md
@@ -101,27 +101,27 @@ nav:
   ##################################################################################################################################
   - Libs:
     - Libs: Libs/libs.md
-    - FTXUI:
+    - ▏FTXUI:
       - FTXUI: Libs/FTXUI/ftxui.md
       - Build: Libs/FTXUI/ftxui-build.md
       - Example: Libs/FTXUI/ftxui-example.md
-    - NanoHTTPD:
+    - ▏NanoHTTPD:
       - Getting Start: Libs/NanoHTTPD/lib-nanohttpd.md
   ##################################################################################################################################
   - Linux:
     - Overview & Install: OS/Linux/linux-family-overview-and-install.md
     - Install Ubuntu: OS/Linux/linux-install-ubuntu.md
-    - Zorin:
+    - ▏Zorin:
       - Install Zorin: OS/Linux/linux-install-zorin.md
       - Menu App: OS/Linux/linux-zorin-menu-app.md
-    - System:
+    - ▏System:
       - System Info: OS/Linux/linux-system-info.md
       - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md
       - System File: OS/Linux/linux-system-file.md
       - File: OS/Linux/linux-file.md
       - Alsa: OS/Linux/linux-alsa.md
       - Storage: OS/Linux/linux-storage.md
-    - Tools:
+    - ▏Tools:
       - iBamboo: OS/Linux/linux-tools-ibamboo.md
       - Grep: OS/Linux/linux-tools-grep.md
       - Tree: OS/Linux/linux-tools-tree.md
@@ -131,29 +131,29 @@ nav:
       - Compress: OS/Linux/linux-tools-compress-uncompress.md
       - Sed: OS/Linux/linux-tools-sed.md
       - NetCat: OS/Linux/linux-tools-netcat.md
-    - Trick:
+    - ▏Trick:
       - HTTP Server: OS/Linux/linux-http-server.md
       - Startup Script: OS/Linux/linux-startup-script.md
   ##################################################################################################################################
   - Windows:
     - Overview: OS/Windows/os-windows-overview.md
     - Một số lệnh thường dùng: OS/Windows/os-windows-cmd-common-command.md
-    - System:
+    - ▏System:
       - Macro PATH: OS/Windows/os-windows-common-path.md
       - Environment Variables: OS/Windows/os-windows-environment-variables.md
       - Startup Process: OS/Windows/os-windows-startup-process.md
       - Service Tag, Manufacture: OS/Windows/os-windows-service-tag-and-manufacture.md
       - Start Menu: OS/Windows/os-windows-service-start-menu.md
     - Network: OS/Windows/os-windows-network.md
-    - Shell:
-      - Command Prompt:
+    - ▏Shell:
+      - ▏Command Prompt:
         - Getting Start: OS/Windows/os-windows-cmd-getting-start.md
         - Command: OS/Windows/os-windows-cmd-command.md
         - Write Script: OS/Windows/os-windows-cmd-write-scripts.md
-      - Power Shell:
+      - ▏Power Shell:
         - Getting Start: OS/Windows/os-windows-ps-getting-start.md
     - Regedit: OS/Windows/os-windows-regedit.md
-    - Custom:
+    - ▏Custom:
       - Usercmd: OS/Windows/os-windows-custom-usercmd.md
       - Open with: OS/Windows/os-windows-custom-open-with.md
     - Key: OS/Windows/os-windows-buyed-key.md
@@ -161,19 +161,19 @@ nav:
   - Android:
     - Overview: OS/Android/android-overview.md
     - ADB: OS/Android/android-adb.md
-    - Dev App:
+    - ▏Dev App:
       - First App: OS/Android/android-dev-first-application.md
       - Activity: OS/Android/android-dev-app-activity.md
       - ListView:
         - ListView: OS/Android/android-dev-app-listview.md
         - ListView Custom: OS/Android/android-dev-app-listview-custom.md
       - Menu Option: OS/Android/android-dev-menu-option.md
-    - JNI:
+    - ▏JNI:
       - Create JNI: OS/Android/android-dev-application-jni.md
       - JNI Type: OS/Android/android-dev-jni-type.md
   ##################################################################################################################################
   - Dev Tools:
-    - VSCode:
+    - ▏VSCode:
       - Install: DevTools/VSCode/software-vscode-install.md
       - Settings: DevTools/VSCode/software-vscode-settings.md
       - Keybindings: DevTools/VSCode/software-vscode-keybindings.md
@@ -181,32 +181,32 @@ nav:
       - Extensions: DevTools/VSCode/software-vscode-extensions.md
       - Custom: DevTools/VSCode/software-vscode-my-custom.md
       - Trick: DevTools/VSCode/software-vscode-trick.md
-    - Android Studio:
+    - ▏Android Studio:
       - Overview: DevTools/AndroidStudio/software-android-studio-overview.md
       - Install: DevTools/AndroidStudio/software-android-studio-install.md
       - Gradle: DevTools/AndroidStudio/software-android-gradle.md
       - SDK: DevTools/AndroidStudio/software-android-studio-sdk.md
       - Theme: DevTools/AndroidStudio/software-android-studio-theme.md
       - Troubleshoot: DevTools/AndroidStudio/software-android-studio-troubleshoot.md
-    - Qt:
+    - ▏Qt:
       - Overview: DevTools/Qt/qt.md
       - QtCreator: DevTools/Qt/qt-software-qt-creator.md
-    - Make:
+    - ▏Make:
       - Introduce: DevTools/Make/make.md
       - Install: DevTools/Make/make-install.md
       - Getting Start: DevTools/Make/make-getting-start.md
       - Template: DevTools/Make/make-template.md
-    - Yocto:
+    - ▏Yocto:
       - Overview: DevTools/Yocto/yocto-overview.md
       - Bitbake: DevTools/Yocto/yocto-bitbake.md
-    - Repo:
+    - ▏Repo:
       - Repo Overview: DevTools/Repo/repo.md
       - Repo for Win: DevTools/Repo/repo-windows.md
       - Inside .repo: DevTools/Repo/repo-repo-inside.md
   ##################################################################################################################################
   - Tools:
     - Tools: Tools/tools.md
-    - MKDocs:
+    - ▏MKDocs:
       - MKDocs: Tools/MKDocs/mkdocs.md
       - Theme: Tools/MKDocs/mkdocs-theme.md
       - CSS: Tools/MKDocs/mkdocs-css.md
@@ -222,20 +222,20 @@ nav:
       - Markdocs Issue: Tools/MKDocs/mkdocs-issue.md
       - Markdocs Projects: Tools/MKDocs/mkdocs-projects.md
       - MKDocs TadApp: Tools/MKDocs/mkdocs-for-tadapp.md
-    - MSYS2:
+    - ▏MSYS2:
       - Overview: Tools/msys2/msys2.md
       - Install: Tools/msys2/msys2-install.md
       - Pacman: Tools/msys2/msys2-pacman.md
       - Package: Tools/msys2/msys2-package.md
-    - NodeJS:
+    - ▏NodeJS:
       - Overview: Tools/NodeJS/nodejs.md
       - Getting Start: Tools/NodeJS/nodejs-getting-start.md
-    - Electron:
+    - ▏Electron:
       - Electron: Tools/Electron/electron.md
       - Create App: Tools/Electron/electron-create-app.md
       - Load Link: Tools/Electron/electron-load-link.md
       - Troubleshoots: Tools/Electron/electron-troubleshoots.md
-    - yt-dlp:
+    - ▏yt-dlp:
       - yt-dlp: Tools/yt-dlp/yt-dlp.md
   ##################################################################################################################################
   - Software:
@@ -244,14 +244,14 @@ nav:
     - Sambashare: Software/Other/sambashare.md
     - Scrcpy: Software/Other/scrcpy.md
     - AnyDesk: Software/AnyDesk/anydesk.md
-    - Thảo luận:
+    - ▏Thảo luận:
       - IDE & Code Editor: Software/software-paper-ide-code-editor.md
   ##################################################################################################################################
   - Git:
     - About Git: Git/git.md
     - Install: Git/git-install.md
     - SSH: Git/git-ssh.md
-    - Common:
+    - ▏Common:
       - Git Config: Git/git-config.md
       - Git Clone: Git/git-clone.md
       - Git Branch: Git/git-branch.md
@@ -259,17 +259,17 @@ nav:
       - Git Diff: Git/git-diff.md
     - Git Example: Git/git-example.md
     - Git Beginer: Git/git-beginer.md
-    - How to:
+    - ▏How to:
       - Custom Commands: Git/git-custom-commands.md
-    - Github:
+    - ▏Github:
       - Github Overview: Git/Github/github-overview.md
       - Github Start: Git/Github/github-start.md
       - Github Page: Git/Github/github-page.md
   ##################################################################################################################################
   - Project:
-    - Tad App: 
+    - ▏Tad App: 
       - Mô tả: Project/Tad/project-tad-app.md
-    - Pokedex: 
+    - ▏Pokedex: 
       - README: Project/Pokedex/project-pokedex.md
 
 extra_css:
