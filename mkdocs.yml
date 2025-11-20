@@ -44,70 +44,6 @@ nav:
       - File System: OS/os-file-system.md
     - AI: ai.md
   ##################################################################################################################################
-  - Framework:
-    - ROS2: Framework/ROS2/dev-ros2.md
-    - ❖ GStreamer:
-      - About: Framework/GStreamer/gstreamer.md
-      - Tải về: Framework/GStreamer/gstreamer-installing.md
-      - Gst Tools: Framework/GStreamer/gstreamer-tools.md
-      - ❖ Khái Niệm:
-        - Concepts: Framework/GStreamer/gstreamer-gstreamer-concepts.md
-        - ❖ Elements:
-          - ❖ Source:
-              - Video: Framework/GStreamer/gstreamer-element-video-source.md
-              - Audio: Framework/GStreamer/gstreamer-tools-stream-video.md
-              - Playbin: Framework/GStreamer/gstreamer-tools-stream-video.md
-          - ❖ Elements:
-              - Test: Framework/GStreamer/gstreamer-tools-stream-video.md
-      - GStreamer Note: Framework/GStreamer/gstreamer-notebook.md
-      - ❖ Basic Tutorials:
-        - Tutorial: Framework/GStreamer/gstreamer-b-tutorial.md
-        - Hello world!: Framework/GStreamer/gstreamer-b-hello-world.md
-        - Đường Ống Động: Framework/GStreamer/gstreamer-b-dynamic-pipelines.md
-        - Pipeline Graphs: Framework/GStreamer/gstreamer-b-pipeline-graphs.md
-      - Stream Video: Framework/GStreamer/gstreamer-tools-stream-video.md
-      - ❖ Pipeline Samples (Self):
-        - Simple:  Framework/GStreamer/gstreamer-pipeline-samples-simple.md
-      - ❖ Pipeline Samples:
-        - Intro:  Framework/GStreamer/gstreamer-pipeline-samples.md
-        - Tips for Debug: Framework/GStreamer/gstreamer-pipeline-samples-tips-for-debug.md
-        - Video: Framework/GStreamer/gstreamer-pipeline-samples-video.md
-        - Audio: Framework/GStreamer/gstreamer-pipeline-samples-audio.md
-        - Mux Video and Audio: Framework/GStreamer/gstreamer-pipeline-samples-mux-video-and-audio.md
-        - Media File: Framework/GStreamer/gstreamer-pipeline-samples-media-file.md
-        - Network Streaming: Framework/GStreamer/gstreamer-pipeline-samples-network-streaming.md
-        - Mixing: Framework/GStreamer/gstreamer-pipeline-samples-mixing.md
-        - SHM (Shared Memory): Framework/GStreamer/gstreamer-pipeline-samples-shm.md
-        - Fallbacksrc: Framework/GStreamer/gstreamer-pipeline-samples-fallbacksrc.md
-        - Live Stream, ...: Framework/GStreamer/gstreamer-pipeline-samples-live-stream.md
-        - Python Opencv: Framework/GStreamer/gstreamer-pipeline-samples-python-opencv.md
-      - ❖ Another:
-        - Graphs: Framework/GStreamer/gstreamer-pipeline-graphs.md
-      - ❖ Ubuntu Tutorial:
-        - Tutorial 1: Framework/GStreamer/gstreamer-ubuntu-tutorial-1.md
-      - ❖ Bắt đầu với Windows:
-        - Geting Start: Framework/GStreamer/gstreamer-windows.md
-      - ❖ Bắt đầu với Android:
-        - Geting Start: Framework/GStreamer/gstreamer-android.md
-        - Dựng thư viện: Framework/GStreamer/gstreamer-android-build-gstreamer.md
-        - ❖ Android Tutorial:
-          - GStreamer 1: Framework/GStreamer/gstreamer-android-tutorial-1.md
-          - GStreamer 2: Framework/GStreamer/gstreamer-android-tutorial-2.md
-          - GStreamer 3: Framework/GStreamer/gstreamer-android-tutorial-3.md
-          - GStreamer 4: Framework/GStreamer/gstreamer-android-tutorial-4.md
-          - NamiDtv2Example:
-            - NamiDtv2Example: Framework/GStreamer/gstreamer-android-nami-dtvbt2-example.md
-            - Full Chart: Framework/GStreamer/gstreamer-android-nami-dtvbt2-example-full-chart.md
-  ##################################################################################################################################
-  - Libs:
-    - Libs: Libs/libs.md
-    - ❖ FTXUI:
-      - FTXUI: Libs/FTXUI/ftxui.md
-      - Build: Libs/FTXUI/ftxui-build.md
-      - Example: Libs/FTXUI/ftxui-example.md
-    - ❖ NanoHTTPD:
-      - Getting Start: Libs/NanoHTTPD/lib-nanohttpd.md
-  ##################################################################################################################################
   - Linux:
     - Overview & Install: OS/Linux/linux-family-overview-and-install.md
     - Install Ubuntu: OS/Linux/linux-install-ubuntu.md
@@ -125,7 +61,6 @@ nav:
       - iBamboo: OS/Linux/linux-tools-ibamboo.md
       - Grep: OS/Linux/linux-tools-grep.md
       - Tree: OS/Linux/linux-tools-tree.md
-      - FFmpeg: OS/Linux/linux-tools-ffmpeg.md
       - Minicom: OS/Linux/linux-tools-minicom.md
       - Tmux: OS/Linux/linux-tools-tmux.md
       - Compress: OS/Linux/linux-tools-compress-uncompress.md
@@ -172,38 +107,6 @@ nav:
       - Create JNI: OS/Android/android-dev-application-jni.md
       - JNI Type: OS/Android/android-dev-jni-type.md
   ##################################################################################################################################
-  - Dev Tools:
-    - ❖ VSCode:
-      - Install: DevTools/VSCode/software-vscode-install.md
-      - Settings: DevTools/VSCode/software-vscode-settings.md
-      - Keybindings: DevTools/VSCode/software-vscode-keybindings.md
-      - Snippets: DevTools/VSCode/software-vscode-snippets.md
-      - Extensions: DevTools/VSCode/software-vscode-extensions.md
-      - Custom: DevTools/VSCode/software-vscode-my-custom.md
-      - Trick: DevTools/VSCode/software-vscode-trick.md
-    - ❖ Android Studio:
-      - Overview: DevTools/AndroidStudio/software-android-studio-overview.md
-      - Install: DevTools/AndroidStudio/software-android-studio-install.md
-      - Gradle: DevTools/AndroidStudio/software-android-gradle.md
-      - SDK: DevTools/AndroidStudio/software-android-studio-sdk.md
-      - Theme: DevTools/AndroidStudio/software-android-studio-theme.md
-      - Troubleshoot: DevTools/AndroidStudio/software-android-studio-troubleshoot.md
-    - ❖ Qt:
-      - Overview: DevTools/Qt/qt.md
-      - QtCreator: DevTools/Qt/qt-software-qt-creator.md
-    - ❖ Make:
-      - Introduce: DevTools/Make/make.md
-      - Install: DevTools/Make/make-install.md
-      - Getting Start: DevTools/Make/make-getting-start.md
-      - Template: DevTools/Make/make-template.md
-    - ❖ Yocto:
-      - Overview: DevTools/Yocto/yocto-overview.md
-      - Bitbake: DevTools/Yocto/yocto-bitbake.md
-    - ❖ Repo:
-      - Repo Overview: DevTools/Repo/repo.md
-      - Repo for Win: DevTools/Repo/repo-windows.md
-      - Inside .repo: DevTools/Repo/repo-repo-inside.md
-  ##################################################################################################################################
   - Tools:
     - Tools: Tools/tools.md
     - ❖ MKDocs:
@@ -227,6 +130,10 @@ nav:
       - Install: Tools/msys2/msys2-install.md
       - Pacman: Tools/msys2/msys2-pacman.md
       - Package: Tools/msys2/msys2-package.md
+    - ❖ FFmpeg:
+      - FFmpeg: Tools/FFmpeg/ffmpeg.md
+      - Download: Tools/FFmpeg/ffmpeg-download.md
+      - Convert: Tools/FFmpeg/ffmpeg-convert.md
     - ❖ NodeJS:
       - Overview: Tools/NodeJS/nodejs.md
       - Getting Start: Tools/NodeJS/nodejs-getting-start.md
@@ -237,15 +144,109 @@ nav:
       - Troubleshoots: Tools/Electron/electron-troubleshoots.md
     - ❖ yt-dlp:
       - yt-dlp: Tools/yt-dlp/yt-dlp.md
-  ##################################################################################################################################
-  - Software:
-    - Overview: Software/software.md
-    - Putty: Software/Other/putty.md
-    - Sambashare: Software/Other/sambashare.md
-    - Scrcpy: Software/Other/scrcpy.md
-    - AnyDesk: Software/AnyDesk/anydesk.md
+    - Putty: Tools/Other/putty.md
+    - Sambashare: Tools/Other/sambashare.md
+    - Scrcpy: Tools/Other/scrcpy.md
+    - AnyDesk: Tools/AnyDesk/anydesk.md
     - ❖ Thảo luận:
-      - IDE & Code Editor: Software/software-paper-ide-code-editor.md
+      - IDE & Code Editor: Tools/Tools-paper-ide-code-editor.md
+  ##################################################################################################################################
+  - Dev Tools:
+    - Dev Tools: DevTools/dev-tools.md
+    - ❖ VSCode:
+      - VSCode: DevTools/VSCode/software-vscode.md
+      - Install: DevTools/VSCode/software-vscode-install.md
+      - Settings: DevTools/VSCode/software-vscode-settings.md
+      - Keybindings: DevTools/VSCode/software-vscode-keybindings.md
+      - Snippets: DevTools/VSCode/software-vscode-snippets.md
+      - Extensions: DevTools/VSCode/software-vscode-extensions.md
+      - Custom: DevTools/VSCode/software-vscode-my-custom.md
+      - Trick: DevTools/VSCode/software-vscode-trick.md
+    - ❖ Android Studio:
+      - Android Studio: DevTools/AndroidStudio/software-android-studio.md
+      - Install: DevTools/AndroidStudio/software-android-studio-install.md
+      - Gradle: DevTools/AndroidStudio/software-android-gradle.md
+      - SDK: DevTools/AndroidStudio/software-android-studio-sdk.md
+      - Theme: DevTools/AndroidStudio/software-android-studio-theme.md
+      - Troubleshoot: DevTools/AndroidStudio/software-android-studio-troubleshoot.md
+    - ❖ Qt:
+      - Qt: DevTools/Qt/qt.md
+      - QtCreator: DevTools/Qt/qt-software-qt-creator.md
+    - ❖ Make:
+      - Make: DevTools/Make/make.md
+      - Install: DevTools/Make/make-install.md
+      - Getting Start: DevTools/Make/make-getting-start.md
+      - Template: DevTools/Make/make-template.md
+    - ❖ Yocto:
+      - Yocto: DevTools/Yocto/yocto.md
+      - Bitbake: DevTools/Yocto/yocto-bitbake.md
+    - ❖ Repo:
+      - Repo: DevTools/Repo/repo.md
+      - Repo for Win: DevTools/Repo/repo-windows.md
+      - Inside .repo: DevTools/Repo/repo-repo-inside.md
+  ##################################################################################################################################
+  - Libs:
+    - Libs: Libs/libs.md
+    - ❖ FTXUI:
+      - FTXUI: Libs/FTXUI/ftxui.md
+      - Build: Libs/FTXUI/ftxui-build.md
+      - Example: Libs/FTXUI/ftxui-example.md
+    - ❖ NanoHTTPD:
+      - Getting Start: Libs/NanoHTTPD/lib-nanohttpd.md
+    - ❖ GStreamer:
+      - About: Libs/GStreamer/gstreamer.md
+      - Tải về: Libs/GStreamer/gstreamer-installing.md
+      - Gst Tools: Libs/GStreamer/gstreamer-tools.md
+      - ❖ Khái Niệm:
+        - Concepts: Libs/GStreamer/gstreamer-gstreamer-concepts.md
+        - ❖ Elements:
+          - ❖ Source:
+              - Video: Libs/GStreamer/gstreamer-element-video-source.md
+              - Audio: Libs/GStreamer/gstreamer-tools-stream-video.md
+              - Playbin: Libs/GStreamer/gstreamer-tools-stream-video.md
+          - ❖ Elements:
+              - Test: Libs/GStreamer/gstreamer-tools-stream-video.md
+      - GStreamer Note: Libs/GStreamer/gstreamer-notebook.md
+      - ❖ Basic Tutorials:
+        - Tutorial: Libs/GStreamer/gstreamer-b-tutorial.md
+        - Hello world!: Libs/GStreamer/gstreamer-b-hello-world.md
+        - Đường Ống Động: Libs/GStreamer/gstreamer-b-dynamic-pipelines.md
+        - Pipeline Graphs: Libs/GStreamer/gstreamer-b-pipeline-graphs.md
+      - Stream Video: Libs/GStreamer/gstreamer-tools-stream-video.md
+      - ❖ Pipeline Samples (Self):
+        - Simple:  Libs/GStreamer/gstreamer-pipeline-samples-simple.md
+      - ❖ Pipeline Samples:
+        - Intro:  Libs/GStreamer/gstreamer-pipeline-samples.md
+        - Tips for Debug: Libs/GStreamer/gstreamer-pipeline-samples-tips-for-debug.md
+        - Video: Libs/GStreamer/gstreamer-pipeline-samples-video.md
+        - Audio: Libs/GStreamer/gstreamer-pipeline-samples-audio.md
+        - Mux Video and Audio: Libs/GStreamer/gstreamer-pipeline-samples-mux-video-and-audio.md
+        - Media File: Libs/GStreamer/gstreamer-pipeline-samples-media-file.md
+        - Network Streaming: Libs/GStreamer/gstreamer-pipeline-samples-network-streaming.md
+        - Mixing: Libs/GStreamer/gstreamer-pipeline-samples-mixing.md
+        - SHM (Shared Memory): Libs/GStreamer/gstreamer-pipeline-samples-shm.md
+        - Fallbacksrc: Libs/GStreamer/gstreamer-pipeline-samples-fallbacksrc.md
+        - Live Stream, ...: Libs/GStreamer/gstreamer-pipeline-samples-live-stream.md
+        - Python Opencv: Libs/GStreamer/gstreamer-pipeline-samples-python-opencv.md
+      - ❖ Another:
+        - Graphs: Libs/GStreamer/gstreamer-pipeline-graphs.md
+      - ❖ Ubuntu Tutorial:
+        - Tutorial 1: Libs/GStreamer/gstreamer-ubuntu-tutorial-1.md
+      - ❖ Bắt đầu với Windows:
+        - Geting Start: Libs/GStreamer/gstreamer-windows.md
+      - ❖ Bắt đầu với Android:
+        - Geting Start: Libs/GStreamer/gstreamer-android.md
+        - Dựng thư viện: Libs/GStreamer/gstreamer-android-build-gstreamer.md
+        - ❖ Android Tutorial:
+          - GStreamer 1: Libs/GStreamer/gstreamer-android-tutorial-1.md
+          - GStreamer 2: Libs/GStreamer/gstreamer-android-tutorial-2.md
+          - GStreamer 3: Libs/GStreamer/gstreamer-android-tutorial-3.md
+          - GStreamer 4: Libs/GStreamer/gstreamer-android-tutorial-4.md
+          - NamiDtv2Example:
+            - NamiDtv2Example: Libs/GStreamer/gstreamer-android-nami-dtvbt2-example.md
+            - Full Chart: Libs/GStreamer/gstreamer-android-nami-dtvbt2-example-full-chart.md
+    - ❖ ROS2:
+      - ROS2: Libs/ROS2/ros2.md
   ##################################################################################################################################
   - Git:
     - About Git: Git/git.md
