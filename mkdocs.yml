@@ -37,8 +37,10 @@ plugins:
 
 nav:
   ##################################################################################################################################
-  - Home:
+  - Common:
     - Preface: index.md
+    - ❖ Mã Hoá:
+      - Chữ Ký Số: Common/digital-signature.md
     - ❖ Intro:
       - OS: OS/os.md
       - File System: OS/os-file-system.md
@@ -184,6 +186,11 @@ nav:
       - Repo: DevTools/Repo/repo.md
       - Repo for Win: DevTools/Repo/repo-windows.md
       - Inside .repo: DevTools/Repo/repo-repo-inside.md
+  ##################################################################################################################################
+  - Elec.:
+    - Electronic: Electronic/electric.md
+    - ❖ LKDT:
+      - Điện Trở: Electronic/electric-resistor.md
   ##################################################################################################################################
   - Libs:
     - Libs: Libs/libs.md
