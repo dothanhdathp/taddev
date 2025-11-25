@@ -148,6 +148,7 @@ nav:
       - Troubleshoots: Tools/Electron/electron-troubleshoots.md
     - ❖ yt-dlp:
       - yt-dlp: Tools/yt-dlp/yt-dlp.md
+    - 3Utool: Tools/Other/3utools.md
     - Putty: Tools/Other/putty.md
     - Sambashare: Tools/Other/sambashare.md
     - Scrcpy: Tools/Other/scrcpy.md
