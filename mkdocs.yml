@@ -68,6 +68,8 @@ nav:
       - Compress: OS/Linux/linux-tools-compress-uncompress.md
       - Sed: OS/Linux/linux-tools-sed.md
       - NetCat: OS/Linux/linux-tools-netcat.md
+    - ❖ Password:
+      - Spec. Ubuntu 16 LST: OS/Linux/linux-ubuntu-16-lts-pass.md
     - ❖ Trick:
       - HTTP Server: OS/Linux/linux-http-server.md
       - Startup Script: OS/Linux/linux-startup-script.md
