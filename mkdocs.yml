@@ -41,7 +41,7 @@ nav:
     - Preface: index.md
     - ❖ Mã Hoá:
       - Chữ Ký Số: Common/digital-signature.md
-    - ❖ Intro:
+    - ❖ OS:
       - OS: OS/os.md
       - File System: OS/os-file-system.md
     - AI: ai.md
@@ -56,6 +56,7 @@ nav:
       - System Info: OS/Linux/linux-system-info.md
       - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md
       - System File: OS/Linux/linux-system-file.md
+      - Daemon: OS/Linux/linux-system-daemon.md
       - File: OS/Linux/linux-file.md
       - Alsa: OS/Linux/linux-alsa.md
       - Storage: OS/Linux/linux-storage.md
@@ -78,6 +79,7 @@ nav:
     - Overview: OS/Windows/os-windows-overview.md
     - Một số lệnh thường dùng: OS/Windows/os-windows-cmd-common-command.md
     - ❖ System:
+      - Services (WS): OS/Windows/os-windows-services.md
       - Macro PATH: OS/Windows/os-windows-common-path.md
       - Environment Variables: OS/Windows/os-windows-environment-variables.md
       - Startup Process: OS/Windows/os-windows-startup-process.md
@@ -85,23 +87,26 @@ nav:
       - Start Menu: OS/Windows/os-windows-service-start-menu.md
     - Network: OS/Windows/os-windows-network.md
     - ❖ Shell:
-      - ❖ Command Prompt:
-        - Getting Start: OS/Windows/os-windows-cmd-getting-start.md
+      - ❖ cmd:
+        - cmd: OS/Windows/os-windows-cmd-getting-start.md
         - Command: OS/Windows/os-windows-cmd-command.md
         - Write Script: OS/Windows/os-windows-cmd-write-scripts.md
       - ❖ Power Shell:
-        - Getting Start: OS/Windows/os-windows-ps-getting-start.md
-    - Regedit: OS/Windows/os-windows-regedit.md
-    - ❖ Custom:
-      - Usercmd: OS/Windows/os-windows-custom-usercmd.md
+        - Power Shell: OS/Windows/os-windows-ps-getting-start.md
+      - ❖ Custom:
+        - Usercmd: OS/Windows/os-windows-custom-usercmd.md
+    - Regedit:
+      - Regedit: OS/Windows/os-windows-regedit.md
       - Open with: OS/Windows/os-windows-custom-open-with.md
     - Key: OS/Windows/os-windows-buyed-key.md
+    - Crack:
+      - MAS: OS/Windows/os-windows-crack-by-mas.md
   ##################################################################################################################################
   - Android:
-    - Overview: OS/Android/android-overview.md
-    - ADB: OS/Android/android-adb.md
-    - ❖ Dev App:
-      - First App: OS/Android/android-dev-first-application.md
+    - Android: OS/Android/android-overview.md
+    - ❖ Tools:
+      - ADB: OS/Android/android-adb.md
+    - ❖ Application:
       - Activity: OS/Android/android-dev-app-activity.md
       - ListView:
         - ListView: OS/Android/android-dev-app-listview.md
@@ -110,6 +115,19 @@ nav:
     - ❖ JNI:
       - Create JNI: OS/Android/android-dev-application-jni.md
       - JNI Type: OS/Android/android-dev-jni-type.md
+    - ❖ Android API:
+      - Android API: OS/Android/android-api.md
+    - ❖ Core:
+      - Android Core: OS/Android/android-core.md
+      - Architecture: OS/Android/android-core-architecture.md
+      - ❖ HAL:
+        - HAL: OS/Android/android-core-architecture-hal.md
+    - ❖ Kernel:
+      - SELinux: OS/Android/android-core-architecture-hal.md
+    - ❖ External:
+      - Tinyalsa: OS/Android/android-core-external-tinyalsa.md
+    - ❖ Example:
+      - First App: OS/Android/android-dev-first-application.md
   ##################################################################################################################################
   - Tools:
     - Tools: Tools/tools.md
@@ -313,7 +331,6 @@ extra_javascript:
   - assets/scripts/keyevent.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
-  - js/graph.js
 
 graph:
   enabled: true
