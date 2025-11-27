@@ -222,7 +222,7 @@ nav:
     - ❖ NanoHTTPD:
       - Getting Start: Libs/NanoHTTPD/lib-nanohttpd.md
     - ❖ GStreamer:
-      - About: Libs/GStreamer/gstreamer.md
+      - GStreamer: Libs/GStreamer/gstreamer.md
       - Tải về: Libs/GStreamer/gstreamer-installing.md
       - Gst Tools: Libs/GStreamer/gstreamer-tools.md
       - ❖ Khái Niệm:
