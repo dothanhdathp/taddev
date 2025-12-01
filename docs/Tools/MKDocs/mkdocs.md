@@ -2,7 +2,7 @@
 
 ## MKDocs là gì?
 
-MKDocs là một công cụ viết và tạo tài liệu vô cùng mạnh mẽ.
+__MKDocs__ là một công cụ viết tài liệu bằng markdown vô cùng mạnh. Nó là giải pháp thay thế tốt cho cái phong cách viết đầu tiên của mình. Công cụ này có đầy đủ những chức năng thiết yếu để viết tài liệu offline + online. Đồng thời còn hỗ trợ cả việc đưa tài liệu lên __*Internet*__.
 
 ### Yêu cầu
 
