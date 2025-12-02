@@ -43,7 +43,11 @@ nav:
       - Chữ Ký Số: Common/digital-signature.md
     - ❖ OS:
       - OS: OS/os.md
+      - Endianness: OS/os-endianness.md
       - File System: OS/os-file-system.md
+      - Audio:
+        - PCM: OS/os-audio-pcm.md
+        - Audio Sample Formats: OS/os-audio-sample-formats.md
     - AI: ai.md
   ##################################################################################################################################
   - Linux:
@@ -58,7 +62,10 @@ nav:
       - System File: OS/Linux/linux-system-file.md
       - Daemon: OS/Linux/linux-system-daemon.md
       - File: OS/Linux/linux-file.md
-      - Alsa: OS/Linux/linux-alsa.md
+      - Alsa:
+        - Alsa: OS/Linux/linux-alsa.md
+        - aplay: OS/Linux/linux-alsa-aplay.md
+        - amixer: OS/Linux/linux-alsa-amixer.md
       - Storage: OS/Linux/linux-storage.md
     - ❖ Tools:
       - iBamboo: OS/Linux/linux-tools-ibamboo.md

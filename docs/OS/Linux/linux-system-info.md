@@ -8,7 +8,7 @@ Kiểm tra thông tin của RAM với câu lệnh `free -h`
 
 ```bash
 $ free -h
-            total        used        free      shared  buff/cache   available
+               total        used        free      shared  buff/cache   available
 Mem:            15Gi       1.8Gi        12Gi       226Mi       1.6Gi        13Gi
 Swap:          2.0Gi          0B       2.0Gi
 ```

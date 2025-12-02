@@ -13,6 +13,11 @@
   src: url("../fonts/JetBrainsMono-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "JetBrains Mono ExtraBold";
+  src: url("/assets/fonts/JetBrainsMono-ExtraBold.ttf") format("truetype");
+}
+
 :root {
     --primary-family: "NotoSerifMedium";
     --primary-header-0-size: 28px;
@@ -30,7 +35,8 @@
     --tertiary-theme-color: #ffae0090; /* Light theme text */
     --quaternary-theme-color: #8b1a8f90; /* Light theme text */
     --soft-gray-theme-color: #E2E2E2; /* Accent color */
-    --code-font-family: "JetBrains Mono";
+    --code-font-family: "JetBrains Mono ExtraBold";
+    --code-background-color: #ffe96d4b;
     --md-bg-light-color: #d3d3e9;
     --md-bg-dark-color: #020226;
     /* --code-font-family: 'Noto Sans Mono Light'; */
@@ -77,11 +83,6 @@
   font-size: 0.6rem
 }
 
-.md-typeset pre>code {
-  font-family: var(--code-font-family);
-  font-size: small;
-}
-
 .md-main__inner.md-grid.full-width {
   max-width: initial;
 }
@@ -92,9 +93,13 @@
 .md-footer {
   background-color: #434a74;
 }
+
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
   font-weight: bold;
-  text-decoration: underline;
+}
+.md-nav__item .md-nav__link--active::after {
+  content: "↵";
+  /* ➜≫◈ⁱ◫ ⊸⊶↠↳∠∟*/
 }
 
 .md-typeset a {
@@ -150,13 +155,11 @@ mark.blue {
 }
 
 /* Change table size */
-
 th {
   background-color: #5188ff5b;
-  font-size: unset;
 }
-
-td {
+.md-typeset table:not([class]) td {
+  padding: 0em 1em 0em 1em;
   font-size: small;
 }
 
@@ -168,6 +171,13 @@ div.grid-container-4-3 {
     padding: 0px;
     height: fit-content;
     box-sizing: border-box;
+}
+
+/* code */
+:not(pre):not(.hljs) > code {
+    color: var(--code-color);
+    background-color: var(--code-background-color);
+    font-family: var(--code-font-family);
 }
 
 /* center table */
