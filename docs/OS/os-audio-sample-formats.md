@@ -15,7 +15,7 @@ Cách đặt tên của chúng có ý nghĩa như sau:
     - `U` đại diệu cho mẫu âm thanh được mã hoá dưới dạng số nguyên không dấu __*(Unsigned Integer)*__
     - `FLOAT` đại diệu cho mẫu âm thanh được mã hoá dưới dạng thập phân __*(floating-point)*__
 - __Bit Depth__: Con số theo sau dấu mô tả _bit depth_, hay số _bits_ được sử dụng để mã hoá dữ liệu âm thanh.
-- __Suffix (Endianness)__: là một trong hai dạng `_LE` và `_BE`.
+- __Suffix ([Endianness](os-endianness.md))__: là một trong hai dạng `_LE` và `_BE`.
     - `_LE`= __Little Endian__ (byte _ít quan trọng_ được xếp đầu tiên)
     - `_BE`= __Big Endian__ (byte _quan trọng_ được xếp nhất đầu tiên)
 

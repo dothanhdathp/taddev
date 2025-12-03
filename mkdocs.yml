@@ -95,7 +95,7 @@ nav:
     - Network: OS/Windows/os-windows-network.md
     - ❖ Shell:
       - ❖ cmd:
-        - cmd: OS/Windows/os-windows-cmd-getting-start.md
+        - cmd: OS/Windows/os-windows-cmd.md
         - Command: OS/Windows/os-windows-cmd-command.md
         - Write Script: OS/Windows/os-windows-cmd-write-scripts.md
       - ❖ Power Shell:
@@ -110,9 +110,10 @@ nav:
       - MAS: OS/Windows/os-windows-crack-by-mas.md
   ##################################################################################################################################
   - Android:
-    - Android: OS/Android/android-overview.md
+    - Android: OS/Android/android.md
     - ❖ Tools:
       - ADB: OS/Android/android-adb.md
+      - AndroidStudio: OS/Android/android-adb.md
     - ❖ Application:
       - Activity: OS/Android/android-dev-app-activity.md
       - ListView:

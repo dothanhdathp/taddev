@@ -56,3 +56,8 @@ Các phím tắt định dạng có sẵn là:
 - `-f cd` là (16 bit little endian, 44100, stereo)
 - `-f cdr` là (16 bit big endian, 44100, stereo)
 - `-f dat` là (16 bit little endian, 48000, stereo)
+
+## Tham Khảo
+
+- Về [Endian](/OS/os-endianness)
+- Về [Audio Sample Formats](/OS/os-audio-sample-formats)

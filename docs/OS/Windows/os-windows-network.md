@@ -1,5 +1,13 @@
 # Network
 
+## IPCONFIG
+
+Để xem thông tin mạng trên Windows sử dụng lệnh
+
+```text
+ipconfig
+```
+
 ## host
 
 Tệp `host` là được dùng để cài đặt cho mạng, sử dụng tệp này có thể đặt tên cho một số địa chỉ IP.
