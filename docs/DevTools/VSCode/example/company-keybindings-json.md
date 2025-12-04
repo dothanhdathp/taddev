@@ -102,12 +102,13 @@
         "when": "editorTextFocus && editorLangId == 'markdown'"
     },
     {
+        "description": "Replace all spaces in selected text with hyphens",
         "command": "editor.action.insertSnippet",
         "args": {
-            "snippet": "<p class=\"header\">\n\t${TM_SELECTED_TEXT}\n</p><hr class=\"header\">"
-        },
-        "key": "ctrl+shift+h", // whatever you like
-        "when": "editorTextFocus && editorLangId == 'markdown'"
+            "snippet": "${TM_SELECTED_TEXT/( )/-/g}"
+    	},
+        "key": "ctrl+shift+h",
+        "when": "editorTextFocus && (editorLangId == 'markdown' || editorLangId == 'yaml')"
     },
     {
         "command": "editor.action.insertSnippet",

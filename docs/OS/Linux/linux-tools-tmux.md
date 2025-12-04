@@ -14,38 +14,49 @@ sudo apt-get install tmux -y
 
 ### Câu lệnh
 
+#### Xem danh sách phiên
+
+```bash
+tmux ls
+```
+
 #### Tạo phiên
 
-> Tạo một phiên mới _(bất kỳ, tên sẽ được đánh theo luật)_
+=== "New"
+    Tạo một phiên mới _(bất kỳ, tên sẽ được đánh tự do theo luật)_. Thường sẽ là 0, 1, 2, ...
 
-```bash
-tmux
-```
+    ```bash
+    tmux
+    ```
+=== "New + Open"
+    Tạo một phiên mới _(bất kỳ, tên sẽ được đánh theo luật)_. Đồng thời mở luôn phiên đó trong trong cửa sổ làm việc:
 
-> Tạo một phiên mới _(bất kỳ, tên sẽ được đánh theo luật)_. Đồng thời mở luôn phiên đó trong trong cửa sổ làm việc:
+    ```bash
+    tmux a
+    ```
+=== "New + Name"
+    Cách này thường dùng nhất. Tạo một phiên làm việc với với tên xác định và cũng mở luôn phiên làm việc đó.
 
-```bash
-tmux a
-```
+    ```bash
+    tmux new -s NAME
+    ```
 
-> Cách này thường dùng nhất. Tạo một phiên làm việc với với tên xác định và cũng mở luôn phiên làm việc đó.
-
-```bash
-tmux new -s <name>
-```
+    Với `NAME` là tên riêng tự đặt cho phiên làm việc đó
 
 #### Mở lại phiên làm việc
 
-> Nếu phiên làm việc đã tồn tại, nhúng nó và cửa sổ đang gọi
+Kiểm tra trước với lệnh `tmux ls`, nếu phiên đã tồn tại, gọi lệnh sau để mở lại phiên với tên:
 
 ```bash
-tmux a -t <name>
+tmux a -t NAME
 ```
 
 #### Xóa phiên
 
+Lệnh dưới này sẽ đóng phiên từ __*terminal*__
+
 ```bash
-tmux kill-session -t <name>
+tmux kill-session -t NAME
 ```
 
 ### Phím tắt

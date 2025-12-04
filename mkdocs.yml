@@ -62,11 +62,17 @@ nav:
       - System File: OS/Linux/linux-system-file.md
       - Daemon: OS/Linux/linux-system-daemon.md
       - File: OS/Linux/linux-file.md
+    - ❖ Audio:
       - Alsa:
         - Alsa: OS/Linux/linux-alsa.md
         - aplay: OS/Linux/linux-alsa-aplay.md
         - amixer: OS/Linux/linux-alsa-amixer.md
       - Storage: OS/Linux/linux-storage.md
+    - ❖ Kernel:
+      - dmesg: OS/Linux/linux-dmesg.md
+    - ❖ ETH:
+      - eth: OS/Linux/linux-eth.md
+      - Wifi: OS/Linux/linux-wifi.md
     - ❖ Tools:
       - iBamboo: OS/Linux/linux-tools-ibamboo.md
       - Grep: OS/Linux/linux-tools-grep.md
@@ -281,8 +287,9 @@ nav:
           - NamiDtv2Example:
             - NamiDtv2Example: Libs/GStreamer/gstreamer-android-nami-dtvbt2-example.md
             - Full Chart: Libs/GStreamer/gstreamer-android-nami-dtvbt2-example-full-chart.md
-    - ❖ ROS2:
-      - ROS2: Libs/ROS2/ros2.md
+  ##################################################################################################################################
+  - ROS:
+    - ROS2: ROS/ros.md
   ##################################################################################################################################
   - Git:
     - About Git: Git/git.md
@@ -303,6 +310,8 @@ nav:
       - Github Start: Git/Github/github-start.md
       - Github Page: Git/Github/github-page.md
   ##################################################################################################################################
+  - Device:
+    - Rasberry Pi: Device/rasberry-pi.md
   - Project:
     - ❖ Tad App: 
       - Mô tả: Project/Tad/project-tad-app.md
