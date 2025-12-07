@@ -9,7 +9,31 @@ Về cơ bản đó là __Microsoft__ có một cơ chế đơn giản là có m
 
 ## How
 
-- Sẽ làm sau
+### Cách 1 Chạy command
+
+Ở màn __PơwerShell__ gọi lệnh sau:
+
+=== "Win 8/10/11"
+	```bash
+	irm https://get.activated.win | iex
+	```
+	
+	Nếu không được thì có khả năng là máy tính chưa được cập nhật. Có thể gọi lệnh sau:
+
+	```bash
+	iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
+	```
+=== "Windows 7"
+	```bash
+	iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
+	```
+
+### Cách 2 Cách Truyền Thống
+
+1. Tải xuống tập lệnh: [MAS_AIO.cmd](https://massgrave.dev/#:~:text=Download%20the%20script,That%27s%20all.) hoặc [bản ZIP](https://massgrave.dev/#:~:text=Download%20the%20script,That%27s%20all.).
+1. Chạy file có tên [MAS_AIO.cmd](https://massgrave.dev/#:~:text=Download%20the%20script,That%27s%20all.).
+1. Bạn sẽ thấy các tùy chọn kích hoạt. Làm theo hướng dẫn trên màn hình.
+1. Thế thôi.
 
 ## Download
 
