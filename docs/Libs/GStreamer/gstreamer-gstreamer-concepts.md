@@ -1,5 +1,7 @@
 # \[GStreamer\] Concepts
 
+> Các khái niệm cơ bản trong Gstreamer
+
 ## Mục tiêu
 
 ## Foundations

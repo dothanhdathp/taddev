@@ -1,7 +1,7 @@
 @font-face {
   font-family: "PrimaryFont";
-  /* src: url("../fonts/NotoSerif-Medium.ttf") format("truetype"); */
-  src: url("../fonts/RadioCanada-Medium.ttf") format("truetype");
+  src: url("../fonts/NotoSerif-Medium.ttf") format("truetype");
+  /* src: url("../fonts/RadioCanada-Medium.ttf") format("truetype"); */
 }
 
 @font-face {
@@ -151,8 +151,9 @@ mark.blue {
 }
 
 /* Change table size */
-th {
+.md-typeset table:not([class]) th {
   background-color: #5188ff5b;
+  padding: 0.5em 1em 0.5em 1em;
 }
 .md-typeset table:not([class]) td {
   padding: 0em 1em 0em 1em;

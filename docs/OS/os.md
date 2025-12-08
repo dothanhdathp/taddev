@@ -39,7 +39,8 @@ Có khá nhiều hệ điều hành phổ biến, nhưng rất may chúng đều
 
 #### Thế nào là Unix-Like
 
-__Unix-Like__ là:
+__Unix-Like__:
+
 - Là tập hợp của các hệ điều hành sử dụng bộ hành vì và quản lý bộ nhớ, quyền, ... tương đồng với nhau. Hay nói cách khác, trải nghiệm người dùng trên những hệ điều hành này sẽ cảm thấy có rất nhiều điểm giống nhau.
 - Gọi là _like (giống)_ vì các hệ điều hành dạng Unix-Like hoàn toàn không phải cùng nguồn gốc. Chúng có thể từ nhiều nguồn khác nhau nhưng mà vì cảm thấy Unix có cách tổ chức và hành vi tuyệt vời nên đã có tình làm giống như nó.
 - Unix-like nổi tiếng, hay có thể nói rằng hệ điều hành tạo ra khái niệm __Unix-Like__ chính là __Linux__. Nhân Linux là tiền thân của vô vàn hệ điều hành sau này. Trong bốn hệ điều hành nổi danh nhất thế giới thì có tới ba cái đều học hỏi và ít nhiều kế thừa từ Linux:
