@@ -1,6 +1,6 @@
 @font-face {
   font-family: "PrimaryFont";
-  src: url("../fonts/NotoSerif-Medium.ttf") format("truetype");
+  src: url("../fonts/RadioCanada-Medium.ttf") format("truetype");
   /* src: url("../fonts/RadioCanada-Medium.ttf") format("truetype"); */
 }
 
@@ -74,7 +74,10 @@
 /* .md-grid {
   max-width: initial;
 } */
-
+.md-nav {
+  font-size: .5rem;
+  line-height: 1.5;
+}
 .md-typeset {
   font-size: 0.6rem
 }
@@ -93,11 +96,16 @@
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
   font-weight: bold;
 }
-.md-nav__item .md-nav__link--active::after {
-  content: "↵";
-  /* ➜≫◈ⁱ◫ ⊸⊶↠↳∠∟*/
+/* a.md-nav__link::before {
+  content: "🗋 ";
+} */
+.md-nav__item .md-nav__link--active::before {
+  content: "🗁 ";
+  /* ➜≫◈ⁱ◫ ⊸⊶↠↳∠∟↵*/
 }
-
+label.md-nav__link::before {
+  content: "🖿 ";
+}
 .md-typeset a {
   color: var(--custom-linker-color);
 }
@@ -111,6 +119,7 @@
   font-weight: bold;
   color: var(--custom-color-theme-h2--theme);
 }
+.md-typeset h2::before { content: "🖈 "; }
 .md-typeset h3 {
     font-weight: bold;
     color: var(--custom-color-theme-h3--theme);
@@ -126,6 +135,11 @@
     font-style: italic;
     color: var(--custom-color-theme-h6--theme);
 }
+
+/* .md-typeset h3::before { content: "† "; }
+.md-typeset h4::before { content: "† "; }
+.md-typeset h5::before { content: "† "; }
+.md-typeset h6::before { content: "† "; } */
 
 mark.green {
     color: #020226;

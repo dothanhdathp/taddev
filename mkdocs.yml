@@ -39,9 +39,9 @@ nav:
   ##################################################################################################################################
   - Common:
     - Preface: index.md
-    - ❖ Mã Hoá:
+    - Mã Hoá:
       - Chữ Ký Số: Common/digital-signature.md
-    - ❖ OS:
+    - OS:
       - OS: OS/os.md
       - Endianness: OS/os-endianness.md
       - File System: OS/os-file-system.md
@@ -53,46 +53,48 @@ nav:
   - Linux:
     - Overview & Install: OS/Linux/linux-family-overview-and-install.md
     - Install Ubuntu: OS/Linux/linux-install-ubuntu.md
-    - ❖ Zorin:
-      - Install Zorin: OS/Linux/linux-install-zorin.md
-      - Menu App: OS/Linux/linux-zorin-menu-app.md
-    - ❖ System:
+    - System:
       - System Info: OS/Linux/linux-system-info.md
       - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md
       - System File: OS/Linux/linux-system-file.md
       - System Folder: OS/Linux/linux-system-folder.md
       - Daemon: OS/Linux/linux-system-daemon.md
       - File: OS/Linux/linux-file.md
-    - ❖ Audio:
+      - Storage: OS/Linux/linux-storage.md
+    - Audio:
       - Alsa:
         - Alsa: OS/Linux/linux-alsa.md
         - aplay: OS/Linux/linux-alsa-aplay.md
         - amixer: OS/Linux/linux-alsa-amixer.md
-      - Storage: OS/Linux/linux-storage.md
-    - ❖ Kernel:
+    - Kernel:
       - dmesg: OS/Linux/linux-dmesg.md
-    - ❖ ETH:
+    - ETH:
       - eth: OS/Linux/linux-eth.md
       - Wifi: OS/Linux/linux-wifi.md
-    - ❖ Tools:
-      - iBamboo: OS/Linux/linux-tools-ibamboo.md
-      - Grep: OS/Linux/linux-tools-grep.md
-      - Tree: OS/Linux/linux-tools-tree.md
-      - Minicom: OS/Linux/linux-tools-minicom.md
-      - Tmux: OS/Linux/linux-tools-tmux.md
-      - Compress: OS/Linux/linux-tools-compress-uncompress.md
-      - Sed: OS/Linux/linux-tools-sed.md
       - NetCat: OS/Linux/linux-tools-netcat.md
-    - ❖ Password:
+    - Tools:
+      - compress: OS/Linux/linux-tools-compress-uncompress.md
+      - grep: OS/Linux/linux-tools-grep.md
+      - iBamboo: OS/Linux/linux-tools-ibamboo.md
+      - minicom: OS/Linux/linux-tools-minicom.md
+      - sambashare: OS/Linux/linux-tools-sambashare.md
+      - sed: OS/Linux/linux-tools-sed.md
+      - tmux: OS/Linux/linux-tools-tmux.md
+      - tree: OS/Linux/linux-tools-tree.md
+    - Password:
       - Spec. Ubuntu 16 LST: OS/Linux/linux-ubuntu-16-lts-pass.md
-    - ❖ Trick:
+    - Trick:
       - HTTP Server: OS/Linux/linux-http-server.md
       - Startup Script: OS/Linux/linux-startup-script.md
+    - Zorin:
+      - Install Zorin: OS/Linux/zorin-install.md
+      - Menu App: OS/Linux/zorin-menu-app.md
+      - (zorin) gvfs: OS/Linux/zorin-gvfs.md
   ##################################################################################################################################
   - Windows:
-    - Overview: OS/Windows/os-windows-overview.md
+    - Windows: OS/Windows/windows.md
     - Một số lệnh thường dùng: OS/Windows/os-windows-cmd-common-command.md
-    - ❖ System:
+    - System:
       - Services (WS): OS/Windows/os-windows-services.md
       - Macro PATH: OS/Windows/os-windows-common-path.md
       - Environment Variables: OS/Windows/os-windows-environment-variables.md
@@ -100,55 +102,55 @@ nav:
       - Service Tag, Manufacture: OS/Windows/os-windows-service-tag-and-manufacture.md
       - Start Menu: OS/Windows/os-windows-service-start-menu.md
     - Network: OS/Windows/os-windows-network.md
-    - ❖ Shell:
-      - ❖ cmd:
+    - Shell:
+      - cmd:
         - cmd: OS/Windows/os-windows-cmd.md
         - Command: OS/Windows/os-windows-cmd-command.md
         - Write Script: OS/Windows/os-windows-cmd-write-scripts.md
-      - ❖ Power Shell:
+      - Power Shell:
         - Power Shell: OS/Windows/os-windows-ps-getting-start.md
-      - ❖ Custom:
+      - Custom:
         - Usercmd: OS/Windows/os-windows-custom-usercmd.md
-    - ❖ Regedit:
+    - Regedit:
       - Regedit: OS/Windows/os-windows-regedit.md
       - Open with: OS/Windows/os-windows-custom-open-with.md
-    - ❖ Recovery:
+    - Recovery:
       - Password: OS/Windows/os-windows-recovery-password.md
-    - ❖ Activate:
+    - Activate:
       - MAS: OS/Windows/os-windows-crack-by-mas.md
       - Key: OS/Windows/os-windows-buyed-key.md
   ##################################################################################################################################
   - Android:
     - Android: OS/Android/android.md
-    - ❖ Tools:
+    - Tools:
       - ADB: OS/Android/android-adb.md
       - AndroidStudio: OS/Android/android-adb.md
-    - ❖ Application:
+    - Application:
       - Activity: OS/Android/android-dev-app-activity.md
       - ListView:
         - ListView: OS/Android/android-dev-app-listview.md
         - ListView Custom: OS/Android/android-dev-app-listview-custom.md
       - Menu Option: OS/Android/android-dev-menu-option.md
-    - ❖ JNI:
+    - JNI:
       - Create JNI: OS/Android/android-dev-application-jni.md
       - JNI Type: OS/Android/android-dev-jni-type.md
-    - ❖ Android API:
+    - Android API:
       - Android API: OS/Android/android-api.md
-    - ❖ Core:
+    - Core:
       - Android Core: OS/Android/android-core.md
       - Architecture: OS/Android/android-core-architecture.md
-      - ❖ HAL:
+      - HAL:
         - HAL: OS/Android/android-core-architecture-hal.md
-    - ❖ Kernel:
+    - Kernel:
       - SELinux: OS/Android/android-core-architecture-hal.md
-    - ❖ External:
+    - External:
       - Tinyalsa: OS/Android/android-core-external-tinyalsa.md
-    - ❖ Example:
+    - Example:
       - First App: OS/Android/android-dev-first-application.md
   ##################################################################################################################################
   - Tools:
     - Tools: Tools/tools.md
-    - ❖ MKDocs:
+    - MKDocs:
       - MKDocs: Tools/MKDocs/mkdocs.md
       - Theme: Tools/MKDocs/mkdocs-theme.md
       - CSS: Tools/MKDocs/mkdocs-css.md
@@ -164,36 +166,35 @@ nav:
       - Markdocs Issue: Tools/MKDocs/mkdocs-issue.md
       - Markdocs Projects: Tools/MKDocs/mkdocs-projects.md
       - MKDocs TadApp: Tools/MKDocs/mkdocs-for-tadapp.md
-    - ❖ MSYS2:
+    - MSYS2:
       - Overview: Tools/msys2/msys2.md
       - Install: Tools/msys2/msys2-install.md
       - Pacman: Tools/msys2/msys2-pacman.md
       - Package: Tools/msys2/msys2-package.md
-    - ❖ FFmpeg:
+    - FFmpeg:
       - FFmpeg: Tools/FFmpeg/ffmpeg.md
       - Download: Tools/FFmpeg/ffmpeg-download.md
       - Convert: Tools/FFmpeg/ffmpeg-convert.md
-    - ❖ NodeJS:
+    - NodeJS:
       - Overview: Tools/NodeJS/nodejs.md
       - Getting Start: Tools/NodeJS/nodejs-getting-start.md
-    - ❖ Electron:
+    - Electron:
       - Electron: Tools/Electron/electron.md
       - Create App: Tools/Electron/electron-create-app.md
       - Load Link: Tools/Electron/electron-load-link.md
       - Troubleshoots: Tools/Electron/electron-troubleshoots.md
-    - ❖ yt-dlp:
+    - yt-dlp:
       - yt-dlp: Tools/yt-dlp/yt-dlp.md
     - 3Utool: Tools/Other/3utools.md
     - Putty: Tools/Other/putty.md
-    - Sambashare: Tools/Other/sambashare.md
     - Scrcpy: Tools/Other/scrcpy.md
     - AnyDesk: Tools/AnyDesk/anydesk.md
-    - ❖ Thảo luận:
+    - Thảo luận:
       - IDE & Code Editor: Tools/Tools-paper-ide-code-editor.md
   ##################################################################################################################################
   - Dev Tools:
     - Dev Tools: DevTools/dev-tools.md
-    - ❖ VSCode:
+    - VSCode:
       - VSCode: DevTools/VSCode/software-vscode.md
       - Install: DevTools/VSCode/software-vscode-install.md
       - Settings: DevTools/VSCode/software-vscode-settings.md
@@ -202,65 +203,65 @@ nav:
       - Extensions: DevTools/VSCode/software-vscode-extensions.md
       - Custom: DevTools/VSCode/software-vscode-my-custom.md
       - Trick: DevTools/VSCode/software-vscode-trick.md
-    - ❖ Android Studio:
+    - Android Studio:
       - Android Studio: DevTools/AndroidStudio/software-android-studio.md
       - Install: DevTools/AndroidStudio/software-android-studio-install.md
       - Gradle: DevTools/AndroidStudio/software-android-gradle.md
       - SDK: DevTools/AndroidStudio/software-android-studio-sdk.md
       - Theme: DevTools/AndroidStudio/software-android-studio-theme.md
       - Troubleshoot: DevTools/AndroidStudio/software-android-studio-troubleshoot.md
-    - ❖ Qt:
+    - Qt:
       - Qt: DevTools/Qt/qt.md
       - QtCreator: DevTools/Qt/qt-software-qt-creator.md
-    - ❖ Make:
+    - Make:
       - Make: DevTools/Make/make.md
       - Install: DevTools/Make/make-install.md
       - Getting Start: DevTools/Make/make-getting-start.md
       - Template: DevTools/Make/make-template.md
-    - ❖ Yocto:
+    - Yocto:
       - Yocto: DevTools/Yocto/yocto.md
       - Bitbake: DevTools/Yocto/yocto-bitbake.md
-    - ❖ Repo:
+    - Repo:
       - Repo: DevTools/Repo/repo.md
       - Repo for Win: DevTools/Repo/repo-windows.md
       - Inside .repo: DevTools/Repo/repo-repo-inside.md
   ##################################################################################################################################
   - Elec.:
     - Electronic: Electronic/electric.md
-    - ❖ LKDT:
+    - LKDT:
       - Điện Trở: Electronic/electric-resistor.md
   ##################################################################################################################################
   - Libs:
     - Libs: Libs/libs.md
-    - ❖ FTXUI:
+    - FTXUI:
       - FTXUI: Libs/FTXUI/ftxui.md
       - Build: Libs/FTXUI/ftxui-build.md
       - Example: Libs/FTXUI/ftxui-example.md
-    - ❖ NanoHTTPD:
+    - NanoHTTPD:
       - Getting Start: Libs/NanoHTTPD/lib-nanohttpd.md
-    - ❖ GStreamer:
+    - GStreamer:
       - GStreamer: Libs/GStreamer/gstreamer.md
       - Tải về: Libs/GStreamer/gstreamer-installing.md
       - Gst Tools: Libs/GStreamer/gstreamer-tools.md
-      - ❖ Khái Niệm:
+      - Khái Niệm:
         - Concepts: Libs/GStreamer/gstreamer-gstreamer-concepts.md
-        - ❖ Elements:
-          - ❖ Source:
+        - Elements:
+          - Source:
               - Video: Libs/GStreamer/gstreamer-element-video-source.md
               - Audio: Libs/GStreamer/gstreamer-tools-stream-video.md
               - Playbin: Libs/GStreamer/gstreamer-tools-stream-video.md
-          - ❖ Elements:
+          - Elements:
               - Test: Libs/GStreamer/gstreamer-tools-stream-video.md
       - GStreamer Note: Libs/GStreamer/gstreamer-notebook.md
-      - ❖ Basic Tutorials:
+      - Basic Tutorials:
         - Tutorial: Libs/GStreamer/gstreamer-b-tutorial.md
         - Hello world!: Libs/GStreamer/gstreamer-b-hello-world.md
         - Đường Ống Động: Libs/GStreamer/gstreamer-b-dynamic-pipelines.md
         - Pipeline Graphs: Libs/GStreamer/gstreamer-b-pipeline-graphs.md
       - Stream Video: Libs/GStreamer/gstreamer-tools-stream-video.md
-      - ❖ Pipeline Samples (Self):
+      - Pipeline Samples (Self):
         - Simple:  Libs/GStreamer/gstreamer-pipeline-samples-simple.md
-      - ❖ Pipeline Samples:
+      - Pipeline Samples:
         - Intro:  Libs/GStreamer/gstreamer-pipeline-samples.md
         - Tips for Debug: Libs/GStreamer/gstreamer-pipeline-samples-tips-for-debug.md
         - Video: Libs/GStreamer/gstreamer-pipeline-samples-video.md
@@ -273,16 +274,16 @@ nav:
         - Fallbacksrc: Libs/GStreamer/gstreamer-pipeline-samples-fallbacksrc.md
         - Live Stream, ...: Libs/GStreamer/gstreamer-pipeline-samples-live-stream.md
         - Python Opencv: Libs/GStreamer/gstreamer-pipeline-samples-python-opencv.md
-      - ❖ Another:
+      - Another:
         - Graphs: Libs/GStreamer/gstreamer-pipeline-graphs.md
-      - ❖ Ubuntu Tutorial:
+      - Ubuntu Tutorial:
         - Tutorial 1: Libs/GStreamer/gstreamer-ubuntu-tutorial-1.md
-      - ❖ Bắt đầu với Windows:
+      - Bắt đầu với Windows:
         - Geting Start: Libs/GStreamer/gstreamer-windows.md
-      - ❖ Bắt đầu với Android:
+      - Bắt đầu với Android:
         - Geting Start: Libs/GStreamer/gstreamer-android.md
         - Dựng thư viện: Libs/GStreamer/gstreamer-android-build-gstreamer.md
-        - ❖ Android Tutorial:
+        - Android Tutorial:
           - GStreamer 1: Libs/GStreamer/gstreamer-android-tutorial-1.md
           - GStreamer 2: Libs/GStreamer/gstreamer-android-tutorial-2.md
           - GStreamer 3: Libs/GStreamer/gstreamer-android-tutorial-3.md
@@ -293,12 +294,15 @@ nav:
   ##################################################################################################################################
   - ROS:
     - ROS2: ROS/ros.md
+    - Documents: ROS/ros-document.md
+    - Jazzy Jalisco:
+      - Install: ROS/ros-jazzy-jalisco-install.md
   ##################################################################################################################################
   - Git:
     - About Git: Git/git.md
     - Install: Git/git-install.md
     - SSH: Git/git-ssh.md
-    - ❖ Common:
+    - Common:
       - Git Config: Git/git-config.md
       - Git Clone: Git/git-clone.md
       - Git Branch: Git/git-branch.md
@@ -306,9 +310,9 @@ nav:
       - Git Diff: Git/git-diff.md
     - Git Example: Git/git-example.md
     - Git Beginer: Git/git-beginer.md
-    - ❖ How to:
+    - How to:
       - Custom Commands: Git/git-custom-commands.md
-    - ❖ Github:
+    - Github:
       - Github Overview: Git/Github/github-overview.md
       - Github Start: Git/Github/github-start.md
       - Github Page: Git/Github/github-page.md
@@ -316,9 +320,9 @@ nav:
   - Device:
     - Rasberry Pi: Device/rasberry-pi.md
   - Project:
-    - ❖ Tad App: 
+    - Tad App: 
       - Mô tả: Project/Tad/project-tad-app.md
-    - ❖ Pokedex: 
+    - Pokedex: 
       - README: Project/Pokedex/project-pokedex.md
 
 extra_css:
