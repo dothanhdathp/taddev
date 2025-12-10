@@ -31,6 +31,10 @@ Nếu bạn dự định sử dụng trình mô phỏng Gazebo với ROS, chúng
 
 Nếu bạn là người dùng mới và muốn cài đặt phiên bản ROS hoặc ROS 2 mới nhất trên bất kỳ hệ điều hành nào ngoài hệ điều hành cấp 1 được liệt kê, chúng tôi khuyên bạn nên cài đặt hệ điều hành cấp 1 được đề xuất trong máy ảo rồi cài đặt ROS bên trong máy ảo. Ngoài ra, nếu bạn đã quen với Docker, bạn cũng có thể sử dụng ROS trong vùng chứa Docker.
 
+## Yêu Cầu
+
+- Để học được phần này yêu cầu cần có kiến thức căn bản về lập trình [C++]() và [Python](). [Make]() và [CMake]() cũng khá là cần thiết nếu muốn nghiên cứu sâu.
+- `Colcon` là hệ thống xây dựng chính và xuyên suốt hệ thống __ROS__. Có thể học _(tùy chọn)_.
 
 ## Tài liệu Phân Phối
 

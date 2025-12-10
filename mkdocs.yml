@@ -37,10 +37,12 @@ plugins:
 
 nav:
   ##################################################################################################################################
-  - Common:
+  - Concept:
     - Preface: index.md
     - Mã Hoá:
-      - Chữ Ký Số: Common/digital-signature.md
+      - Chữ Ký Số: Concept/digital-signature.md
+    - Telecom.:
+      - Điều Chế / Giải Điều Chế: Concept/telecom-signal-modulation.md
     - OS:
       - OS: OS/os.md
       - Endianness: OS/os-endianness.md
@@ -48,7 +50,7 @@ nav:
       - Audio:
         - PCM: OS/os-audio-pcm.md
         - Audio Sample Formats: OS/os-audio-sample-formats.md
-    - AI: ai.md
+    - AI: Concept/ai.md
   ##################################################################################################################################
   - Linux:
     - Overview & Install: OS/Linux/linux-family-overview-and-install.md
@@ -93,10 +95,10 @@ nav:
   ##################################################################################################################################
   - Windows:
     - Windows: OS/Windows/windows.md
-    - Một số lệnh thường dùng: OS/Windows/os-windows-cmd-common-command.md
+    - Một số lệnh thường dùng: OS/Windows/os-windows-cmd-Concept-command.md
     - System:
       - Services (WS): OS/Windows/os-windows-services.md
-      - Macro PATH: OS/Windows/os-windows-common-path.md
+      - Macro PATH: OS/Windows/os-windows-Concept-path.md
       - Environment Variables: OS/Windows/os-windows-environment-variables.md
       - Startup Process: OS/Windows/os-windows-startup-process.md
       - Service Tag, Manufacture: OS/Windows/os-windows-service-tag-and-manufacture.md
@@ -190,7 +192,7 @@ nav:
     - Scrcpy: Tools/Other/scrcpy.md
     - AnyDesk: Tools/AnyDesk/anydesk.md
     - Thảo luận:
-      - IDE & Code Editor: Tools/Tools-paper-ide-code-editor.md
+      - IDE & Code Editor: Tools/paper-ide-code-editor.md
   ##################################################################################################################################
   - Dev Tools:
     - Dev Tools: DevTools/dev-tools.md
@@ -294,15 +296,21 @@ nav:
   ##################################################################################################################################
   - ROS:
     - ROS2: ROS/ros.md
-    - Documents: ROS/ros-document.md
+    - Phân Phối: ROS/ros-distributions.md
+    - Concepts:
+      - Basic Concepts: ROS/ros-basic-concepts.md
     - Jazzy Jalisco:
-      - Install: ROS/ros-jazzy-jalisco-install.md
+      - Install (Ubuntu): ROS/ros-jazzy-jalisco-install.md
+      - Try some examples: ROS/ros-jazzy-jalisco-try-some-examples.md
+    - Nav2:
+      - Nav2: ROS/nav2.md
+    - Tài Liệu: ROS/ros-document.md
   ##################################################################################################################################
   - Git:
     - About Git: Git/git.md
     - Install: Git/git-install.md
     - SSH: Git/git-ssh.md
-    - Common:
+    - Concept:
       - Git Config: Git/git-config.md
       - Git Clone: Git/git-clone.md
       - Git Branch: Git/git-branch.md
@@ -319,9 +327,11 @@ nav:
   ##################################################################################################################################
   - Device:
     - Rasberry Pi: Device/rasberry-pi.md
+  ##################################################################################################################################
   - Project:
     - Tad App: 
-      - Mô tả: Project/Tad/project-tad-app.md
+      - Windows: Project/Tad/project-tad-app-windows.md
+      - Linux: Project/Tad/project-tad-app-linux.md
     - Pokedex: 
       - README: Project/Pokedex/project-pokedex.md
 

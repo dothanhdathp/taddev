@@ -1,6 +1,7 @@
-# \[ROS Jazzy Jalisco\] Cài đặt
+# \[Jazzy Jalisco\] Cài đặt
 
-> Hướng dẫn cài đặt / hủy cài đặt __ROS Jazzy Jalisco__
+> Hướng dẫn cài đặt / hủy cài đặt __ROS Jazzy Jalisco__. Ubuntu-Install-Debs
+<br>Nguồn tham khảo: [https://docs.ros.org/en/kilted/Installation/Ubuntu-Install-Debs.html](https://docs.ros.org/en/kilted/Installation/Ubuntu-Install-Debs.html)
 
 ## Yêu Cầu
 
@@ -51,7 +52,7 @@ locale  # check for UTF-8
 
 Hai thông số khuyên nghị là `LC_ALL=en_US.UTF-8` và `LANG=en_US.UTF-8`. Nếu không có thì có thể cài đặt theo như dòng lệnh dưới đây.
 
-```bash title="Cấu hình khuyến nghị & Cài đặt lại"
+```bash title="Cấu hình khuyến nghị & Cài đặt 🚩"
 sudo apt update && sudo apt install locales
 sudo locale-gen en_US en_US.UTF-8
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
@@ -71,7 +72,24 @@ sudo apt install software-properties-common
 sudo add-apt-repository universe
 ```
 
-##### Install development tools (tùy chọn)
+Việc cài đặt gói `ros2-apt-source` sẽ định cấu hình kho lưu trữ ROS 2 cho hệ thống của bạn. Các bản cập nhật cấu hình kho lưu trữ sẽ tự động diễn ra khi các phiên bản mới của gói này được phát hành vào kho lưu trữ ROS.
+
+
+```bash title="🚩"
+sudo apt update && sudo apt install curl -y
+export ROS_APT_SOURCE_VERSION=$(curl -s https://api.github.com/repos/ros-infrastructure/ros-apt-source/releases/latest | grep -F "tag_name" | awk -F\" '{print $4}')
+curl -L -o /tmp/ros2-apt-source.deb "https://github.com/ros-infrastructure/ros-apt-source/releases/download/${ROS_APT_SOURCE_VERSION}/ros2-apt-source_${ROS_APT_SOURCE_VERSION}.$(. /etc/os-release && echo ${UBUNTU_CODENAME:-${VERSION_CODENAME}})_all.deb"
+sudo dpkg -i /tmp/ros2-apt-source.deb
+```
+
+__Phân Tích:__
+
+- `sudo apt update && sudo apt install curl -y` -> Tải và cài đặt `curl`
+- `export ROS_APT_SOURCE_VERSION=$(curl -s https://api.github.com/repos/ros-infrastructure/ros-apt-source/releases/latest | grep -F "tag_name" | awk -F\" '{print $4}')` ->
+    - Lệnh này truy cập vào đường dẫn [latest](https://api.github.com/repos/ros-infrastructure/ros-apt-source/releases/latest) mô tả phiên bản mới nhất và các thông tin của chúng, dữ liệu được đặt dưới dạng  tệp __*json*__.
+- 
+
+##### Install development tools (bắt buộc)
 
 > Cài đặt công cụ phát triển
 
@@ -80,6 +98,10 @@ Nếu bạn định xây dựng bằng các gói ROS hoặc tự phát triển, 
 ```bash
 sudo apt update && sudo apt install ros-dev-tools
 ```
+
+!!! quote "Đôi lời"
+    Không hiểu sao cái này bị đặt thành tùy chọn. Nếu không cài đặt bước này thì bước sau không thực hiện được luôn.
+
 
 ## Install ROS 2 (Jazzy Jalisco)
 
@@ -95,6 +117,7 @@ sudo apt update
     ```bash
     sudo apt install ros-jazzy-desktop
     ```
+
 === "ROS-Base Install (Bare Bones)"
     Phiên bản rút gọn chỉ còn các __*Communication libraries*__, _message packages_, _command line tools_. __No GUI tools__.
 
@@ -102,5 +125,17 @@ sudo apt update
     sudo apt install ros-jazzy-ros-base
     ```
 
-!!! danger "Lỗi"
-    ROS gần như không có bản phân phối cho `x86_64`. Có lẽ thực sự cần __*Rasberry Pi4*__ để chạy ROS rồi.i
+!!! success "Thành Công"
+    - Nếu cài đặt thành công thì sẽ có thư mục `/opt/ros/jazzy`
+    - Các phiên bản khác nhau sẽ có phần phiên bản _(jazzy)_ khác nhau. Nhưng mình nhớ ở đâu có đề cập rằng không nên cài đặt nhiều phiên bản __ROS__ trên cùng một thiết bị.
+
+## Xử lý lỗi
+
+!!! bug "Bug"
+    ```bash
+    $ sudo add-apt-repository universe
+    Unable to handle repository shortcut 'universe'
+    ```
+    Lỗi này xảy ra khi hệ điều hành đang sử dụng không phải __Ubuntu__, cái này chỉ có cách sử dụng cách 2 để cài đặt __Ros__ thôi.
+
+    - Tham Khảo: Ubuntu (source)

@@ -1,4 +1,4 @@
-# Tad
+# \[Project\] Tad-App Windows
 
 ## Mô tả
 
@@ -23,7 +23,7 @@ git clone git@github.com:dothanhdathp/electrone-docs-app.git
 
 ```txt
 npm install electron --save-dev
-npm run dist
+npm run dist## ### 
 ```
 
 - Sau đó sẽ có tệp __tad Setup 1.0.0.exe__ nằm trong thư mục __dist__. Dùng nó để cài ứng dụng.

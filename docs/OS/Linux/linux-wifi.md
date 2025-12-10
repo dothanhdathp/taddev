@@ -1,12 +1,16 @@
 # \[Linux\] Wifi
 
-## Common Linux
+## Xem Danh Sách
 
 Xem danh sách các kết nối wifi _(nếu có)_
 
 ```bash
-nmcli device wifi list
+sudo nmcli device wifi list
 ```
+
+## Kết Nối
+
+### Cách 1
 
 Kết nối đến một mạng Wifi đã biết. Ví dụ mạng "NamWifi" với mật khẩu "12345678" thì:
 
@@ -14,11 +18,21 @@ Kết nối đến một mạng Wifi đã biết. Ví dụ mạng "NamWifi" vớ
 - `YOUR_PASSWORD` = `12345678`
 
 ```bash
-nmcli device wifi connect "SSID_NAME" password "YOUR_PASSWORD"
+sudo nmcli device wifi connect "SSID_NAME" password "YOUR_PASSWORD"
 ```
 
-Tắt Wifi
+### Cách 2
+
+Nếu mật khẩu chứa các ký tự đặc biệt có thể dùng cách sau _(hoặc có thể là để giấu mật khẩu)_.
 
 ```bash
-nmcli device disconnect wlan0
+sudo nmcli device wifi connect "SSID_NAME" --ask
+```
+
+Lúc này câu lệnh sẽ yêu cầu nhập mật khẩu wifi thủ công.
+
+## Tắt Wifi
+
+```bash
+sudo nmcli device disconnect wlan0
 ```

@@ -20,6 +20,19 @@ Icon=/home/dtdat/Git/electrone-docs-app/node_modules/app-builder-lib/templates/i
 Terminal=false
 Categories=Utility;
 ```
+```text
+[Desktop Entry]
+Name=Tad
+Exec=/opt/tad/tad-app %U
+Terminal=false
+Type=Application
+Icon=/home/dtdat/Pictures/cat-white-icon.png
+StartupWMClass=tad
+Categories=Utility;
+```
+
+!!! failure "Failure"
+    Vẫn chưa thêm phần icon cho cho ứng dụng Tad vào resource. Nói chung là cái này vẫn lỗi tùm lum.
 
 - `Type`: Loại ứng dụng
 - `Name`: Tên ứng dụng

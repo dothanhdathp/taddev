@@ -1,6 +1,6 @@
 @font-face {
   font-family: "PrimaryFont";
-  src: url("../fonts/RadioCanada-Medium.ttf") format("truetype");
+  src: url("../fonts/NotoSerif-Medium.ttf") format("truetype");
   /* src: url("../fonts/RadioCanada-Medium.ttf") format("truetype"); */
 }
 
@@ -16,14 +16,6 @@
 
 :root {
     --primary-family: "PrimaryFont";
-    --primary-header-0-size: 28px;
-    --primary-header-1-size: 24px;
-    --primary-header-2-size: 22px;
-    --primary-header-3-size: 20px;
-    --primary-header-4-size: 18px;
-    --primary-header-5-size: 16px;
-    --primary-font-size: 15px; /* Light theme background */
-    --primary-padding-common: 10px;
     --primary-linker-color: #5488e8;
     --primary-theme-color: #6767CE; /* Light theme text */
     --primary-theme-color-transparent: #6767CE; /* Light theme text */
@@ -32,7 +24,7 @@
     --quaternary-theme-color: #8b1a8f90; /* Light theme text */
     --soft-gray-theme-color: #E2E2E2; /* Accent color */
     --code-font-family: "CodeFontBold";
-    --code-background-color: #ffe96d4b;
+    --code-background-color: #d9a25461;
     --md-bg-light-color: #d3d3e9;
     --md-bg-dark-color: #020226;
     /* --code-font-family: 'Noto Sans Mono Light'; */
@@ -110,29 +102,36 @@ label.md-nav__link::before {
   color: var(--custom-linker-color);
 }
 .md-typeset h1 {
+  font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
   color: var(--custom-color-theme-h1--theme);
 }
 .md-typeset h2 {
+  font-size: 1rem;
   color: #808080;
   font-weight: bold;
   color: var(--custom-color-theme-h2--theme);
 }
 .md-typeset h2::before { content: "🖈 "; }
 .md-typeset h3 {
+    font-size: 0.9rem;
     font-weight: bold;
     color: var(--custom-color-theme-h3--theme);
 }
 .md-typeset h4 {
+    font-size: 0.8rem;
     font-weight: bold;
     color: var(--custom-color-theme-h4--theme);
 }
 .md-typeset h5 {
+    font-size: 0.7rem;
     color: var(--custom-color-theme-h5--theme);
 }
 .md-typeset h6 {
+    font-size: 0.6rem;
     font-style: italic;
+    text-transform: uppercase;
     color: var(--custom-color-theme-h6--theme);
 }
 
