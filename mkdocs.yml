@@ -63,6 +63,7 @@ nav:
       - Daemon: OS/Linux/linux-system-daemon.md
       - File: OS/Linux/linux-file.md
       - Storage: OS/Linux/linux-storage.md
+      - Package: OS/Linux/linux-package.md
     - Audio:
       - Alsa:
         - Alsa: OS/Linux/linux-alsa.md

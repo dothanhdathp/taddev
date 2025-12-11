@@ -1,7 +1,7 @@
 @font-face {
   font-family: "PrimaryFont";
-  src: url("../fonts/NotoSerif-Medium.ttf") format("truetype");
-  /* src: url("../fonts/RadioCanada-Medium.ttf") format("truetype"); */
+  /* src: url("../fonts/NotoSerif-Medium.ttf") format("truetype"); */
+  src: url("../fonts/Barlow-Medium.ttf") format("truetype");
 }
 
 @font-face {
@@ -67,7 +67,7 @@
   max-width: initial;
 } */
 .md-nav {
-  font-size: .5rem;
+  font-size: 0.6rem;
   line-height: 1.5;
 }
 .md-typeset {
@@ -91,7 +91,7 @@
 /* a.md-nav__link::before {
   content: "🗋 ";
 } */
-.md-nav__item .md-nav__link--active::before {
+.md-nav__item .md-nav__link--active::after {
   content: "🗁 ";
   /* ➜≫◈ⁱ◫ ⊸⊶↠↳∠∟↵*/
 }
