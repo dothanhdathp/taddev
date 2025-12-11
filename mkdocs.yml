@@ -127,7 +127,6 @@ nav:
     - Android: OS/Android/android.md
     - Tools:
       - ADB: OS/Android/android-adb.md
-      - AndroidStudio: OS/Android/android-adb.md
     - Application:
       - Activity: OS/Android/android-dev-app-activity.md
       - ListView:
@@ -300,9 +299,11 @@ nav:
     - Phân Phối: ROS/ros-distributions.md
     - Concepts:
       - Basic Concepts: ROS/ros-basic-concepts.md
+      - ROS_DOMAIN_ID: ROS/ros-concepts-ros-domain-id.md
     - Jazzy Jalisco:
       - Install (Ubuntu): ROS/ros-jazzy-jalisco-install.md
-      - Try some examples: ROS/ros-jazzy-jalisco-try-some-examples.md
+      - Cấu Hình Môi Trường: ROS/ros-jazzy-jalisco-configuring-ros2-environment.md
+      - Getting Start: ROS/ros-jazzy-jalisco-getting-start.md
     - Nav2:
       - Nav2: ROS/nav2.md
     - Tài Liệu: ROS/ros-document.md
@@ -328,6 +329,8 @@ nav:
   ##################################################################################################################################
   - Device:
     - Rasberry Pi: Device/rasberry-pi.md
+    - Android Pi:
+      - Android 15 for Pi4: Device/rasberry-pi4-aosp-15.md
   ##################################################################################################################################
   - Project:
     - Tad App: 
@@ -373,8 +376,12 @@ graph:
   include_homepage: true
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/dothanhdathp
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/tad.zeila?locale=vi_VN
+
+copyright:
+  ☕ Made by Tad Zeila!

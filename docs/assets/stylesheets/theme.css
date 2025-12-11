@@ -1,7 +1,7 @@
 @font-face {
   font-family: "PrimaryFont";
   /* src: url("../fonts/NotoSerif-Medium.ttf") format("truetype"); */
-  src: url("../fonts/Barlow-Medium.ttf") format("truetype");
+  src: url("../fonts/NotoSansDisplay-Medium.ttf") format("truetype");
 }
 
 @font-face {
@@ -77,12 +77,14 @@
 .md-main__inner.md-grid.full-width {
   max-width: initial;
 }
-
-.md-tabs {
+a:not(.md-nav__link):not(.md-tabs__link):not(.md-nav__link--active):not(.md-header__button) {
+  font-style: italic;
+}
+.md-footer, .md-tabs {
   background-color: #434a74;
 }
-.md-footer {
-  background-color: #434a74;
+.md-footer-meta {
+  background-color: #383d5b;
 }
 
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
