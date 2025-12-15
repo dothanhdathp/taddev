@@ -67,6 +67,10 @@ __Topic__ là một <mark>phương thức giao tiếp</mark> giữa các __Nodes
 
 Thế nên, trong cách thức liên lạc này, người xuất bản sẽ không thể nào đảm bảo được bản tin sẽ đến được người nghe. Cơ chế này cũng không xác đinh người gửi. Miễn là có quyền thì __Publisher__ có thể đẩy bản tin lên một __Topic__, và miễn là đăng ký thì phía __Subcriber__ có thể lắng nghe được bản tin đó.
 
+### Ví dụ
+
+- [Publisher and Subscriber](ros-jazzy-jalisco-pub-sub.md)
+
 ## Service
 
 __Service__ là cơ chế tiếp theo, cũng là thuộc một trong những kiểu phương thức liên lạc giữa các Node với nhau. Cơ chế này có 4 khái niệm liên quan là __Service Client__, __Service Server__, __Message Request__ và __Message Respond__.

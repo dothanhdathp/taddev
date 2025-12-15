@@ -3,11 +3,11 @@
 
 ## Khởi Động Bằng Script
 
-=== "Linux + macOS"
+=== "Linux"
     ```bash
     source /opt/ros/jazzy/setup.bash
     ```
-    Hoặc
+=== "macOS"
     ```bash
     . ~/ros2_install/ros2-osx/setup.bash
     ```
@@ -20,7 +20,11 @@ Các lệnh có thể thêm vào các tệp tiền khởi động 0 Ubuntu là t
 
 ### Kiểm tra các biến môi trường
 
-=== "Linux + macOS"
+=== "Linux"
+    ```bash
+    printenv | grep -i ROS
+    ```
+=== "macOS"
     ```bash
     printenv | grep -i ROS
     ```
@@ -35,7 +39,11 @@ Các lệnh có thể thêm vào các tệp tiền khởi động 0 Ubuntu là t
 
 Sau khi xác định được số nguyên duy nhất cho nhóm nút ROS 2 của mình, bạn có thể đặt biến môi trường bằng lệnh sau:
 
-=== "Linux + macOS"
+=== "Linux"
+    ```text
+    export ROS_DOMAIN_ID=<your_domain_id>
+    ```
+=== "macOS"
     ```text
     export ROS_DOMAIN_ID=<your_domain_id>
     ```

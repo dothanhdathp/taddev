@@ -303,7 +303,11 @@ nav:
     - Jazzy Jalisco:
       - Install (Ubuntu): ROS/ros-jazzy-jalisco-install.md
       - Cấu Hình Môi Trường: ROS/ros-jazzy-jalisco-configuring-ros2-environment.md
-      - Getting Start: ROS/ros-jazzy-jalisco-getting-start.md
+      - Mở Đầu: ROS/ros-jazzy-jalisco-getting-start.md
+      - Ví Dụ:
+        - Ví Dụ Publisher/Subscriber: ROS/ros-jazzy-jalisco-example-pub-sub.md
+      - Phân Tích:
+        - Phân Tích Publisher/Subscriber: ROS/ros-jazzy-jalisco-analysis-pub-sub.md
     - Nav2:
       - Nav2: ROS/nav2.md
     - Tài Liệu: ROS/ros-document.md
