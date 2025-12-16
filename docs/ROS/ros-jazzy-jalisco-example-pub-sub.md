@@ -491,6 +491,19 @@ source install/local_setup.sh
 ...
 ```
 
+## Tổng Kết
+
+1. Tạo __Package__
+1. Tạo __Node__ cho _talker_ + _listener_
+1. Khai báo cấu hình phụ thuộc trong `package.xml`
+    1. Tiện thể khai báo thêm thông tin người phát triển.
+1. Cấu hình dựng trong:
+    1. __C++__: _CMakelist.txt_
+    1. __Python__: _setup.py_
+1. Build + Run
+    1. _Nhớ phải chạy môi trường ROS trước khi build_
+    1. Sau đó nhớ phải chạy tệp `install/local_setup.sh`
+
 ## Tham Khảo
 
 - [[C++] Ví dụ mẫu cho publisher](https://github.com/ros2/examples/tree/jazzy/rclcpp/topics/minimal_publisher)

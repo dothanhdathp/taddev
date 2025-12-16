@@ -11,6 +11,11 @@ Tất cả tài liệu tiếng anh được tổng hợp ở đây [https://docs
 - [__Humble Hawksbill Documents Released *(Phiên bản này đang lỗi)*__](https://wiki.ros.org/humble/) 
 - [__Rolling Ridley Documents Released__](https://docs.ros.org/en/rolling/)
 
+## API
+
+- __Foxy__: [C++ ROS Client Library API](https://docs.ros2.org/foxy/api/rclcpp/index.html)
+- __Jazzy__: [C++ ROS Client Library API](https://docs.ros.org/en/jazzy/p/rclcpp/index.html#)
+
 ## Sách
 
 - [Foundations Of Robotics](https://mega.nz/file/7NMS1ZgK#SxbYt5mD6zVwR1DxTs9Xn23dlPfBDCJ-dJNaD57TudA)

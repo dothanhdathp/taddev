@@ -1,7 +1,17 @@
 # \[ROS\]<br>Getting Start
 
 !!! danger "Chú Ý"
-    Từ giờ mọi ví dụ sẽ đều dành riêng cho hệ điều hành __Ubuntu__ các hệ điều hành khác vui lòng tự tham khảo trên trang chủ.
+    <mark class=red>Từ giờ mọi ví dụ sẽ đều dành riêng cho hệ điều hành __Ubuntu__ các hệ điều hành khác vui lòng tự tham khảo trên trang chủ.</mark>
+
+!!! quote "Tóm Tắt"
+    - Lệnh sau tạo một __Package__ mới + __Node__ mới.
+        ```bash
+        ros2 pkg create --build-type ament_cmake --license Apache-2.0 --node-name <node_name> <package_name>
+        ```
+    - Lệnh sau tạo một __Package__.
+        ```bash
+        ros2 pkg create --build-type ament_cmake --license Apache-2.0 <package_name>
+        ```
 
 ## Tạo Môi Trường
 
@@ -80,18 +90,17 @@ Sau khi hoàn thành trong thư mục `src` sẽ có một thư mục như thế
 
     int main(int argc, char ** argv)
     {
-    (void) argc;
-    (void) argv;
+        (void) argc;
+        (void) argv;
 
-    printf("hello world c_helloworld_package package\n");
-    return 0;
+        printf("hello world c_helloworld_package package\n");
+        return 0;
     }
     ```
 === "Python"
     ```python title="py_helloworld_node.py"
     def main():
-    print('Hi from py_helloworld_package.')
-
+        print('Hi from py_helloworld_package.')
 
     if __name__ == '__main__':
         main()

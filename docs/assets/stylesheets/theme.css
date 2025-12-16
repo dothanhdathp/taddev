@@ -77,7 +77,8 @@
 .md-main__inner.md-grid.full-width {
   max-width: initial;
 }
-a:not(.md-nav__link):not(.md-tabs__link):not(.md-nav__link--active):not(.md-header__button) {
+/* a not in any class */
+a:not([class]) {
   font-style: italic;
 }
 .md-footer, .md-tabs {
