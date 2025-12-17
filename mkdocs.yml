@@ -64,6 +64,7 @@ nav:
       - File: OS/Linux/linux-file.md
       - Storage: OS/Linux/linux-storage.md
       - Package: OS/Linux/linux-package.md
+      - Symlink: OS/Linux/linux-symlinks.md
     - Audio:
       - Alsa:
         - Alsa: OS/Linux/linux-alsa.md
@@ -205,6 +206,9 @@ nav:
       - Extensions: DevTools/VSCode/software-vscode-extensions.md
       - Custom: DevTools/VSCode/software-vscode-my-custom.md
       - Trick: DevTools/VSCode/software-vscode-trick.md
+      - Example:
+        - Example Keybindings: DevTools/VSCode/example/company-keybindings-json.md
+        - Example Markdown Snippets: DevTools/VSCode/example/company-snippets-for-markdown.md
     - Android Studio:
       - Android Studio: DevTools/AndroidStudio/software-android-studio.md
       - Install: DevTools/AndroidStudio/software-android-studio-install.md

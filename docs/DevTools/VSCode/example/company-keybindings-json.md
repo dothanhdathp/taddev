@@ -1,7 +1,5 @@
 # \[VSCode\] Example Company Keybindings
 
-[🔙 [VSCode] Keybindings](../software-vscode-keybindings.md)
-
 ```json
 // Place your key bindings in this file to override the defaults
 [
@@ -106,8 +104,17 @@
         "command": "editor.action.insertSnippet",
         "args": {
             "snippet": "${TM_SELECTED_TEXT/( )/-/g}"
-    	},
+        },
         "key": "ctrl+shift+h",
+        "when": "editorTextFocus && (editorLangId == 'markdown' || editorLangId == 'yaml')"
+    },
+    {
+        "description": "Replace all spaces in selected text with hyphens",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "${TM_SELECTED_TEXT/( )/_/g}"
+        },
+        "key": "ctrl+shift+h ctrl+shift+h",
         "when": "editorTextFocus && (editorLangId == 'markdown' || editorLangId == 'yaml')"
     },
     {
@@ -182,36 +189,12 @@
         "command": "workbench.action.closeOtherEditors"
     },
     {
-        "key": "ctrl+shift+alt+right",
+        "key": "ctrl+shift+pagedown ctrl+shift+pagedown",
         "command": "workbench.action.moveEditorToNextGroup"
     },
     {
-        "key": "ctrl+alt+right",
-        "command": "-workbench.action.moveEditorToNextGroup"
-    },
-    {
-        "key": "ctrl+shift+alt+left",
+        "key": "ctrl+shift+pageup ctrl+shift+pageup",
         "command": "workbench.action.moveEditorToPreviousGroup"
-    },
-    {
-        "key": "ctrl+alt+left",
-        "command": "-workbench.action.moveEditorToPreviousGroup"
-    },
-    {
-        "key": "ctrl+shift+pageup",
-        "command": "workbench.action.moveEditorLeftInGroup"
-    },
-    {
-        "key": "ctrl+shift+pageup",
-        "command": "-workbench.action.moveEditorLeftInGroup"
-    },
-    {
-        "key": "ctrl+shift+pagedown",
-        "command": "workbench.action.moveEditorRightInGroup"
-    },
-    {
-        "key": "ctrl+shift+pagedown",
-        "command": "-workbench.action.moveEditorRightInGroup"
     },
     {
         "key": "ctrl+alt+d",
@@ -233,5 +216,31 @@
         "command": "-extension.translate",
         "when": "editorTextFocus && editorLangId == 'markdown'"
     },
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "-workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
+    }
 ]
 ```
