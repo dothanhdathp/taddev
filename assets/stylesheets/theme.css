@@ -1,28 +1,21 @@
 @font-face {
-  font-family: "NotoSerifMedium";
-  src: url("../fonts/NotoSerif-Medium.ttf") format("truetype");
+  font-family: "PrimaryFont";
+  /* src: url("../fonts/NotoSerif-Medium.ttf") format("truetype"); */
+  src: url("../fonts/Barlow-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "RobotoMonoMedium";
-  src: url("../fonts/RobotoMono-Medium.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "JetBrains Mono";
+  font-family: "CodeFont";
   src: url("../fonts/JetBrainsMono-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "CodeFontBold";
+  src: url("/assets/fonts/JetBrainsMono-ExtraBold.ttf") format("truetype");
+}
+
 :root {
-    --primary-family: "NotoSerifMedium";
-    --primary-header-0-size: 28px;
-    --primary-header-1-size: 24px;
-    --primary-header-2-size: 22px;
-    --primary-header-3-size: 20px;
-    --primary-header-4-size: 18px;
-    --primary-header-5-size: 16px;
-    --primary-font-size: 15px; /* Light theme background */
-    --primary-padding-common: 10px;
+    --primary-family: "PrimaryFont";
     --primary-linker-color: #5488e8;
     --primary-theme-color: #6767CE; /* Light theme text */
     --primary-theme-color-transparent: #6767CE; /* Light theme text */
@@ -30,12 +23,13 @@
     --tertiary-theme-color: #ffae0090; /* Light theme text */
     --quaternary-theme-color: #8b1a8f90; /* Light theme text */
     --soft-gray-theme-color: #E2E2E2; /* Accent color */
-    --code-font-family: "JetBrains Mono";
+    --code-font-family: "CodeFontBold";
+    --code-background-color: #d9a25461;
     --md-bg-light-color: #d3d3e9;
     --md-bg-dark-color: #020226;
     /* --code-font-family: 'Noto Sans Mono Light'; */
-    --md-text-font: "NotoSerifMedium";
-    --md-code-font: "JetBrains Mono";
+    --md-text-font: "PrimaryFont";
+    --md-code-font: "CodeFont";
     /* Fix font light be too bright by opacity */
     --tertiary-theme-color: #ffae00F0;
 }
@@ -72,50 +66,82 @@
 /* .md-grid {
   max-width: initial;
 } */
+.md-nav {
+  font-size: 0.6rem;
+  line-height: 1.5;
+}
+.md-typeset {
+  font-size: 0.6rem
+}
 
 .md-main__inner.md-grid.full-width {
   max-width: initial;
 }
+/* a not in any class */
+a:not([class]) {
+  font-style: italic;
+}
+.md-footer, .md-tabs {
+  background-color: #434a74;
+}
+.md-footer-meta {
+  background-color: #383d5b;
+}
 
-.md-tabs {
-  background-color: #434a74;
-}
-.md-footer {
-  background-color: #434a74;
-}
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
   font-weight: bold;
-  text-decoration: underline;
 }
-
+/* a.md-nav__link::before {
+  content: "🗋 ";
+} */
+.md-nav__item .md-nav__link--active::after {
+  content: "🗁 ";
+  /* ➜≫◈ⁱ◫ ⊸⊶↠↳∠∟↵*/
+}
+label.md-nav__link::before {
+  content: "🖿 ";
+}
 .md-typeset a {
   color: var(--custom-linker-color);
 }
 .md-typeset h1 {
+  font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
   color: var(--custom-color-theme-h1--theme);
 }
 .md-typeset h2 {
+  font-size: 1rem;
   color: #808080;
   font-weight: bold;
   color: var(--custom-color-theme-h2--theme);
 }
+.md-typeset h2::before { content: "🖈 "; }
 .md-typeset h3 {
+    font-size: 0.9rem;
     font-weight: bold;
     color: var(--custom-color-theme-h3--theme);
 }
 .md-typeset h4 {
+    font-size: 0.8rem;
     font-weight: bold;
     color: var(--custom-color-theme-h4--theme);
 }
 .md-typeset h5 {
+    font-size: 0.7rem;
     color: var(--custom-color-theme-h5--theme);
 }
 .md-typeset h6 {
+    font-size: 0.6rem;
     font-style: italic;
+    text-transform: uppercase;
     color: var(--custom-color-theme-h6--theme);
 }
+
+/* .md-typeset h3::before { content: "† "; }
+.md-typeset h4::before { content: "† "; }
+.md-typeset h5::before { content: "† "; }
+.md-typeset h6::before { content: "† "; } */
 
 mark.green {
     color: #020226;
@@ -141,13 +167,12 @@ mark.blue {
 }
 
 /* Change table size */
-
-th {
+.md-typeset table:not([class]) th {
   background-color: #5188ff5b;
-  font-size: unset;
+  padding: 0.5em 1em 0.5em 1em;
 }
-
-td {
+.md-typeset table:not([class]) td {
+  padding: 0em 1em 0em 1em;
   font-size: small;
 }
 
@@ -159,6 +184,13 @@ div.grid-container-4-3 {
     padding: 0px;
     height: fit-content;
     box-sizing: border-box;
+}
+
+/* code */
+:not(pre):not(.hljs) > code {
+    color: var(--code-color);
+    background-color: var(--code-background-color);
+    font-family: var(--code-font-family);
 }
 
 /* center table */
