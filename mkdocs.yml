@@ -47,6 +47,12 @@ nav:
       - OS: OS/os.md
       - Endianness: OS/os-endianness.md
       - File System: OS/os-file-system.md
+      - POSIX & Win32: OS/os-posix-and-win32.md
+      - POSIX:
+        - POSIX Signal: OS/os-posix-signal.md
+        - SIGKILL: OS/os-posix-signal-sigkill.md
+      - Win32:
+        - Windows Exception: OS/os-win32-windows-exception.md
       - Audio:
         - PCM: OS/os-audio-pcm.md
         - Audio Sample Formats: OS/os-audio-sample-formats.md
