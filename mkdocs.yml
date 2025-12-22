@@ -51,6 +51,7 @@ nav:
       - POSIX:
         - POSIX Signal: OS/os-posix-signal.md
         - SIGKILL: OS/os-posix-signal-sigkill.md
+        - POSIX Shell: OS/os-posix-shell.md
       - Win32:
         - Windows Exception: OS/os-win32-windows-exception.md
       - Audio:
@@ -61,6 +62,10 @@ nav:
   - Linux:
     - Overview & Install: OS/Linux/linux-family-overview-and-install.md
     - Install Ubuntu: OS/Linux/linux-install-ubuntu.md
+    - Shell:
+      - Shell: OS/Linux/linux-shell.md
+      - Bash:
+        - Bash Intro: OS/Linux/linux-shell-bash.md
     - System:
       - System Info: OS/Linux/linux-system-info.md
       - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md

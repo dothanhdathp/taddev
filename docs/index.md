@@ -30,6 +30,3 @@ Nội dung của cục này xoay quanh nhiều các vấn đề về lập trìn
         - [_android-core-architecture-lite_](https://github.com/AndyHa23/android-core-architecture-lite)
     - [_wifi-p2p-streaming_](https://github.com/AndyHa23/wifi-p2p-streaming): Về các dự án truyền dẫn Camera
     - [_paymentwall-android-sdk_](https://github.com/AndyHa23/paymentwall-android-sdk): Hệ thống thanh toán online
-
-
-    `Test Something`

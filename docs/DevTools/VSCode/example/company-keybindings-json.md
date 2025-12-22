@@ -100,24 +100,6 @@
         "when": "editorTextFocus && editorLangId == 'markdown'"
     },
     {
-        "description": "Replace all spaces in selected text with hyphens",
-        "command": "editor.action.insertSnippet",
-        "args": {
-            "snippet": "${TM_SELECTED_TEXT/( )/-/g}"
-        },
-        "key": "ctrl+shift+h",
-        "when": "editorTextFocus && (editorLangId == 'markdown' || editorLangId == 'yaml')"
-    },
-    {
-        "description": "Replace all spaces in selected text with hyphens",
-        "command": "editor.action.insertSnippet",
-        "args": {
-            "snippet": "${TM_SELECTED_TEXT/( )/_/g}"
-        },
-        "key": "ctrl+shift+h ctrl+shift+h",
-        "when": "editorTextFocus && (editorLangId == 'markdown' || editorLangId == 'yaml')"
-    },
-    {
         "command": "editor.action.insertSnippet",
         "args": {
             "snippet": "~~${TM_SELECTED_TEXT}~~"
@@ -171,6 +153,14 @@
         "when": "editorLangId == 'markdown'"
     },
     {
+        "description": "Replace all spaces in selected text with hyphens",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "${TM_SELECTED_TEXT/( )/-/g}"
+        },
+        "key": "ctrl+alt+shift+h"
+    },
+    {
         "key": "ctrl+m s",
         "command": "-extension.updateMarkdownSections",
         "when": "editorTextFocus && editorLangId == 'markdown'"
@@ -189,11 +179,11 @@
         "command": "workbench.action.closeOtherEditors"
     },
     {
-        "key": "ctrl+shift+pagedown ctrl+shift+pagedown",
+        "key": "ctrl+shift+alt+pagedown",
         "command": "workbench.action.moveEditorToNextGroup"
     },
     {
-        "key": "ctrl+shift+pageup ctrl+shift+pageup",
+        "key": "ctrl+shift+alt+pageup",
         "command": "workbench.action.moveEditorToPreviousGroup"
     },
     {
@@ -239,8 +229,20 @@
         "command": "-workbench.action.closeWindow"
     },
     {
-        "key": "ctrl+q",
-        "command": "-workbench.action.quit"
+        "key": "ctrl+shift+pageup",
+        "command": "workbench.action.moveEditorLeftInGroup"
+    },
+    {
+        "key": "ctrl+shift+pagedown",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "workbench.action.navigateBack",
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "workbench.action.navigateForward",
     }
 ]
 ```
