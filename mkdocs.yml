@@ -34,6 +34,7 @@ plugins:
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
   - graph
+  - markmap
 
 nav:
   ##################################################################################################################################
@@ -137,30 +138,28 @@ nav:
   ##################################################################################################################################
   - Android:
     - Android: OS/Android/android.md
-    - Tools:
-      - ADB: OS/Android/android-adb.md
-    - Application:
-      - Activity: OS/Android/android-dev-app-activity.md
-      - ListView:
-        - ListView: OS/Android/android-dev-app-listview.md
-        - ListView Custom: OS/Android/android-dev-app-listview-custom.md
-      - Menu Option: OS/Android/android-dev-menu-option.md
-    - JNI:
-      - Create JNI: OS/Android/android-dev-application-jni.md
-      - JNI Type: OS/Android/android-dev-jni-type.md
-    - Android API:
-      - Android API: OS/Android/android-api.md
+    - Common:
+      - Example:
+        - First App: OS/Android/android-dev-first-application.md
     - Core:
       - Android Core: OS/Android/android-core.md
       - Architecture: OS/Android/android-core-architecture.md
       - HAL:
         - HAL: OS/Android/android-core-architecture-hal.md
-    - Kernel:
-      - SELinux: OS/Android/android-core-architecture-hal.md
+      - Kernel:
+        - SELinux: OS/Android/android-core-architecture-hal.md
+    - Dev:
+      - Activity: OS/Android/android-dev-app-activity.md
+      - ListView:
+        - ListView: OS/Android/android-dev-app-listview.md
+      - Menu Option: OS/Android/android-dev-menu-option.md
+    - JNI:
+      - Create JNI: OS/Android/android-dev-application-jni.md
+      - JNI Type: OS/Android/android-dev-jni-type.md
+    - Debug:
+      - ADB: OS/Android/android-adb.md
     - External:
       - Tinyalsa: OS/Android/android-core-external-tinyalsa.md
-    - Example:
-      - First App: OS/Android/android-dev-first-application.md
   ##################################################################################################################################
   - Tools:
     - Tools: Tools/tools.md
@@ -174,12 +173,12 @@ nav:
       - Mermaid: Tools/MKDocs/mkdocs-mermaid.md
       - PlantUml: Tools/MKDocs/mkdocs-plantuml.md
       - Extensions: Tools/MKDocs/mkdocs-markdown-extensions.md
-      - Markdocs Github Publish: Tools/MKDocs/mkdocs-github-publish.md
-      - Markdocs Lv2: Tools/MKDocs/mkdocs_lv2.md
-      - Markdocs Clone Tad: Tools/MKDocs/mkdocs-clone-tad-style.md
-      - Markdocs Issue: Tools/MKDocs/mkdocs-issue.md
-      - Markdocs Projects: Tools/MKDocs/mkdocs-projects.md
-      - MKDocs TadApp: Tools/MKDocs/mkdocs-for-tadapp.md
+      - Github Publish: Tools/MKDocs/mkdocs-github-publish.md
+      - Lv2: Tools/MKDocs/mkdocs_lv2.md
+      - Clone Tad: Tools/MKDocs/mkdocs-clone-tad-style.md
+      - Issue: Tools/MKDocs/mkdocs-issue.md
+      - Projects: Tools/MKDocs/mkdocs-projects.md
+      - TadApp: Tools/MKDocs/mkdocs-for-tadapp.md
     - MSYS2:
       - Overview: Tools/msys2/msys2.md
       - Install: Tools/msys2/msys2-install.md

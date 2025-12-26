@@ -32,6 +32,7 @@ source linux-venv/bin/activate
 echo "Install requeriment"
 pip install click==8.0.4
 pip install mkdocs
+pip install mkdocs-markmap
 pip install pymdown-extensions
 pip install mkdocs-material
 pip install mkdocs_puml
