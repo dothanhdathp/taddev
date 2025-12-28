@@ -61,7 +61,7 @@ nav:
     - AI: Concept/ai.md
   ##################################################################################################################################
   - Linux:
-    - Overview & Install: OS/Linux/linux-family-overview-and-install.md
+    - Linux: OS/Linux/linux-family-overview-and-install.md
     - Install Ubuntu: OS/Linux/linux-install-ubuntu.md
     - Shell:
       - Shell: OS/Linux/linux-shell.md
@@ -263,11 +263,10 @@ nav:
         - Concepts: Libs/GStreamer/gstreamer-gstreamer-concepts.md
         - Elements:
           - Source:
-              - Video: Libs/GStreamer/gstreamer-element-video-source.md
-              - Audio: Libs/GStreamer/gstreamer-tools-stream-video.md
-              - Playbin: Libs/GStreamer/gstreamer-tools-stream-video.md
-          - Elements:
-              - Test: Libs/GStreamer/gstreamer-tools-stream-video.md
+            - Video: Libs/GStreamer/gstreamer-element-video-source.md
+            - Audio: Libs/GStreamer/gstreamer-tools-stream-video.md
+            - Playbin: Libs/GStreamer/gstreamer-tools-stream-video.md
+          - Test: Libs/GStreamer/gstreamer-tools-stream-video.md
       - GStreamer Note: Libs/GStreamer/gstreamer-notebook.md
       - Basic Tutorials:
         - Tutorial: Libs/GStreamer/gstreamer-b-tutorial.md

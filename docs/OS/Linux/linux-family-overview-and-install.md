@@ -13,8 +13,7 @@ markmap:
     pan: false
     duration: 0
 ---
-- Linux
-    - [Overview & Install](/OS/Linux/linux-family-overview-and-install/)
+- [Linux](/OS/Linux/linux-family-overview-and-install/)
     - [Install Ubuntu](/OS/Linux/linux-install-ubuntu/)
     - Shell
         - [Shell](/OS/Linux/linux-shell/)
