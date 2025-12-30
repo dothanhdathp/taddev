@@ -31,6 +31,8 @@ theme:
 
 plugins:
   - search
+  - mermaid2:
+      javascript: https://unpkg.com/mermaid@11.12.2/dist/mermaid.esm.min.mjs
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
   - graph

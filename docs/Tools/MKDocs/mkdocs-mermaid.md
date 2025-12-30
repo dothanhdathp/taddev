@@ -6,32 +6,42 @@
 pip install mkdocs-mermaid2-plugin
 ```
 
-## Cập nhật plugin
+## Khai báo plugins
 
-Dùng:
+_Nên dùng javascript, có thể kiểm tra trực tiếp tệp **js** có tồn tại hay không_
 
-```yml
-plugins:
-  - search
-  - mermaid2
-```
+=== "javascript"
+  ```yml
+  plugins:
+    - mermaid2:
+      javascript: https://unpkg.com/mermaid@11.12.2/dist/mermaid.esm.min.mjs
+  ```
+=== "version"
+  ```yml
+  plugins:
+    - mermaid2:
+        version: 11.12.2
+  ```
 
-Hoặc:
+## Superfences
 
-```yml
-plugins:
-  - search
-  - mermaid2:
-      version: 10.0.2
-```
+Chế độ này sẽ tự động căn chỉnh màu sắc của map tương đồng với theme của mkdocs. À thì cũng được nhưng có nhiều vấn đề phát sinh như méo hình, lỗi xuống dòng, ... nên thôi dẹp đi.
 
-## Khai báo extensions
-
-```yml
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid_custom
-```
+=== "Cách 1"
+  ```yml
+  markdown_extensions:
+    - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:mermaid2.fence_mermaid_custom
+  ```
+=== "Cách 2"
+  ```yml
+  markdown_extensions:
+    - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+  ```
