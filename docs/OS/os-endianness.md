@@ -28,7 +28,7 @@ Cũng theo mô tả đó thì `byte 0` được tính là __*byte ít quan trọ
 ```text
 [xxxx xxxx] [xxxx xxxx] [xxxx xxxx] [xxxx xxxx]
  ¦                                           ¦
- MSb                                         LSb  
+ MSb                                         LSb
 ```
 
 ## Big-Endian, Little-Endian

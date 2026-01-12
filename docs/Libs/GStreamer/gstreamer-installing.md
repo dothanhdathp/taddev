@@ -47,5 +47,3 @@ Theo dõi [hướng dẫn cho Android](gstreamer-android-tutorial-1.md) để bi
 Các phiên bản khác có thể xem ở [_đường dẫn_](https://gstreamer.freedesktop.org/data/pkg/android/). Vào thư mục và tải về tệp `gstreamer-1.0-android-universal-1.xx.x.tar.xz` tương ứng.
 
 Hai tệp còn lại mình không rõ, có lẽ để `checksum`, sẽ nghiên cứu sau.
-
-## iOS
