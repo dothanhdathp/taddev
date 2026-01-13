@@ -4,30 +4,28 @@
 
 ## Roadmap
 
-```markmap
----
-markmap:
-    zoom: false
-    pan: false
-    duration: 0
----
-- ROS
-    - [ROS2](/ROS/ros/)
-    - [Phân Phối](/ROS/ros-distributions/)
-    - Concepts:
-        - [Basic Concepts](/ROS/ros-basic-concepts/)
-        - [ROS_DOMAIN_ID](/ROS/ros-concepts-ros-domain-id/)
-    - Jazzy Jalisco
-        - [Install (Ubuntu)](/ROS/ros-jazzy-jalisco-install/)
-        - [Cấu Hình Môi Trường](/ROS/ros-jazzy-jalisco-configuring-ros2-environment/)
-        - [Getting Start](/ROS/ros-jazzy-jalisco-getting-start/)
-        - Ví Dụ
-            - [Ví Dụ Publisher/Subscriber](/ROS/ros-jazzy-jalisco-example-pub-sub/)
-        - Phân Tích:
-            - [Phân Tích Publisher/Subscriber](/ROS/ros-jazzy-jalisco-analysis-pub-sub/)
-    - Nav2:
-        - [Nav2](/ROS/nav2/)
-    - [Tài Liệu](/ROS/ros-document/)
+```puml
+@startmindmap
+skinparam backgroundcolor transparent
+!$URL = "http://localhost:65001/ROS"
+
+* [[$URL/ros/ ROS2]]
+** [[$URL/ros-distributions/ Phân Phối]]
+** Concepts
+***_ [[$URL/ros-basic-concepts/ Basic Concepts]]
+***_ [[$URL/ros-concepts-ros-domain-id/ ROS_DOMAIN_ID]]
+** Jazzy Jalisco
+***_ [[$URL/ros-jazzy-jalisco-install/ Install (Ubuntu)]]
+***_ [[$URL/ros-jazzy-jalisco-configuring-ros2-environment/ Cấu Hình Môi Trường]]
+***_ [[$URL/ros-jazzy-jalisco-getting-start/ Getting Start]]
+*** Ví Dụ
+****_ [[$URL/ros-jazzy-jalisco-example-pub-sub/ Ví Dụ Publisher/Subscriber]]
+*** Phân Tích
+****_ [[$URL/ros-jazzy-jalisco-analysis-pub-sub/ Phân Tích Publisher/Subscriber]]
+** [[$URL/nav2/ Nav2]]
+** [[$URL/ros-document/ Tài Liệu]]
+
+@endmindmap
 ```
 
 ## Getting Started

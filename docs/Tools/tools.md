@@ -1,48 +1,50 @@
 # Tools
 
-```markmap
----
-markmap:
-    zoom: false
-    pan: false
-    duration: 0
----
-- [Tools](/Tools/tools/)
-    - [MKDocs](/Tools/MKDocs/mkdocs/)
-        - [Theme](/Tools/MKDocs/mkdocs-theme/)
-        - [CSS](/Tools/MKDocs/mkdocs-css/)
-        - [Script](/Tools/MKDocs/mkdocs-script/)
-        - [Plugins](/Tools/MKDocs/mkdocs-plugins/)
-        - [Katex](/Tools/MKDocs/mkdocs-katex/)
-        - [Mermaid](/Tools/MKDocs/mkdocs-mermaid/)
-        - [PlantUml](/Tools/MKDocs/mkdocs-plantuml/)
-        - [Extensions](/Tools/MKDocs/mkdocs-markdown-extensions/)
-        - [Github Publish](/Tools/MKDocs/mkdocs-github-publish/)
-        - [Lv2](/Tools/MKDocs/mkdocs_lv2/)
-        - [Clone Tad](/Tools/MKDocs/mkdocs-clone-tad-style/)
-        - [Issue](/Tools/MKDocs/mkdocs-issue/)
-        - [Projects](/Tools/MKDocs/mkdocs-projects/)
-        - [TadApp](/Tools/MKDocs/mkdocs-for-tadapp/)
-    - MSYS2
-        - [Overview](/Tools/msys2/msys2/)
-        - [Install](/Tools/msys2/msys2-install/)
-        - [Pacman](/Tools/msys2/msys2-pacman/)
-        - [Package](/Tools/msys2/msys2-package/)
-    - [FFmpeg](/Tools/FFmpeg/ffmpeg/)
-        - [Download](/Tools/FFmpeg/ffmpeg-download/)
-        - [Convert](/Tools/FFmpeg/ffmpeg-convert/)
-    - [NodeJS](/Tools/NodeJS/nodejs/)
-        - [Getting Start](/Tools/NodeJS/nodejs-getting-start/)
-    - [Electron](/Tools/Electron/electron/)
-        - [Create App](/Tools/Electron/electron-create-app/)
-        - [Load Link](/Tools/Electron/electron-load-link/)
-        - [Troubleshoots](/Tools/Electron/electron-troubleshoots/)
-    - [yt-dlp](/Tools/yt-dlp/yt-dlp/)
-    - Another
-        - [3Utool](/Tools/Other/3utools/)
-        - [Putty](/Tools/Other/putty/)
-        - [Scrcpy](/Tools/Other/scrcpy/)
-        - [AnyDesk](/Tools/AnyDesk/anydesk/)
-    - Thảo luận
-      - [IDE & Code Editor](/Tools/paper-ide-code-editor/)
+```puml
+@startmindmap
+skinparam backgroundcolor transparent
+!$URL = "http://localhost:65001/Tools"
+
+* [[$URL/tools/ Tools]]
+** [[$URL/MKDocs/mkdocs/ MKDocs]]
+***_ [[$URL/MKDocs/mkdocs-theme/ Theme]]
+***_ [[$URL/MKDocs/mkdocs-css/ CSS]]
+***_ [[$URL/MKDocs/mkdocs-script/ Script]]
+***_ [[$URL/MKDocs/mkdocs-plugins/ Plugins]]
+***_ [[$URL/MKDocs/mkdocs-katex/ Katex]]
+***_ [[$URL/MKDocs/mkdocs-mermaid/ Mermaid]]
+***_ [[$URL/MKDocs/mkdocs-plantuml/ PlantUml]]
+***_ [[$URL/MKDocs/mkdocs-markdown-extensions/ Extensions]]
+***_ [[$URL/MKDocs/mkdocs-github-publish/ Github Publish]]
+***_ [[$URL/MKDocs/mkdocs_lv2/ Lv2]]
+***_ [[$URL/MKDocs/mkdocs-clone-tad-style/ Clone Tad]]
+***_ [[$URL/MKDocs/mkdocs-issue/ Issue]]
+***_ [[$URL/MKDocs/mkdocs-projects/ Projects]]
+***_ [[$URL/MKDocs/mkdocs-for-tadapp/ TadApp]]
+** MSYS2
+***_ [[$URL/msys2/msys2/ Overview]]
+***_ [[$URL/msys2/msys2-install/ Install]]
+***_ [[$URL/msys2/msys2-pacman/ Pacman]]
+***_ [[$URL/msys2/msys2-package/ Package]]
+** [[$URL/FFmpeg/ffmpeg/ FFmpeg]]
+***_ [[$URL/FFmpeg/ffmpeg-download/ Download]]
+***_ [[$URL/FFmpeg/ffmpeg-convert/ Convert]]
+** [[$URL/NodeJS/nodejs/ NodeJS]]
+***_ [[$URL/NodeJS/nodejs-getting-start/ Getting Start]]
+** [[$URL/Electron/electron/ Electron]]
+***_ [[$URL/Electron/electron-create-app/ Create App]]
+***_ [[$URL/Electron/electron-load-link/ Load Link]]
+***_ [[$URL/Electron/electron-troubleshoots/ Troubleshoots]]
+**_ [[$URL/yt-dlp/yt-dlp/ yt-dlp]]
+***_ youtube-dlc
+
+left side
+** Another
+***_ [[$URL/Other/3utools/ 3Utool]]
+***_ [[$URL/Other/putty/ Putty]]
+***_ [[$URL/Other/scrcpy/ Scrcpy]]
+***_ [[$URL/AnyDesk/anydesk/ AnyDesk]]
+** Thảo luận
+*** [[$URL/paper-ide-code-editor/ IDE & Code Editor]]
+@endmindmap
 ```

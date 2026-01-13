@@ -1,5 +1,7 @@
 # \[Zorin\] Menu Application
 
+## Local Application
+
 Giả sử mình có một ứng dụng tự dựng _(tự định nghĩa)_ và muốn cho nó vào trong __Menu__ để mở nhanh thì cần phải _khai báo một tệp desktop_.
 
 Đầu tiên là các tệp được phân bổ trong đây: `/usr/share/applications`
@@ -39,3 +41,17 @@ Categories=Utility;
 - `Comment`: Mô tả về ứng dụng
 - `Exec`: Nơi thực thi
 - `Icon`: _icon_
+
+## Wine Application
+
+Đôi khi có một số ứng dụng được cài đặc qua wine để lại một tệp ứng dụng trên màn hình trong khi tệp thực thi đã bị xóa hoặc loại bỏ. Cấu hình ảnh của nó ở trong:
+
+```text
+~/.local/share/applications/
+```
+
+Mà cụ thể là:
+
+```text
+~/.local/share/applications/wine/Programs/
+```

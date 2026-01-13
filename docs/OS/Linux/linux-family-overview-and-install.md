@@ -6,55 +6,53 @@ Có khá nhiều hệ điều hành họ nhà __Linux__ vì __Linux__ là cha đ
 
 ## Map
 
-```markmap
----
-markmap:
-    zoom: false
-    pan: false
-    duration: 0
----
-- [Linux](/OS/Linux/linux-family-overview-and-install/)
-    - [Install Ubuntu](/OS/Linux/linux-install-ubuntu/)
-    - Shell
-        - [Shell](/OS/Linux/linux-shell/)
-        - [Bash](/OS/Linux/linux-shell-bash/)
-    - System
-        - [System Info](/OS/Linux/linux-system-info/)
-        - [Folder Hierarch](/OS/Linux/linux-system-folder-hierarch/)
-        - [System File](/OS/Linux/linux-system-file/)
-        - [System Folder](/OS/Linux/linux-system-folder/)
-        - [Daemon](/OS/Linux/linux-system-daemon/)
-        - [File](/OS/Linux/linux-file/)
-        - [Storage](/OS/Linux/linux-storage/)
-        - [Package](/OS/Linux/linux-package/)
-        - [Symlink](/OS/Linux/linux-symlinks/)
-    - Audio
-        - [Alsa](/OS/Linux/linux-alsa/)
-            - [aplay](/OS/Linux/linux-alsa-aplay/)
-            - [amixer](/OS/Linux/linux-alsa-amixer/)
-    - Kernel:
-        - [dmesg](/OS/Linux/linux-dmesg/)
-    - [ETH](/OS/Linux/linux-eth/)
-        - [Wifi](/OS/Linux/linux-wifi/)
-        - [NetCat](/OS/Linux/linux-tools-netcat/)
-    - Tools
-        - [compress](/OS/Linux/linux-tools-compress-uncompress/)
-        - [grep](/OS/Linux/linux-tools-grep/)
-        - [iBamboo](/OS/Linux/linux-tools-ibamboo/)
-        - [minicom](/OS/Linux/linux-tools-minicom/)
-        - [sambashare](/OS/Linux/linux-tools-sambashare/)
-        - [sed](/OS/Linux/linux-tools-sed/)
-        - [tmux](/OS/Linux/linux-tools-tmux/)
-        - [tree](/OS/Linux/linux-tools-tree/)
-    - Password
-        - [Spec. Ubuntu 16 LST](/OS/Linux/linux-ubuntu-16-lts-pass/)
-    - Trick
-        - [HTTP Server](/OS/Linux/linux-http-server/)
-        - [Startup Script](/OS/Linux/linux-startup-script/)
-    - Zorin
-        - [Install Zorin](/OS/Linux/zorin-install/)
-        - [Menu App](/OS/Linux/zorin-menu-app/)
-        - [(zorin) gvfs](/OS/Linux/zorin-gvfs/)
+```puml
+@startmindmap
+skinparam backgroundcolor transparent
+!$URL = "http://localhost:65001/OS/Linux"
+
+* [[$URL/linux-family-overview-and-install/ Linux]]
+** [[$URL/linux-install-ubuntu/ Install Ubuntu]]()
+** [[$URL/linux-shell/ Shell]]()
+*** [[$URL/linux-shell-bash/ Bash]]
+** System
+*** [[$URL/linux-system-info/ System Info]]
+*** [[$URL/linux-system-folder-hierarch/ Folder Hierarch]]
+*** [[$URL/linux-system-file/ System File]]
+*** [[$URL/linux-system-folder/ System Folder]]
+*** [[$URL/linux-system-daemon/ Daemon]]
+*** [[$URL/linux-file/ File]]
+*** [[$URL/linux-storage/ Storage]]
+*** [[$URL/linux-package/ Package]]
+*** [[$URL/linux-symlinks/ Symlink]]
+** Audio
+*** [[$URL/linux-alsa/ Alsa]]
+**** [[$URL/linux-alsa-aplay/ aplay]]
+**** [[$URL/linux-alsa-amixer/ amixer]]
+** Kernel
+*** [[$URL/linux-dmesg/ dmesg]]
+** [[$URL/linux-eth/ ETH]]
+*** [[$URL/linux-wifi/ Wifi]]
+*** [[$URL/linux-tools-netcat/ NetCat]]
+** Tools
+*** [[$URL/linux-tools-compress-uncompress/ compress]]
+*** [[$URL/linux-tools-grep/ grep]]
+*** [[$URL/linux-tools-ibamboo/ iBamboo]]
+*** [[$URL/linux-tools-minicom/ minicom]]
+*** [[$URL/linux-tools-sambashare/ sambashare]]
+*** [[$URL/linux-tools-sed/ sed]]
+*** [[$URL/linux-tools-tmux/ tmux]]
+*** [[$URL/linux-tools-tree/ tree]]
+** Password
+*** [[$URL/linux-ubuntu-16-lts-pass/ Spec. for Ubuntu 16 LST]]
+** Trick
+*** [[$URL/linux-http-server/ HTTP Server]]
+*** [[$URL/linux-startup-script/ Startup Script]]
+** Zorin
+*** [[$URL/zorin-install/ Install Zorin]]()
+*** [[$URL/zorin-menu-app/ Menu App]]
+*** [[$URL/zorin-gvfs/ (zorin) gvfs]]
+@endmindmap
 ```
 
 ## Install

@@ -36,7 +36,6 @@ plugins:
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
   - graph
-  - markmap
 
 nav:
   ##################################################################################################################################
@@ -69,6 +68,7 @@ nav:
       - Shell: OS/Linux/linux-shell.md
       - Bash:
         - Bash Intro: OS/Linux/linux-shell-bash.md
+        - Script: OS/Linux/linux-shell-bash-script.md
     - System:
       - System Info: OS/Linux/linux-system-info.md
       - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md
