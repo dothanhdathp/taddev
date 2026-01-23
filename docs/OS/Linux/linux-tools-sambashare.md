@@ -29,9 +29,14 @@ samba: /usr/sbin/samba /usr/lib/samba /etc/samba /usr/share/samba /usr/share/man
 
 1. Để chỉnh sửa sambashare, chỉnh sửa tệp cấu hình sau:
 
-```bash
-sudo nano /etc/samba/smb.conf
-```
+=== "Sửa"
+    ```bash
+    sudo nano /etc/samba/smb.conf
+    ```
+=== "Đọc"
+    ```bash
+    sudo nano /etc/samba/smb.conf
+    ```
 
 2. Thêm đoạn sau vào code
 

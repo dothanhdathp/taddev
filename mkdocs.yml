@@ -89,6 +89,7 @@ nav:
     - ETH:
       - eth: OS/Linux/linux-eth.md
       - Wifi: OS/Linux/linux-wifi.md
+      - OpenSSH: OS/Linux/linux-tools-openssh.md
       - NetCat: OS/Linux/linux-tools-netcat.md
     - Tools:
       - compress: OS/Linux/linux-tools-compress-uncompress.md

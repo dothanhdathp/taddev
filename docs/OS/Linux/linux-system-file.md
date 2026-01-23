@@ -11,6 +11,7 @@ alias killmkdocs='ps -aux | grep mkdocs | awk "{print \$2}" | xargs sudo kill -9
 alias cls=clear
 alias cfgalias='sudo nano ~/.bash_aliases && . ~/.bash_aliases'
 alias cmd='gnome-terminal &'
+alias start="xdg-open"
 
 function fug()
 {
