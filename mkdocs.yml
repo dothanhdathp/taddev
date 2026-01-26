@@ -161,6 +161,7 @@ nav:
       - JNI Type: OS/Android/android-dev-jni-type.md
     - Debug:
       - ADB: OS/Android/android-adb.md
+      - ADB ETH: OS/Android/android-adb-eth.md
     - External:
       - Tinyalsa: OS/Android/android-core-external-tinyalsa.md
   ##################################################################################################################################
