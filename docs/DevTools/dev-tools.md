@@ -2,41 +2,39 @@
 
 ## Map
 
-```markmap
----
-markmap:
-    zoom: false
-    pan: false
-    duration: 0
----
-- Dev Tools
-    - [Dev Tools](/DevTools/dev-tools/)
-    - [VSCode](/DevTools/VSCode/software-vscode/)
-      - [Install](/DevTools/VSCode/software-vscode-install/)
-      - [Settings](/DevTools/VSCode/software-vscode-settings/)
-      - [Keybindings](/DevTools/VSCode/software-vscode-keybindings/)
-      - [Snippets](/DevTools/VSCode/software-vscode-snippets/)
-      - [Extensions](/DevTools/VSCode/software-vscode-extensions/)
-      - [Custom](/DevTools/VSCode/software-vscode-my-custom/)
-      - [Trick](/DevTools/VSCode/software-vscode-trick/)
-      - Example
-        - [Example Keybindings](/DevTools/VSCode/example/company-keybindings-json/)
-        - [Example Markdown Snippets](/DevTools/VSCode/example/company-snippets-for-markdown/)
-    - [Android Studio](/DevTools/AndroidStudio/software-android-studio/)
-      - [Install](/DevTools/AndroidStudio/software-android-studio-install/)
-      - [Gradle](/DevTools/AndroidStudio/software-android-gradle/)
-      - [SDK](/DevTools/AndroidStudio/software-android-studio-sdk/)
-      - [Theme](/DevTools/AndroidStudio/software-android-studio-theme/)
-      - [Troubleshoot](/DevTools/AndroidStudio/software-android-studio-troubleshoot/)
-    - [Qt](/DevTools/Qt/qt/)
-      - [QtCreator](/DevTools/Qt/qt-software-qt-creator/)
-    - [Make](/DevTools/Make/make/)
-      - [Install](/DevTools/Make/make-install/)
-      - [Getting Start](/DevTools/Make/make-getting-start/)
-      - [Template](/DevTools/Make/make-template/)
-    - [Yocto](/DevTools/Yocto/yocto/)
-      - [Bitbake](/DevTools/Yocto/yocto-bitbake/)
-    - [Repo](/DevTools/Repo/repo/)
-      - [Repo for Win](/DevTools/Repo/repo-windows/)
-      - [Inside .repo](/DevTools/Repo/repo-repo-inside/)
+```puml
+@startmindmap
+skinparam backgroundcolor transparent
+!$URL = "http://localhost:65001/DevTools"
+
+* [[$URL/dev-tools/ Dev Tools]]
+** [[$URL/VSCode/software-vscode/ VSCode]]
+***_ [[$URL/VSCode/software-vscode-install/ Install]]
+***_ [[$URL/VSCode/software-vscode-settings/ Settings]]
+***_ [[$URL/VSCode/software-vscode-keybindings/ Keybindings]]
+***_ [[$URL/VSCode/software-vscode-snippets/ Snippets]]
+***_ [[$URL/VSCode/software-vscode-extensions/ Extensions]]
+***_ [[$URL/VSCode/software-vscode-my-custom/ Custom]]
+***_ [[$URL/VSCode/software-vscode-trick/ Trick]]
+*** Example
+****_ [[$URL/VSCode/example/company-keybindings-json/ Example Keybindings]]
+****_ [[$URL/VSCode/example/company-snippets-for-markdown/ Example Markdown Snippets]]
+** [[$URL/software-android-studio/ Android Studio]]
+*** [[$URL/software-android-studio-install/ Install]]
+*** [[$URL/software-android-gradle/ Gradle]]
+*** [[$URL/software-android-studio-sdk/ SDK]]
+*** [[$URL/software-android-studio-theme/ Theme]]
+*** [[$URL/software-android-studio-troubleshoot/ Troubleshoot]]
+** [[$URL/Qt/qt/ Qt]]
+*** [[$URL/Qt/qt-software-qt-creator/ QtCreator]]
+** [[$URL/Make/make/ Make]]
+*** [[$URL/Make/make-install/ Install]]
+*** [[$URL/Make/make-getting-start/ Getting Start]]
+*** [[$URL/Make/make-template/ Template]]
+** [[$URL/Yocto/yocto/ Yocto]]
+*** [[$URL/Yocto/yocto-bitbake/ Bitbake]]
+** [[$URL/Repo/repo/ Repo]]
+*** [[$URL/Repo/repo-windows/ Repo for Win]]
+*** [[$URL/Repo/repo-repo-inside/ Inside .repo]]
+@endmindmap
 ```

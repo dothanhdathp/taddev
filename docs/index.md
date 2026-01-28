@@ -1,5 +1,52 @@
 # Preface
 
+## Cấu Trúc
+
+
+```puml
+@startmindmap
+skinparam backgroundcolor transparent
+!$URL = "http://localhost:65001/"
+
+* Dev
+** [[$URL/OS/os/ OS]]
+*** Linux
+***_ [[$URL/OS/Windows/windows/ Windows]]
+***_ [[$URL/OS/Android/android/ Android]]
+**** Zorin
+** [[$URL/Tools/tools/ Tools]]
+***_ [[$URL/Tools/MKDocs/mkdocs/ MKDocs]]
+***_ [[$URL/Tools/msys2/msys2/ Msys2]]
+***_ [[$URL/Tools/FFmpeg/ffmpeg/ FFmpeg]]
+***_ [[$URL/Tools/NodeJS/nodejs/ NodeJS]]
+***_ [[$URL/Tools/Electron/electron/ Electron]]
+***_ [[$URL/Tools/yt-dlp/yt-dlp/ yt-dlp]]
+***_ [[$URL/Tools/Other/3utools/ 3Utool]]
+***_ [[$URL/Tools/Other/putty/ Putty]]
+***_ [[$URL/Tools/Other/scrcpy/ Scrcpy]]
+***_ [[$URL/Tools/AnyDesk/anydesk/ AnyDesk]]
+** [[$URL/DevTools/dev-tools/ Dev Tools]]
+***_ [[$URL/DevTools/VSCode/software-vscode/ VSCode]]
+***_ [[$URL/DevTools/software-android-studio/ Android Studio]]
+***_ [[$URL/DevTools/Qt/qt/ Qt]]
+***_ [[$URL/DevTools/Make/make/ Make]]
+***_ [[$URL/DevTools/Yocto/yocto/ Yocto]]
+***_ [[$URL/DevTools/Repo/repo/ Repo]]
+** [[$URL/Libs/libs/ Libs]]
+*** [[$URL/Libs/libs/ Libs]]
+****_ [[$URL/Libs/FTXUI/ftxui/ FTXUI]]
+****_ [[$URL/Libs/NanoHTTPD/lib-nanohttpd/ NanoHTTPD]]
+****_ [[$URL/Libs/GStreamer/gstreamer/ GStreamer]]
+** [[$URL/ROS/ros/ ROS2]]
+** [[$URL/Git/git/ About Git]]
+** Device
+***_ [[$URL/Device/rasberry-pi/ Rasberry Pi]]
+** Project
+***_ Tad App
+***_ Pokedex
+@endmindmap
+```
+
 ## About this Document
 
 Đây là trang web tổng hợp lại các tài liệu, kiến thức lặt vặt về lập trình (và riêng về máy tính với lập trình) của mình. Có khá nhiều khía cạnh khác nhau ngoài khía cạnh chính được đề cập trong tài liệu này. Chủ yếu tài liệu này chính là để hỗ trợ mình làm việc trong cả công việc và cuộc sống.
