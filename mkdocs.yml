@@ -165,6 +165,10 @@ nav:
       - ADB Bugreport: OS/Android/android-adb-bugreport.md
     - External:
       - Tinyalsa: OS/Android/android-core-external-tinyalsa.md
+    - Misc:
+      # Phần này tôi để trong những cái mình không biết nó nên thuộc module nào thì đưa vào đây.
+      - Enable App Optimization: OS/Android/android-enable-app-optimization.md
+      
   ##################################################################################################################################
   - Tools:
     - Tools: Tools/tools.md

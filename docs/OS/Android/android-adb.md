@@ -1,4 +1,4 @@
-# ADB
+# \[Android\] ADB
 > Android Debug Bridge
 
 ## Overview
@@ -40,19 +40,6 @@ Trên các thiết bị Android, để mở ADB có thể dùng cách sau:
 - Kéo xuống dưới Enable:
     - `USB Debugging`: Cho phép debug qua __USB__
     - `Wireless Debugging` _(Chỉ từ Andoroid 11)_: Cho phép debug qua __Wifi__
-
-### Bật ADB Wireless
-
-Trong một số trường hợp, ADB Wireless sẽ không có sẵn lựa chọn trong __Developer Settings__ mà cần mở thông qua `ADB USB`, đây là lệnh:
-
-```bash
-adb tcpip 5555
-adb kill-service
-adb start-service
-```
-
-- `adb tcpip 5555`
-- `adb kill-service` rồi `adb start-service` để _reset service_
 
 ## Cơ chế điều khiển chung
 

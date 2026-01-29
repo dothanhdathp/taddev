@@ -17,6 +17,14 @@ Dùng chữ cái để thay đổi cấp độ in log
 - `F`: _Fatal_
 - `S`: _Silent_ (mức độ ưu tiên cao nhất, khi đó không có nội dung nào được in lên màn hình)
 
+Để cân đối mức độ log sẽ dùng lệnh sau
+
+```text
+logcat *:{level}
+```
+
+Thay _{level}_ bằng các chữ cái bên trên.
+
 ## Select Class Log
 
 `logcat` cũng cho phép tương tác để lựa chọn một số loại log sẽ được hiển thị bằng cờ `-b`, ví dụ
