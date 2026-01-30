@@ -9,7 +9,7 @@ Có khá nhiều hệ điều hành họ nhà __Linux__ vì __Linux__ là cha đ
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65001/OS/Linux"
+!$URL = "http://localhost:65000/OS/Linux"
 
 * [[$URL/linux-family-overview-and-install/ Linux]]
 ** [[$URL/linux-install-ubuntu/ Install Ubuntu]]()

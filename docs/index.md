@@ -6,7 +6,7 @@
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65001/"
+!$URL = "http://localhost:65000/"
 
 * Dev
 ** [[$URL/OS/os/ OS]]
