@@ -99,6 +99,7 @@ nav:
       - sed: OS/Linux/linux-tools-sed.md
       - tmux: OS/Linux/linux-tools-tmux.md
       - tree: OS/Linux/linux-tools-tree.md
+      - docker: OS/Linux/linux-tools-docker.md
     - Password:
       - Spec. Ubuntu 16 LST: OS/Linux/linux-ubuntu-16-lts-pass.md
     - Trick:
