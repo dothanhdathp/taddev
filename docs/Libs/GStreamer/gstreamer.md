@@ -16,4 +16,14 @@
 - 
 - 
 - 
-- 
+
+## Ghi chú hôm nay
+
+Có vẻ __*streaming*__ thông qua TCP có hiệu quả cao hơn hẳn so với udp. Đặc điểm là _ít lag_ và _không vỡ hình_.
+
+```bash title="Server"
+gst-launch-1.0 videotestsrc ! videoconvert ! x264enc tune=zerolatency ! "video/x-h264,stream-format=byte-stream" ! tcpserversink host=0.0.0.0 port=8000
+```
+```bash title="Clients"
+gst-launch-1.0 tcpclientsrc host=192.168.100.184 port=8000 ! h264parse ! avdec_h264 ! autovideosink
+```

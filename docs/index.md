@@ -1,7 +1,14 @@
 # Preface
 
-## Cấu Trúc
+## Mô Tả
 
+Các tài liệu về
+
+- Hệ điều hành, công cụ và các thuật ngữ chung.
+- Công nghệ và mô tả
+- Các công cụ và cách sử dụng công cụ, cấu hình công cụ phục vụ mục đích học tập.
+
+## Cấu Trúc
 
 ```puml
 @startmindmap
@@ -11,9 +18,9 @@ skinparam backgroundcolor transparent
 * Dev
 ** [[$URL/OS/os/ OS]]
 *** Linux
-***_ [[$URL/OS/Windows/windows/ Windows]]
+****_ Zorin
 ***_ [[$URL/OS/Android/android/ Android]]
-**** Zorin
+*** [[$URL/OS/Windows/windows/ Windows]]
 ** [[$URL/Tools/tools/ Tools]]
 ***_ [[$URL/Tools/MKDocs/mkdocs/ MKDocs]]
 ***_ [[$URL/Tools/msys2/msys2/ Msys2]]

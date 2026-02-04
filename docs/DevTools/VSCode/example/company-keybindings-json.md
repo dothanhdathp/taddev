@@ -1,5 +1,8 @@
 # \[VSCode\] Example Company Keybindings
 
+
+
+
 ```json
 // Place your key bindings in this file to override the defaults
 [
@@ -97,14 +100,6 @@
             "snippet": "__*${TM_SELECTED_TEXT}*__"
         },
         "key": "ctrl+shift+q", // whatever you like
-        "when": "editorTextFocus && editorLangId == 'markdown'"
-    },
-    {
-        "command": "editor.action.insertSnippet",
-        "args": {
-            "snippet": "~~${TM_SELECTED_TEXT}~~"
-        },
-        "key": "ctrl+shift+r", // whatever you like
         "when": "editorTextFocus && editorLangId == 'markdown'"
     },
     {
@@ -243,6 +238,15 @@
     {
         "key": "shift+alt+right",
         "command": "workbench.action.navigateForward",
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.tasks.build",
+        "when": "editorLangId == 'markdown' || editorLangId == yaml"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
     }
 ]
 ```

@@ -31,10 +31,10 @@ theme:
 
 plugins:
   - search
-  - mermaid2:
-      javascript: https://unpkg.com/mermaid@11.12.2/dist/mermaid.esm.min.mjs
   - plantuml:
-      puml_url: https://www.plantuml.com/plantuml/
+      # puml_url: https://www.plantuml.com/plantuml/
+      puml_url: http://localhost:8080/
+  - graph
 
 nav:
   ##################################################################################################################################
@@ -363,6 +363,7 @@ nav:
     - Tad App: 
       - Windows: Project/Tad/project-tad-app-windows.md
       - Linux: Project/Tad/project-tad-app-linux.md
+      - Tad Doc Script Build: Project/Tad/project-tad-app-build-doc.md
     - Pokedex: 
       - README: Project/Pokedex/project-pokedex.md
 

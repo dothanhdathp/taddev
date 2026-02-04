@@ -48,7 +48,24 @@ Như mọi loại công cụ cơ bản khác đều cần có cờ `-h` hoặc `
 |      | `--dump-hw-params`    | dump hw_params of the device                                                                                  |
 |      | `--fatal-errors`      | treat all errors as fatal                                                                                     |
 
-Các định dạng mẫu được công nhận là: `S8` `U8` `S16_LE` `S16_BE` `U16_LE` U16_BE S24_LE S24_BE U24_LE U24_BE S32_LE S32_BE U32_LE U32_BE FLOAT_LE FLOAT_BE FLOAT64_LE FLOAT64_BE IEC958_SUBFRAME_LE IEC958_SUBFRAME_BE MU_LAW A_LAW IMA_ADPCM MPEG GSM S20_LE S20_BE U20_LE U20_BE SPECIAL S24_3LE S24_3BE U24_3LE U24_3BE S20_3LE S20_3BE U20_3LE U20_3BE S18_3LE S18_3BE U18_3LE U18_3BE G723_24 G723_24_1B G723_40 G723_40_1B DSD_U8 DSD_U16_LE DSD_U32_LE DSD_U16_BE DSD_U32_BE
+Các định dạng mẫu được công nhận là:
+
+|         |          1           |          2           |      3       |      4       |      5       |
+| :-----: | :------------------: | :------------------: | :----------: | :----------: | :----------: |
+| 8-bits  |         `S8`         |         `U8`         |   `S16_LE`   |   `S16_BE`   |              |
+| 16-bits |       `U16_LE`       |       `U16_BE`       |              |              |              |
+| 24-bits |       `S24_LE`       |       `S24_BE`       |   `U24_LE`   |   `U24_BE`   |              |
+| 32-bits |       `S32_LE`       |       `S32_BE`       |   `U32_LE`   |   `U32_BE`   |              |
+|    ?    |      `FLOAT_LE`      |      `FLOAT_BE`      | `FLOAT64_LE` | `FLOAT64_BE` |              |
+|    ?    | `IEC958_SUBFRAME_LE` | `IEC958_SUBFRAME_BE` |              |              |              |
+|    ?    |       `MU_LAW`       |       `A_LAW`        | `IMA_ADPCM`  |              |              |
+|    ?    |        `MPEG`        |        `GSM`         |              |              |              |
+|    ?    |       `S20_LE`       |       `S20_BE`       |   `U20_LE`   |   `U20_BE`   |              |
+|    ?    |      `SPECIAL`       |      `S24_3LE`       |  `S24_3BE`   |  `U24_3LE`   |  `U24_3BE`   |
+|    ?    |      `S20_3LE`       |      `S20_3BE`       |  `U20_3LE`   |  `U20_3BE`   |              |
+|    ?    |      `S18_3LE`       |      `S18_3BE`       |  `U18_3LE`   |  `U18_3BE`   |              |
+|    ?    |      `G723_24`       |     `G723_24_1B`     |  `G723_40`   | `G723_40_1B` |              |
+|    ?    |       `DSD_U8`       |     `DSD_U16_LE`     | `DSD_U32_LE` | `DSD_U16_BE` | `DSD_U32_BE` |
 
 __*Một số trong số này có thể không có sẵn trên phần cứng được chọn*__
 

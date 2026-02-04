@@ -12,46 +12,46 @@ skinparam backgroundcolor transparent
 !$URL = "http://localhost:65000/OS/Linux"
 
 * [[$URL/linux-family-overview-and-install/ Linux]]
-** [[$URL/linux-install-ubuntu/ Install Ubuntu]]()
-** [[$URL/linux-shell/ Shell]]()
-*** [[$URL/linux-shell-bash/ Bash]]
+**_ [[$URL/linux-install-ubuntu/ Install Ubuntu]]()
+**_ [[$URL/linux-shell/ Shell]]()
+***_ [[$URL/linux-shell-bash/ Bash]]
 ** System
-*** [[$URL/linux-system-info/ System Info]]
-*** [[$URL/linux-system-folder-hierarch/ Folder Hierarch]]
-*** [[$URL/linux-system-file/ System File]]
-*** [[$URL/linux-system-folder/ System Folder]]
-*** [[$URL/linux-system-daemon/ Daemon]]
-*** [[$URL/linux-file/ File]]
-*** [[$URL/linux-storage/ Storage]]
-*** [[$URL/linux-package/ Package]]
-*** [[$URL/linux-symlinks/ Symlink]]
+***_ [[$URL/linux-system-info/ System Info]]
+***_ [[$URL/linux-system-folder-hierarch/ Folder Hierarch]]
+***_ [[$URL/linux-system-file/ System File]]
+***_ [[$URL/linux-system-folder/ System Folder]]
+***_ [[$URL/linux-system-daemon/ Daemon]]
+***_ [[$URL/linux-file/ File]]
+***_ [[$URL/linux-storage/ Storage]]
+***_ [[$URL/linux-package/ Package]]
+***_ [[$URL/linux-symlinks/ Symlink]]
 ** Audio
-*** [[$URL/linux-alsa/ Alsa]]
-**** [[$URL/linux-alsa-aplay/ aplay]]
-**** [[$URL/linux-alsa-amixer/ amixer]]
+***_ [[$URL/linux-alsa/ Alsa]]
+****_ [[$URL/linux-alsa-aplay/ aplay]]
+****_ [[$URL/linux-alsa-amixer/ amixer]]
 ** Kernel
-*** [[$URL/linux-dmesg/ dmesg]]
-** [[$URL/linux-eth/ ETH]]
-*** [[$URL/linux-wifi/ Wifi]]
-*** [[$URL/linux-tools-netcat/ NetCat]]
+***_ [[$URL/linux-dmesg/ dmesg]]
+**_ [[$URL/linux-eth/ ETH]]
+***_ [[$URL/linux-wifi/ Wifi]]
+***_ [[$URL/linux-tools-netcat/ NetCat]]
 ** Tools
-*** [[$URL/linux-tools-compress-uncompress/ compress]]
-*** [[$URL/linux-tools-grep/ grep]]
-*** [[$URL/linux-tools-ibamboo/ iBamboo]]
-*** [[$URL/linux-tools-minicom/ minicom]]
-*** [[$URL/linux-tools-sambashare/ sambashare]]
-*** [[$URL/linux-tools-sed/ sed]]
-*** [[$URL/linux-tools-tmux/ tmux]]
-*** [[$URL/linux-tools-tree/ tree]]
+***_ [[$URL/linux-tools-compress-uncompress/ compress]]
+***_ [[$URL/linux-tools-grep/ grep]]
+***_ [[$URL/linux-tools-ibamboo/ iBamboo]]
+***_ [[$URL/linux-tools-minicom/ minicom]]
+***_ [[$URL/linux-tools-sambashare/ sambashare]]
+***_ [[$URL/linux-tools-sed/ sed]]
+***_ [[$URL/linux-tools-tmux/ tmux]]
+***_ [[$URL/linux-tools-tree/ tree]]
 ** Password
-*** [[$URL/linux-ubuntu-16-lts-pass/ Spec. for Ubuntu 16 LST]]
+***_ [[$URL/linux-ubuntu-16-lts-pass/ Spec. for Ubuntu 16 LST]]
 ** Trick
-*** [[$URL/linux-http-server/ HTTP Server]]
-*** [[$URL/linux-startup-script/ Startup Script]]
+***_ [[$URL/linux-http-server/ HTTP Server]]
+***_ [[$URL/linux-startup-script/ Startup Script]]
 ** Zorin
-*** [[$URL/zorin-install/ Install Zorin]]()
-*** [[$URL/zorin-menu-app/ Menu App]]
-*** [[$URL/zorin-gvfs/ (zorin) gvfs]]
+***_ [[$URL/zorin-install/ Install Zorin]]()
+***_ [[$URL/zorin-menu-app/ Menu App]]
+***_ [[$URL/zorin-gvfs/ (zorin) gvfs]]
 @endmindmap
 ```
 
