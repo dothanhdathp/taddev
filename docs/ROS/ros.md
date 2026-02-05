@@ -7,7 +7,7 @@
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65000/ROS"
+!$URL = "/ROS"
 
 * [[$URL/ros/ ROS2]]
 ** [[$URL/ros-distributions/ Phân Phối]]

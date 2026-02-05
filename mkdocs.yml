@@ -44,100 +44,103 @@ nav:
       - Chữ Ký Số: Concept/digital-signature.md
     - Telecom.:
       - Điều Chế / Giải Điều Chế: Concept/telecom-signal-modulation.md
-    - OS:
-      - OS: OS/os.md
+      - Audio:
+        - PCM: OS/os-audio-pcm.md
+        - Audio Sample Formats: OS/os-audio-sample-formats.md
+    - AI: Concept/ai.md
+  - OS:
+    - OS: OS/os.md
+    - Chung:
+      - Overview: OS/os-overview.md
       - Endianness: OS/os-endianness.md
       - File System: OS/os-file-system.md
-      - POSIX & Win32: OS/os-posix-and-win32.md
+    - Operating System APIs:
+      - POSIX/Win32: OS/os-posix-and-win32.md
       - POSIX:
         - POSIX Signal: OS/os-posix-signal.md
         - SIGKILL: OS/os-posix-signal-sigkill.md
         - POSIX Shell: OS/os-posix-shell.md
       - Win32:
         - Windows Exception: OS/os-win32-windows-exception.md
-      - Audio:
-        - PCM: OS/os-audio-pcm.md
-        - Audio Sample Formats: OS/os-audio-sample-formats.md
-    - AI: Concept/ai.md
-  ##################################################################################################################################
-  - Linux:
-    - Linux: OS/Linux/linux-family-overview-and-install.md
-    - Install Ubuntu: OS/Linux/linux-install-ubuntu.md
-    - Shell:
-      - Shell: OS/Linux/linux-shell.md
-      - Bash:
-        - Bash Intro: OS/Linux/linux-shell-bash.md
-        - Script: OS/Linux/linux-shell-bash-script.md
-    - System:
-      - System Info: OS/Linux/linux-system-info.md
-      - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md
-      - System File: OS/Linux/linux-system-file.md
-      - System Folder: OS/Linux/linux-system-folder.md
-      - Daemon: OS/Linux/linux-system-daemon.md
-      - File: OS/Linux/linux-file.md
-      - Storage: OS/Linux/linux-storage.md
-      - Package: OS/Linux/linux-package.md
-      - Symlink: OS/Linux/linux-symlinks.md
-    - Audio:
-      - Alsa:
-        - Alsa: OS/Linux/linux-alsa.md
-        - aplay: OS/Linux/linux-alsa-aplay.md
-        - amixer: OS/Linux/linux-alsa-amixer.md
-    - Kernel:
-      - dmesg: OS/Linux/linux-dmesg.md
-    - ETH:
-      - eth: OS/Linux/linux-eth.md
-      - Wifi: OS/Linux/linux-wifi.md
-      - OpenSSH: OS/Linux/linux-tools-openssh.md
-      - NetCat: OS/Linux/linux-tools-netcat.md
-    - Tools:
-      - compress: OS/Linux/linux-tools-compress-uncompress.md
-      - grep: OS/Linux/linux-tools-grep.md
-      - iBamboo: OS/Linux/linux-tools-ibamboo.md
-      - minicom: OS/Linux/linux-tools-minicom.md
-      - sambashare: OS/Linux/linux-tools-sambashare.md
-      - sed: OS/Linux/linux-tools-sed.md
-      - tmux: OS/Linux/linux-tools-tmux.md
-      - tree: OS/Linux/linux-tools-tree.md
-      - docker: OS/Linux/linux-tools-docker.md
-    - Password:
-      - Spec. Ubuntu 16 LST: OS/Linux/linux-ubuntu-16-lts-pass.md
-    - Trick:
-      - HTTP Server: OS/Linux/linux-http-server.md
-      - Startup Script: OS/Linux/linux-startup-script.md
-    - Zorin:
-      - Install Zorin: OS/Linux/zorin-install.md
-      - Menu App: OS/Linux/zorin-menu-app.md
-      - (zorin) gvfs: OS/Linux/zorin-gvfs.md
-  ##################################################################################################################################
-  - Windows:
-    - Windows: OS/Windows/windows.md
-    - Một số lệnh thường dùng: OS/Windows/os-windows-cmd-Concept-command.md
-    - System:
-      - Services (WS): OS/Windows/os-windows-services.md
-      - Macro PATH: OS/Windows/os-windows-Concept-path.md
-      - Environment Variables: OS/Windows/os-windows-environment-variables.md
-      - Startup Process: OS/Windows/os-windows-startup-process.md
-      - Service Tag, Manufacture: OS/Windows/os-windows-service-tag-and-manufacture.md
-      - Start Menu: OS/Windows/os-windows-service-start-menu.md
-    - Network: OS/Windows/os-windows-network.md
-    - Shell:
-      - cmd:
-        - cmd: OS/Windows/os-windows-cmd.md
-        - Command: OS/Windows/os-windows-cmd-command.md
-        - Write Script: OS/Windows/os-windows-cmd-write-scripts.md
-      - Power Shell:
-        - Power Shell: OS/Windows/os-windows-ps-getting-start.md
-      - Custom:
-        - Usercmd: OS/Windows/os-windows-custom-usercmd.md
-    - Regedit:
-      - Regedit: OS/Windows/os-windows-regedit.md
-      - Open with: OS/Windows/os-windows-custom-open-with.md
-    - Recovery:
-      - Password: OS/Windows/os-windows-recovery-password.md
-    - Activate:
-      - MAS: OS/Windows/os-windows-crack-by-mas.md
-      - Key: OS/Windows/os-windows-buyed-key.md
+    - (OS) POSIX:
+      - Linux:
+        - Linux: OS/Linux/linux-family-overview-and-install.md
+        - Install Ubuntu: OS/Linux/linux-install-ubuntu.md
+        - Shell:
+          - Shell: OS/Linux/linux-shell.md
+          - Bash:
+            - Bash Intro: OS/Linux/linux-shell-bash.md
+            - Script: OS/Linux/linux-shell-bash-script.md
+        - System:
+          - System Info: OS/Linux/linux-system-info.md
+          - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md
+          - System File: OS/Linux/linux-system-file.md
+          - System Folder: OS/Linux/linux-system-folder.md
+          - Daemon: OS/Linux/linux-system-daemon.md
+          - File: OS/Linux/linux-file.md
+          - Storage: OS/Linux/linux-storage.md
+          - Package: OS/Linux/linux-package.md
+          - Symlink: OS/Linux/linux-symlinks.md
+        - Audio:
+          - Alsa:
+            - Alsa: OS/Linux/linux-alsa.md
+            - aplay: OS/Linux/linux-alsa-aplay.md
+            - amixer: OS/Linux/linux-alsa-amixer.md
+        - Kernel:
+          - dmesg: OS/Linux/linux-dmesg.md
+        - ETH:
+          - eth: OS/Linux/linux-eth.md
+          - Wifi: OS/Linux/linux-wifi.md
+          - OpenSSH: OS/Linux/linux-tools-openssh.md
+          - NetCat: OS/Linux/linux-tools-netcat.md
+        - Tools:
+          - compress: OS/Linux/linux-tools-compress-uncompress.md
+          - grep: OS/Linux/linux-tools-grep.md
+          - iBamboo: OS/Linux/linux-tools-ibamboo.md
+          - minicom: OS/Linux/linux-tools-minicom.md
+          - sambashare: OS/Linux/linux-tools-sambashare.md
+          - sed: OS/Linux/linux-tools-sed.md
+          - tmux: OS/Linux/linux-tools-tmux.md
+          - tree: OS/Linux/linux-tools-tree.md
+          - docker: OS/Linux/linux-tools-docker.md
+        - Password:
+          - Spec. Ubuntu 16 LST: OS/Linux/linux-ubuntu-16-lts-pass.md
+        - Trick:
+          - HTTP Server: OS/Linux/linux-http-server.md
+          - Startup Script: OS/Linux/linux-startup-script.md
+      - Zorin:
+        - Install Zorin: OS/Linux/zorin-install.md
+        - Menu App: OS/Linux/zorin-menu-app.md
+        - (zorin) gvfs: OS/Linux/zorin-gvfs.md
+    - (OS) Win32:
+      - Windows:
+        - Windows: OS/Windows/windows.md
+        - Một số lệnh thường dùng: OS/Windows/os-windows-cmd-Concept-command.md
+        - System:
+          - Services (WS): OS/Windows/os-windows-services.md
+          - Macro PATH: OS/Windows/os-windows-Concept-path.md
+          - Environment Variables: OS/Windows/os-windows-environment-variables.md
+          - Startup Process: OS/Windows/os-windows-startup-process.md
+          - Service Tag, Manufacture: OS/Windows/os-windows-service-tag-and-manufacture.md
+          - Start Menu: OS/Windows/os-windows-service-start-menu.md
+        - Network: OS/Windows/os-windows-network.md
+        - Shell:
+          - cmd:
+            - cmd: OS/Windows/os-windows-cmd.md
+            - Command: OS/Windows/os-windows-cmd-command.md
+            - Write Script: OS/Windows/os-windows-cmd-write-scripts.md
+          - Power Shell:
+            - Power Shell: OS/Windows/os-windows-ps-getting-start.md
+          - Custom:
+            - Usercmd: OS/Windows/os-windows-custom-usercmd.md
+        - Regedit:
+          - Regedit: OS/Windows/os-windows-regedit.md
+          - Open with: OS/Windows/os-windows-custom-open-with.md
+        - Recovery:
+          - Password: OS/Windows/os-windows-recovery-password.md
+        - Activate:
+          - MAS: OS/Windows/os-windows-crack-by-mas.md
+          - Key: OS/Windows/os-windows-buyed-key.md
   ##################################################################################################################################
   - Android:
     - Android: OS/Android/android.md
@@ -252,6 +255,44 @@ nav:
       - Repo for Win: DevTools/Repo/repo-windows.md
       - Inside .repo: DevTools/Repo/repo-repo-inside.md
   ##################################################################################################################################
+  - MarkUp:
+    - UML: Markup/UML/uml.md
+    - UML Class Diagram: Markup/UML/uml-class-diagram.md
+    - 🇻🇳 Markdown: Markup/Markdown/markdown.md
+    - 🇻🇳 PlantUml:
+      - PlantUml: Markup/PlantUml/plantuml.md
+      - Local Server: Markup/PlantUml/plantuml-local-server.md
+      - UML Diagrams:
+        - Sequence diagram 🏲: Markup/PlantUml/plantuml-sequence-diagram.md
+        - Usecase diagram: Markup/PlantUml/plantuml-usecase-diagram.md
+        - Class diagram 🏲: Markup/PlantUml/plantuml-class-diagram.md
+        - Object diagram: Markup/PlantUml/plantuml-object-diagram.md
+        - Activity diagram 🏲: Markup/PlantUml/plantuml-activity-diagram.md
+        - Component diagram: Markup/PlantUml/plantuml-component-diagram.md
+        - Deployment diagram: Markup/PlantUml/plantuml-deployment-diagram.md
+        - State diagram: Markup/PlantUml/plantuml-state-diagram.md
+        - Timing diagram: Markup/PlantUml/plantuml-timing-diagram.md
+      - Non-UML Diagrams:
+        - JSON data: Markup/PlantUml/plantuml-json-data.md
+        - YAML data: Markup/PlantUml/plantuml-yaml-data.md
+        - EBNF diagram: Markup/PlantUml/plantuml-ebnf-diagram.md
+        - Regex diagram: Markup/PlantUml/plantuml-regex-diagram.md
+        - Network diagram (nwdiag): Markup/PlantUml/plantuml-network-diagram-nwdiag.md
+        - UI mockups (salt): Markup/PlantUml/plantuml-ui-mockups-salt.md
+        - Archimate diagram: Markup/PlantUml/plantuml-archimate-diagram.md
+        - SDL: Markup/PlantUml/plantuml-sdl.md
+        - Ditaa diagram: Markup/PlantUml/plantuml-ditaa-diagram.md
+        - Gantt diagram: Markup/PlantUml/plantuml-gantt-diagram.md
+        - Chronology diagram: Markup/PlantUml/plantuml-chronology-diagram.md
+        - MindMap diagram 🏲: Markup/PlantUml/plantuml-mindmap-diagram.md
+        - WBS diagram 🏲: Markup/PlantUml/plantuml-wbs-diagram.md
+        - Mathematics: Markup/PlantUml/plantuml-mathematics.md
+        - IE diagram: Markup/PlantUml/plantuml-ie-diagram.md
+        - ER diagram: Markup/PlantUml/plantuml-er-diagram.md
+    - 🇻🇳 Mermaid:
+      - Mermaid: Markup/Mermaid/mermaid.md
+    - 🇻🇳 Matlab:
+      - Matlab: Markup/Matlab/matlab.md
   - Elec.:
     - Electronic: Electronic/electric.md
     - LKDT:
@@ -336,8 +377,9 @@ nav:
     - Tài Liệu: ROS/ros-document.md
   ##################################################################################################################################
   - Git:
-    - About Git: Git/git.md
-    - Install: Git/git-install.md
+    - Git: Git/git.md
+    - Overview: Git/git-overview.md
+    - Cài Đặt: Git/git-install.md
     - SSH: Git/git-ssh.md
     - Concept:
       - Git Config: Git/git-config.md
@@ -345,9 +387,9 @@ nav:
       - Git Branch: Git/git-branch.md
       - Git Ignore: Git/git-ignore.md
       - Git Diff: Git/git-diff.md
-    - Git Example: Git/git-example.md
-    - Git Beginer: Git/git-beginer.md
-    - How to:
+    - Hướng Dẫn:
+      - Bắt Đầu: Git/git-beginer.md
+      - Ví Dụ: Git/git-example.md
       - Custom Commands: Git/git-custom-commands.md
     - Github:
       - Github Overview: Git/Github/github-overview.md

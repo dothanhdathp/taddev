@@ -5,7 +5,7 @@
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65000/DevTools"
+!$URL = "/DevTools"
 
 * [[$URL/dev-tools/ Dev Tools]]
 ** [[$URL/VSCode/software-vscode/ VSCode]]

@@ -13,7 +13,7 @@ Các tài liệu về
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65000/"
+!$URL = ""
 
 * Dev
 ** [[$URL/OS/os/ OS]]

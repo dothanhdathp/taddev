@@ -27,10 +27,10 @@ __Windows__ lại không may mắn có được __Make__ nguyên bản _(native)
 
 Một lý do khác chết chóc hơn là các công cụ xây dựng chương trình dành cho __Windows__ đều tệ và khó tiếp cận. Điều này càng ngày càng khiến chương trình cho hệ điều hành Windows bị _tụt hậu_ xa so với hệ điều hành __Linux__. Điều đó thúc đẩy __Windows__ bắt buộc phải tìm cách đưa __Make__ lên trên hệ điều hành này để tối ưu hoá tính năng, thu hút lập trình viên phát triển các chương trình, tính năng cho Windows cũng như sử dụng kho dữ liệu mã nguồn mở khổng lồ trong thời kỳ bùng nổ của lập trình.
 
-Và một trong những công cụ được phổ biến nhất chính là [MSYS2](../msys2/software-msys2-overview.md), một hệ thống cho phép sử dụng môi trường giả lập như Linux trên Windows, biến đường dẫn, liên kết, ... cho phép sử dụng __Make__ trên Windows và cũng như tái sử dụng lại mã lập trình cũ, ___Makefile___, ... lôi kéo lại các lập trình viên
+Và một trong những công cụ được phổ biến nhất chính là [MSYS2](/docs/Tools/msys2/software-msys2-overview.md), một hệ thống cho phép sử dụng môi trường giả lập như Linux trên Windows, biến đường dẫn, liên kết, ... cho phép sử dụng __Make__ trên Windows và cũng như tái sử dụng lại mã lập trình cũ, ___Makefile___, ... lôi kéo lại các lập trình viên
 
 !!! info "Info"
-    Về việc tải và cài đặt `msys2` xem tại [MSYS2](../msys2/software-msys2-overview.md) 
+    Về việc tải và cài đặt `msys2` xem tại [MSYS2](/docs/Tools/msys2/msys2-install.md) 
 
 ### Tải về Make cho MSYS2
 

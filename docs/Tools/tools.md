@@ -3,7 +3,7 @@
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65000/Tools"
+!$URL = "/Tools"
 
 * [[$URL/tools/ Tools]]
 ** [[$URL/MKDocs/mkdocs/ MKDocs]]

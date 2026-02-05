@@ -6,32 +6,35 @@ Về cơ bản __Android__ cũng là __Linux__, nhưng mà theo sự phát tri�
 
 ## RoadMap
 
-```markmap
----
-markmap:
-    zoom: false
-    pan: false
-    duration: 0
----
-- [Android](/OS/Android/android/)
-    - Common
-        - Example
-            - [First App](/OS/Android/android-dev-first-application)
-    - Core:
-        - [Android Core](/OS/Android/android-core)
-        - [Architecture](/OS/Android/android-core-architecture)
-        - [HAL](/OS/Android/android-core-architecture-hal)
-        - Kernel
-            - [SELinux](OS/Android/android-core-architecture-hal)
-    - Dev
-        - [Activity](/OS/Android/android-dev-app-activity/)
-        - [ListView](/OS/Android/android-dev-app-listview/)
-        - [Menu Option](/OS/Android/android-dev-menu-option/)
-    - JNI
-        - [Create JNI](/OS/Android/android-dev-application-jni/)
-        - [JNI Type](/OS/Android/android-dev-jni-type/)
-    - Debug
-        - [ADB](/OS/Android/android-adb/)
+```puml
+@startmindmap
+skinparam backgroundcolor transparent
+!URL = "/OS/Android/"
+
+*  [[$URL/android/ Android]]
+
+** Common
+***_ Về Android
+***_ [[$URL/android-adb/ ADB]]
+
+** Core
+***_ [[$URL/android-core Android Core]]
+***_ [[$URL/android-core-architecture Architecture]]
+****_ [[$URL/android-core-architecture-hal HAL]]
+****_ Kernel
+*** System
+****_ [[$URL/android-core-architecture-hal SELinux]]
+
+** Dev
+***_ Application
+**** Activity
+**** Service
+**** Resource
+**** JNI
+
+** Example
+
+@endmindmap
 ```
 
 ## What is API

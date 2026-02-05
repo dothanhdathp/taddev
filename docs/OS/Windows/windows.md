@@ -1,38 +1,35 @@
 # Windows
 
-Windows là một hệ điều hành phổ biến dành cho hộ gia đình
+```puml
+@startmindmap
+skinparam backgroundcolor transparent
+!$URL="/OS/Windows/"
 
-```markmap
----
-markmap:
-    zoom: false
-    pan: false
-    duration: 0
----
-- [Windows](/OS/Windows/windows)
-    - [Một số lệnh thường dùng](/OS/Windows/os-windows-cmd-Concept-command)
-    - System:
-        - [Services (WS)](/OS/Windows/os-windows-services)
-        - [Macro PATH](/OS/Windows/os-windows-Concept-path)
-        - [Environment Variables](/OS/Windows/os-windows-environment-variables)
-        - [Startup Process](/OS/Windows/os-windows-startup-process)
-        - [Service Tag, Manufacture](/OS/Windows/os-windows-service-tag-and-manufacture)
-        - [Start Menu](/OS/Windows/os-windows-service-start-menu)
-    - [Network](/OS/Windows/os-windows-network)
-    - Shell:
-        - [CMD](/OS/Windows/os-windows-cmd)
-            - [Command](/OS/Windows/os-windows-cmd-command)
-            - [Write Script](/OS/Windows/os-windows-cmd-write-scripts)
-        - Power Shell:
-            - [Power Shell](/OS/Windows/os-windows-ps-getting-start)
-        - Custom:
-            - [Usercmd](/OS/Windows/os-windows-custom-usercmd)
-    - Regedit:
-        - [Regedit](/OS/Windows/os-windows-regedit)
-        - [Open with](/OS/Windows/os-windows-custom-open-with)
-    - Recovery:
-        - [Password](/OS/Windows/os-windows-recovery-password)
-    - Activate:
-        - [MAS](/OS/Windows/os-windows-crack-by-mas)
-        - [Key](/OS/Windows/os-windows-buyed-key)
+* [[$URL/windows Windows]]
+** [[$URL/os-windows-cmd-Concept-command Một số lệnh thường dùng]]
+** System:
+***_ [[$URL/os-windows-services Services (WS)]]
+***_ [[$URL/os-windows-Concept-path Macro PATH]]
+***_ [[$URL/os-windows-environment-variables Environment Variables]]
+***_ [[$URL/os-windows-startup-process Startup Process]]
+***_ [[$URL/os-windows-service-tag-and-manufacture Service Tag, Manufacture]]
+***_ [[$URL/os-windows-service-start-menu Start Menu]]
+** [[$URL/os-windows-network Network]]
+** Shell
+*** [[$URL/os-windows-cmd CMD]]
+****_ [[$URL/os-windows-cmd-command Command]]
+****_ [[$URL/os-windows-cmd-write-scripts Write Script]]
+*** Power Shell
+****_ [[$URL/os-windows-ps-getting-start Power Shell]]
+*** Custom
+****_ [[$URL/os-windows-custom-usercmd Usercmd]]
+** Regedit
+***_ [[$URL/os-windows-regedit Regedit]]
+***_ [[$URL/os-windows-custom-open-with Open with]]
+** Recovery
+***_ [[$URL/os-windows-recovery-password Password]]
+** Activate
+***_ [[$URL/os-windows-crack-by-mas MAS]]
+***_ [[$URL/os-windows-buyed-key Key]]
+@endmindmap
 ```

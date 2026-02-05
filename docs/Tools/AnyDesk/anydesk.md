@@ -2,30 +2,19 @@
 
 ## Tổng quan
 
-### Trang chủ
+[Trang chủ](https://anydesk.com/en)
 
-```bash
-https://anydesk.com/en
-```
+## Tải Về / Cài Đặt
 
-### Tải về và cài đặt
+### Windown
 
-#### Windown
+- Bản tải về trực tiếp tại [https://download.anydesk.com/AnyDesk.exe](https://download.anydesk.com/AnyDesk.exe). Đây là bản phát hành tiêu chuẩn.
+- Bản đã _crack_ [_Anydesk full không lisences (google drive)_](https://drive.google.com/file/d/12DIt9FGeRvLS7prDeDmb9ucBqC5L5k5X/view?usp=sharing). Tải về tại [_nguồn_](https://phanmemvui.com/anydesk-full-crack/).
+- Cách thứ ba hình như là chỉ cần xóa tệp gì đó trong tệp _config_ đi là được _(tự crack)_.
 
-```bash
-wget https://download.anydesk.com/AnyDesk.exe
-```
+### Linux
 
-Tải về trực tiếp `AnyDesk.exe` và chạy thôi.
-
-Nhưng quá trình sử dụng sẽ vướng _lisences_ thế nên hãy dùng bản crack này:
-
-- [_Anydesk full không lisences (google drive)_](https://drive.google.com/file/d/12DIt9FGeRvLS7prDeDmb9ucBqC5L5k5X/view?usp=sharing)
-- Nguồn: [_https://phanmemvui.com/anydesk-full-crack/_](https://phanmemvui.com/anydesk-full-crack/)
-
-#### Linux
-
-Với Linux tải về bản `anydesk_7.0.2-1_amd64.deb` tại:
+Với Linux tải về bản `anydesk_7.0.2-1_amd64.deb` bẳng lệnh:
 
 ```bash
 wget https://download.anydesk.com/linux/anydesk_7.0.2-1_amd64.deb
@@ -37,70 +26,70 @@ Sau đó dùng lệnh sau để cài đặt:
 sudo dpkg -i anydesk_7.0.2-1_amd64.deb
 ```
 
-## Tùy chỉnh
+## Điều khiển
 
-Anydesk yêu cầu quyền __*Adminstrator*__ để được truy cập vào trong
+Các phần mã lệnh là giống nhau, chỉ là nếu mở trên __*Windows*__ vui lòng đưa vào tệp `.exe`
 
-=== "Windows"
-    ```bash
+### Restricted Settings
 
-    ```
-=== "Linux"
+!!! danger "Danger"
+    __Anydesk__ sẽ yêu cầu quyền __*Adminstrator*__ để có các cài đặt cấp cao hơn.
+
+- Trên __*Windows*__ bạn sẽ được yêu cầu _mởi lại ứng dụng với quyền admins_ và mở cho bạn quyền truy cập vào các cài đặt nguy hiểm.
+- Trên __*Ubuntu/Linux*__ dùng lệnh dưới này để gọi.
     ```bash
     sudo anydesk --admin-settings
     ```
 
-## Address
+### Command
 
-```txt
-anydesk --get-id
-```
+- `--admin-settings`: sẽ mở bảng cài đặt cấp cao. Yêu cầu có quyền __*Adminstrator*__ hoặc `sudo`.
+- `--get-id`: Trả về địa chỉ _address_ của phiên hiện tại.
 
-## Troubleshot
+## Xử lý vấn đề
 
-### Lỗi display_server_not_supported
+??? bug "Lỗi __display_server_not_supported__ trên __Ubuntu__"
+    <figure markdown="span">
+        ![alt text](image.png)
+        <figcaption></figcaption>
+    </figure>
 
-<figure markdown="span">
-    ![alt text](image.png)
-    <figcaption></figcaption>
-</figure>
+    Lỗi này do ???, để sửa nó thì chạy lệnh sau:
 
-Lỗi này do ???, để sửa nó thì chạy lệnh sau:
+    ```bash
+    sudo nano /etc/gdm3/custom.conf
+    ```
 
-```bash
-sudo nano /etc/gdm3/custom.conf
-```
+    Sau đó thêm dòng này vào mục `[daemon]`, kiểu kiểu này:
 
-Sau đó thêm dòng này vào mục `[daemon]`, kiểu kiểu này:
+    ```txt
+    # GDM configuration storage
+    #
+    # See /usr/share/gdm/gdm.schemas for a list of available options.
 
-```txt
-# GDM configuration storage
-#
-# See /usr/share/gdm/gdm.schemas for a list of available options.
+    [daemon]
+    AutomaticLoginEnable=true
+    AutomaticLogin=tad
 
-[daemon]
-AutomaticLoginEnable=true
-AutomaticLogin=tad
+    # Uncomment the line below to force the login screen to use Xorg
+    WaylandEnable=false
 
-# Uncomment the line below to force the login screen to use Xorg
-WaylandEnable=false
+    # Enabling automatic login
 
-# Enabling automatic login
+    # Enabling timed login
+    #  TimedLoginEnable = true
+    #  TimedLogin = user1
+    #  TimedLoginDelay = 10
 
-# Enabling timed login
-#  TimedLoginEnable = true
-#  TimedLogin = user1
-#  TimedLoginDelay = 10
+    [security]
 
-[security]
+    [xdmcp]
 
-[xdmcp]
+    [chooser]
 
-[chooser]
-
-[debug]
-# Uncomment the line below to turn on debugging
-# More verbose logs
-# Additionally lets the X server dump core if it crashes
-#Enable=true
-```
+    [debug]
+    # Uncomment the line below to turn on debugging
+    # More verbose logs
+    # Additionally lets the X server dump core if it crashes
+    #Enable=true
+    ```
