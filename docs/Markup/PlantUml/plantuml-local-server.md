@@ -50,11 +50,11 @@ Alice <-- Bob: Another authentication Response
 
 __Plantuml Docker Server for Ubuntu__. Cách này thì tiến trình build các server sẽ khá là nhanh, mặc dù là khá tốn tài nguyên máy _(RAM)_.
 
-1. [Tải về Dockertham khảo ở đây]().
-1. Tải Về
+1. Tải về
     ```sudo title="Tải về"
     sudo docker pull plantuml/plantuml-server:jetty
     ```
+    ‼️ [_(Tải về Docker tham khảo ở đây)_](https://docs.docker.com/engine/install/ubuntu/)
 1. Khởi Chạy
     ```sudo title="Khởi chạy"
     sudo docker run -d -p 8080:8080 plantuml/plantuml-server:jetty
