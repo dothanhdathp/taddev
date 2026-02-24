@@ -1,0 +1,471 @@
+site_name: Technical
+theme:
+  name: material
+  logo: assets/logo/cat_white.png
+  text: Noto Serif Medium
+  code: Roboto Mono Medium
+  highlightjs: true
+  hljs_style: github
+  hljs_style_dark: github-dark
+  palette:
+  - scheme: default
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-4
+      name: Switch to dark mode
+  - scheme: slate
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-7
+      name: Switch to light mode
+  features:
+    - content.code.annotation
+    - content.code.copy
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.instant
+    - navigation.footer
+    - navigation.tracking
+
+plugins:
+  - search
+  - graph
+  - plantuml:
+      # puml_url: https://www.plantuml.com/plantuml/
+      puml_url: http://localhost:8080/
+
+nav:
+  ##################################################################################################################################
+  - Tech:
+    - Preface: index.md
+    - OS: OS/os.md
+    - Mã Hoá:
+      - Chữ Ký Số: OS/digital-signature.md
+    - Telecom.:
+      - Điều Chế / Giải Điều Chế: OS/telecom-signal-modulation.md
+      - Audio:
+        - PCM: OS/os-audio-pcm.md
+        - Audio Sample Formats: OS/os-audio-sample-formats.md
+    - AI: OS/ai.md
+    - Overview: OS/os-overview.md
+    - Endianness: OS/os-endianness.md
+    - File System: OS/os-file-system.md
+    - POSIX/Win32: OS/os-apis.md       
+  ##################################################################################################################################
+  - POSIX:
+    - POSIX Signal: OS/os-posix-signal.md
+    - SIGKILL: OS/os-posix-signal-sigkill.md
+    - POSIX Shell: OS/os-posix-shell.md
+    - Linux:
+      - Linux: OS/Linux/linux.md
+      - Linux: OS/Linux/linux-family-overview-and-install.md
+      - Install Ubuntu: OS/Linux/linux-install-ubuntu.md
+      - Shell:
+        - Shell: OS/Linux/linux-shell.md
+        - Bash:
+          - Bash Intro: OS/Linux/linux-shell-bash.md
+          - Script: OS/Linux/linux-shell-bash-script.md
+      - System:
+        - System Info: OS/Linux/linux-system-info.md
+        - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md
+        - System File: OS/Linux/linux-system-file.md
+        - System Folder: OS/Linux/linux-system-folder.md
+        - Daemon: OS/Linux/linux-system-daemon.md
+        - File: OS/Linux/linux-file.md
+        - Storage: OS/Linux/linux-storage.md
+        - Package: OS/Linux/linux-package.md
+        - Symlink: OS/Linux/linux-symlinks.md
+      - Audio:
+        - Alsa:
+          - Alsa: OS/Linux/linux-alsa.md
+          - aplay: OS/Linux/linux-alsa-aplay.md
+          - amixer: OS/Linux/linux-alsa-amixer.md
+      - Kernel:
+        - dmesg: OS/Linux/linux-dmesg.md
+      - ETH:
+        - eth: OS/Linux/linux-eth.md
+        - Wifi: OS/Linux/linux-wifi.md
+        - OpenSSH: OS/Linux/linux-tools-openssh.md
+        - NetCat: OS/Linux/linux-tools-netcat.md
+      - Tools:
+        - compress: OS/Linux/linux-tools-compress-uncompress.md
+        - grep: OS/Linux/linux-tools-grep.md
+        - iBamboo: OS/Linux/linux-tools-ibamboo.md
+        - minicom: OS/Linux/linux-tools-minicom.md
+        - sambashare: OS/Linux/linux-tools-sambashare.md
+        - sed: OS/Linux/linux-tools-sed.md
+        - tmux: OS/Linux/linux-tools-tmux.md
+        - tree: OS/Linux/linux-tools-tree.md
+        - docker: OS/Linux/linux-tools-docker.md
+      - Password:
+        - Spec. Ubuntu 16 LST: OS/Linux/linux-ubuntu-16-lts-pass.md
+      - Trick:
+        - HTTP Server: OS/Linux/linux-http-server.md
+        - Startup Script: OS/Linux/linux-startup-script.md
+    - Zorin:
+      - Install Zorin: OS/Linux/zorin-install.md
+      - Menu App: OS/Linux/zorin-menu-app.md
+      - (zorin) gvfs: OS/Linux/zorin-gvfs.md
+  - Win32:
+    - Windows Exception: OS/os-win32-windows-exception.md
+    - Windows:
+      - Windows: OS/Windows/windows.md
+      - Một số lệnh thường dùng: OS/Windows/windows-cmd-Concept-command.md
+      - System:
+        - Services (WS): OS/Windows/windows-services.md
+        - Macro PATH: OS/Windows/windows-macro-path.md
+        - Environment Variables: OS/Windows/windows-environment-variables.md
+        - Startup Process: OS/Windows/windows-startup-process.md
+        - Service Tag, Manufacture: OS/Windows/windows-service-tag-and-manufacture.md
+        - Start Menu: OS/Windows/windows-service-start-menu.md
+      - Network: OS/Windows/windows-network.md
+      - Shell:
+        - cmd:
+          - cmd: OS/Windows/windows-cmd.md
+          - Command: OS/Windows/windows-cmd-command.md
+          - Common Cmd: OS/Windows/windows-cmd-common-command.md
+          - Write Script: OS/Windows/windows-cmd-write-scripts.md
+        - Power Shell:
+          - Power Shell: OS/Windows/windows-ps-getting-start.md
+        - Custom:
+          - Usercmd: OS/Windows/windows-custom-usercmd.md
+      - Regedit:
+        - Regedit: OS/Windows/windows-regedit.md
+        - Open with: OS/Windows/windows-custom-open-with.md
+      - Recovery:
+        - Password: OS/Windows/windows-recovery-password.md
+      - Activate:
+        - MAS: OS/Windows/windows-crack-by-mas.md
+        - Key: OS/Windows/windows-buyed-key.md
+  ##################################################################################################################################
+  - Android:
+    - Android OS: OS/Android/android.md
+    - Android Core:
+      - Android Core: OS/Android/android-core.md
+      - Architecture: OS/Android/android-core-architecture.md
+    - Application:
+      - Android Application: OS/Android/android-dev-application.md
+      - Activity: OS/Android/android-dev-app-activity.md
+      - ListView:
+        - ListView: OS/Android/android-dev-app-listview.md
+      - Menu Option: OS/Android/android-dev-menu-option.md
+    - HAL:
+      - HAL: OS/Android/android-core-architecture-hal.md
+    - Kernel:
+      - SELinux: OS/Android/android-core-architecture-hal.md
+    - External:
+      - Tinyalsa: OS/Android/android-core-external-tinyalsa.md
+      - JNI:
+        - Create JNI: OS/Android/android-dev-application-jni.md
+        - JNI Type: OS/Android/android-dev-jni-type.md
+      - Example:
+        - First App: OS/Android/android-dev-first-application.md
+    - Android Studio:
+      - Android Studio: DevTools/AndroidStudio/software-android-studio.md
+      - Install: DevTools/AndroidStudio/software-android-studio-install.md
+      - Build System:
+        - Gradle: DevTools/AndroidStudio/software-android-gradle.md
+        - SDK: DevTools/AndroidStudio/software-android-studio-sdk.md
+        - NDK: DevTools/AndroidStudio/software-android-studio-ndk.md
+      - Config:
+        - Keyboard: DevTools/AndroidStudio/software-android-studio-theme.md
+        - Theme: DevTools/AndroidStudio/software-android-studio-theme.md
+      - Troubleshoot: DevTools/AndroidStudio/software-android-studio-troubleshoot.md
+    - Android Debug:
+      - ADB: OS/Android/android-adb.md
+      - ADB Logcat: OS/Android/android-adb-logcat.md
+      - ADB ETH: OS/Android/android-adb-eth.md
+      - ADB Bugreport: OS/Android/android-adb-bugreport.md
+    - Misc:
+      # Phần này tôi để trong những cái mình không biết nó nên thuộc module nào thì đưa vào đây.
+      - Enable App Optimization: OS/Android/android-enable-app-optimization.md
+      - Systrace: OS/Android/android-systrace.md
+
+  ##################################################################################################################################
+  - Tools:
+    - Tools: Tools/tools.md
+    - MSYS2:
+      - Overview: Tools/msys2.md
+      - Install: Tools/msys2-install.md
+      - Pacman: Tools/msys2-pacman.md
+      - Package: Tools/msys2-package.md
+    - FFmpeg:
+      - FFmpeg: Tools/ffmpeg.md
+      - Download: Tools/ffmpeg-download.md
+      - Convert: Tools/ffmpeg-convert.md
+    - NodeJS:
+      - Overview: Tools/nodejs.md
+      - Getting Start: Tools/nodejs-getting-start.md
+    - Electron:
+      - Electron: Tools/electron.md
+      - Create App: Tools/electron-create-app.md
+      - Load Link: Tools/electron-load-link.md
+      - Troubleshoots: Tools/electron-troubleshoots.md
+    - yt-dlp:
+      - yt-dlp: Tools/yt-dlp.md
+    - 3Utool: Tools/3utools.md
+    - Putty: Tools/putty.md
+    - Scrcpy: Tools/scrcpy.md
+    - AnyDesk: Tools/anydesk.md
+  ##################################################################################################################################
+  - Dev Tools:
+    - Dev Tools: DevTools/dev-tools.md
+    - VSCode:
+      - VSCode: DevTools/VSCode/software-vscode.md
+      - Install: DevTools/VSCode/software-vscode-install.md
+      - Settings: DevTools/VSCode/software-vscode-settings.md
+      - Keybindings: DevTools/VSCode/software-vscode-keybindings.md
+      - Snippets: DevTools/VSCode/software-vscode-snippets.md
+      - Extensions: DevTools/VSCode/software-vscode-extensions.md
+      - Custom: DevTools/VSCode/software-vscode-my-custom.md
+      - Trick: DevTools/VSCode/software-vscode-trick.md
+      - Example:
+        - Example Keybindings: DevTools/VSCode/example/company-keybindings-json.md
+        - Example Markdown Snippets: DevTools/VSCode/example/company-snippets-for-markdown.md
+    - Qt:
+      - Qt: DevTools/Qt/qt.md
+      - QtCreator: DevTools/Qt/qt-software-qt-creator.md
+    - Make:
+      - Make: DevTools/Make/make.md
+      - Install: DevTools/Make/make-install.md
+      - Getting Start: DevTools/Make/make-getting-start.md
+      - Template: DevTools/Make/make-template.md
+    - Yocto:
+      - Yocto: DevTools/Yocto/yocto.md
+      - Bitbake: DevTools/Yocto/yocto-bitbake.md
+    - Repo:
+      - Repo: DevTools/Repo/repo.md
+      - Repo for Win: DevTools/Repo/repo-windows.md
+      - Inside .repo: DevTools/Repo/repo-repo-inside.md
+  ##################################################################################################################################
+  - Framework/Libs:
+    - Framework/Libs: Libs/framework-libs.md
+    - FTXUI:
+      - FTXUI: Libs/FTXUI/ftxui.md
+      - Build: Libs/FTXUI/ftxui-build.md
+      - Example: Libs/FTXUI/ftxui-example.md
+    - NanoHTTPD:
+      - Getting Start: Libs/NanoHTTPD/lib-nanohttpd.md
+    - GStreamer:
+      - GStreamer: Libs/GStreamer/gstreamer.md
+      - Tải về và cài đặt: Libs/GStreamer/gstreamer-install-and-setup.md
+      - Gst Tools:
+        - Gst Tools: Libs/GStreamer/gstreamer-tools.md
+        - gst-launch-1.0: Libs/GStreamer/gstreamer-gst-launch.md
+        - gst-inspect-1.0: Libs/GStreamer/gstreamer-gst-inspect.md
+        - ges-launch-1.0: Libs/GStreamer/gstreamer-ges-launch.md
+      - Khái Niệm:
+        - Concepts: Libs/GStreamer/gstreamer-gstreamer-concepts.md
+      - Elements:
+        - Source:
+          - Video: Libs/GStreamer/gstreamer-element-video-source.md
+          - Audio: Libs/GStreamer/gstreamer-tools-stream-video.md
+          - Playbin: Libs/GStreamer/gstreamer-tools-stream-video.md
+        - Test: Libs/GStreamer/gstreamer-tools-stream-video.md
+      - GStreamer Note: Libs/GStreamer/gstreamer-notebook.md
+      - Basic Tutorials:
+        - Tutorial: Libs/GStreamer/gstreamer-b-tutorial.md
+        - Hello world!: Libs/GStreamer/gstreamer-b-hello-world.md
+        - Đường Ống Động: Libs/GStreamer/gstreamer-b-dynamic-pipelines.md
+        - Pipeline Graphs: Libs/GStreamer/gstreamer-b-pipeline-graphs.md
+      - Stream Video: Libs/GStreamer/gstreamer-tools-stream-video.md
+      - Pipeline Samples:
+        - Intro:  Libs/GStreamer/gstreamer-pipeline-samples.md
+        - Tips for Debug: Libs/GStreamer/gstreamer-pipeline-samples-tips-for-debug.md
+        - Video: Libs/GStreamer/gstreamer-pipeline-samples-video.md
+        - Audio: Libs/GStreamer/gstreamer-pipeline-samples-audio.md
+        - Mux Video and Audio: Libs/GStreamer/gstreamer-pipeline-samples-mux-video-and-audio.md
+        - Media File: Libs/GStreamer/gstreamer-pipeline-samples-media-file.md
+        - Network Streaming: Libs/GStreamer/gstreamer-pipeline-samples-network-streaming.md
+        - Mixing: Libs/GStreamer/gstreamer-pipeline-samples-mixing.md
+        - SHM (Shared Memory): Libs/GStreamer/gstreamer-pipeline-samples-shm.md
+        - Fallbacksrc: Libs/GStreamer/gstreamer-pipeline-samples-fallbacksrc.md
+        - Live Stream, ...: Libs/GStreamer/gstreamer-pipeline-samples-live-stream.md
+        - Python Opencv: Libs/GStreamer/gstreamer-pipeline-samples-python-opencv.md
+      - Another:
+        - Graphs: Libs/GStreamer/gstreamer-pipeline-graphs.md
+      - Ubuntu Tutorial:
+        - Tutorial 1: Libs/GStreamer/gstreamer-ubuntu-tutorial-1.md
+      - Bắt đầu với Windows:
+        - Geting Start: Libs/GStreamer/gstreamer-windows.md
+      - Bắt đầu với Android:
+        - Geting Start: Libs/GStreamer/gstreamer-android.md
+        - Dựng thư viện: Libs/GStreamer/gstreamer-android-build-gstreamer.md
+        - Android Tutorial:
+          - GStreamer 1: Libs/GStreamer/gstreamer-android-tutorial-1.md
+          - GStreamer 2: Libs/GStreamer/gstreamer-android-tutorial-2.md
+          - GStreamer 3: Libs/GStreamer/gstreamer-android-tutorial-3.md
+          - GStreamer 4: Libs/GStreamer/gstreamer-android-tutorial-4.md
+          - NamiDtv2Example:
+            - NamiDtv2Example: Libs/GStreamer/gstreamer-android-nami-dtvbt2-example.md
+            - Full Chart: Libs/GStreamer/gstreamer-android-nami-dtvbt2-example-full-chart.md
+      - Example:
+        - Pipeline Graphs Example: Libs/GStreamer/gstreamer-example-pipeline-graphs-main.md
+  ##################################################################################################################################
+  - MarkUp:
+    - UML: Markup/UML/uml.md
+    - UML Class Diagram: Markup/UML/uml-class-diagram.md
+    - Markdown: Markup/Markdown/markdown.md
+    - PlantUml:
+      - PlantUml: Markup/PlantUml/plantuml.md
+      - Local Server: Markup/PlantUml/plantuml-local-server.md
+      - UML Diagrams:
+        - Sequence diagram 🏲: Markup/PlantUml/plantuml-sequence-diagram.md
+        - Usecase diagram: Markup/PlantUml/plantuml-usecase-diagram.md
+        - Class diagram 🏲: Markup/PlantUml/plantuml-class-diagram.md
+        - Object diagram: Markup/PlantUml/plantuml-object-diagram.md
+        - Activity diagram 🏲: Markup/PlantUml/plantuml-activity-diagram.md
+        - Component diagram: Markup/PlantUml/plantuml-component-diagram.md
+        - Deployment diagram: Markup/PlantUml/plantuml-deployment-diagram.md
+        - State diagram: Markup/PlantUml/plantuml-state-diagram.md
+        - Timing diagram: Markup/PlantUml/plantuml-timing-diagram.md
+      - Non-UML Diagrams:
+        - JSON data: Markup/PlantUml/plantuml-json-data.md
+        - YAML data: Markup/PlantUml/plantuml-yaml-data.md
+        - EBNF diagram: Markup/PlantUml/plantuml-ebnf-diagram.md
+        - Regex diagram: Markup/PlantUml/plantuml-regex-diagram.md
+        - Network diagram (nwdiag): Markup/PlantUml/plantuml-network-diagram-nwdiag.md
+        - UI mockups (salt): Markup/PlantUml/plantuml-ui-mockups-salt.md
+        - Archimate diagram: Markup/PlantUml/plantuml-archimate-diagram.md
+        - SDL: Markup/PlantUml/plantuml-sdl.md
+        - Ditaa diagram: Markup/PlantUml/plantuml-ditaa-diagram.md
+        - Gantt diagram: Markup/PlantUml/plantuml-gantt-diagram.md
+        - Chronology diagram: Markup/PlantUml/plantuml-chronology-diagram.md
+        - MindMap diagram 🏲: Markup/PlantUml/plantuml-mindmap-diagram.md
+        - WBS diagram 🏲: Markup/PlantUml/plantuml-wbs-diagram.md
+        - Mathematics: Markup/PlantUml/plantuml-mathematics.md
+        - IE diagram: Markup/PlantUml/plantuml-ie-diagram.md
+        - ER diagram: Markup/PlantUml/plantuml-er-diagram.md
+    - Mermaid:
+      - Mermaid: Markup/Mermaid/mermaid.md
+    - MKDocs:
+      - MKDocs: Markup/MKDocs/mkdocs.md
+      - mkdocs tools: Markup/MKDocs/mkdocs_lv2.md
+      - Theme:
+        - Theme: Markup/MKDocs/mkdocs-theme.md
+        - CSS: Markup/MKDocs/mkdocs-css.md
+      - Plugins:
+        - Plugins: Markup/MKDocs/mkdocs-plugins.md
+        - Mermaid: Markup/MKDocs/mkdocs-mermaid.md
+        - PlantUml: Markup/MKDocs/mkdocs-plantuml.md
+      - Script:
+        - Script: Markup/MKDocs/mkdocs-script.md
+        - Katex: Markup/MKDocs/mkdocs-katex.md
+        - Extensions: Markup/MKDocs/mkdocs-markdown-extensions.md
+      - Publish:
+        - Github Publish: Markup/MKDocs/mkdocs-github-publish.md
+      - Clone Tad: Markup/MKDocs/mkdocs-clone-tad-style.md
+      - Issue: Markup/MKDocs/mkdocs-issue.md
+      - Projects: Markup/MKDocs/mkdocs-projects.md
+      - TadApp: Markup/MKDocs/mkdocs-for-tadapp.md
+  - Elec.:
+    - Electronic: Electronic/electric.md
+    - LKDT:
+      - Điện Trở: Electronic/electric-resistor.md
+    - Tham Khảo:
+      - Reference: Electronic/electric-reference.md
+    - Device:
+      - Rasberry Pi: Device/rasberry-pi.md
+      - Android for Pi:
+        - AOSP Pi: Device/rasberry-pi-aosp.md
+        - AOSP Pi4: Device/rasberry-pi4-aosp-15.md
+        - AOSP Pi4: Device/rasberry-pi4-aosp-13.md
+  ##################################################################################################################################
+  - ROS:
+    - ROS2: ROS/ros.md
+    - Phân Phối: ROS/ros-distributions.md
+    - Concepts:
+      - Basic Concepts: ROS/ros-basic-concepts.md
+      - ROS_DOMAIN_ID: ROS/ros-concepts-ros-domain-id.md
+    - Jazzy Jalisco:
+      - Install (Ubuntu): ROS/ros-jazzy-jalisco-install.md
+      - Cấu Hình Môi Trường: ROS/ros-jazzy-jalisco-configuring-ros2-environment.md
+      - Getting Start: ROS/ros-jazzy-jalisco-getting-start.md
+      - Ví Dụ:
+        - Ví Dụ Publisher/Subscriber: ROS/ros-jazzy-jalisco-example-pub-sub.md
+      - Phân Tích:
+        - Phân Tích Publisher/Subscriber: ROS/ros-jazzy-jalisco-analysis-pub-sub.md
+      - Deb Packages: ROS/ros-jazzy-jalisco-ubuntu-deb-packages.md
+    - Nav2:
+      - Nav2: ROS/nav2.md
+    - Tài Liệu:
+      - Tài Liệu: ROS/ros-document.md
+    - Dự Án:
+      - Dự Án: ROS/ros-project-example.md
+  ##################################################################################################################################
+  - Git:
+    - Git: Git/git.md
+    - Overview: Git/git-overview.md
+    - Cài Đặt: Git/git-install.md
+    - SSH: Git/git-ssh.md
+    - Concept:
+      - Git Config: Git/git-config.md
+      - Git Clone: Git/git-clone.md
+      - Git Branch: Git/git-branch.md
+      - Git Ignore: Git/git-ignore.md
+      - Git Diff: Git/git-diff.md
+    - Hướng Dẫn:
+      - Bắt Đầu: Git/git-beginer.md
+      - Ví Dụ: Git/git-example.md
+      - Custom Commands: Git/git-custom-commands.md
+    - Github:
+      - Github Overview: Git/Github/github-overview.md
+      - Github Start: Git/Github/github-start.md
+      - Github Page: Git/Github/github-page.md
+  ##################################################################################################################################
+  - Project:
+    - Tad App: 
+      - Windows: Project/Tad/project-tad-app-windows.md
+      - Linux: Project/Tad/project-tad-app-linux.md
+      - Tad Doc Script Build: Project/Tad/project-tad-app-build-doc.md
+    - Pokedex: 
+      - README: Project/Pokedex/project-pokedex.md
+
+extra_css:
+  - assets/stylesheets/theme.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      # custom_fences:
+      #   - name: mermaid
+      #     class: mermaid
+      #     format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+extra_javascript:
+  - assets/scripts/tablesort.min.js
+  - assets/scripts/tablesort.js
+  - assets/scripts/katex.js
+  - assets/scripts/keyevent.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+graph:
+  enabled: true
+  output_file: assets/network/graph.json
+  include_homepage: true
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dothanhdathp
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/tad.zeila?locale=vi_VN
+
+copyright:
+  ☕ Made by Tad Zeila!
