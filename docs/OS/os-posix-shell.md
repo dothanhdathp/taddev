@@ -1,4 +1,4 @@
-# \[POSIX\] Shell
+# POSIX Shell
 
 Theo chuẩn POSIX.1-2008, các câu lệnh này được coi là chuẩn mực và bắt buộc phải có trên mọi hệ điều hành tuân thủ POSIX (như các bản phân phối Linux chuẩn, BSD, Unix).
 

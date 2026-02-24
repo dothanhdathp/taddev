@@ -1,4 +1,4 @@
-# \[OS\] Endianness
+# OS Endianness
 
 > Tham khảo: [https://en.wikipedia.org/wiki/Endianness](https://en.wikipedia.org/wiki/Endianness)
 

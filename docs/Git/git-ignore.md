@@ -1,4 +1,4 @@
-# \[Git\] Git Ignore
+#  Git Ignore
 
 ## Mô tả
 

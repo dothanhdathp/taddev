@@ -1,4 +1,4 @@
-# \[Git\] Install Git
+#  Install Git
 
 ## Download Git
 

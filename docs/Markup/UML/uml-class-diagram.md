@@ -1,4 +1,4 @@
-# \[UML\] Class diagram
+# UML Class diagram
 
 ## Class
 

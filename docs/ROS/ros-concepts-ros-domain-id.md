@@ -1,4 +1,4 @@
-# \[ROS\] ROS_DOMAIN_ID
+# ROS ROS_DOMAIN_ID
 
 > Nguồn: [https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Domain-ID.html](https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Domain-ID.html)
 

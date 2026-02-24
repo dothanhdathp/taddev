@@ -1,4 +1,4 @@
-# \[Linux\] Storage
+# Linux Storage
 
 > Toàn bộ về quản lý ổ đĩa trong hệ điều hành Linux và các Linux distro.
 

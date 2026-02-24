@@ -1,4 +1,4 @@
-# \[ROS\] Các Bản Phân Phối
+# ROS Các Bản Phân Phối
 
 ROS có nhiều bản phân phối, mỗi bản phân phối cung cấp cho một mục đích khác nhau. Nhưng về cơ bản nó không thay đổi quá nhiều bản chất của ROS.
 

@@ -1,4 +1,4 @@
-# \[Android\] ADB bugreport
+# Android ADB bugreport
 
 `adb bugreport` là lệnh thường thấy nhất để sử dụng khi muốn debug. Sau khi sử dụng lệnh, công cụ sẽ tạo ra một tệp `.zip` có tên được bắt đầu bằng _bugreport-XXX-XXXX.zip_ với theo sau đó là thời gian với tên thiết bị.
 

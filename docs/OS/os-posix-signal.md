@@ -1,4 +1,4 @@
-# \[POSIX\] POSIX Signal
+# POSIX Signal
 
 ## Phân Loại Tín Hiệu
 

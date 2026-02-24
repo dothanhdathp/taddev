@@ -1,4 +1,4 @@
-# \[Electronic\] Linh Kiện Điện Tử
+# Linh Kiện Điện Tử
 
 ## Định Nghĩa
 

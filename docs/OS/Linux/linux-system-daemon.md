@@ -1,4 +1,4 @@
-# \[Linux\] Daemon
+# Linux Daemon
 
 ## Định nghĩa
 

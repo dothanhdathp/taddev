@@ -1,4 +1,4 @@
-# \[ROS\] Concepts
+# ROS Concepts
 
 > Tìm hiểu về các khái niệm cơ bản.
 <br>Tham khảo: [link](https://docs.ros.org/en/jazzy/Concepts.html)

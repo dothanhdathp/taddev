@@ -1,4 +1,4 @@
-# \[Dev Tools\]
+# Dev Tools
 
 ## Map
 
@@ -10,7 +10,7 @@ skinparam backgroundcolor transparent
 * [[$URL/dev-tools/ Dev Tools]]
 ** [[$URL/VSCode/software-vscode/ VSCode]]
 ***_ [[$URL/VSCode/software-vscode-install/ Install]]
-***_ [[$URL/VSCode/software-vscode-settings/ Settings]]
+***_ [[$URL/VSCode/software-vscode-config/ Settings]]
 ***_ [[$URL/VSCode/software-vscode-keybindings/ Keybindings]]
 ***_ [[$URL/VSCode/software-vscode-snippets/ Snippets]]
 ***_ [[$URL/VSCode/software-vscode-extensions/ Extensions]]

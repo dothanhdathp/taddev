@@ -1,4 +1,4 @@
-# \[Win\] MAS<br>Microsoft Activation Scripts
+# Win MAS<br>Microsoft Activation Scripts
 
 Cái công cụ này cũng chẳng cũ, rất rất nhiều người biết nhưng ít người nói. Cái này crack bằng cách sử dụng một số Key Active Windows của một số công ty lớn.
 

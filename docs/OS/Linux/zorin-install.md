@@ -1,4 +1,4 @@
-# \[Linux\] Install Zorin
+# Install Zorin
 
 ## Tải về
 

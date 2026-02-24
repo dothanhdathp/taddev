@@ -1,4 +1,4 @@
-# \[Linux\] System Folder
+# Linux System Folder
 
 ## Font
 

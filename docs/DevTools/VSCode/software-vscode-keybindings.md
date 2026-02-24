@@ -1,4 +1,4 @@
-# \[VSCode\] Keybindings
+# VSCode Keybindings
 
 ## Về Keybindings
 
@@ -43,4 +43,4 @@ Mở bảng `Keybroard Shortcuts` theo một trong các cách sau:
 
 Một số cấu hình tham khảo
 
-- [keybindings.json trên công ty](example/company-keybindings-json.md)
+- [Copy keybindings.json](example/company-keybindings-json.md)

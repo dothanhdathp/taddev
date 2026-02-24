@@ -1,4 +1,4 @@
-# \[PlantUml\] WBS Diagram
+# PlantUml WBS Diagram
 
 ## Mode
 

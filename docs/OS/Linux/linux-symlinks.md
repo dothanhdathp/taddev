@@ -1,4 +1,4 @@
-# \[Linux\] Symlinks
+# Linux Symlinks
 
 > Tạo _symlinks_ trong __*Linux*__
 

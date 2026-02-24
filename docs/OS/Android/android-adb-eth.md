@@ -1,4 +1,4 @@
-# \[Android\] ADB Ethernet
+# Android ADB Ethernet
 
 > Phần này trình bày các vấn đề liên quan đến mạng, wifi, linh tinh, ...
 

@@ -38,30 +38,34 @@ plugins:
 
 nav:
   ##################################################################################################################################
-  - Tech:
-    - Preface: index.md
+  - Common:
+    - Common: index.md
+    - Network:
+      - Network: Common/network.md
+      - Điều Chế/Giải Điều Chế: Common/telecom-signal-modulation.md
+    - Audio:
+      - Audio: Common/audio.md
+    - AI:
+      - AI: Common/ai.md
+  - OS:
     - OS: OS/os.md
     - Mã Hoá:
-      - Chữ Ký Số: OS/digital-signature.md
-    - Telecom.:
-      - Điều Chế / Giải Điều Chế: OS/telecom-signal-modulation.md
-      - Audio:
-        - PCM: OS/os-audio-pcm.md
-        - Audio Sample Formats: OS/os-audio-sample-formats.md
-    - AI: OS/ai.md
+      - Chữ Ký Số: Common/digital-signature.md
+      - PCM: OS/os-audio-pcm.md
+      - Audio Sample Formats: OS/os-audio-sample-formats.md
     - Overview: OS/os-overview.md
     - Endianness: OS/os-endianness.md
     - File System: OS/os-file-system.md
-    - POSIX/Win32: OS/os-apis.md       
+    - POSIX & Win32: OS/os-apis.md       
   ##################################################################################################################################
-  - POSIX:
-    - POSIX Signal: OS/os-posix-signal.md
-    - SIGKILL: OS/os-posix-signal-sigkill.md
-    - POSIX Shell: OS/os-posix-shell.md
+  - Posix OS:
+    - POSIX Common:
+      - POSIX Signal: OS/os-posix-signal.md
+      - SIGKILL: OS/os-posix-signal-sigkill.md
+      - POSIX Shell: OS/os-posix-shell.md
     - Linux:
       - Linux: OS/Linux/linux.md
-      - Linux: OS/Linux/linux-family-overview-and-install.md
-      - Install Ubuntu: OS/Linux/linux-install-ubuntu.md
+      - Linux Family: OS/Linux/linux-family-overview-and-install.md
       - Shell:
         - Shell: OS/Linux/linux-shell.md
         - Bash:
@@ -76,6 +80,7 @@ nav:
         - File: OS/Linux/linux-file.md
         - Storage: OS/Linux/linux-storage.md
         - Package: OS/Linux/linux-package.md
+        - Apt: OS/Linux/linux-apt.md
         - Symlink: OS/Linux/linux-symlinks.md
       - Audio:
         - Alsa:
@@ -104,11 +109,15 @@ nav:
       - Trick:
         - HTTP Server: OS/Linux/linux-http-server.md
         - Startup Script: OS/Linux/linux-startup-script.md
+    - Ubuntu:
+      - Ubuntu: OS/Linux/ubuntu.md
+      - Install Ubuntu: OS/Linux/linux-install-ubuntu.md
     - Zorin:
+      - Zorin: OS/Linux/zorin.md
       - Install Zorin: OS/Linux/zorin-install.md
       - Menu App: OS/Linux/zorin-menu-app.md
       - (zorin) gvfs: OS/Linux/zorin-gvfs.md
-  - Win32:
+  - Win OS:
     - Windows Exception: OS/os-win32-windows-exception.md
     - Windows:
       - Windows: OS/Windows/windows.md
@@ -214,13 +223,13 @@ nav:
     - Dev Tools: DevTools/dev-tools.md
     - VSCode:
       - VSCode: DevTools/VSCode/software-vscode.md
-      - Install: DevTools/VSCode/software-vscode-install.md
-      - Settings: DevTools/VSCode/software-vscode-settings.md
-      - Keybindings: DevTools/VSCode/software-vscode-keybindings.md
-      - Snippets: DevTools/VSCode/software-vscode-snippets.md
-      - Extensions: DevTools/VSCode/software-vscode-extensions.md
-      - Custom: DevTools/VSCode/software-vscode-my-custom.md
-      - Trick: DevTools/VSCode/software-vscode-trick.md
+      - Install VSCode: DevTools/VSCode/software-vscode-install.md
+      - VSCode Config: DevTools/VSCode/software-vscode-config.md
+      - VSCode Keybindings: DevTools/VSCode/software-vscode-keybindings.md
+      - VSCode Snippets: DevTools/VSCode/software-vscode-snippets.md
+      - VSCode Extensions: DevTools/VSCode/software-vscode-extensions.md
+      - VSCode Custom: DevTools/VSCode/software-vscode-my-custom.md
+      - VSCode Trick: DevTools/VSCode/software-vscode-trick.md
       - Example:
         - Example Keybindings: DevTools/VSCode/example/company-keybindings-json.md
         - Example Markdown Snippets: DevTools/VSCode/example/company-snippets-for-markdown.md
@@ -239,70 +248,6 @@ nav:
       - Repo: DevTools/Repo/repo.md
       - Repo for Win: DevTools/Repo/repo-windows.md
       - Inside .repo: DevTools/Repo/repo-repo-inside.md
-  ##################################################################################################################################
-  - Framework/Libs:
-    - Framework/Libs: Libs/framework-libs.md
-    - FTXUI:
-      - FTXUI: Libs/FTXUI/ftxui.md
-      - Build: Libs/FTXUI/ftxui-build.md
-      - Example: Libs/FTXUI/ftxui-example.md
-    - NanoHTTPD:
-      - Getting Start: Libs/NanoHTTPD/lib-nanohttpd.md
-    - GStreamer:
-      - GStreamer: Libs/GStreamer/gstreamer.md
-      - Tải về và cài đặt: Libs/GStreamer/gstreamer-install-and-setup.md
-      - Gst Tools:
-        - Gst Tools: Libs/GStreamer/gstreamer-tools.md
-        - gst-launch-1.0: Libs/GStreamer/gstreamer-gst-launch.md
-        - gst-inspect-1.0: Libs/GStreamer/gstreamer-gst-inspect.md
-        - ges-launch-1.0: Libs/GStreamer/gstreamer-ges-launch.md
-      - Khái Niệm:
-        - Concepts: Libs/GStreamer/gstreamer-gstreamer-concepts.md
-      - Elements:
-        - Source:
-          - Video: Libs/GStreamer/gstreamer-element-video-source.md
-          - Audio: Libs/GStreamer/gstreamer-tools-stream-video.md
-          - Playbin: Libs/GStreamer/gstreamer-tools-stream-video.md
-        - Test: Libs/GStreamer/gstreamer-tools-stream-video.md
-      - GStreamer Note: Libs/GStreamer/gstreamer-notebook.md
-      - Basic Tutorials:
-        - Tutorial: Libs/GStreamer/gstreamer-b-tutorial.md
-        - Hello world!: Libs/GStreamer/gstreamer-b-hello-world.md
-        - Đường Ống Động: Libs/GStreamer/gstreamer-b-dynamic-pipelines.md
-        - Pipeline Graphs: Libs/GStreamer/gstreamer-b-pipeline-graphs.md
-      - Stream Video: Libs/GStreamer/gstreamer-tools-stream-video.md
-      - Pipeline Samples:
-        - Intro:  Libs/GStreamer/gstreamer-pipeline-samples.md
-        - Tips for Debug: Libs/GStreamer/gstreamer-pipeline-samples-tips-for-debug.md
-        - Video: Libs/GStreamer/gstreamer-pipeline-samples-video.md
-        - Audio: Libs/GStreamer/gstreamer-pipeline-samples-audio.md
-        - Mux Video and Audio: Libs/GStreamer/gstreamer-pipeline-samples-mux-video-and-audio.md
-        - Media File: Libs/GStreamer/gstreamer-pipeline-samples-media-file.md
-        - Network Streaming: Libs/GStreamer/gstreamer-pipeline-samples-network-streaming.md
-        - Mixing: Libs/GStreamer/gstreamer-pipeline-samples-mixing.md
-        - SHM (Shared Memory): Libs/GStreamer/gstreamer-pipeline-samples-shm.md
-        - Fallbacksrc: Libs/GStreamer/gstreamer-pipeline-samples-fallbacksrc.md
-        - Live Stream, ...: Libs/GStreamer/gstreamer-pipeline-samples-live-stream.md
-        - Python Opencv: Libs/GStreamer/gstreamer-pipeline-samples-python-opencv.md
-      - Another:
-        - Graphs: Libs/GStreamer/gstreamer-pipeline-graphs.md
-      - Ubuntu Tutorial:
-        - Tutorial 1: Libs/GStreamer/gstreamer-ubuntu-tutorial-1.md
-      - Bắt đầu với Windows:
-        - Geting Start: Libs/GStreamer/gstreamer-windows.md
-      - Bắt đầu với Android:
-        - Geting Start: Libs/GStreamer/gstreamer-android.md
-        - Dựng thư viện: Libs/GStreamer/gstreamer-android-build-gstreamer.md
-        - Android Tutorial:
-          - GStreamer 1: Libs/GStreamer/gstreamer-android-tutorial-1.md
-          - GStreamer 2: Libs/GStreamer/gstreamer-android-tutorial-2.md
-          - GStreamer 3: Libs/GStreamer/gstreamer-android-tutorial-3.md
-          - GStreamer 4: Libs/GStreamer/gstreamer-android-tutorial-4.md
-          - NamiDtv2Example:
-            - NamiDtv2Example: Libs/GStreamer/gstreamer-android-nami-dtvbt2-example.md
-            - Full Chart: Libs/GStreamer/gstreamer-android-nami-dtvbt2-example-full-chart.md
-      - Example:
-        - Pipeline Graphs Example: Libs/GStreamer/gstreamer-example-pipeline-graphs-main.md
   ##################################################################################################################################
   - MarkUp:
     - UML: Markup/UML/uml.md
@@ -360,7 +305,8 @@ nav:
       - Issue: Markup/MKDocs/mkdocs-issue.md
       - Projects: Markup/MKDocs/mkdocs-projects.md
       - TadApp: Markup/MKDocs/mkdocs-for-tadapp.md
-  - Elec.:
+  ##################################################################################################################################
+  - Điện Tử:
     - Electronic: Electronic/electric.md
     - LKDT:
       - Điện Trở: Electronic/electric-resistor.md
@@ -430,6 +376,8 @@ extra_css:
 markdown_extensions:
   - attr_list
   - md_in_html
+  # For table
+  - pymdownx.blocks.html
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.highlight

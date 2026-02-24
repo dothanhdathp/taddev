@@ -1,4 +1,4 @@
-# \[MSYS2\] Package
+# MSYS2 Package
 
 ## tree
 

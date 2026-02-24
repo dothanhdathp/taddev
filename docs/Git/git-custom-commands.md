@@ -1,4 +1,4 @@
-# \[Git\] Custom Commands
+#  Custom Commands
 
 Một số mẹo vặt khi thao tác với ___git___
 
@@ -8,39 +8,39 @@ Vì __Windows__ sẽ sử dụng một hệ thống `git bash` khác _(cái mà 
 
 ## Commands
 
-### foreach_git
+??? abstract "foreach_git"
+    ### foreach_git
+    
+    Lệnh này sẽ áp dụng câu lệnh với tất cả các thư mục git con có trong đường dẫn. Lệnh này tìm đến các thư mục có chứa tệp ẩn `.git` tại thư mục và thực thi câu lệnh trên đó.
 
-#### Mô tả
+    Ví dụ:
 
-!!! abstract "Hướng dẫn"
-   Lệnh này sẽ áp dụng câu lệnh với tất cả các thư mục git con có trong đường dẫn. Lệnh này tìm đến các thư mục có chứa tệp ẩn `.git` tại thư mục và thực thi câu lệnh trên đó.
+    ```bash
+    foreach_git git pull
+    ```
 
-   Ví dụ:
+    ```bash
+    function foreach_git()
+    {
+    if [ $# -eq 0 ]; then
+        echo "Usage: foreach_git <git command>"
+        return 1
+    fi
 
-   ```bash
-   foreach_git git pull
-   ```
+    base_dir=$(pwd)
 
-```bash
-function foreach_git()
-{
-   if [ $# -eq 0 ]; then
-      echo "Usage: foreach_git <git command>"
-      return 1
-   fi
-
-   base_dir=$(pwd)
-
-   # Find all .git directories and run command inside their parent directories
-   for i in $(find -name .git); do
-        cd ${i:2:-4};
-        $@;
-        cd $base_dir;
-   done;
-}
-```
+    # Find all .git directories and run command inside their parent directories
+    for i in $(find -name .git); do
+            cd ${i:2:-4};
+            $@;
+            cd $base_dir;
+    done;
+    }
+    ```
 
 ??? abstract "foreach_taddoc"
+    ### foreach_taddoc
+
     *Một biến thể khác của foreach_git sử dụng để đọc thay đổi duy nhất cho các tệp tài liệu*
 
     ```bash
@@ -66,9 +66,9 @@ function foreach_git()
     }
     ```
 
-### delete_git_history
+??? abstract "delete_git_history"
+    ### delete_git_history
 
-??? abstract "Hướng dẫn"
     Lệnh này xoá toàn bộ lịch sử của git trên nhánh hiện tại. Điều này tốt với các dự án cá nhân làm tối ưu hoá dung lượng của các tệp git.
     
     ```bash

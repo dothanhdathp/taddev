@@ -1,4 +1,4 @@
-# \[Zorin\] Gvfs
+# Gvfs
 
 > __Gvfs__ là viết tắt của __GNOME Virtual File System__.
 

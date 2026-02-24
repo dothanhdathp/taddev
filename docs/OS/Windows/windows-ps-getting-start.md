@@ -1,1 +1,1 @@
-# \[Win\] Power Shell
+# Power Shell PS

@@ -1,4 +1,4 @@
-# \[Pi\] AOSP 15 for Pi4
+# AOSP 15 for Pi4
 
 > AOSP 15 for Pi4
 

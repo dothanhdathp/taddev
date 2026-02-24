@@ -1,4 +1,4 @@
-# \[PlantUml\] MindMap Diagram
+# PlantUml MindMap Diagram
 
 ## Common
 

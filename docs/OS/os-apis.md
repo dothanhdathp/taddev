@@ -1,4 +1,4 @@
-# \[OS\] POSIX và Win32
+# POSIX & Win32
 
 > Thế giới có rất nhiều hệ điều hành, nhưng chúng chỉ xoay quanh hai tiêu chuẩn là chuẩn __POSIX__ và __Win32__.
 

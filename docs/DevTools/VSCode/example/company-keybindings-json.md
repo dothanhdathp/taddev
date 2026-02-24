@@ -1,4 +1,4 @@
-# \[VSCode\] Example Company Keybindings
+# VSCode Example Company Keybindings
 
 ```json
 // Place your key bindings in this file to override the defaults
@@ -8,13 +8,13 @@
         "args": {
             "snippet": "<u>${TM_SELECTED_TEXT}</u>"
         },
-        "key": "ctrl+shift+u", // whatever you like
+        "key": "ctrl+u", // whatever you like
         "when": "editorTextFocus && editorLangId == 'markdown'"
     },
     {
         "command": "editor.action.insertSnippet",
         "args": {
-            "snippet": "# \\[${TM_SELECTED_TEXT}\\]"
+            "snippet": "# ${TM_SELECTED_TEXT}"
         },
         "key": "ctrl+1", // whatever you like
         "when": "editorTextFocus && editorLangId == 'markdown'"
@@ -86,7 +86,7 @@
     {
         "command": "editor.action.insertSnippet",
         "args": {
-            "snippet": "__${TM_SELECTED_TEXT}__"
+            "snippet": "**${TM_SELECTED_TEXT}**"
         },
         "key": "ctrl+shift+b", // whatever you like
         "when": "editorTextFocus && editorLangId == 'markdown'"
@@ -94,7 +94,7 @@
     {
         "command": "editor.action.insertSnippet",
         "args": {
-            "snippet": "__*${TM_SELECTED_TEXT}*__"
+            "snippet": "_**${TM_SELECTED_TEXT}**_"
         },
         "key": "ctrl+shift+q", // whatever you like
         "when": "editorTextFocus && editorLangId == 'markdown'"
@@ -209,7 +209,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+w",
+        "key": "alt+backspace",
         "command": "workbench.action.reopenClosedEditor"
     },
     {

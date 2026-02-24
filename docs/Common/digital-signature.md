@@ -1,4 +1,4 @@
-# \[Common\] Chữ Ký Số
+# Chữ Ký Số
 
 ## Chữ Ký Số Là Gì?
 

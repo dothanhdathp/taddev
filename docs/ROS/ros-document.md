@@ -1,4 +1,4 @@
-# \[ROS\] Document
+# ROS Document
 
 ## Nguồn
 

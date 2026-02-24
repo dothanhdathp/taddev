@@ -1,4 +1,4 @@
-# \[Android\] ListView
+# Android ListView
 
 __ListView__ dùng để hiển thị danh sách các phần tử trong ứng dụng.
 

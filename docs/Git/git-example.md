@@ -1,4 +1,4 @@
-# \[Git\] Git Start
+#  Git Start
 
 Các bước cơ bản để bắt đầu __Git__.
 

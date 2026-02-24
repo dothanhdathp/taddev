@@ -1,4 +1,4 @@
-# \[Git\] Git Clone
+#  Git Clone
 
 !!! note "Note"
     Lệnh này có tác dụng kéo source code từ kho lưu trữ git về máy của bạn.

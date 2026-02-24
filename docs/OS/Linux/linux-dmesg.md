@@ -1,4 +1,4 @@
-# \[Linux\] Dmesg
+# Linux Dmesg
 
 `dmesg` là công cụ dùng để đọc dữ liệu hệ thống. Vì nó là dạng hệ thống nên bắt buộc phải đi chung với quyền __sudo__.
 

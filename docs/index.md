@@ -1,12 +1,5 @@
 # Preface
 
-## Ví Dụ
-
-### Example of Header
-#### Example of Header
-##### Example of Header
-###### Example of Header
-
 ## Mô Tả
 
 Các tài liệu về
@@ -22,10 +15,15 @@ Các tài liệu về
 skinparam backgroundcolor transparent
 !$URL = ""
 
-* Dev
+* Technical
+**_: Common
+  //Các khái niệm cơ bản//
+;
+
 ** [[$URL/OS/os/ OS]]
-*** Linux
-****_ Zorin
+*** [[$URL/Linux/zorin/ Linux]]
+****_ [[$URL/Linux/zorin/ Zorin]]
+****_ [[$URL Ubuntu]]
 ***_ [[$URL/OS/Android/android/ Android]]
 *** [[$URL/OS/Windows/windows/ Windows]]
 ** [[$URL/Tools/tools/ Tools]]
@@ -59,14 +57,13 @@ skinparam backgroundcolor transparent
 ***_ [[$URL/DevTools/Yocto/yocto/ Yocto]]
 ***_ [[$URL/DevTools/Repo/repo/ Repo]]
 
-** [[$URL/Libs/libs/ Libs/Framework]]
-***_ [[$URL/Libs/FTXUI/ftxui/ FTXUI]]
-***_ [[$URL/Libs/NanoHTTPD/lib-nanohttpd/ NanoHTTPD]]
-***_ [[$URL/Libs/GStreamer/gstreamer/ GStreamer]]
 ** [[$URL/ROS/ros/ ROS2]]
+
 ** [[$URL/Git/git/ About Git]]
+
 ** Device
 ***_ [[$URL/Device/rasberry-pi/ Rasberry Pi]]
+
 ** Project
 ***_ Tad App
 ***_ Pokedex

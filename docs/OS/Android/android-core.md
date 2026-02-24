@@ -1,4 +1,4 @@
-# \[Android\] Core
+# Android Core
 
 > Nguồn: [https://source.android.com/docs/core](https://source.android.com/docs/core)
 

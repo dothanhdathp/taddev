@@ -1,4 +1,4 @@
-# \[Android\] ADB
+# Android ADB
 > Android Debug Bridge
 
 ## Overview

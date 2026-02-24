@@ -1,4 +1,4 @@
-# \[PlantUml\] Use Case Diagram
+# PlantUml Use Case Diagram
 
 ## Mục đích
 

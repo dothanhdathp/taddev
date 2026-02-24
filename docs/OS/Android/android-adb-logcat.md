@@ -1,4 +1,4 @@
-# \[Android\] ADB Logcat
+# Android ADB Logcat
 
 __logcat__ là lệnh được sử dụng để đọc nhật ký android từ adb. Ở chế độ mặc định, __*logcat*__ trả về nhật ký ở dạng _text_.
 

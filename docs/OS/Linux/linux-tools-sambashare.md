@@ -1,4 +1,4 @@
-# \[Linux\] Sambashare
+# Linux Sambashare
 
 ## Tác dụng
 

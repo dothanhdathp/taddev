@@ -1,4 +1,4 @@
-# \[FFmpeg\] Convert
+# FFmpeg Convert
 
 ## Audio
 

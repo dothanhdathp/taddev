@@ -1,4 +1,4 @@
-# \[PlantUml\] Class Diagram
+# PlantUml Class Diagram
 
 ## I. Mục đích
 

@@ -1,4 +1,4 @@
-# \[Linux\] OpenSSH
+# Linux OpenSSH
 
 Mở SSH server cho phép thiết bị khác truy cập vào và sử dụng câu lệnh.
 

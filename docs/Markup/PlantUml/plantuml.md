@@ -1,4 +1,4 @@
-# \[PlantUml\]
+# PlantUml
 
 ## Giới thiệu
 

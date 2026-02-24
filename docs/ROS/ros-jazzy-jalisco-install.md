@@ -1,4 +1,4 @@
-# \[ROS\] Cài đặt
+# ROS Cài đặt
 
 > Hướng dẫn cài đặt / hủy cài đặt __ROS Jazzy Jalisco__. Ubuntu-Install-Debs
 <br>Nguồn tham khảo: [https://docs.ros.org/en/kilted/Installation/Ubuntu-Install-Debs.html](https://docs.ros.org/en/kilted/Installation/Ubuntu-Install-Debs.html)

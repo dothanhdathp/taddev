@@ -1,4 +1,4 @@
-# \[PlantUml\] Sequence Diagram
+# PlantUml Sequence Diagram
 
 ## Mục đích
 

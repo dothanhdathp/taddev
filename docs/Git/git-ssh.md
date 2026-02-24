@@ -1,6 +1,11 @@
-# \[Git\] SSH
+# SSH
 
 Trong bài này sẽ mô tả đầy đủ các bước để bắt đầu một dự án với Git
+
+## SSH là?
+
+- __SSH__ là viết tắt của _Secure Shell_
+- __SSH__ là giao thức truyền tải tệp tin an toàn qua các mạng không bảo mật
 
 ## SSH Key
 

@@ -1,4 +1,4 @@
-# \[UML\] Unified Modeling Language
+# UML Unified Modeling Language
 
 __Unified Modeling Language (UML)__ là một ngôn ngữ mô hình hóa trực quan, hướng đối tượng, có mục đích chung, cung cấp một cách để trực quan hóa kiến ​​trúc và thiết kế của một hệ thống, giống như một bản thiết kế chi tiết. UML định nghĩa ký hiệu cho nhiều loại sơ đồ tập trung vào các khía cạnh như hành vi, tương tác và cấu trúc.
 

@@ -1,4 +1,4 @@
-# \[ROS\] Ubuntu (deb packages)
+# ROS Ubuntu (deb packages)
 
 > Nguồn: [https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html#ubuntu-deb-packages](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html)
 

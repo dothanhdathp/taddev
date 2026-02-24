@@ -57,3 +57,8 @@ Có một số cài đặt như sau:
 "editor.fontSize": 12.5,                                        // Đổi font size trong khu vực làm việc
 "editor.minimap.enabled": false,                                // Tắt minimap bên thanh cuộn
 ```
+
+## Next
+
+- [VSCode Keybindings](software-vscode-keybindings.md)
+- [VSCode Snippets](software-vscode-snippets.md)

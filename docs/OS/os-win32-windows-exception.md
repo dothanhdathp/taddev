@@ -1,1 +1,1 @@
-# \[Win32\] Windows Exception
+# Windows Exception

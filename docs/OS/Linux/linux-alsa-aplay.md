@@ -1,4 +1,4 @@
-# \[Linux\] Alsa aplay
+# Linux Alsa aplay
 
 `aplay` là công cụ phát lại định dạng đơn giản. Có sẵn trên hệ điều hành Linux.
 
@@ -76,5 +76,5 @@ Các phím tắt định dạng có sẵn là:
 
 ## Tham Khảo
 
-- Về [Endian](/OS/os-endianness)
-- Về [Audio Sample Formats](/OS/os-audio-sample-formats)
+- Về __*Endian*__, tham khảo [OS Endianness](../os-endianness.md)
+- [Audio Sample Formats](../os-audio-sample-formats.md)

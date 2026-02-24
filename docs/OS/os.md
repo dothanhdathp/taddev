@@ -1,4 +1,6 @@
-# \[OS\]
+# OS
+
+## Map
 
 ```puml
 @startmindmap
@@ -34,3 +36,9 @@ skinparam backgroundcolor transparent
 ******_ Windows 11 (hiện tại)
 @endmindmap
 ```
+
+## Table
+
+- **Cấu Trúc Tệp và Hệ Thống**
+    - [Endianness](os-endianness.md) là về cách phân bổ các bit bộ nhớ.
+    - [File System](os-file-system.md) nói về các hệ thống tệp, hệ thống phân loại tệp trong một số hệ điều hành khác nhau.

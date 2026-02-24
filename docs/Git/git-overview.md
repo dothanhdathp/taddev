@@ -1,4 +1,4 @@
-# \[Git\] Git Overview
+#  Git Overview
 
 > - Git là một hệ thống kiểm soát phiên bản phân tán <u style="color:red">mã nguồn mở</u> và <u style="color:red">miễn phí</u> được thiết kế để xử lý mọi thứ từ các dự án nhỏ đến rất lớn với tốc độ và hiệu quả.
 > - Git rất dễ học và có dung lượng nhỏ với hiệu suất nhanh như chớp. Nó vượt trội hơn các công cụ SCM như Subversion, CVS, Perforce và ClearCase với các tính năng như phân nhánh cục bộ giá rẻ , khu vực tổ chức thuận tiện và nhiều quy trình làm việc.

@@ -1,4 +1,4 @@
-# \[TadApp\]
+# TadApp
 
 ## Linux
 

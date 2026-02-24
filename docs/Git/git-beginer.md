@@ -1,4 +1,4 @@
-# \[Git\] Git Beginner
+#  Git Beginner
 
 > - Ở cấp bậc này chỉ cần thuộc hoặc hiểu một số lệnh cơ bản là được rồi.
 > - Yêu cầu không cao nên sự phân nhánh / kiểm soát phân nhánh sẽ không cần biết.

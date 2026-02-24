@@ -1,4 +1,4 @@
-# \[Linux\] Bash Script
+# Linux Bash Script
 
 - __Script__ hiểu đơn giản là thực thi một tập hợp của các lệnh _(command)_ theo một kịch bản thay vì điền từng dòng lên _terminal_
 - Bash Script có tên đuôi là các tệp `.sh` và để hoạt động chỉ cần chạy chúng như các tệp thực thi thông thường.

@@ -1,4 +1,4 @@
-# \[ROS\]<br>Getting Start
+# ROS<br>Getting Start
 
 !!! danger "Chú Ý"
     <mark class=red>Từ giờ mọi ví dụ sẽ đều dành riêng cho hệ điều hành __Ubuntu__ các hệ điều hành khác vui lòng tự tham khảo trên trang chủ.</mark>

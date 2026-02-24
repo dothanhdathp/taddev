@@ -1,4 +1,4 @@
-# \[Telecom.\] Điều Chế Và Giải Điều Chế
+# Điều Chế Và Giải Điều Chế
 
 ## Overview
 

@@ -1,4 +1,4 @@
-# \[ROS\] Phân Tích Publisher/Subscriber
+# ROS Phân Tích Publisher/Subscriber
 
 
 - Thư viện thường sẽ cài đặt tại: `/opt/ros/jazzy`

@@ -1,4 +1,4 @@
-# \[Linux\] Shell
+# Linux Shell
 
 ## Shell
 

@@ -1,4 +1,4 @@
-# \[OS\] Tổng Quan
+# OS Tổng Quan
 
 ## Hệ điều hành là gì?
 
@@ -66,8 +66,8 @@ Cách chia này khoa học và hợp lý hơn. Các hệ điều hành khác nha
 - Microsoft
     - [Windows](Windows/windows.md)
 - Linux
-    - [Linux](Ubuntu/linux.md)
-    - Ubuntu
+    - [Linux](./Linux/linux.md)
+    - [Ubuntu](./Linux/linux-install-ubuntu.md)
     - Debian
 - Google
     - Android

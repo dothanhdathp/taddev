@@ -1,4 +1,4 @@
-# \[OS\] Audio Sample Formats<br>Định Dạng Âm Thanh Tiêu Chuẩn
+# OS Audio Sample Formats<br>Định Dạng Âm Thanh Tiêu Chuẩn
 
 ## Định Nghĩa
 

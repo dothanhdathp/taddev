@@ -1,4 +1,4 @@
-# \[ROS\] Robot Operating System
+# ROS Robot Operating System
 
 > Trang chủ: [https://www.ros.org/](https://www.ros.org/)
 

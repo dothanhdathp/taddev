@@ -1,6 +1,4 @@
-# \[VSCode\] Example Company Snipppets for Markdown
-
-[🔙 [VSCode] Snipppets](../software-vscode-snippets.md)
+# VSCode Example Company Snipppets for Markdown
 
 > Ví dụ về snippets cho markdown mình tự định nghĩa trên máy công ty
 
@@ -52,29 +50,29 @@
         ]
     },
     "note":             { "prefix": "/note",          "body": ["!!! note \"Note\""]},
-    "note-abstract":    { "prefix": "/note-abstract", "body": ["!!! abstract \"Abstract\""]},
-    "note-info":        { "prefix": "/note-info",     "body": ["!!! info \"Info\""]},
-    "note-tip":         { "prefix": "/note-tip",      "body": ["!!! tip \"Tip\""]},
-    "note-success":     { "prefix": "/note-success",  "body": ["!!! success \"Success\""]},
-    "note-question":    { "prefix": "/note-question", "body": ["!!! question \"Question\""]},
-    "note-warning":     { "prefix": "/note-warning",  "body": ["!!! warning \"Warning\""]},
-    "note-failure":     { "prefix": "/note-failure",  "body": ["!!! failure \"Failure\""]},
-    "note-danger":      { "prefix": "/note-danger",   "body": ["!!! danger \"Danger\""]},
-    "note-bug":         { "prefix": "/note-bug",      "body": ["!!! bug \"Bug\""]},
-    "note-example":     { "prefix": "/note-example",  "body": ["!!! example \"Example\""]},
-    "note-quote":       { "prefix": "/note-quote",    "body": ["!!! quote \"Quote\""]},
+    "note-abstract":    { "prefix": "/abstract-note", "body": ["!!! abstract \"Abstract\""]},
+    "note-info":        { "prefix": "/info-note",     "body": ["!!! info \"Info\""]},
+    "note-tip":         { "prefix": "/tip-note",      "body": ["!!! tip \"Tip\""]},
+    "note-success":     { "prefix": "/success-note",  "body": ["!!! success \"Success\""]},
+    "note-question":    { "prefix": "/question-note", "body": ["!!! question \"Question\""]},
+    "note-warning":     { "prefix": "/warning-note",  "body": ["!!! warning \"Warning\""]},
+    "note-failure":     { "prefix": "/failure-note",  "body": ["!!! failure \"Failure\""]},
+    "note-danger":      { "prefix": "/danger-note",   "body": ["!!! danger \"Danger\""]},
+    "note-bug":         { "prefix": "/bug-note",      "body": ["!!! bug \"Bug\""]},
+    "note-example":     { "prefix": "/example-note",  "body": ["!!! example \"Example\""]},
+    "note-quote":       { "prefix": "/quote-note",    "body": ["!!! quote \"Quote\""]},
     "colapse":          { "prefix": "/colapse",          "body": ["??? note \"Note\""]},
-    "colapse-abstract": { "prefix": "/colapse-abstract", "body": ["??? abstract \"Abstract\""]},
-    "colapse-info":     { "prefix": "/colapse-info",     "body": ["??? info \"Info\""]},
-    "colapse-tip":      { "prefix": "/colapse-tip",      "body": ["??? tip \"Tip\""]},
-    "colapse-success":  { "prefix": "/colapse-success",  "body": ["??? success \"Success\""]},
-    "colapse-question": { "prefix": "/colapse-question", "body": ["??? question \"Question\""]},
-    "colapse-warning":  { "prefix": "/colapse-warning",  "body": ["??? warning \"Warning\""]},
-    "colapse-failure":  { "prefix": "/colapse-failure",  "body": ["??? failure \"Failure\""]},
-    "colapse-danger":   { "prefix": "/colapse-danger",   "body": ["??? danger \"Danger\""]},
-    "colapse-bug":      { "prefix": "/colapse-bug",      "body": ["??? bug \"Bug\""]},
-    "colapse-example":  { "prefix": "/colapse-example",  "body": ["??? example \"Example\""]},
-    "colapse-quote":    { "prefix": "/colapse-quote",    "body": ["??? quote \"Quote\""]},
+    "colapse-abstract": { "prefix": "/abstract-colapse", "body": ["??? abstract \"Abstract\""]},
+    "colapse-info":     { "prefix": "/info-colapse",     "body": ["??? info \"Info\""]},
+    "colapse-tip":      { "prefix": "/tip-colapse",      "body": ["??? tip \"Tip\""]},
+    "colapse-success":  { "prefix": "/success-colapse",  "body": ["??? success \"Success\""]},
+    "colapse-question": { "prefix": "/question-colapse", "body": ["??? question \"Question\""]},
+    "colapse-warning":  { "prefix": "/warning-colapse",  "body": ["??? warning \"Warning\""]},
+    "colapse-failure":  { "prefix": "/failure-colapse",  "body": ["??? failure \"Failure\""]},
+    "colapse-danger":   { "prefix": "/danger-colapse",   "body": ["??? danger \"Danger\""]},
+    "colapse-bug":      { "prefix": "/bug-colapse",      "body": ["??? bug \"Bug\""]},
+    "colapse-example":  { "prefix": "/example-colapse",  "body": ["??? example \"Example\""]},
+    "colapse-quote":    { "prefix": "/quote-colapse",    "body": ["??? quote \"Quote\""]},
     "puml": {
         "prefix": "/puml",
         "body": [

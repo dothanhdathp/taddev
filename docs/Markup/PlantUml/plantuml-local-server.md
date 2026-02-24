@@ -1,4 +1,4 @@
-# \[PlantUml\] Local Server
+# PlantUml Local Server
 
 ## Cho máy Ubuntu
 

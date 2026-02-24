@@ -1,2 +1,2 @@
-# \[Linux\] Netcat
+# Linux Netcat
 

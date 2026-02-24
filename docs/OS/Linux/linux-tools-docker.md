@@ -1,4 +1,4 @@
-# \[Linux\] Docker
+# Linux Docker
 
 ## Setup repository
 

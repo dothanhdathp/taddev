@@ -1,4 +1,4 @@
-# \[Linux\] Hệ Thống Quản Lý Gói
+# Linux Hệ Thống Quản Lý Gói
 
 ## Các Gói
 

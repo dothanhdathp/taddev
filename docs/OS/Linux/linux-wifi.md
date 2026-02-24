@@ -1,4 +1,4 @@
-# \[Linux\] Wifi
+# Linux Wifi
 
 ## Xem Danh Sách
 

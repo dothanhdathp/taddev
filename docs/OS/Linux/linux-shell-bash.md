@@ -1,4 +1,4 @@
-# \[Linux\] Bash
+# Linux Bash
 
 __Linux Bash__ là shell cơ bản của Linux, cùng với __sh__
 

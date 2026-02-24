@@ -1,4 +1,4 @@
-# \[Linux\] iBamboo
+# Linux iBamboo
 
 > Bộ gõ tiếng Việt cho __Linux__
 

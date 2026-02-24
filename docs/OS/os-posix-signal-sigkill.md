@@ -1,4 +1,4 @@
-# \[POSIX\] SIGKILL
+# POSIX SIGKILL
 
 __SIGKILL__ là tín hiệu đầu tiên cần chú ý. Khác với các lỗi khác như __SIGTERM__ hay __SIGABRT__, tín hiệu này:
 

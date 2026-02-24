@@ -1,4 +1,4 @@
-# \[Linux\] Install Ubuntu
+# Linux Install Ubuntu
 
 ## Download Ubuntu
 

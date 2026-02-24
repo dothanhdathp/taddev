@@ -1,4 +1,4 @@
-# \[Linux\] Compress/UnCompress
+# Linux Compress/UnCompress
 
 ## Tar
 

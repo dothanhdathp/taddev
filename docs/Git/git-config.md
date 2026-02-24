@@ -1,4 +1,4 @@
-# \[Git\] Git Config
+#  Git Config
 
 Nhận và thiết lập các tùy chọn kho lưu trữ hoặc chung.
 

@@ -1,4 +1,4 @@
-# \[Project\] Tad-App Linux
+# Project Tad-App Linux
 
 ## Chuẩn bị
 

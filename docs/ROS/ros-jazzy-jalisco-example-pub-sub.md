@@ -1,4 +1,4 @@
-# \[ROS\] Ví Dụ Publisher/Subscriber
+# ROS Ví Dụ Publisher/Subscriber
 
 > Viết một hệ thống __Publisher__ và __Subscriber__ đơn giản.
 

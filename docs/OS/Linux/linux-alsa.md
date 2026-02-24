@@ -1,4 +1,4 @@
-# \[Linux\] Alsa
+# Linux Alsa
 
 > Advanced Linux Sound Architecture
 

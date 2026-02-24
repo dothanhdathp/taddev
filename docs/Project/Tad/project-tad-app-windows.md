@@ -1,4 +1,4 @@
-# \[Project\] Tad-App Windows
+# Project Tad-App Windows
 
 ## Mô tả
 

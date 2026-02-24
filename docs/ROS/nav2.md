@@ -1,4 +1,4 @@
-# \[Nav2\]
+# Nav2
 
 > Về hệ thống dẫn đường trong robot, hỗ trợ và tương tác khá là mạnh với __ROS__
 <br> Trang chủ: [https://docs.nav2.org/](https://docs.nav2.org/)

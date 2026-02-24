@@ -1,4 +1,4 @@
-# \[Linux\] Ethernet
+# Linux Ethernet
 
 ## Thông Tin Mạng
 

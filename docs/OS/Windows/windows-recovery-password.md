@@ -1,4 +1,4 @@
-# \[Win\] Password
+# Windowns Password
 
 ## Forget Password
 

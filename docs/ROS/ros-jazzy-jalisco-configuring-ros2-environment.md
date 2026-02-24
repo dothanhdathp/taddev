@@ -1,4 +1,4 @@
-# \[ROS\] Cấu Hình Môi Trường
+# ROS Cấu Hình Môi Trường
 > [https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html](https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html)
 
 ## Khởi Động Bằng Script

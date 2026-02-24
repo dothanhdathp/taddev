@@ -1,4 +1,27 @@
-# \[Zorin\] Menu Application
+# Zorin Application
+
+## Applications
+
+__Zorin__ hỗ trợ một chợ ứng dụng đầy đủ với tên gọi là __Software__. Nó cho phép tìm kiếm và cài đặt các ứng dụng mong muốn.
+
+Có ba loại ứng dụng đó là:
+
+- Ứng dụng hệ thống và các ứng dụng bán hệ thống, cài đặt qua lệnh `sudo apt install`
+- Ứng dụng người dùng cài qua apt
+
+### System Applications
+
+- __Deb Applications__: Các ứng dụng được cài qua gói `.deb` sẽ được đặt trong `/opt`, được điều khiển qua trình quản lý gói.
+- __System Applications__: `/usr/bin` chứa các ứng dụng hệ điều hành như __cat__, __grep__, __which__, __python__, ...
+
+### Flathub Applications
+
+Từ trCác gói cái đặt qua __Flathub__ sẽ có các phần
+
+- Công cụ quản lý là `flatpak`
+    - Dùng lệnh `flatpak list` để xem danh sách các ứng dụng đã cài đặt.
+    - Dùng lệnh `flatpak info PACKAGE_ID` để xem thông tin ứng dụng.
+- Các gói tải xuống được đặt ở `/var/lib/flatpak/app` + `PACKAGE_ID`
 
 ## Local Application
 

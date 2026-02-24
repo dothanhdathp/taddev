@@ -1,4 +1,4 @@
-# \[Android\] Architecture<br>Tổng quan về cấu trúc
+# Android Architecture<br>Tổng quan về cấu trúc
 
 Dự án nguồn mở Android (AOSP) là mã nguồn Android có thể sửa đổi và được cung cấp công khai. Bất kỳ ai cũng có thể tải xuống và sửa đổi AOSP cho thiết bị của mình. AOSP cung cấp một cách triển khai hoàn chỉnh và đầy đủ chức năng của nền tảng di động Android.
 

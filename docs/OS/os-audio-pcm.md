@@ -1,4 +1,4 @@
-# \[OS\] Thuật ngữ và khái niệm của PCM
+# OS Thuật ngữ và khái niệm của PCM
 
 Để sử dụng thiết bị PCM, bạn cần phải làm quen với một số khái niệm và thuật ngữ. Thuật ngữ và khái niệm của PCM tôi lấy ở [link này](https://larsimmisch.github.io/pyalsaaudio/terminology.html)
 
