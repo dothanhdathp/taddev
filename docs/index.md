@@ -22,14 +22,14 @@ skinparam backgroundcolor transparent
 
 ** [[$URL/OS/os/ OS]]
 *** [[$URL/Linux/zorin/ Linux]]
-****_ [[$URL/Linux/zorin/ Zorin]]
+****_ =[[$URL/Linux/zorin/ Zorin]]
 ****_ [[$URL Ubuntu]]
-***_ [[$URL/OS/Android/android/ Android]]
+***_ =[[$URL/OS/Android/android/ Android]]
 *** [[$URL/OS/Windows/windows/ Windows]]
 ** [[$URL/Tools/tools/ Tools]]
 
 ***_ Tài liệu
-****_ [[$URL/Tools/mkdocs/ MKDocs]]
+****_ =[[$URL/Tools/mkdocs/ MKDocs]]
 ****_ [[$URL/Tools/epub-translator/ epub-translator]]
 
 ***_ Dev
@@ -38,14 +38,14 @@ skinparam backgroundcolor transparent
 ****_ [[$URL/Tools/electron/ Electron]]
 
 ***_ Đa Phương Tiện
-****_ [[$URL/Tools/ffmpeg/ FFmpeg]]
+****_ =[[$URL/Tools/ffmpeg/ FFmpeg]]
 ****_ [[$URL/Tools/yt-dlp/ yt-dlp]]
 ****_ [[$URL/Tools/putty/ Putty]]
 ****_ [[$URL/Tools/scrcpy/ Scrcpy]]
 
 ***_ Đa Dụng
-****_ [[$URL/Tools/3utools/ 3Utool]]
-****_ [[$URL/Tools/anydesk/ AnyDesk]]
+****_ =[[$URL/Tools/3utools/ 3Utool]]
+****_ =[[$URL/Tools/anydesk/ AnyDesk]]
 
 ** [[$URL/DevTools/dev-tools/ Dev Tools]]
 ***_ [[$URL/DevTools/VSCode/software-vscode/ VSCode]]

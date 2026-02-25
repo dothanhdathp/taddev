@@ -26,6 +26,9 @@ Sau đó dùng lệnh sau để cài đặt:
 sudo dpkg -i anydesk_7.0.2-1_amd64.deb
 ```
 
+!!! warning "Warning"
+    Bản này không thể **crack**!
+
 ## Điều khiển
 
 Các phần mã lệnh là giống nhau, chỉ là nếu mở trên __*Windows*__ vui lòng đưa vào tệp `.exe`
