@@ -1,4 +1,4 @@
-# OS Tổng Quan
+# OS Overview
 
 ## Hệ điều hành là gì?
 

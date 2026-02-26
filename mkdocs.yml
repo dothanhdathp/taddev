@@ -47,13 +47,15 @@ nav:
       - Audio: Common/audio.md
     - AI:
       - AI: Common/ai.md
+    - CPU:
+      - CPU ISA: Common/cpu-isa.md
   - OS:
     - OS: OS/os.md
     - Mã Hoá:
       - Chữ Ký Số: Common/digital-signature.md
       - PCM: OS/os-audio-pcm.md
       - Audio Sample Formats: OS/os-audio-sample-formats.md
-    - Overview: OS/os-overview.md
+    - OS Overview: OS/os-overview.md
     - Endianness: OS/os-endianness.md
     - File System: OS/os-file-system.md
     - POSIX & Win32: OS/os-apis.md       
@@ -153,12 +155,16 @@ nav:
     - Android OS: OS/Android/android.md
     - Android Core:
       - Android Core: OS/Android/android-core.md
-      - Architecture: OS/Android/android-core-architecture.md
+      - Android Architecture: OS/Android/android-core-architecture.md
     - Application:
-      - Android Application: OS/Android/android-dev-application.md
-      - Activity: OS/Android/android-dev-app-activity.md
-      - ListView:
-        - ListView: OS/Android/android-dev-app-listview.md
+      - Android Application:
+        - Android Application: OS/Android/android-application.md
+        - App Architecture: OS/Android/android-app-architecture.md
+        - UI Layer:
+          - Android Activity: OS/Android/android-activity.md
+          - Android Fragment: OS/Android/android-fragment.md
+        - Component:
+          - ListView: OS/Android/android-dev-app-listview.md
       - Menu Option: OS/Android/android-dev-menu-option.md
     - HAL:
       - HAL: OS/Android/android-core-architecture-hal.md
@@ -169,19 +175,6 @@ nav:
       - JNI:
         - Create JNI: OS/Android/android-dev-application-jni.md
         - JNI Type: OS/Android/android-dev-jni-type.md
-      - Example:
-        - First App: OS/Android/android-dev-first-application.md
-    - Android Studio:
-      - Android Studio: DevTools/AndroidStudio/software-android-studio.md
-      - Install: DevTools/AndroidStudio/software-android-studio-install.md
-      - Build System:
-        - Gradle: DevTools/AndroidStudio/software-android-gradle.md
-        - SDK: DevTools/AndroidStudio/software-android-studio-sdk.md
-        - NDK: DevTools/AndroidStudio/software-android-studio-ndk.md
-      - Config:
-        - Keyboard: DevTools/AndroidStudio/software-android-studio-theme.md
-        - Theme: DevTools/AndroidStudio/software-android-studio-theme.md
-      - Troubleshoot: DevTools/AndroidStudio/software-android-studio-troubleshoot.md
     - Android Debug:
       - ADB: OS/Android/android-adb.md
       - ADB Logcat: OS/Android/android-adb-logcat.md
@@ -191,7 +184,8 @@ nav:
       # Phần này tôi để trong những cái mình không biết nó nên thuộc module nào thì đưa vào đây.
       - Enable App Optimization: OS/Android/android-enable-app-optimization.md
       - Systrace: OS/Android/android-systrace.md
-
+    - Example:
+      - First Application: OS/Android/android-first-application.md
   ##################################################################################################################################
   - Tools:
     - Tools: Tools/tools.md
@@ -236,6 +230,17 @@ nav:
     - Qt:
       - Qt: DevTools/Qt/qt.md
       - QtCreator: DevTools/Qt/qt-software-qt-creator.md
+    - Android Studio:
+      - Android Studio: DevTools/AndroidStudio/software-android-studio.md
+      - Install Android Studio: DevTools/AndroidStudio/software-android-studio-install.md
+      - Build System:
+        - Gradle: DevTools/AndroidStudio/software-android-gradle.md
+        - SDK: DevTools/AndroidStudio/software-android-studio-sdk.md
+        - NDK: DevTools/AndroidStudio/software-android-studio-ndk.md
+      - Config:
+        - Keyboard: DevTools/AndroidStudio/software-android-studio-theme.md
+        - Theme: DevTools/AndroidStudio/software-android-studio-theme.md
+      - Troubleshoot: DevTools/AndroidStudio/software-android-studio-troubleshoot.md
     - Make:
       - Make: DevTools/Make/make.md
       - Install: DevTools/Make/make-install.md

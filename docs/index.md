@@ -21,9 +21,9 @@ skinparam backgroundcolor transparent
 ;
 
 ** [[$URL/OS/os/ OS]]
-*** [[$URL/Linux/zorin/ Linux]]
-****_ =[[$URL/Linux/zorin/ Zorin]]
-****_ [[$URL Ubuntu]]
+*** [[$URL/OS/Linux/zorin/ Linux]]
+****_ =[[$URL/OS/Linux/zorin/ Zorin]]
+****_ [[$URL/OS/Linux/u****buntu/ Ubuntu]]
 ***_ =[[$URL/OS/Android/android/ Android]]
 *** [[$URL/OS/Windows/windows/ Windows]]
 ** [[$URL/Tools/tools/ Tools]]

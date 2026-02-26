@@ -1,7 +1,8 @@
-# Activity
+# Android Activity
 
-!!! note "Note"
-    Một __Activity__ là một điều duy nhất, tập trung mà người dùng có thể làm. Nghĩa là nó đơn giản chỉ là tập trung toàn bộ vào vấn đề tương tác với người dùng trên một giao diện thiết kế - cái đó sẽ được gọi là __Activity__.
+## Định Nghĩa
+
+Một __Activity__ là một điều duy nhất, tập trung mà người dùng có thể làm. Nghĩa là nó đơn giản chỉ là <mark>tập trung toàn bộ vào vấn đề tương tác với người dùng trên một giao diện thiết kế</mark> - cái đó sẽ được gọi là __Activity__.
 
 ## Activity Lifecycle
 
@@ -32,6 +33,8 @@ Có ba __key loops__ chính mà bạn có thể quan tâm đến việc theo dõ
 
 __Activity__ cũng được chia làm hai loại là _Activity thông thường_ và _Activity chính_.
 
+### MainActivity
+
 - ___Activity chính___, hay là loại _Activity_ mà ứng dụng sẽ thường yêu cầu bạn đặt dưới cái tên là _MainActivity_. Đây là _Activity_ sẽ được đăng ký với hệ thống để nhận sự kiện mặc định khi mở ứng dụng, chạy ứng dụng. Điều này là cần thiết.
 
 - Để đăng ký là _Activity chính_ cần khai báo trong `AndroiManifest.xml` như sau:
@@ -50,7 +53,9 @@ __Activity__ cũng được chia làm hai loại là _Activity thông thường_
 ```
 Hiểu đơn giản việc này chỉ là đăng ký một `intent-filter` cho 
 
-- ___Activity thông thường_, chỉ đơn giản là hoạt động như một _Activity_ thông thường không có gì đặc biệt. Nó cũng có thể nhận Intent và nhiều việc khác chỉ là không phải _Activity chính_.
+### Activity Khác
+
+- ___Activity Khác_ chỉ đơn giản là những _activity_ sẽ không được hoạt động như **MAIN**, nó cần được gọi từ một hành vi nào đó ví dự như được gọi **Main Activity** hoặc từ một _Intent_ nào đó.
 
 ## Giao diện
 

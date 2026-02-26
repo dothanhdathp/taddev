@@ -29,7 +29,8 @@ skinparam backgroundcolor transparent
 ****_ [[$URL/android-core-architecture-hal SELinux]]
 
 ** Dev
-***_ Application
+*** [[$URL/android-application Application]]
+**** 
 **** Activity
 **** Service
 **** Resource

@@ -189,3 +189,7 @@ div.grid.cards {
 border: none;
   border-collapse: collapse;
 }
+
+div.hidden {
+  display: none;
+}

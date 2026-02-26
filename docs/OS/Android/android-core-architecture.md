@@ -32,6 +32,10 @@ Các thuật ngữ được định nghĩa như sau:
 !!! note "Device Manufacturer App"
     Một ứng dụng được tạo bằng cách kết hợp API Android, API hệ thống và quyền truy cập trực tiếp vào quá trình triển khai khung Android. Vì nhà sản xuất thiết bị có thể truy cập trực tiếp vào các API không ổn định trong khung Android, nên các ứng dụng này phải được cài đặt sẵn trên thiết bị và chỉ có thể cập nhật khi phần mềm hệ thống của thiết bị được cập nhật.
 
+Cơ bản, cách viết của ba loại ứng dụng này không quá khác biệt, chỉ có khác nhau về quyền truy cập và phân bổ.
+
+> Ref: Start at [Android Application](android-application.md)
+
 ### API
 
 !!! note "System API"
