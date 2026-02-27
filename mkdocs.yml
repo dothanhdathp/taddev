@@ -60,7 +60,7 @@ nav:
     - File System: OS/os-file-system.md
     - POSIX & Win32: OS/os-apis.md       
   ##################################################################################################################################
-  - Posix OS:
+  - Linux OS:
     - POSIX Common:
       - POSIX Signal: OS/os-posix-signal.md
       - SIGKILL: OS/os-posix-signal-sigkill.md
@@ -111,6 +111,8 @@ nav:
       - Trick:
         - HTTP Server: OS/Linux/linux-http-server.md
         - Startup Script: OS/Linux/linux-startup-script.md
+      - Dev:
+        - Dev: OS/Linux/linux-dev.md
     - Ubuntu:
       - Ubuntu: OS/Linux/ubuntu.md
       - Install Ubuntu: OS/Linux/linux-install-ubuntu.md

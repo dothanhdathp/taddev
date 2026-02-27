@@ -65,3 +65,8 @@ Nếu bạn là người dùng mới và muốn cài đặt phiên bản ROS ho�
 ## Tài liệu Phân Phối
 
 Xem Danh Mục Tài Liệu Tại [ROS2 Documents](ros-document.md)
+
+### _Tài Liệu Ngoài Lề_
+
+- [Turtlebot](https://turtlebot.github.io/turtlebot4-user-manual/)
+- [Lidarbot](https://github.com/TheNoobInventor/lidarbot?tab=readme-ov-file#teleoperation)

@@ -52,11 +52,6 @@ skinparam backgroundcolor transparent
 ***_ [[$URL/DevTools/software-android-studio/ Android Studio]]
 ***_ [[$URL/DevTools/Qt/qt/ Qt]]
 
-** Build Tool
-***_ [[$URL/DevTools/Make/make/ Make]]
-***_ [[$URL/DevTools/Yocto/yocto/ Yocto]]
-***_ [[$URL/DevTools/Repo/repo/ Repo]]
-
 ** [[$URL/ROS/ros/ ROS2]]
 
 ** [[$URL/Git/git/ About Git]]

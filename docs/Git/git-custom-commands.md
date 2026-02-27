@@ -8,8 +8,9 @@ Vì __Windows__ sẽ sử dụng một hệ thống `git bash` khác _(cái mà 
 
 ## Commands
 
-??? abstract "foreach_git"
-    ### foreach_git
+### foreach_git
+
+??? abstract "Expand"
     
     Lệnh này sẽ áp dụng câu lệnh với tất cả các thư mục git con có trong đường dẫn. Lệnh này tìm đến các thư mục có chứa tệp ẩn `.git` tại thư mục và thực thi câu lệnh trên đó.
 
@@ -38,8 +39,9 @@ Vì __Windows__ sẽ sử dụng một hệ thống `git bash` khác _(cái mà 
     }
     ```
 
-??? abstract "foreach_taddoc"
-    ### foreach_taddoc
+### foreach_taddoc
+
+??? abstract "Expand"
 
     *Một biến thể khác của foreach_git sử dụng để đọc thay đổi duy nhất cho các tệp tài liệu*
 
@@ -66,8 +68,9 @@ Vì __Windows__ sẽ sử dụng một hệ thống `git bash` khác _(cái mà 
     }
     ```
 
-??? abstract "delete_git_history"
-    ### delete_git_history
+### delete_git_history
+
+??? abstract "Expand"
 
     Lệnh này xoá toàn bộ lịch sử của git trên nhánh hiện tại. Điều này tốt với các dự án cá nhân làm tối ưu hoá dung lượng của các tệp git.
     
@@ -95,5 +98,20 @@ Vì __Windows__ sẽ sử dụng một hệ thống `git bash` khác _(cái mà 
                 confirm
                 ;;
         esac
+    }
+    ```
+
+### fug
+
+??? abstract "Expand"
+
+    Lệnh này thường chỉ dùng trong cái taddoc của mình. Nó đại diện cho _**Force Update Git**_. Và chỉ đơn giản nó tạo một _git commit_ với _message="update"_ và đẩy lên server thôi.
+    
+    ```bash
+    function fgu()
+    {
+        git add .
+        git commit -m "update"
+        git push origin main
     }
     ```
