@@ -4,18 +4,20 @@
 
 ### Mô tả
 
-`tar` là lệnh dùng để `nén`/`giải nén` ___(compress/uncompress)___ cơ bản trong __Linux__. Lệnh này rất cơ bản và được dùng thường xuyên, đặc biệt là đối với các hệ thống.
+`tar` là lệnh dùng để nén/giải nén ___(compress/uncompress)___ các tệp trong **Ubuntu/Linux**.
 
 ### Command
 
-- `-c` ___(create)___: Tạo một kho lưu trữ mới.
-- `-x` ___(extract)___: Trích xuất các tập tin từ một kho lưu trữ.
-- `-t` ___(list)___: Liệt kê nội dung của một kho lưu trữ.
-- `-f` ___(file)___: Chỉ định tên của tệp lưu trữ. Tùy chọn này hầu như luôn luôn được sử dụng.
-- `-v` ___(verbose)___: Hiển thị thông tin chi tiết về các tập tin đang được xử lý.
-- `-z` ___(gzip)___: Nén hoặc giải nén kho lưu trữ bằng GZIP.
-- `-j` ___(bzip2)___: Nén hoặc giải nén kho lưu trữ bằng BZIP2.
-- `-C` ___(directory)___: Thay đổi thư mục làm việc trước khi thực hiện thao tác, hữu ích để trích xuất hoặc lưu trữ các tệp cụ thể mà không cần cấu trúc đường dẫn đầy đủ của chúng.
+| Flag | Mean              | Desc.                                                                                                                                                       |
+| :--- | :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `-c` | ___(create)___    | Tạo một kho lưu trữ mới.                                                                                                                                    |
+| `-C` | ___(directory)___ | Thay đổi thư mục làm việc trước khi thực hiện thao tác, hữu ích để trích xuất hoặc lưu trữ các tệp cụ thể mà không cần cấu trúc đường dẫn đầy đủ của chúng. |
+| `-f` | ___(file)___      | Chỉ định tên của tệp lưu trữ. Tùy chọn này hầu như luôn luôn được sử dụng.                                                                                  |
+| `-j` | ___(bzip2)___     | Nén hoặc giải nén kho lưu trữ bằng BZIP2.                                                                                                                   |
+| `-t` | ___(list)___      | Liệt kê nội dung của một kho lưu trữ.                                                                                                                       |
+| `-v` | ___(verbose)___   | Hiển thị thông tin chi tiết về các tập tin đang được xử lý.                                                                                                 |
+| `-x` | ___(extract)___   | Trích xuất các tập tin từ một kho lưu trữ.                                                                                                                  |
+| `-z` | ___(gzip)___      | Nén hoặc giải nén kho lưu trữ bằng GZIP.                                                                                                                    |
 
 ### Compress
 

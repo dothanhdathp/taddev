@@ -97,21 +97,16 @@ nav:
         - Wifi: OS/Linux/linux-wifi.md
         - OpenSSH: OS/Linux/linux-tools-openssh.md
         - NetCat: OS/Linux/linux-tools-netcat.md
-      - Tools:
-        - compress: OS/Linux/linux-tools-compress-uncompress.md
-        - grep: OS/Linux/linux-tools-grep.md
-        - iBamboo: OS/Linux/linux-tools-ibamboo.md
-        - minicom: OS/Linux/linux-tools-minicom.md
-        - sambashare: OS/Linux/linux-tools-sambashare.md
-        - sed: OS/Linux/linux-tools-sed.md
-        - tmux: OS/Linux/linux-tools-tmux.md
-        - tree: OS/Linux/linux-tools-tree.md
-        - docker: OS/Linux/linux-tools-docker.md
       - Password:
         - Spec. Ubuntu 16 LST: OS/Linux/linux-ubuntu-16-lts-pass.md
       - Trick:
         - HTTP Server: OS/Linux/linux-http-server.md
         - Startup Script: OS/Linux/linux-startup-script.md
+      - Utilities:
+        - compress: OS/Linux/linux-tools-compress-uncompress.md
+        - grep: OS/Linux/linux-tools-grep.md
+        - iBamboo: OS/Linux/linux-tools-ibamboo.md
+        - sed: OS/Linux/linux-tools-sed.md
       - Dev:
         - Dev: OS/Linux/linux-dev.md
     - Ubuntu:
@@ -192,15 +187,33 @@ nav:
   ##################################################################################################################################
   - Tools:
     - Tools: Tools/tools.md
-    - MSYS2:
-      - Overview: Tools/msys2.md
-      - Install: Tools/msys2-install.md
-      - Pacman: Tools/msys2-pacman.md
-      - Package: Tools/msys2-package.md
-    - FFmpeg:
-      - FFmpeg: Tools/ffmpeg.md
-      - Download: Tools/ffmpeg-download.md
-      - Convert: Tools/ffmpeg-convert.md
+    - Terminal Commands Tools:
+      - sambashare: Tools/sambashare.md
+      - minicom: Tools/minicom.md
+      - tmux: Tools/tmux.md
+      - tree: Tools/tree.md
+      - Docker:
+        - Docker: Tools/docker.md
+      - FFmpeg:
+        - FFmpeg: Tools/ffmpeg.md
+        - Download: Tools/ffmpeg-download.md
+        - Convert: Tools/ffmpeg-convert.md
+      - yt-dlp:
+        - yt-dlp: Tools/yt-dlp.md
+    - Application Tools:
+      - Putty: Tools/putty.md
+      - 3Utool: Tools/3utools.md
+      - Scrcpy: Tools/scrcpy.md
+      - AnyDesk: Tools/anydesk.md
+    - Misc:
+      - MSYS2:
+        - Overview: Tools/msys2.md
+        - Install: Tools/msys2-install.md
+        - Pacman: Tools/msys2-pacman.md
+        - Package: Tools/msys2-package.md
+  ##################################################################################################################################
+  - Dev Tools:
+    - Dev Tools: DevTools/dev-tools.md
     - NodeJS:
       - Overview: Tools/nodejs.md
       - Getting Start: Tools/nodejs-getting-start.md
@@ -209,15 +222,6 @@ nav:
       - Create App: Tools/electron-create-app.md
       - Load Link: Tools/electron-load-link.md
       - Troubleshoots: Tools/electron-troubleshoots.md
-    - yt-dlp:
-      - yt-dlp: Tools/yt-dlp.md
-    - 3Utool: Tools/3utools.md
-    - Putty: Tools/putty.md
-    - Scrcpy: Tools/scrcpy.md
-    - AnyDesk: Tools/anydesk.md
-  ##################################################################################################################################
-  - Dev Tools:
-    - Dev Tools: DevTools/dev-tools.md
     - VSCode:
       - VSCode: DevTools/VSCode/software-vscode.md
       - Install VSCode: DevTools/VSCode/software-vscode-install.md
