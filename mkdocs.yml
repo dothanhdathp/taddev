@@ -30,7 +30,8 @@ theme:
     - navigation.tracking
 
 plugins:
-  - search
+  - search:
+      lang: vi
   - graph
   - plantuml:
       # puml_url: https://www.plantuml.com/plantuml/
@@ -225,6 +226,7 @@ nav:
       - VSCode Snippets: DevTools/VSCode/software-vscode-snippets.md
       - VSCode Extensions: DevTools/VSCode/software-vscode-extensions.md
       - VSCode Custom: DevTools/VSCode/software-vscode-my-custom.md
+      - VSCode Tasks: DevTools/VSCode/software-vscode-tasks.md
       - VSCode Trick: DevTools/VSCode/software-vscode-trick.md
       - Example:
         - Example Keybindings: DevTools/VSCode/example/company-keybindings-json.md
