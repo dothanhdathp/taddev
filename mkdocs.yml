@@ -103,6 +103,7 @@ nav:
         - HTTP Server: OS/Linux/linux-http-server.md
         - Startup Script: OS/Linux/linux-startup-script.md
       - Utilities:
+        - find: OS/Linux/linux-utilities-find.md
         - compress: OS/Linux/linux-tools-compress-uncompress.md
         - grep: OS/Linux/linux-tools-grep.md
         - iBamboo: OS/Linux/linux-tools-ibamboo.md

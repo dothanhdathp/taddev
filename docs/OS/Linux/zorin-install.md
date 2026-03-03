@@ -43,3 +43,9 @@ Sau khi cài đặt xong có thể vào trang này:
 Lúc này sẽ có nút __Install__ bên cạnh. Nhấn vào nó để tải về công cụ.
 
 Sau đó nhớ chọn vào góc dưới và đổi lại `hot-key`. Tốt nhất thì là nên xóa hết để tiết kiệm phân bổ các phím tắt chỉ để lại mở của nút `super+v` để mở lại bảng `hot-key` là được rồi.
+
+### Uninstall 
+
+```text
+rm -rf ~/.local/share/gnome-shell/extensions/clipboard-indicator@tudmotu.com
+```
