@@ -29,7 +29,44 @@ Các chức năng chính của hệ điều hành:
 8. __Quản lý tài nguyên hệ thống _(Resource Allocation)___:
     - Phân phối CPU, bộ nhớ, thiết bị I/O một cách hiệu quả.
 
-## Phân loại hệ điều hành
+## Phân Loại Hệ Điều Hành
+
+### 1. Phân loại theo số lượng người dùng và nhiệm vụ
+
+- **Đơn nhiệm, một người dùng (Single-user, Single-tasking)**: Chỉ một người có thể sử dụng và chỉ chạy được một chương trình tại một thời điểm. Ví dụ điển hình là MS-DOS.
+- **Đa nhiệm, một người dùng (Single-user, Multi-tasking)**: Phổ biến trên máy tính cá nhân hiện nay. Một người dùng có thể chạy nhiều ứng dụng cùng lúc (như vừa soạn thảo văn bản vừa nghe nhạc). Ví dụ: Windows, macOS.
+- **Đa người dùng (Multi-user)**: Cho phép nhiều người dùng truy cập và sử dụng tài nguyên hệ thống cùng một lúc, thường thấy trên các máy chủ (Servers). Ví dụ: Linux, Unix.
+
+### 2. Phân loại theo cách xử lý (Processing Style)
+
+Cách này tập trung vào việc hệ điều hành quản lý luồng công việc như thế nào:
+
+- **Hệ thống xử lý theo lô (Batch Processing)**: Các công việc có tính chất giống nhau được gom lại thành một "lô" và thực hiện lần lượt. Người dùng không tương tác trực tiếp khi hệ thống đang chạy.
+- **Hệ thống chia sẻ thời gian (Time-sharing)**: CPU luân chuyển cực nhanh giữa các tác vụ, tạo cảm giác như nhiều chương trình đang chạy đồng thời. Đây là cơ sở của các hệ điều hành hiện đại.
+- **Hệ điều hành thời gian thực (Real-time OS - RTOS)**: Dùng cho các hệ thống yêu cầu độ chính xác cực cao về thời gian, nơi một phần nghìn giây cũng quan trọng.
+- **Hard Real-time**: Lỗi thời gian là lỗi hệ thống (như túi khí ô tô, điều khiển tên lửa).
+- **Soft Real-time**: Chấp nhận độ trễ nhỏ (như livestream video).
+
+### 3. Phân loại theo thiết bị phần cứng
+
+Tùy vào môi trường triển khai mà hệ điều hành được tối ưu hóa khác nhau:
+
+- **Hệ điều hành máy tính (Desktop OS)**: Tối ưu cho chuột, bàn phím và giao diện đồ họa phức tạp (Windows, Linux Distros).
+- **Hệ điều hành di động (Mobile OS)**: Tối ưu cho màn hình cảm ứng, tiết kiệm năng lượng và kết nối không dây (Android, iOS).
+- **Hệ điều hành nhúng (Embedded OS)**: Được nạp vào chip của các thiết bị chuyên dụng như máy giặt, router Wi-Fi hay hệ thống điều khiển công nghiệp.
+- **Hệ điều hành mạng (Network OS)**: Chạy trên máy chủ để quản lý dữ liệu, người dùng, nhóm, bảo mật và các chức năng mạng khác.
+
+### 4. Phân loại theo cấu trúc nhân (Kernel Architecture)
+
+Đối với người làm kỹ thuật hoặc nghiên cứu hệ thống, đây là cách phân loại quan trọng nhất:
+
+| Loại nhân (Kernel) | Đặc điểm                                                                                                                   | Ví dụ                   |
+| :----------------- | :------------------------------------------------------------------------------------------------------------------------- | :---------------------- |
+| Monolithic Kernel  | Tất cả dịch vụ (file system, driver, VFS) chạy chung trong không gian nhân (kernel space). Tốc độ nhanh nhưng khó bảo trì. | Linux, BSD              |
+| Microkernel        | Chỉ giữ những phần tối thiểu ở nhân, các dịch vụ khác đẩy ra không gian người dùng (user space). Tính ổn định cao.         | QNX, L4, Mach           |
+| Hybrid Kernel      | Sự kết hợp giữa hai loại trên để cân bằng giữa hiệu năng và tính linh hoạt.                                                | Windows NT, macOS (XNU) |
+
+## UNIX Và Unix-Like
 
 ### Unix-Like
 
@@ -72,6 +109,13 @@ Cách chia này khoa học và hợp lý hơn. Các hệ điều hành khác nha
 - Google
     - Android
     - Chrome OS
-- Apple - iOS, MacOS
+- Apple
+    - iOS
+    - MacOS
+- ROTS
 
-## Bài viết
+## Tham Khảo
+
+- Gemini
+- [Wikipedia Operating System](https://en.wikipedia.org/wiki/Operating_system)
+- [Embedded Operating System](https://en.wikipedia.org/wiki/Embedded_operating_system)

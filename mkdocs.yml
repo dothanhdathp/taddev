@@ -52,14 +52,15 @@ nav:
       - CPU ISA: Common/cpu-isa.md
   - OS:
     - OS: OS/os.md
+    - OS Overview: OS/os-overview.md
+    - Phân Loại OS: OS/os-overview.md
+    - Endianness: OS/os-endianness.md
+    - File System: OS/os-file-system.md
+    - POSIX & Win32: OS/os-apis.md       
     - Mã Hoá:
       - Chữ Ký Số: Common/digital-signature.md
       - PCM: OS/os-audio-pcm.md
       - Audio Sample Formats: OS/os-audio-sample-formats.md
-    - OS Overview: OS/os-overview.md
-    - Endianness: OS/os-endianness.md
-    - File System: OS/os-file-system.md
-    - POSIX & Win32: OS/os-apis.md       
   ##################################################################################################################################
   - Linux OS:
     - POSIX Common:
@@ -104,10 +105,12 @@ nav:
         - Startup Script: OS/Linux/linux-startup-script.md
       - Utilities:
         - find: OS/Linux/linux-utilities-find.md
-        - compress: OS/Linux/linux-tools-compress-uncompress.md
+        - compress: OS/Linux/linux-utilities-tar.md
         - grep: OS/Linux/linux-tools-grep.md
         - iBamboo: OS/Linux/linux-tools-ibamboo.md
         - sed: OS/Linux/linux-tools-sed.md
+      - Packages:
+        - apt: OS/Linux/linux-packages-apt.md
       - Dev:
         - Dev: OS/Linux/linux-dev.md
     - Ubuntu:
@@ -152,6 +155,8 @@ nav:
   ##################################################################################################################################
   - Android:
     - Android OS: OS/Android/android.md
+    - Android Base:
+      - Android ABI: OS/Android/android-abi.md
     - Android Core:
       - Android Core: OS/Android/android-core.md
       - Android Architecture: OS/Android/android-core-architecture.md
@@ -238,7 +243,8 @@ nav:
         - Example Markdown Snippets: DevTools/VSCode/example/company-snippets-for-markdown.md
     - Qt:
       - Qt: DevTools/Qt/qt.md
-      - QtCreator: DevTools/Qt/qt-software-qt-creator.md
+      - Qt Creator: DevTools/Qt/qt-software-qt-creator.md
+      - Buikd Qt Source: DevTools/Qt/qt-build-qt-source.md
     - Android Studio:
       - Android Studio: DevTools/AndroidStudio/software-android-studio.md
       - Install Android Studio: DevTools/AndroidStudio/software-android-studio-install.md
@@ -271,15 +277,15 @@ nav:
       - PlantUml: Markup/PlantUml/plantuml.md
       - Local Server: Markup/PlantUml/plantuml-local-server.md
       - UML Diagrams:
-        - Sequence diagram 🏲: Markup/PlantUml/plantuml-sequence-diagram.md
-        - Usecase diagram: Markup/PlantUml/plantuml-usecase-diagram.md
-        - Class diagram 🏲: Markup/PlantUml/plantuml-class-diagram.md
-        - Object diagram: Markup/PlantUml/plantuml-object-diagram.md
-        - Activity diagram 🏲: Markup/PlantUml/plantuml-activity-diagram.md
-        - Component diagram: Markup/PlantUml/plantuml-component-diagram.md
-        - Deployment diagram: Markup/PlantUml/plantuml-deployment-diagram.md
-        - State diagram: Markup/PlantUml/plantuml-state-diagram.md
-        - Timing diagram: Markup/PlantUml/plantuml-timing-diagram.md
+        - Sequence Diagram 🏲: Markup/PlantUml/plantuml-sequence-diagram.md
+        - Usecase Diagram: Markup/PlantUml/plantuml-usecase-diagram.md
+        - Class Diagram 🏲: Markup/PlantUml/plantuml-class-diagram.md
+        - Object Diagram: Markup/PlantUml/plantuml-object-diagram.md
+        - Activity Diagram 🏲: Markup/PlantUml/plantuml-activity-diagram.md
+        - Component Diagram: Markup/PlantUml/plantuml-component-diagram.md
+        - Deployment Diagram: Markup/PlantUml/plantuml-deployment-diagram.md
+        - State Diagram: Markup/PlantUml/plantuml-state-diagram.md
+        - Timing Diagram: Markup/PlantUml/plantuml-timing-diagram.md
       - Non-UML Diagrams:
         - JSON data: Markup/PlantUml/plantuml-json-data.md
         - YAML data: Markup/PlantUml/plantuml-yaml-data.md
@@ -377,12 +383,13 @@ nav:
   ##################################################################################################################################
   - Project:
     - Tad App: 
-      - Windows: Project/Tad/project-tad-app-windows.md
-      - Linux: Project/Tad/project-tad-app-linux.md
-      - Tad Doc Script Build: Project/Tad/project-tad-app-build-doc.md
+      - Windows: Project/project-tad-app-windows.md
+      - Linux: Project/project-tad-app-linux.md
+      - Tad Doc Script Build: Project/project-tad-app-build-doc.md
     - Pokedex: 
-      - README: Project/Pokedex/project-pokedex.md
-
+      - README: Project/project-pokedex.md
+    - Ftxui Application:
+      - Ftxui Application: Project/project-ftxui-application.md
 extra_css:
   - assets/stylesheets/theme.css
   - https://unpkg.com/katex@0/dist/katex.min.css

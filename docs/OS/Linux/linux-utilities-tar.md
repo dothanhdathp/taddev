@@ -1,4 +1,6 @@
-# Linux Compress/UnCompress
+# Linux Tar
+
+> Compress/UnCompress file
 
 ## Tar
 
