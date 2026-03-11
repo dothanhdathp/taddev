@@ -46,6 +46,8 @@ nav:
       - Điều Chế/Giải Điều Chế: Common/telecom-signal-modulation.md
     - Audio:
       - Audio: Common/audio.md
+      - WAV: Common/audio-wav.md
+      - MP3: Common/audio-mp3.md
     - AI:
       - AI: Common/ai.md
     - CPU:
