@@ -329,17 +329,21 @@ nav:
       - TadApp: Markup/MKDocs/mkdocs-for-tadapp.md
   ##################################################################################################################################
   - Điện Tử:
-    - Electronic: Electronic/electric.md
+    - Device: Device/electric.md
     - LKDT:
-      - Điện Trở: Electronic/electric-resistor.md
+      - Điện Trở: Device/electric-resistor.md
     - Tham Khảo:
-      - Reference: Electronic/electric-reference.md
+      - Reference: Device/electric-reference.md
     - Device:
       - Rasberry Pi: Device/rasberry-pi.md
       - Android for Pi:
         - AOSP Pi: Device/rasberry-pi-aosp.md
         - AOSP Pi4: Device/rasberry-pi4-aosp-15.md
         - AOSP Pi4: Device/rasberry-pi4-aosp-13.md
+      - CAN:
+        - CANable 2.0: Device/canable.md
+        - PEAK-System: Device/peak-system.md
+        - SocketCAN: Device/socketcan.md
   ##################################################################################################################################
   - ROS:
     - ROS2: ROS/ros.md

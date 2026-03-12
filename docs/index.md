@@ -4,6 +4,8 @@
 
 Các tài liệu về
 
+- <mark>Android ABI và Android API.</mark>
+- <mark>Thiết kế về hệ thống PID cân bằng, yêu cầu đầu ra và đầu vào như nào.</mark>
 - Hệ điều hành, công cụ và các thuật ngữ chung.
 - Công nghệ và mô tả
 - Các công cụ và cách sử dụng công cụ, cấu hình công cụ phục vụ mục đích học tập.
@@ -39,7 +41,7 @@ skinparam backgroundcolor transparent
 
 ***_ Đa Phương Tiện
 ****_ =[[$URL/Tools/ffmpeg/ FFmpeg]]
-****_ [[$URL/Tools/yt-dlp/ yt-dlp]]
+****_ =[[$URL/Tools/yt-dlp/ yt-dlp]]
 ****_ [[$URL/Tools/putty/ Putty]]
 ****_ [[$URL/Tools/scrcpy/ Scrcpy]]
 
