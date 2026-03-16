@@ -19,8 +19,13 @@ skinparam backgroundcolor transparent
 
 * Technical
 **_: Common
-  //Các khái niệm cơ bản//
-;
+  //Các khái niệm cơ bản//;
+*** [[/Common/audio/ Audio]]
+****_ [[/Common/audio-wav/ WAV]]
+****_ [[/Common/audio-mp3/ MP3]]
+*** AI
+*** CPU
+****_ CPU ISA
 
 ** [[$URL/OS/os/ OS]]
 *** [[$URL/OS/Linux/zorin/ Linux]]

@@ -1,2 +1,0 @@
-# Audio WAV FILE
-

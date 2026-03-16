@@ -1,0 +1,3 @@
+# OS Type
+
+Có rất nhiều hệ điều hành khác nhau trên thế giới, có thể tham khảo bảng [Operating Systems: Timeline and Family Tree](https://eylenburg.github.io/os_familytree.htm) về các hệ điều hành đã từng có trên thế giới, có khoảng hơn 1100 loại hệ điều hành khác nhau. Những hệ điều hành có trên bảng là những hệ điều hành _chính_, có nhánh xác định, có nhiều phần phát triển độc lập so với nhánh chính và được đăng ký như là một họ hệ điều hành mới. Vì lẽ đó còn tồn tại rất rất nhiều hệ điều hành phụ khác mà bạn sẽ không thể tìm thấy ví dụ như BlissOS chỉ là hệ điều hành được tách từ dòng chính của Google, nhưng vẫn cần hỗ trợ từ Goole.

@@ -1,7 +1,12 @@
 # Audio MP3 FILE
 
-`mp3` là định dạng âm thanh nén có mất dữ liệu, tức là âm thanh bị mất 
+## Định Nghĩa
 
+- `mp3` là định dạng âm thanh nén có mất dữ liệu, tức là âm thanh bị mất dữ liệu khi được chuyển thành tệp `mp3` và không thể phục hồi.
+- Về đặc điểm kỹ thuật, các tệp mp3 chỉ lưu trữ dữ liệu ở mức độ vừa phải, đủ để phát lại ở mức độ tai người bình thường cảm thấy thoải mái nhất có thể.
+- MP3 không phải định dạng lưu trữ âm thanh tuyệt đối. Độ phân giải và các tệp lấy mẫu được giới hạn mỏng.
+
+## 
 
 ## Tham Khảo
 

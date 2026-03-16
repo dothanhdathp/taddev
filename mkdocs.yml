@@ -39,30 +39,34 @@ plugins:
 
 nav:
   ##################################################################################################################################
-  - Common:
+  - Common OS:
     - Common: index.md
+    - OS:
+      - OS: OS/os.md
+      - OS Overview: OS/os-overview.md
+      - Phân Loại OS: OS/os-type.md
+      - Endianness: OS/os-endianness.md
+      - File System: OS/os-file-system.md
+      - POSIX & Win32: OS/os-apis.md       
+      - Mã Hoá:
+        - Chữ Ký Số: Common/digital-signature.md
+        - PCM: OS/os-audio-pcm.md
+        - Audio Sample Formats: OS/os-audio-sample-formats.md
     - Network:
       - Network: Common/network.md
       - Điều Chế/Giải Điều Chế: Common/telecom-signal-modulation.md
-    - Audio:
-      - Audio: Common/audio.md
-      - WAV: Common/audio-wav.md
-      - MP3: Common/audio-mp3.md
+    - Media:
+      - Audio:
+        - Audio: Common/audio.md
+        - WAV: Common/audio-wav.md
+        - MP3: Common/audio-mp3.md
+        - FLAC: Common/audio-flac.md
+      - Video:
+        - Video: Common/video.md
     - AI:
       - AI: Common/ai.md
     - CPU:
       - CPU ISA: Common/cpu-isa.md
-  - OS:
-    - OS: OS/os.md
-    - OS Overview: OS/os-overview.md
-    - Phân Loại OS: OS/os-overview.md
-    - Endianness: OS/os-endianness.md
-    - File System: OS/os-file-system.md
-    - POSIX & Win32: OS/os-apis.md       
-    - Mã Hoá:
-      - Chữ Ký Số: Common/digital-signature.md
-      - PCM: OS/os-audio-pcm.md
-      - Audio Sample Formats: OS/os-audio-sample-formats.md
   ##################################################################################################################################
   - Linux OS:
     - POSIX Common:
