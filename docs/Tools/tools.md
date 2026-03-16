@@ -23,3 +23,11 @@
 | CatSpy                      |   A   |  A  |       | Android Log Analizer                                                                                      |
 | Terminator                  |   A   |     |       | Multiple terminals in one window                                                                          |
 | SimpleNote                  |   A   |  A  |       | simple note                                                                                               |
+
+## Note
+
+Tôi có hai công cụ mới cần được xem xét:
+
+1. **NeoVim**: Sử dụng cho các công việc chỉnh sửa, lập trình cơ bản và đơn giản xoay quanh ngôn ngữ C/C++ và javascript.
+1. **Helix**: Cho lập trình Rust
+1. 

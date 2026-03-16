@@ -1,18 +1,41 @@
 #  Git Branch
 
-## Git Branch
+> [Tài liệu kỹ thuật về git-branch](https://git-scm.com/docs/git-branch)
 
-Lệnh `git branch` dùng để xem nhánh hiện tại.
+## Mô Tả
 
-```bash
-git branch
+Lệnh `git branch` dùng để liệt kê, tạo, hoặc xóa một nhánh trên git.
+
+### Công Thức
+
+```text
+git branch [--color[=<when>] | --no-color] [--show-current]
+	   [-v [--abbrev=<n> | --no-abbrev]]
+	   [--column[=<options>] | --no-column] [--sort=<key>]
+	   [--merged [<commit>]] [--no-merged [<commit>]]
+	   [--contains [<commit>]] [--no-contains [<commit>]]
+	   [--points-at <object>] [--format=<format>]
+	   [(-r|--remotes) | (-a|--all)]
+	   [--list] [<pattern>…​]
+git branch [--track[=(direct|inherit)] | --no-track] [-f]
+	   [--recurse-submodules] <branch-name> [<start-point>]
+git branch (--set-upstream-to=<upstream>|-u <upstream>) [<branch-name>]
+git branch --unset-upstream [<branch-name>]
+git branch (-m|-M) [<old-branch>] <new-branch>
+git branch (-c|-C) [<old-branch>] <new-branch>
+git branch (-d|-D) [-r] <branch-name>…​
+git branch --edit-description [<branch-name>]
 ```
 
-Nếu muốn xem tất cả các nhánh khả dụng, sử dụng:
+## Hướng Dẫn
 
-```bash
-git branch -a
-```
+### Quick Start
+
+1. Thông thường, ta chỉ dùng lệnh này để xem nhánh của mình hiện tại đang hoạt động là nhánh nào trên _**remote**_, sử dụng câu lệnh đơn giản là `git branch`
+1. Trong trường hợp ta muốn xem toàn bộ các nhánh tồn tại, sử dụng `git branch -a` hoặc `git branch --list`
+1. Trong môi trường git làm việc với nhiều nhánh, có thể cài đặt nhánh chính với `--set-upstream-to=[remote/branch-name]` để đặt nhánh đó làm nhánh chính. Khi đó lệnh `git push` sẽ tự động đẩy commit lên nhánh đang được đăng ký.
+    - Tương tự, để hủy, ta dùng `git branch --unset-upstream [remote/branch-name]` để xóa nhánh khỏi đăng ký nhánh khỏi phiên làm việc mặc định.
+
 
 Kết quả sẽ hiện đầy đủ các nhánh kèm các thông tin về _remote_ của các branch. Ví dụ như này:
 
@@ -54,30 +77,39 @@ git checkout master
 
 ## Delete Branch
 
-- Để làm được điều này đầu tiên bạn cần phải tạo branch mới, xóa branch hiện tại và cập nhật lại!
+### Giải thích
+
+Các bước xóa một nhánh trên _git_
+
+1. Tạo một branch khác biệt lập với nhánh cần xóa.
     ```bash
-    git checkout --orphan latest_branch
+    git checkout --orphan latest_branch    
     ```
-- Thêm tất cả các tệp vào nhánh mới được tạo:
+1. Thêm tất cả các tệp vào nhánh mới được tạo:
     ```bash
     git add -A
     ```
-- Cam kết các thay đổi:
+1. Cam kết các thay đổi:
     ```bash
     git commit -am "commit message"
     ```
-- Xóa nhánh chính (mặc định) (bước này là vĩnh viễn):
+1. Xóa nhánh chính (mặc định) (bước này là vĩnh viễn):
     ```bash
     git branch -D main
     ```
-- Đổi tên nhánh hiện tại thành `main`:
+1. Đổi tên nhánh hiện tại thành `main`:
     ```bash
     git branch -m main
     ```
-- Cuối cùng, tất cả các thay đổi được hoàn thành trên kho lưu trữ cục bộ của bạn và buộc cập nhật kho lưu trữ từ xa của bạn:
+1. Cuối cùng, tất cả các thay đổi được hoàn thành trên kho lưu trữ cục bộ của bạn và buộc cập nhật kho lưu trữ từ xa của bạn:
     ```bash
     git push -f origin main
     ```
+
+### Hàm delete_git_history
+
+Thêm hàm này vào tệp `.bashrc` hoặc `.bash_aliases` và dùng nó như là một cách sử dụng tệp hệ thống.
+<mark>Chú ý! Lệnh này cần tải và cài đặt git.</mark>
 
 ```bash
 function delete_git_history()
