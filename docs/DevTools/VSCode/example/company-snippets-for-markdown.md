@@ -34,6 +34,14 @@
             "</figure>"
         ]
     },
+    "center-text": {
+        "prefix": "/center-text",
+        "body": [
+            "<p style=\"text-align: center;\">",
+            "\t",
+            "</p>",
+        ]
+    },
     "marp-slide": {
         "prefix": "/slide",
         "body": [
@@ -79,7 +87,7 @@
             "```puml",
             "@startuml",
             "skinparam backgroundcolor transparent",
-            "!$URL = \"http://localhost:\"",
+            "!$URL = \"\"",
             "@enduml",
             "```"
         ],
@@ -90,7 +98,7 @@
             "```puml",
             "@startmindmap",
             "skinparam backgroundcolor transparent",
-            "!$URL = \"http://localhost:\"",
+            "!\\$URL = \"\"",
             "@endmindmap",
             "```"
         ],
@@ -101,10 +109,27 @@
             "```puml",
             "@startwbs",
             "skinparam backgroundcolor transparent",
-            "!$URL = \"http://localhost:\"",
+            "!\\$URL = \"\"",
             "@endwbs",
             "```"
         ],
     },
+    "puml-general": {
+        "prefix": "/puml-general",
+        "body": [
+            "```puml",
+            "@startuml",
+            "skinparam backgroundcolor transparent",
+            "@endwbs",
+            "```"
+        ],
+    },
+    "vi-en": {
+        "prefix": "/vi-en",
+        "body": [
+            "=== \"VI\"",
+            "=== \"EN\"",
+        ],
+    }
 }
 ```

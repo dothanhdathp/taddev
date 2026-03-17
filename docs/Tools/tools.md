@@ -2,32 +2,30 @@
 
 ## Table
 
-| Name                        | Linux | Win | macOS | Des.                                                                                                      |
-| :-------------------------- | :---: | :-: | :---: | :-------------------------------------------------------------------------------------------------------- |
-| [minicom](minicom.md)       |   T   |     |       | Open COM's port                                                                                           |
-| [FFmpeg](ffmpeg.md)         |   T   |  T  |       | Play/Convert/... mutilmedia.                                                                              |
-| [<mark>Docker</mark>](docker.md)         |   T   |  T  |   T   |                                                                                                           |
-| [Msys2](msys2.md)           |       | AT  |       | POSIX terminal on Windows                                                                                 |
-| [sambashare](sambashare.md) |   T   |     |       | Share Folder via SSH                                                                                      |
-| [Scrcpy](scrcpy.md)         |  AT   | AT  |       | Remote android device via adb                                                                             |
-| [tmux](tmux.md)             |   T   |     |       | Terminal in background                                                                                    |
-| [tree](tree.md)             |   T   |     |       | Present files dir in tree                                                                                 |
-| [yt-dlp](yt-dlp.md)         |   T   |  T  |   T   | Youtube downloader                                                                                        |
-| Audacity                    |   A   |  A  |   A   | Audio analizer                                                                                            |
-| [3Utool](3utools.md)        |   A   |  A  |       | All-in-one solution for iPhone: Device Verification, Flashing, Backup, Optimization, and App downloads... |
-| [AnyDesk](anydesk.md)       |  AT   | AT  |  AT   | Remote Desktop                                                                                            |
-| [Putty](putty.md)           |       |  A  |       | Open COM's port                                                                                           |
-| JameDSP                     |   A   |     |       | DSP Solution on Ubuntu                                                                                    |
-| Shotwell                    |   A   |     |       | Simple Image Editer                                                                                       |
-| Remmina                     |   A   |     |       | Remote destop well                                                                                        |
-| CatSpy                      |   A   |  A  |       | Android Log Analizer                                                                                      |
-| Terminator                  |   A   |     |       | Multiple terminals in one window                                                                          |
-| SimpleNote                  |   A   |  A  |       | simple note                                                                                               |
+- **A**: _Application Tools_
+- **T**: _Terminal Tools_
+- **AT**: _Run in both mode_
 
-## Note
-
-Tôi có hai công cụ mới cần được xem xét:
-
-1. **NeoVim**: Sử dụng cho các công việc chỉnh sửa, lập trình cơ bản và đơn giản xoay quanh ngôn ngữ C/C++ và javascript.
-1. **Helix**: Cho lập trình Rust
-1. 
+| Name                             | Linux | Win | macOS | Des.                                                                                                      |
+| :------------------------------- | :---: | :-: | :---: | :-------------------------------------------------------------------------------------------------------- |
+| [minicom](minicom.md)            |   T   |     |       | Open COM's port                                                                                           |
+| [FFmpeg](ffmpeg.md)              |   T   |  T  |       | Play/Convert/... mutilmedia.                                                                              |
+| [<mark>Docker</mark>](docker.md) |   T   |  T  |   T   |                                                                                                           |
+| [Msys2](msys2.md)                |       | AT  |       | POSIX terminal on Windows                                                                                 |
+| [sambashare](sambashare.md)      |   T   |     |       | Share Folder via SSH                                                                                      |
+| [Scrcpy](scrcpy.md)              |  AT   | AT  |       | Remote android device via adb                                                                             |
+| [tmux](tmux.md)                  |   T   |     |       | Terminal in background                                                                                    |
+| [tree](tree.md)                  |   T   |     |       | Present files dir in tree                                                                                 |
+| [yt-dlp](yt-dlp.md)              |   T   |  T  |   T   | Youtube downloader                                                                                        |
+| Audacity                         |   A   |  A  |   A   | Audio analizer                                                                                            |
+| [3Utool](3utools.md)             |   A   |  A  |       | All-in-one solution for iPhone: Device Verification, Flashing, Backup, Optimization, and App downloads... |
+| [AnyDesk](anydesk.md)            |  AT   | AT  |  AT   | Remote Desktop                                                                                            |
+| [Putty](putty.md)                |       |  A  |       | Open COM's port                                                                                           |
+| JameDSP                          |   A   |     |       | DSP Solution on Ubuntu                                                                                    |
+| Shotwell                         |   A   |     |       | Simple Image Editer                                                                                       |
+| Remmina                          |   A   |     |       | Remote destop well                                                                                        |
+| CatSpy                           |   A   |  A  |       | Android Log Analizer                                                                                      |
+| Terminator                       |   A   |     |       | Multiple terminals in one window                                                                          |
+| SimpleNote                       |   A   |  A  |       | simple note                                                                                               |
+| [NeoVim](nvim-text-editor.md)    |   T   |  T  |   T   | Chương trình chỉnh sửa văn bản mặc định.                                                                  |
+| [Helix](helix-text-editor.md)    |       |     |       |                                                                                                           |

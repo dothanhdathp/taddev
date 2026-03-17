@@ -98,6 +98,8 @@ nav:
           - aplay: OS/Linux/linux-alsa-aplay.md
           - amixer: OS/Linux/linux-alsa-amixer.md
       - Kernel:
+        - Kernel: OS/Linux/linux-kernel.md
+        - Kernel Module: OS/Linux/linux-kernel-module.md
         - dmesg: OS/Linux/linux-dmesg.md
       - ETH:
         - eth: OS/Linux/linux-eth.md
@@ -127,6 +129,7 @@ nav:
       - Install Zorin: OS/Linux/zorin-install.md
       - Menu App: OS/Linux/zorin-menu-app.md
       - (zorin) gvfs: OS/Linux/zorin-gvfs.md
+      - Zorin Font: OS/Linux/zorin-font.md
   - Win OS:
     - Windows Exception: OS/os-win32-windows-exception.md
     - Windows:
@@ -212,6 +215,8 @@ nav:
         - Convert: Tools/ffmpeg-convert.md
       - yt-dlp:
         - yt-dlp: Tools/yt-dlp.md
+      - NeoVim: Tools/nvim-text-editor.md
+      - Helix: Tools/helix-text-editor.md
     - Application Tools:
       - Putty: Tools/putty.md
       - 3Utool: Tools/3utools.md
@@ -400,6 +405,7 @@ nav:
       - README: Project/project-pokedex.md
     - Ftxui Application:
       - Ftxui Application: Project/project-ftxui-application.md
+    - Dự Thảo: Project/project-draff.md
 extra_css:
   - assets/stylesheets/theme.css
   - https://unpkg.com/katex@0/dist/katex.min.css

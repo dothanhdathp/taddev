@@ -10,19 +10,19 @@ Có các công cụ quản lý gói sau:
 
 ## Xem danh sách các gói đã cài:
 
-```text
+```bash
 sudo apt list --installed
 ```
 
 Cập nhật gói
 
-```text
+```bash
 sudo snap list
 ```
 
 ## Các gói giống nhau có thể dùng chung một cách để xóa
 
-```text
+```bash
 function uninstall_package()
 {
     if [ $# -eq 0 ]; then
@@ -39,7 +39,7 @@ function uninstall_package()
 }
 ```
 
-```text
+```bash
 sudo apt-get remove libreoffice* -y;
 sudo apt-get purge libreoffice* -y;
 ```
@@ -105,13 +105,13 @@ By default, Bluetooth uses the PL011, so you may need to disable Bluetooth to fr
 
 Open `/boot/firmware/config.txt`:
 
-```text
+```bash
 sudo nano /boot/firmware/config.txt
 ```
 
 Add these lines:
 
-```text
+```bash
 enable_uart=1
 dtoverlay=disable-bt
 ```
@@ -130,7 +130,7 @@ sudo nano /boot/firmware/cmdline.txt
 
 Replace the existing console setting with:
 
-```text
+```bash
 console=serial0,115200 console=tty1
 ```
 
@@ -141,12 +141,12 @@ console=serial0,115200 console=tty1
 
 After reboot, check which device is active:
 
-```text
+```bash
 dmesg | grep tty
 ```
 
 You should see something like:
 
-```text
+```bash
 fe201000.serial: ttyAMA0 at MMIO ...
 ```
