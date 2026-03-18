@@ -39,8 +39,8 @@ plugins:
 
 nav:
   ##################################################################################################################################
-  - Common OS:
-    - Common: index.md
+  - Computing:
+    - Computing: index.md
     - OS:
       - OS: OS/os.md
       - OS Overview: OS/os-overview.md
@@ -49,30 +49,34 @@ nav:
       - File System: OS/os-file-system.md
       - POSIX & Win32: OS/os-apis.md       
       - Mã Hoá:
-        - Chữ Ký Số: Common/digital-signature.md
+        - Chữ Ký Số: Computing/digital-signature.md
         - PCM: OS/os-audio-pcm.md
         - Audio Sample Formats: OS/os-audio-sample-formats.md
     - Network:
-      - Network: Common/network.md
-      - Điều Chế/Giải Điều Chế: Common/telecom-signal-modulation.md
+      - Network: Computing/network.md
+      - Điều Chế/Giải Điều Chế: Computing/telecom-signal-modulation.md
     - Media:
       - Audio:
-        - Audio: Common/audio.md
-        - WAV: Common/audio-wav.md
-        - MP3: Common/audio-mp3.md
-        - FLAC: Common/audio-flac.md
+        - Audio: Computing/audio.md
+        - WAV: Computing/audio-wav.md
+        - MP3: Computing/audio-mp3.md
+        - FLAC: Computing/audio-flac.md
       - Video:
-        - Video: Common/video.md
+        - Video: Computing/video.md
     - AI:
-      - AI: Common/ai.md
+      - AI: Computing/ai.md
     - CPU:
-      - CPU ISA: Common/cpu-isa.md
+      - CPU ISA: Computing/cpu-isa.md
+    - FILE:
+      - ELF: Computing/file-elf.md
   ##################################################################################################################################
-  - Linux OS:
-    - POSIX Common:
-      - POSIX Signal: OS/os-posix-signal.md
-      - SIGKILL: OS/os-posix-signal-sigkill.md
-      - POSIX Shell: OS/os-posix-shell.md
+  - UNIX OS:
+    - UNIX:
+      - UNIX: OS/os-unix.md
+      - POSIX Common:
+        - POSIX Signal: OS/os-posix-signal.md
+        - SIGKILL: OS/os-posix-signal-sigkill.md
+        - POSIX Shell: OS/os-posix-shell.md
     - Linux:
       - Linux: OS/Linux/linux.md
       - Linux Family: OS/Linux/linux-family-overview-and-install.md
@@ -92,6 +96,7 @@ nav:
         - Package: OS/Linux/linux-package.md
         - Apt: OS/Linux/linux-apt.md
         - Symlink: OS/Linux/linux-symlinks.md
+        - Readelf: OS/Linux/linux-readelf.md
       - Audio:
         - Alsa:
           - Alsa: OS/Linux/linux-alsa.md
@@ -117,6 +122,7 @@ nav:
         - grep: OS/Linux/linux-tools-grep.md
         - iBamboo: OS/Linux/linux-tools-ibamboo.md
         - sed: OS/Linux/linux-tools-sed.md
+        - sed: OS/Linux/linux-objdump.md
       - Packages:
         - apt: OS/Linux/linux-packages-apt.md
       - Dev:
@@ -287,33 +293,31 @@ nav:
     - PlantUml:
       - PlantUml: Markup/PlantUml/plantuml.md
       - Local Server: Markup/PlantUml/plantuml-local-server.md
-      - UML Diagrams:
-        - Sequence Diagram 🏲: Markup/PlantUml/plantuml-sequence-diagram.md
-        - Usecase Diagram: Markup/PlantUml/plantuml-usecase-diagram.md
-        - Class Diagram 🏲: Markup/PlantUml/plantuml-class-diagram.md
-        - Object Diagram: Markup/PlantUml/plantuml-object-diagram.md
-        - Activity Diagram 🏲: Markup/PlantUml/plantuml-activity-diagram.md
-        - Component Diagram: Markup/PlantUml/plantuml-component-diagram.md
-        - Deployment Diagram: Markup/PlantUml/plantuml-deployment-diagram.md
-        - State Diagram: Markup/PlantUml/plantuml-state-diagram.md
-        - Timing Diagram: Markup/PlantUml/plantuml-timing-diagram.md
-      - Non-UML Diagrams:
-        - JSON data: Markup/PlantUml/plantuml-json-data.md
-        - YAML data: Markup/PlantUml/plantuml-yaml-data.md
-        - EBNF diagram: Markup/PlantUml/plantuml-ebnf-diagram.md
-        - Regex diagram: Markup/PlantUml/plantuml-regex-diagram.md
-        - Network diagram (nwdiag): Markup/PlantUml/plantuml-network-diagram-nwdiag.md
-        - UI mockups (salt): Markup/PlantUml/plantuml-ui-mockups-salt.md
-        - Archimate diagram: Markup/PlantUml/plantuml-archimate-diagram.md
-        - SDL: Markup/PlantUml/plantuml-sdl.md
-        - Ditaa diagram: Markup/PlantUml/plantuml-ditaa-diagram.md
-        - Gantt diagram: Markup/PlantUml/plantuml-gantt-diagram.md
-        - Chronology diagram: Markup/PlantUml/plantuml-chronology-diagram.md
-        - MindMap diagram 🏲: Markup/PlantUml/plantuml-mindmap-diagram.md
-        - WBS diagram 🏲: Markup/PlantUml/plantuml-wbs-diagram.md
-        - Mathematics: Markup/PlantUml/plantuml-mathematics.md
-        - IE diagram: Markup/PlantUml/plantuml-ie-diagram.md
-        - ER diagram: Markup/PlantUml/plantuml-er-diagram.md
+      - Sequence Diagram 🏲: Markup/PlantUml/plantuml-sequence-diagram.md
+      - Usecase Diagram: Markup/PlantUml/plantuml-usecase-diagram.md
+      - Class Diagram 🏲: Markup/PlantUml/plantuml-class-diagram.md
+      - Object Diagram: Markup/PlantUml/plantuml-object-diagram.md
+      - Activity Diagram 🏲: Markup/PlantUml/plantuml-activity-diagram.md
+      - Component Diagram: Markup/PlantUml/plantuml-component-diagram.md
+      - Deployment Diagram: Markup/PlantUml/plantuml-deployment-diagram.md
+      - State Diagram: Markup/PlantUml/plantuml-state-diagram.md
+      - Timing Diagram: Markup/PlantUml/plantuml-timing-diagram.md
+      - JSON data: Markup/PlantUml/plantuml-json-data.md
+      - YAML data: Markup/PlantUml/plantuml-yaml-data.md
+      - EBNF diagram: Markup/PlantUml/plantuml-ebnf-diagram.md
+      - Regex diagram: Markup/PlantUml/plantuml-regex-diagram.md
+      - Network diagram (nwdiag): Markup/PlantUml/plantuml-network-diagram-nwdiag.md
+      - UI mockups (salt): Markup/PlantUml/plantuml-ui-mockups-salt.md
+      - Archimate diagram: Markup/PlantUml/plantuml-archimate-diagram.md
+      - SDL: Markup/PlantUml/plantuml-sdl.md
+      - Ditaa diagram: Markup/PlantUml/plantuml-ditaa-diagram.md
+      - Gantt diagram: Markup/PlantUml/plantuml-gantt-diagram.md
+      - Chronology diagram: Markup/PlantUml/plantuml-chronology-diagram.md
+      - MindMap diagram 🏲: Markup/PlantUml/plantuml-mindmap-diagram.md
+      - WBS diagram 🏲: Markup/PlantUml/plantuml-wbs-diagram.md
+      - Mathematics: Markup/PlantUml/plantuml-mathematics.md
+      - IE diagram: Markup/PlantUml/plantuml-ie-diagram.md
+      - ER diagram: Markup/PlantUml/plantuml-er-diagram.md
     - Mermaid:
       - Mermaid: Markup/Mermaid/mermaid.md
     - MKDocs:

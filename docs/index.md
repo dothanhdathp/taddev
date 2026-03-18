@@ -52,10 +52,12 @@ skinparam backgroundcolor transparent
 
 ***_ Đa Dụng
 ****_ =[[$URL/Tools/3utools/ 3Utool]]
-****_ =[[$URL/Tools/anydesk/ AnyDesk]]
+****_ [[$URL/Tools/anydesk/ AnyDesk]]
+****_ =[[$URL/Tools/docker/ Docker]]
+****_ =[[$URL/Tools/sambashare/ Sambashare]]
 
 ** [[$URL/DevTools/dev-tools/ Dev Tools]]
-***_ [[$URL/DevTools/VSCode/software-vscode/ VSCode]]
+***_ =[[$URL/DevTools/VSCode/software-vscode/ VSCode]]
 ***_ [[$URL/DevTools/software-android-studio/ Android Studio]]
 ***_ [[$URL/DevTools/Qt/qt/ Qt]]
 
@@ -66,12 +68,7 @@ skinparam backgroundcolor transparent
 ** MarkUp Language
 ***_ [[$URL/Markup/UML/uml/ UML (about language)]]
 ***_ [[$URL/Markup/Markdown/markdown/ Markdown]]
-***_ [[$URL/Markup/PlantUml/plantuml/ PlantUml]]
-****_ [[$URL/Markup/PlantUml/plantuml-sequence-diagram/ Sequence Diagram]]
-****_ [[$URL/Markup/PlantUml/plantuml-class-diagram/ Class Diagram]]
-****_ [[$URL/Markup/PlantUml/plantuml-activity-diagram/ Activity Diagram]]
-****_ [[$URL/Markup/PlantUml/plantuml-mindmap-diagram.md MindMap diagram]]
-****_ [[$URL/Markup/PlantUml/plantuml-wbs-diagram.md WBS diagram]]
+***_ =[[$URL/Markup/PlantUml/plantuml/ PlantUml]]
 ***_ [[$URL/Markup/Mermaid/mermaid/ Mermaid]]
 ***_ [[$URL/Markup/MKDocs/mkdocs/ MKDocs]]
 
