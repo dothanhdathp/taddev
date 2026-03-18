@@ -124,12 +124,14 @@
             "```"
         ],
     },
-    "vi-en": {
-        "prefix": "/vi-en",
+    "sticky-note": {
+        "prefix": "/sticky-note",
         "body": [
-            "=== \"VI\"",
-            "=== \"EN\"",
-        ],
+            "<div class=\"sticky-note\" markdown=\"1\">",
+            "\t",
+            "<div class=\"sticky-note-header\">:::</div>",
+            "</div>"
+        ]
     }
 }
 ```
