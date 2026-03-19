@@ -80,11 +80,26 @@ nav:
     - Linux:
       - Linux: OS/Linux/linux.md
       - Linux Family: OS/Linux/linux-family-overview-and-install.md
-      - Shell:
-        - Shell: OS/Linux/linux-shell.md
-        - Bash:
-          - Bash Intro: OS/Linux/linux-shell-bash.md
-          - Script: OS/Linux/linux-shell-bash-script.md
+      - Getting Start: OS/Linux/linux-getting-start.md
+      - Tools:
+        - Tools: OS/Linux/linux-tools.md
+        - Shell:
+          - Shell: OS/Linux/linux-shell.md
+          - Bash:
+            - Bash Intro: OS/Linux/linux-shell-bash.md
+            - Script: OS/Linux/linux-shell-bash-script.md
+        - Default:
+          - Symlink: OS/Linux/linux-symlinks.md
+          - Readelf: OS/Linux/linux-readelf.md
+          - Ls: linux-tools-ls.md
+          - Vim: linux-tools-vim.md
+        - Utilities:
+          - find: OS/Linux/linux-utilities-find.md
+          - compress: OS/Linux/linux-utilities-tar.md
+          - grep: OS/Linux/linux-tools-grep.md
+          - iBamboo: OS/Linux/linux-tools-ibamboo.md
+          - sed: OS/Linux/linux-tools-sed.md
+          - objdump: OS/Linux/linux-tools-objdump.md
       - System:
         - System Info: OS/Linux/linux-system-info.md
         - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md
@@ -95,8 +110,6 @@ nav:
         - Storage: OS/Linux/linux-storage.md
         - Package: OS/Linux/linux-package.md
         - Apt: OS/Linux/linux-apt.md
-        - Symlink: OS/Linux/linux-symlinks.md
-        - Readelf: OS/Linux/linux-readelf.md
       - Audio:
         - Alsa:
           - Alsa: OS/Linux/linux-alsa.md
@@ -116,13 +129,6 @@ nav:
       - Trick:
         - HTTP Server: OS/Linux/linux-http-server.md
         - Startup Script: OS/Linux/linux-startup-script.md
-      - Utilities:
-        - find: OS/Linux/linux-utilities-find.md
-        - compress: OS/Linux/linux-utilities-tar.md
-        - grep: OS/Linux/linux-tools-grep.md
-        - iBamboo: OS/Linux/linux-tools-ibamboo.md
-        - sed: OS/Linux/linux-tools-sed.md
-        - sed: OS/Linux/linux-objdump.md
       - Packages:
         - apt: OS/Linux/linux-packages-apt.md
       - Dev:
