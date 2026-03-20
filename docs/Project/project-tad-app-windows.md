@@ -38,23 +38,23 @@ npm run dist## ###
 
     ```json
     {
-    "devServer": "https://dothanhdathp.github.io/taddev/",
-    "codeServer": "https://dothanhdathp.github.io/tadcode/",
-    "booksServer": "https://dothanhdathp.github.io/tadbooks/",
-    "diaryServer": "https://dothanhdathp.github.io/taddiary/",
-    "studyServer": "https://dothanhdathp.github.io/tadstudy/",
-    "devPath": "D:\\Doc\\taddev",
-    "codePath": "D:\\Doc\\tadcode",
-    "booksPath": "D:\\Doc\\tadbooks",
-    "worksPath": "D:\\Doc\\tadworks",
-    "diaryPath": "D:\\Doc\\taddiary",
-    "studyPath": "D:\\Doc\\tadstudy",
-    "devPort": 8000,
-    "codePort": 8001,
-    "booksPort": 8002,
-    "worksPort": 8003,
-    "diaryPort": 8004,
-    "studyPort": 8005
+        "devServer": "https://dothanhdathp.github.io/taddev/",
+        "codeServer": "https://dothanhdathp.github.io/tadcode/",
+        "booksServer": "https://dothanhdathp.github.io/tadbooks/",
+        "diaryServer": "https://dothanhdathp.github.io/taddiary/",
+        "studyServer": "https://dothanhdathp.github.io/tadstudy/",
+        "devPath": "D:\\Doc\\taddev",
+        "codePath": "D:\\Doc\\tadcode",
+        "booksPath": "D:\\Doc\\tadbooks",
+        "worksPath": "D:\\Doc\\tadworks",
+        "diaryPath": "D:\\Doc\\taddiary",
+        "studyPath": "D:\\Doc\\tadstudy",
+        "devPort": 8000,
+        "codePort": 8001,
+        "booksPort": 8002,
+        "worksPort": 8003,
+        "diaryPort": 8004,
+        "studyPort": 8005
     }
     ```
 
@@ -62,20 +62,20 @@ npm run dist## ###
 
     ```json
     {
-    "docsServer": "https://dothanhdathp.github.io/taddocs/",
-    "booksServer": "https://dothanhdathp.github.io/tadbooks/",
-    "diaryServer": "https://dothanhdathp.github.io/taddiary/",
-    "studyServer": "https://dothanhdathp.github.io/taddiary/",
-    "docsPath": "D:\\Doc\\taddocs",
-    "booksPath": "D:\\Doc\\tadbooks",
-    "worksPath": "D:\\Doc\\tadworks",
-    "diaryPath": "D:\\Doc\\taddiary",
-    "studyPath": "D:\\Doc\\tadstudy",
-    "docsPort": 8000,
-    "booksPort": 8001,
-    "worksPort": 8002,
-    "diaryPort": 8003,
-    "studyPort": 8004
+        "docsServer": "https://dothanhdathp.github.io/taddocs/",
+        "booksServer": "https://dothanhdathp.github.io/tadbooks/",
+        "diaryServer": "https://dothanhdathp.github.io/taddiary/",
+        "studyServer": "https://dothanhdathp.github.io/taddiary/",
+        "docsPath": "D:\\Doc\\taddocs",
+        "booksPath": "D:\\Doc\\tadbooks",
+        "worksPath": "D:\\Doc\\tadworks",
+        "diaryPath": "D:\\Doc\\taddiary",
+        "studyPath": "D:\\Doc\\tadstudy",
+        "docsPort": 8000,
+        "booksPort": 8001,
+        "worksPort": 8002,
+        "diaryPort": 8003,
+        "studyPort": 8004
     }
     ```
 
