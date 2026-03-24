@@ -83,3 +83,6 @@ $PATH_TO_YOUR_APP/build/intermediates/../{architecture}
 
 *Ghi chú: Các kiến trúc (architecture) phổ biến là __armeabi__, __armeabi-v7a__, __arm64-v8a__, __x86__ và __x86_64__*
 
+## Proto
+
+- [Proto](android-bugreport-proto.md)

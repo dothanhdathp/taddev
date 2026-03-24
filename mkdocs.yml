@@ -28,6 +28,7 @@ theme:
     - navigation.instant
     - navigation.footer
     - navigation.tracking
+    - navigation.top
 
 plugins:
   - search:
@@ -181,6 +182,10 @@ nav:
     - Android Core:
       - Android Core: OS/Android/android-core.md
       - Android Architecture: OS/Android/android-core-architecture.md
+      - HAL:
+        - HAL: OS/Android/android-core-architecture-hal.md
+      - Kernel:
+        - SELinux: OS/Android/android-core-architecture-hal.md
     - Application:
       - Android Application:
         - Android Application: OS/Android/android-application.md
@@ -191,20 +196,18 @@ nav:
         - Component:
           - ListView: OS/Android/android-dev-app-listview.md
       - Menu Option: OS/Android/android-dev-menu-option.md
-    - HAL:
-      - HAL: OS/Android/android-core-architecture-hal.md
-    - Kernel:
-      - SELinux: OS/Android/android-core-architecture-hal.md
+    - Android Debug:
+      - ADB:
+        - ADB: OS/Android/android-adb.md
+        - ADB Logcat: OS/Android/android-adb-logcat.md
+        - ADB ETH: OS/Android/android-adb-eth.md
+        - ADB Bugreport: OS/Android/android-adb-bugreport.md
+      - Proto: OS/Android/android-bugreport-proto.md
     - External:
       - Tinyalsa: OS/Android/android-core-external-tinyalsa.md
       - JNI:
         - Create JNI: OS/Android/android-dev-application-jni.md
         - JNI Type: OS/Android/android-dev-jni-type.md
-    - Android Debug:
-      - ADB: OS/Android/android-adb.md
-      - ADB Logcat: OS/Android/android-adb-logcat.md
-      - ADB ETH: OS/Android/android-adb-eth.md
-      - ADB Bugreport: OS/Android/android-adb-bugreport.md
     - Misc:
       # Phần này tôi để trong những cái mình không biết nó nên thuộc module nào thì đưa vào đây.
       - Enable App Optimization: OS/Android/android-enable-app-optimization.md

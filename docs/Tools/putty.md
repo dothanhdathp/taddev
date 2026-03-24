@@ -1,13 +1,20 @@
 # putty.exe
 
-Sử dụng qua command in __console__
+## putty.exe
+
+- _**putty.exe**_ dùng để đọc tính hiệu từ TCPIP, hoặc serial console. _**putty.exe**_ có thể chạy trực tiếp và cấu hình bằng tay.
+- _**putty.exe**_ cũng hoạt động ở chế độ CLI, qua lệnh dưới đây:
 
 ```bash
-plink.exe -serial COM45 -sercfg 115200,8,n,1,X
+putty.exe -serial COM10 -sercfg 115200,8,n,1,N -m command
 ```
+
 ## plink.exe
-```bash
-putty.exe -serial COM45 -sercfg 115200,8,n,1
+
+_**plink.exe**_ để truyền _command (lệnh hoặc nội dung)_ vào đường serial, dùng để thi thoảng nếu mình muốn chạy tự động gì đó qua _**serial**_. Chẳng hạn _command tools_.
+
+```text
+plink.exe -serial COM10 -sercfg 115200,8,n,1,X < command
 ```
 
 ## Sử dụng plink để dùng serial com trong command
