@@ -11,3 +11,12 @@ Về các phương án phát triển trực tiếp Linux từ trong mã.
 - [MinGW-x64 cho Windows](https://udomain.dl.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe) _(kệ đi cái này sau cũng ít dùng)_
 - [How to Install WSL and Ubuntu 18.04 LTS on Windows 10](https://www.public-health.uiowa.edu/it/support/kb48549/) ???
 - 
+
+## Refer Lib
+
+Có một số thư viện vốn là không có sẵn và cần phải tải về, đó là:
+
+| Name        |     |
+| :---------- | :-- |
+| `libm.so.6` |     |
+| `libc.so.6` |     |
