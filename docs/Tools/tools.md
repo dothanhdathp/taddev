@@ -6,26 +6,28 @@
 - **T**: _Terminal Tools_
 - **AT**: _Run in both mode_
 
-| Name                             | Linux | Win | macOS | Des.                                                                                                      |
-| :------------------------------- | :---: | :-: | :---: | :-------------------------------------------------------------------------------------------------------- |
-| [minicom](minicom.md)            |   T   |     |       | Open COM's port                                                                                           |
-| [FFmpeg](ffmpeg.md)              |   T   |  T  |       | Play/Convert/... mutilmedia.                                                                              |
-| [<mark>Docker</mark>](docker.md) |   T   |  T  |   T   |                                                                                                           |
-| [Msys2](msys2.md)                |       | AT  |       | POSIX terminal on Windows                                                                                 |
-| [sambashare](sambashare.md)      |   T   |     |       | Share Folder via SSH                                                                                      |
-| [Scrcpy](scrcpy.md)              |  AT   | AT  |       | Remote android device via adb                                                                             |
-| [tmux](tmux.md)                  |   T   |     |       | Terminal in background                                                                                    |
-| [tree](tree.md)                  |   T   |     |       | Present files dir in tree                                                                                 |
-| [yt-dlp](yt-dlp.md)              |   T   |  T  |   T   | Youtube downloader                                                                                        |
-| Audacity                         |   A   |  A  |   A   | Audio analizer                                                                                            |
-| [3Utool](3utools.md)             |   A   |  A  |       | All-in-one solution for iPhone: Device Verification, Flashing, Backup, Optimization, and App downloads... |
-| [AnyDesk](anydesk.md)            |  AT   | AT  |  AT   | Remote Desktop                                                                                            |
-| [Putty](putty.md)                |       |  A  |       | Open COM's port                                                                                           |
-| JameDSP                          |   A   |     |       | DSP Solution on Ubuntu                                                                                    |
-| Shotwell                         |   A   |     |       | Simple Image Editer                                                                                       |
-| Remmina                          |   A   |     |       | Remote destop well                                                                                        |
-| CatSpy                           |   A   |  A  |       | Android Log Analizer                                                                                      |
-| Terminator                       |   A   |     |       | Multiple terminals in one window                                                                          |
-| SimpleNote                       |   A   |  A  |       | simple note                                                                                               |
-| [NeoVim](nvim-text-editor.md)    |   T   |  T  |   T   | Chương trình chỉnh sửa văn bản mặc định.                                                                  |
-| [Helix](helix-text-editor.md)    |       |     |       |                                                                                                           |
+
+
+| Name                             |  Linux  |   Win   |  macOS  | Type           |
+| :------------------------------- | :-----: | :-----: | :-----: | :------------- |
+| [minicom](minicom.md)            | &check; |         |         | Terminator     |
+| [FFmpeg](ffmpeg.md)              | &check; | &check; |         | Media          |
+| [<mark>Docker</mark>](docker.md) | &check; | &check; | &check; | Dev            |
+| [Msys2](msys2.md)                |         | &check; |         | Dev            |
+| [sambashare](sambashare.md)      | &check; |         |         | Resources      |
+| [Scrcpy](scrcpy.md)              | &check; | &check; |         | Android Screen |
+| [tmux](tmux.md)                  | &check; |         |         | Terminator     |
+| [tree](tree.md)                  | &check; |         |         | Terminator     |
+| [yt-dlp](yt-dlp.md)              | &check; | &check; | &check; | Terminator     |
+| Audacity                         | &check; | &check; | &check; | Terminator     |
+| [3Utool](3utools.md)             | &check; | &check; |         | Terminator     |
+| [AnyDesk](anydesk.md)            | &check; | &check; | &check; | Terminator     |
+| [Putty](putty.md)                |         | &check; |         | Terminator     |
+| JameDSP                          | &check; |         |         | Terminator     |
+| Shotwell                         | &check; |         |         | Terminator     |
+| Remmina                          | &check; |         |         | Terminator     |
+| CatSpy                           | &check; | &check; |         | Terminator     |
+| [Terminator](terminator.md)      | &check; |         |         | Terminator     |
+| SimpleNote                       | &check; | &check; |         | Terminator     |
+| [NeoVim](nvim-text-editor.md)    | &check; | &check; | &check; | Terminator     |
+| [Helix](helix-text-editor.md)    |         |         |         | Terminator     |

@@ -59,9 +59,10 @@ nav:
     - Media:
       - Audio:
         - Audio: Computing/audio.md
-        - WAV: Computing/audio-wav.md
-        - MP3: Computing/audio-mp3.md
-        - FLAC: Computing/audio-flac.md
+        - File Types:
+          - WAV: Computing/audio-wav.md
+          - MP3: Computing/audio-mp3.md
+          - FLAC: Computing/audio-flac.md
       - Video:
         - Video: Computing/video.md
     - AI:
@@ -82,13 +83,14 @@ nav:
       - Linux: OS/Linux/linux.md
       - Linux Family: OS/Linux/linux-family-overview-and-install.md
       - Getting Start: OS/Linux/linux-getting-start.md
+      - Linux Shell:
+          - Bash Script: OS/Linux/linux-shell-bash-script.md
+          - Các Câu Lệnh Thường Dùng: OS/Linux/linux-shell-bash-commons.md
+          - Biến: OS/Linux/linux-shell-bash-variables.md
+          - So Sánh: OS/Linux/linux-shell-bash-compare.md
+          - Điều khiển luồng: OS/Linux/linux-shell-bash-flow-control.md
       - Tools:
         - Tools: OS/Linux/linux-tools.md
-        - Shell:
-          - Shell: OS/Linux/linux-shell.md
-          - Bash:
-            - Bash Intro: OS/Linux/linux-shell-bash.md
-            - Script: OS/Linux/linux-shell-bash-script.md
         - Default:
           - Symlink: OS/Linux/linux-symlinks.md
           - Readelf: OS/Linux/linux-readelf.md
@@ -224,14 +226,11 @@ nav:
       - tree: Tools/tree.md
       - Docker:
         - Docker: Tools/docker.md
-      - FFmpeg:
-        - FFmpeg: Tools/ffmpeg.md
-        - Download: Tools/ffmpeg-download.md
-        - Convert: Tools/ffmpeg-convert.md
-      - yt-dlp:
-        - yt-dlp: Tools/yt-dlp.md
+      - FFmpeg: Tools/ffmpeg.md
+      - yt-dlp: Tools/yt-dlp.md
       - NeoVim: Tools/nvim-text-editor.md
       - Helix: Tools/helix-text-editor.md
+      - Terminator: Tools/terminator.md
     - Application Tools:
       - Putty: Tools/putty.md
       - 3Utool: Tools/3utools.md
