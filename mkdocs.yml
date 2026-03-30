@@ -154,9 +154,11 @@ nav:
         - Services (WS): OS/Windows/windows-services.md
         - Macro PATH: OS/Windows/windows-macro-path.md
         - Environment Variables: OS/Windows/windows-environment-variables.md
-        - Startup Process: OS/Windows/windows-startup-process.md
         - Service Tag, Manufacture: OS/Windows/windows-service-tag-and-manufacture.md
         - Start Menu: OS/Windows/windows-service-start-menu.md
+        - Resource Monitor: OS/Windows/windows-resource-monitor.md
+      - Process:
+        - Startup Process: OS/Windows/windows-startup-process.md
       - Network: OS/Windows/windows-network.md
       - Shell:
         - cmd:

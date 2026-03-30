@@ -2,6 +2,19 @@
 
 ## Overview
 
+## PinOut
+
+=== "RPi 4 Pinout"
+    <figure markdown="span">
+        ![alt text](img/rpi-4-pinout.png)
+        <figcaption></figcaption>
+    </figure>
+
+    _Khi đấu nối qua USB to TTL, đấu ngược TX với RX, RX với TX._
+=== "RPi 5 Pinout"
+
+    _Chưa có tiền mua._
+
 ## Software
 
 ### Raspberry Pi Imager
