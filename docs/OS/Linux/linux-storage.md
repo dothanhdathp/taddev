@@ -2,6 +2,10 @@
 
 > Toàn bộ về quản lý ổ đĩa trong hệ điều hành Linux và các Linux distro.
 
+- [Danh sách ổ cứng](#danh-sach-o-cung)
+- [Xem dung lượng sử dụng](#xem-dung-luong-su-dung)
+- [Tính Dung Lượng Trên Một Tệp](#tinh-dung-luong-tren-mot-tep)
+
 ## Thông tin
 
 ### Danh sách ổ cứng
@@ -59,6 +63,14 @@ Có rất nhiều thông tin nhưng hãy chú ý đến hai phân vùng `nvme0n1
 - Như đã biết ở phần tên về ý nghĩa thì
 - `nvme0n1p1` là phân vùng __*boot*__m gần như dữ liệu ở đây rất ít khi bị thay đổi _(trừ khi cập nhật hệ điều hành)_. `505MB` được cấp hơi lớn so với `6.3M` đã dùng thì hơi quá nhưng ổn.
 - `nvme0n1p2` là phân vùng dữ liệu tổng _(bao gồm cả hệ điều hành)_. Có thể thấy người dùng đã sử dụng `108G` trên tổng số `468G` có thể dùng, chiếm __*25%*__ tổng dung lượng.
+
+### Tính Dung Lượng Trên Một Tệp
+
+Lệnh này trả về dung lượng trên một tệp nó như thế nào.
+
+```bash
+du -sh /path/to/directory
+```
 
 ## Mount ổ cứng
 
