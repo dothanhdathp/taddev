@@ -154,12 +154,12 @@ label.md-nav__link::before {
   background-color: var(--md-table-header-color);
   padding: 0.5em 1.2em 0.5em 1.2em;
   font-size: medium;
-  border: 2px solid var(--main-theme-color);
+  border: 1px solid var(--main-theme-color);
 }
 .md-typeset table:not([class]) td {
   padding: 0em 1.2em 0em 1.2em;
   font-size: medium;
-  border: 2px solid var(--main-theme-color);
+  border: 1px solid var(--main-theme-color);
 }
 /* code mark style */
 :not(pre):not(.hljs) > code {

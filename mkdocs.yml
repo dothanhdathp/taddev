@@ -218,6 +218,8 @@ nav:
       - Systrace: OS/Android/android-systrace.md
     - Example:
       - First Application: OS/Android/android-first-application.md
+  - RTOS:
+    - Getting Start: OS/RTOS/rtos.md
   ##################################################################################################################################
   - Tools:
     - Tools: Tools/tools.md
@@ -359,10 +361,13 @@ nav:
       - Reference: Device/electric-reference.md
     - Device:
       - Rasberry Pi: Device/rasberry-pi.md
-      - Android for Pi:
-        - AOSP Pi: Device/rasberry-pi-aosp.md
-        - AOSP Pi4: Device/rasberry-pi4-aosp-15.md
-        - AOSP Pi4: Device/rasberry-pi4-aosp-13.md
+      - AOSP Pi: Device/rasberry-pi-aosp.md
+      - Pi Android OS:
+        - Android 12 (pi4): Device/rasberry-pi-aosp-12.md
+        - Android 13 (pi4): Device/rasberry-pi-aosp-13.md
+        - Android 14 (pi4+5): Device/rasberry-pi-aosp-14.md
+        - Android 15 (pi4+5): Device/rasberry-pi-aosp-15.md
+        - Android 16 (pi4+5): Device/rasberry-pi-aosp-16.md
       - CAN:
         - CANable 2.0: Device/canable.md
         - PEAK-System: Device/peak-system.md
@@ -409,6 +414,8 @@ nav:
       - Github Overview: Git/Github/github-overview.md
       - Github Start: Git/Github/github-start.md
       - Github Page: Git/Github/github-page.md
+    - Support Tools:
+      - Delta: Git/git-tools-delta.md
   ##################################################################################################################################
   - Project:
     - Tad App: 

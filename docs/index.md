@@ -33,8 +33,9 @@ skinparam backgroundcolor transparent
 ****_ [[$URL/OS/Linux/u****buntu/ Ubuntu]]
 ***_ =[[$URL/OS/Android/android/ Android]]
 *** [[$URL/OS/Windows/windows/ Windows]]
-** [[$URL/Tools/tools/ Tools]]
+*** [[$URL/OS/RTOS/rtos/ RTOS]]
 
+** [[$URL/Tools/tools/ Tools]]
 ***_ Tài liệu
 ****_ =[[$URL/Tools/mkdocs/ MKDocs]]
 ****_ [[$URL/Tools/epub-translator/ epub-translator]]
