@@ -69,6 +69,7 @@ nav:
       - AI: Computing/ai.md
     - CPU:
       - CPU ISA: Computing/cpu-isa.md
+      - RISC & CISC: Computing/cpu-risc-and-cisc.md
     - FILE:
       - ELF: Computing/file-elf.md
   ##################################################################################################################################
@@ -416,6 +417,7 @@ nav:
       - Github Page: Git/Github/github-page.md
     - Support Tools:
       - Delta: Git/git-tools-delta.md
+      - Lazygit: Git/git-tools-lazygit.md
   ##################################################################################################################################
   - Project:
     - Tad App: 
