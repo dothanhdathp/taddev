@@ -20,4 +20,4 @@ Lệnh này không có nhiều lệnh, và không phức tạp. Một số cách
     - Sẽ hiển thị tất cả tệp/thư mục ở trong khu vực gọi dòng lệnh. Nó sẽ quét và biểu diễn tất cả các tệp lên cửa sổ lệnh. Hãy cẩn thận vì đôi khi ở `root` hay là ở trong những thư mục có số lượng tệp nhiều rất có thể treo màn hình.
 1. `tree -L $NUMBER` biểu diễn với độ sâu `$NUMBER`
     - Thường được dùng hơn. Với `$NUMBER` là một số. Lệnh đó sẽ chỉ biểu diễn các thành phần với độ sâu `$NUMBER` rồi dừng lại.
-1. `tree -d` dùng để biểu diễn các tệp ___(directories only)___
+1. `tree -d` dùng để biểu diễn các tệp _**(directories only)**_

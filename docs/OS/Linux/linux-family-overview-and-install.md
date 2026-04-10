@@ -12,13 +12,13 @@ skinparam backgroundcolor transparent
 !$URL = "/OS/Linux"
 
 * [[$URL/linux-family-overview-and-install/ Linux]]
-**_ [[$URL/linux-install-ubuntu/ Install Ubuntu]]()
+**_ [[$URL/linux-install-ubuntu/ Install Ubuntu]]
 
 left side
 **_ [[/OS/os/ OS]]
 
 right side
-**_ [[$URL/linux-shell/ Shell]]()
+**_ [[$URL/linux-shell/ Shell]]
 ***_ [[$URL/linux-shell-bash/ Bash]]
 ** System
 ***_ [[$URL/linux-system-info/ System Info]]

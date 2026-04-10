@@ -98,19 +98,13 @@ Cách chia này khoa học và hợp lý hơn. Các hệ điều hành khác nha
 
 ## Các Hệ Điều Hành Quan trọng
 
-- Microsoft
-    - [Windows](Windows/windows.md)
-- Linux
-    - [Linux](./Linux/linux.md)
-    - [Ubuntu](./Linux/linux-install-ubuntu.md)
-    - Debian
-- Google
-    - Android
-    - Chrome OS
-- Apple
-    - iOS
-    - MacOS
-- ROTS
+|           |                                 |                                           |                           |
+| :-------- | :------------------------------ | :---------------------------------------- | :------------------------ |
+| Microsoft | [Windows](Windows/windows.md)   |                                           |                           |
+| Linux     | [Linux](./Linux/linux.md)       | [Ubuntu](./Linux/linux-install-ubuntu.md) | [Zorin](./Linux/zorin.md) |
+| Google    | [Android](./Android/android.md) | Chrome OS                                 |                           |
+| Apple     | iOS                             | MacOS                                     |                           |
+| ROTS      |                                 |                                           |                           |
 
 ## Tham Khảo
 

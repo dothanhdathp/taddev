@@ -4,6 +4,7 @@
 
 Tạo tệp `.github\workflows\ci.yml` và điền nội dung như này:
 
+{% raw %}
 ```text title="ci.yml"
 name: ci 
 on:
@@ -35,6 +36,7 @@ jobs:
       - run: pip install pymdown-extensions
       - run: mkdocs gh-deploy --force
 ```
+{% endraw %}
 
 Mục branch cần chú ý:
 - main
