@@ -21,3 +21,5 @@
 !!! abstract "Computer Architecture: A Quantitative Approach"
     - Tác Giả: _Hennessy & Patterson_
     - Dành cho mức độ nâng cao hơn, đi sâu vào hiệu suất, tính toán song song và tối ưu hóa ISA.
+
+- [RISC & CISC](cpu-risc-and-cisc.md)

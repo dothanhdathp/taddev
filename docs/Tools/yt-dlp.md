@@ -22,6 +22,10 @@ Trước mắt để lấy về một video từ `url-youtube` rất đơn giả
 yt-dlc <url-youtube>
 ```
 
+```text title="High Quality Audio"
+yt-dlc --no-keep-video -x --audio-format wav --audio-quality 0 URL
+```
+
 Sau đó chương trình sẽ tự động tải về phiên bản video phù hợp.
 
 Sử dụng cùng [ffmpeg](./ffmpeg.md)

@@ -10,6 +10,8 @@ Các tài liệu về
 - Công nghệ và mô tả
 - Các công cụ và cách sử dụng công cụ, cấu hình công cụ phục vụ mục đích học tập.
 
+{{ linkslide("[Nami] Volume Control and Mute", "work/nami-nt-398.html") }}
+
 ## Cấu Trúc
 
 ```puml

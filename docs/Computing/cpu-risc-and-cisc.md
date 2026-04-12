@@ -1,59 +1,6 @@
 # Kiến trúc RISC và CISC
-> Kiến trúc RISC và CISC là gì và sự khác biệt của chúng
 
-Kiến trúc của Bộ xử lý trung tâm (CPU) vận hành khả năng hoạt động từ "Kiến trúc tập lệnh" đến nơi nó được thiết kế. Thiết kế kiến ​​trúc của CPU là **Máy tính tập lệnh rút gọn (RISC)** và **Máy tính tập lệnh phức tạp (CISC)**. CISC có khả năng thực hiện các hoạt động nhiều bước hoặc chế độ địa chỉ trong một tập lệnh. Đây là thiết kế CPU trong đó một lệnh thực hiện nhiều hành động cấp thấp. Ví dụ, lưu trữ bộ nhớ, tải từ bộ nhớ và một phép toán số học. Máy tính tập lệnh rút gọn là một chiến lược thiết kế Bộ xử lý trung tâm dựa trên tầm nhìn rằng tập lệnh cơ bản mang lại hiệu suất tuyệt vời khi kết hợp với kiến ​​trúc vi xử lý có khả năng thực hiện các lệnh bằng cách sử dụng một số chu kỳ vi xử lý cho mỗi lệnh. Bài viết này thảo luận về kiến ​​trúc RISC và CISC với các sơ đồ phù hợp.
-
-Phần cứng của Intel được đặt tên là Máy tính tập lệnh phức tạp (CISC) và phần cứng của Apple là Máy tính tập lệnh rút gọn (RISC).
-
-## RISC và CISC là gì?
-
-Máy tính có tập lệnh phức hợp là máy tính mà các lệnh đơn có thể thực hiện nhiều thao tác cấp thấp như tải từ bộ nhớ, phép toán số học và lưu trữ bộ nhớ hoặc được thực hiện bằng các quy trình nhiều bước hoặc chế độ địa chỉ trong các lệnh đơn, như tên gọi của nó đề xuất "Bộ lệnh phức hợp". Máy tính có tập lệnh rút gọn là máy tính chỉ sử dụng các lệnh đơn giản có thể được chia thành nhiều lệnh để thực hiện thao tác cấp thấp trong một chu kỳ **CLK** _(clock)_ duy nhất, như tên gọi của nó đề xuất "Bộ lệnh rút gọn"
-
-### Kiến trúc RISC
-
-Thuật ngữ RISC là viết tắt của "Máy tính có tập lệnh rút gọn". Đây là một kế hoạch thiết kế CPU dựa trên các lệnh đơn giản và hoạt động nhanh. Đây là tập lệnh nhỏ hoặc rút gọn. Ở đây, mọi lệnh đều được mong đợi đạt được các công việc rất nhỏ. Trong máy này, các tập lệnh khiêm tốn và đơn giản, giúp bao gồm các lệnh phức tạp hơn. Mỗi lệnh có độ dài tương đương nhau; chúng được kết hợp với nhau để hoàn thành các tác vụ phức hợp trong một thao tác duy nhất. Hầu hết các lệnh được hoàn thành trong một chu kỳ máy. Đường ống này là một kỹ thuật quan trọng được sử dụng để tăng tốc máy RISC.
-
-<figure markdown="span">
-    ![alt text](img/cpu-risc-and-cisc.png)
-    <figcaption></figcaption>
-</figure>
-
-Máy tính có bộ lệnh rút gọn là một bộ vi xử lý được thiết kế để thực hiện một số lệnh cùng một lúc. Dựa trên các lệnh nhỏ, các chip này cần ít bóng bán dẫn hơn, giúp thiết kế và sản xuất bóng bán dẫn không tốn kém. Các tính năng của RISC bao gồm:
-
-- Nhu cầu giải mã ít hơn
-- Ít kiểu dữ liệu trong phần cứng
-- Thanh ghi mục đích chung
-- Giống hệt nhau
-- Bộ lệnh thống nhất
-- Các nút định địa chỉ đơn giản.
-
-Ngoài ra, khi viết chương trình, RISC giúp lập trình viên máy tính dễ dàng hơn bằng cách loại bỏ các mã không cần thiết và ngừng lãng phí chu kỳ.
-
-### Kiến trúc CISC
-
-Thuật ngữ CISC là viết tắt của ''Máy tính có bộ lệnh phức tạp''. Đây là một kế hoạch thiết kế CPU dựa trên các lệnh đơn, có kỹ năng thực hiện các hoạt động nhiều bước. Máy tính CISC có các chương trình nhỏ. Nó có một số lượng lớn các lệnh hợp thành, mất nhiều thời gian để thực hiện. Ở đây, một bộ lệnh duy nhất được bảo vệ trong nhiều bước; mỗi bộ lệnh có hơn 300 lệnh riêng biệt. Tối đa các lệnh được hoàn thành trong hai đến mười chu kỳ máy. Trong CISC, đường ống lệnh không dễ triển khai. Kiến trúc CISC Các máy CISC có các hoạt động tốt, dựa trên tổng quan về trình biên dịch chương trình; vì một loạt các hướng dẫn cải tiến chỉ có thể đạt được trong một tập lệnh. Họ thiết kế các hướng dẫn phức hợp trong một tập hợp các hướng dẫn đơn giản. Chúng đạt được các quy trình cấp thấp, giúp dễ dàng có các nút địa chỉ khổng lồ và các kiểu dữ liệu bổ sung trong phần cứng của máy. Tuy nhiên, CISC được coi là kém hiệu quả hơn RISC, vì nó không đủ khả năng để loại bỏ các mã dẫn đến lãng phí chu trình. Ngoài ra, các chip vi xử lý rất khó hiểu và khó lập trình vì sự phức tạp của phần cứng. Các bộ xử lý RISC có một tập hợp các lệnh nhỏ hơn với ít các nút địa chỉ. Các bộ xử lý CISC có một tập hợp các lệnh lớn hơn với nhiều nút địa chỉ.
-
-<figure markdown="span">
-    ![alt text](img/cpu-risc-and-cisc-2.png)    
-    <figcaption></figcaption>
-</figure>
-
-## RISC Vs CISC
-
-|                    | RISC                                                                            | CISC                                                     |
-| :----------------- | :------------------------------------------------------------------------------ | :------------------------------------------------------- |
-| Memory Unit        | RISC không có bộ nhớ và sử dụng một phần cứng riêng biệt để triển khai các lệnh | CISC có một đơn vị bộ nhớ để thực hiện các lệnh phức tạp |
-| Chương trình       | RISC có một đơn vị lập trình có dây cứng                                        | CISC có một đơn vị vi lập trình                          |
-| Thiết kế           | RISC là một thiết kế trình biên dịch phức tạp                                   | CISC là một thiết kế trình biên dịch dễ dàng             |
-| Các phép tính      | RISC nhanh hơn và chính xác hơn                                                 | Tính toán CISC chậm và chính xác                         |
-| Giải mã            | Việc giải mã các lệnh của RISC rất đơn giản                                     | Việc giải mã các lệnh trong CISC là phức tạp             |
-| Thời gian thực thi | Thời gian thực thi trong RISC là rất ít                                         | Thời gian thực thi trong CISC rất cao                    |
-| Bộ nhớ ngoài       | RISC không yêu cầu bộ nhớ ngoài để tính toán                                    | CISC yêu cầu bộ nhớ ngoài để tính toán                   |
-| Pipelining         | RISC Pipelining hoạt động chính xác                                             | CISC Pipelining không hoạt động chính xác                |
-| Stalling           | RISC đình trệ hầu hết được giảm trong bộ xử lý                                  | Các bộ xử lý CISC thường bị đình trệ                     |
-| Mở rộng Mã         | Mở rộng Mã có thể là một vấn đề trong RISC                                      | Mở rộng Mã không phải là một vấn đề                      |
-
-Các ví dụ tốt nhất về kiến ​​trúc tập lệnh CISC bao gồm VAX, PDP-11, Motorola 68k và PC để bàn của bạn trên kiến ​​trúc x86 của Intel, trong khi các ví dụ tốt nhất về kiến ​​trúc RISC bao gồm DEC Alpha, ARC, AMD 29k, Atmel AVR, Intel i860, Blackfin , i960, Motorola 88000, MIPS, PA-RISC, Power, SPARC, SuperH và ARM cũng vậy. Các ứng dụng của RISC và CISCRISC được sử dụng trong các ứng dụng cao cấp như xử lý video, viễn thông và xử lý hình ảnh. CISC được sử dụng trong các ứng dụng cấp thấp như hệ thống an ninh, tự động hóa gia đình, v.v. Từ sự so sánh ở trên giữa RISC và CISC, cuối cùng, chúng ta có thể kết luận rằng chúng ta không thể phân biệt giữa công nghệ RISC và CISC vì cả hai đều phù hợp với ứng dụng chính xác của nó. Ngày nay, cả các nhà thiết kế RISC và CISC đều đang làm tất cả để có được lợi thế trong cuộc cạnh tranh. Chúng tôi hy vọng rằng bạn đã hiểu rõ hơn về khái niệm này. Hơn nữa, bất kỳ nghi ngờ nào liên quan đến khái niệm này, hoặc để thực hiện bất kỳ dự án điện và điện tử nào, vui lòng đưa ra phản hồi của bạn bằng cách bình luận trong phần bình luận bên dưới. Đây là một câu hỏi dành cho bạn, đó là lợi thế của RISC và CISC là gì?
+{{ linkslide("Kiến trúc RISC và CISC là gì và sự khác biệt của chúng", "dev/difference-between-risc-and-cisc.html") }} 
 
 ## Ưu điểm và Nhược điểm
 
@@ -137,6 +84,5 @@ Nhân hai số Ưu điểm và Nhược điểm của RISC và CISCƯu điểm c
 ## Tham Khảo
 
 - (Vi)Fmuser
-    - [Kiến trúc RISC và CISC là gì và sự khác biệt của chúng](https://vi.fmuser.net/wap/content/?21079.html)
     - [RISC và Kiến trúc CISC với Ưu điểm và Nhược điểm là gì](https://vi.fmuser.net/wap/content/?21080.html)
 - [edgefxkits](www.edgefxkits.com)

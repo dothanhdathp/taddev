@@ -36,3 +36,19 @@ Lúc này câu lệnh sẽ yêu cầu nhập mật khẩu wifi thủ công.
 ```bash
 sudo nmcli device disconnect wlan0
 ```
+
+
+## Troubleshot
+
+```text
+journalctl -u NetworkManager.service -f
+```
+
+Reset router
+
+```text
+sudo systemctl stop NetworkManager
+sudo killall wpa_supplicant
+sudo systemctl start NetworkManager
+sudo nmcli general status
+```

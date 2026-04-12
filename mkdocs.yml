@@ -356,7 +356,7 @@ nav:
       - Projects: Markup/MKDocs/mkdocs-projects.md
       - TadApp: Markup/MKDocs/mkdocs-for-tadapp.md
   ##################################################################################################################################
-  - Điện Tử:
+  - Device:
     - Device: Device/electric.md
     - LKDT:
       - Điện Trở: Device/electric-resistor.md
@@ -364,13 +364,9 @@ nav:
       - Reference: Device/electric-reference.md
     - Device:
       - Rasberry Pi: Device/rasberry-pi.md
-      - AOSP Pi: Device/rasberry-pi-aosp.md
-      - Pi Android OS:
-        - Android 12 (pi4): Device/rasberry-pi-aosp-12.md
-        - Android 13 (pi4): Device/rasberry-pi-aosp-13.md
-        - Android 14 (pi4+5): Device/rasberry-pi-aosp-14.md
-        - Android 15 (pi4+5): Device/rasberry-pi-aosp-15.md
-        - Android 16 (pi4+5): Device/rasberry-pi-aosp-16.md
+      - Pi Android AOSP:
+        - How To Build: Device/rasberry-pi-aosp.md
+        - How To: Device/rasberry-pi-aosp-how-to.md
       - CAN:
         - CANable 2.0: Device/canable.md
         - PEAK-System: Device/peak-system.md
