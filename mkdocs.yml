@@ -238,6 +238,7 @@ nav:
       - NeoVim: Tools/nvim-text-editor.md
       - Helix: Tools/helix-text-editor.md
       - Terminator: Tools/terminator.md
+      - mdbook: Tools/mdbook.md
     - Application Tools:
       - Putty: Tools/putty.md
       - 3Utool: Tools/3utools.md
