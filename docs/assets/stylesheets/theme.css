@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: "CodeFont";
-	src: url("/assets/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+	src: url("/assets/fonts/JetBrainsMono-Medium.ttf") format("truetype");
 }
 
 @font-face {
@@ -386,7 +386,7 @@ iframe {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 90%;
+	width: 100%;
 	height: auto;
 	background: transparent;
 	border-radius: 0px;
@@ -408,5 +408,5 @@ iframe.bookframe {
 	width: 100%;
 	height: fit-content;
 	border: none;
-	aspect-ratio: 16/9;
+	aspect-ratio: 16/8;
 }

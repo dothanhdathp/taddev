@@ -64,8 +64,4 @@ window.onclick = function(event) {
     if (event.target == modal) {
         closeSlide();
     }
-    modal = document.getElementById('slideModal');
-    if (event.target == modal) {
-        closeBook();
-    }
 }
