@@ -1,6 +1,8 @@
 # Android ADB
 > Android Debug Bridge
 
+{{ book("Android ADB", "android-adb") }}
+
 ## Overview
 
 Là công cụ hỗ trợ _debug_ dành cho các thiết bị __Android__. Công cụ này được phát triển bởi __Google__ giúp đọc các tệp nhật ký hệ thống, truy xuất dữ liệu và điều khiển thiết bị Android. Cái quan trọng là tuân thủ quyền bảo mật hệ thống và phát triển.

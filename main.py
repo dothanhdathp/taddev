@@ -15,3 +15,7 @@ def define_env(env):
                     allowfullscreen>
                 </iframe>
             </div>'''
+    
+    @env.macro
+    def book(title, book):
+        return f'''<a href="javascript:void(0);" onclick="openBook('http://localhost:65000/book/{book}/index.html')">⧉ {title}</a>'''
