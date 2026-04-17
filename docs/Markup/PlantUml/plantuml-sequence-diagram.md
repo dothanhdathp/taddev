@@ -4,7 +4,7 @@
 
 __Sequence Diagram__ được sử dụng để mô tả luồng hoạt động giữa các lớp, tiến trình
 
-Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://plantuml.com/sequence-diagram)
+Tham khảo chi tiết tại: <https://plantuml.com/sequence-diagram>
 
 ## Participant
 

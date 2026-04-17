@@ -17,5 +17,5 @@ def define_env(env):
             </div>'''
     
     @env.macro
-    def book(title, book, page="index.html"):
+    def book(title, book, page=""):
         return f'''[{title}](http://localhost:65000/book/{book}/{page})'''

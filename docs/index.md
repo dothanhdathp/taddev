@@ -1,6 +1,6 @@
 # Preface
 
-{{ linkslide("High Performance Browser Networking", "book/high-performance-browser-networking/index.html") }}
+{{ book("High Performance Browser Networking", "high-performance-browser-networking") }}
 
 ## Mô Tả
 
