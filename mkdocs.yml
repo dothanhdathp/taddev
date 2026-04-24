@@ -367,7 +367,7 @@ nav:
       - Rasberry Pi: Device/rasberry-pi.md
       - Pi Android AOSP:
         - How To Build: Device/rasberry-pi-aosp.md
-        - How To: Device/rasberry-pi-aosp-how-to.md
+        - How To Use: Device/rasberry-pi-aosp-adb-wifi.md
       - CAN:
         - CANable 2.0: Device/canable.md
         - PEAK-System: Device/peak-system.md

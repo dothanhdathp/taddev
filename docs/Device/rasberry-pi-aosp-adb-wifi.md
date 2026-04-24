@@ -2,4 +2,4 @@
 
 ## Hướng Dẫn
 
-- 
+{{ slide("dev/how-to-use-android-for-pi.html") }}

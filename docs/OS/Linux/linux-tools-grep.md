@@ -163,3 +163,11 @@ grep -rwn -P "printf" -I
 ```
 
 Thế là giải quyết xong vấn đề.
+
+## Tìm kiếm tệp có chứa nội dung
+
+Nhiều khi trong một tệp chứa rất rất nhiều keyword và cái đó là loãng luồng thông tin. Những lúc như thế chỉ cần biến rằng tệp đó có chứa thông tin mình cần không thôi là được. Thế thì dùng cờ `-l`.
+
+```text
+grep -l "keyword"
+```
