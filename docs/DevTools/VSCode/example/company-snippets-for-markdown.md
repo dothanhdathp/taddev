@@ -34,14 +34,6 @@
             "</figure>"
         ]
     },
-    "center-text": {
-        "prefix": "/center-text",
-        "body": [
-            "<p style=\"text-align: center;\">",
-            "\t",
-            "</p>",
-        ]
-    },
     "marp-slide": {
         "prefix": "/slide",
         "body": [
@@ -69,7 +61,7 @@
     "note-bug":         { "prefix": "/bug-note",      "body": ["!!! bug \"Bug\""]},
     "note-example":     { "prefix": "/example-note",  "body": ["!!! example \"Example\""]},
     "note-quote":       { "prefix": "/quote-note",    "body": ["!!! quote \"Quote\""]},
-    "colapse":          { "prefix": "/colapse",          "body": ["??? note \"Note\""]},
+    "colapse":          { "prefix": "/colapse",          "body": ["??? note \"Note\""]},e
     "colapse-abstract": { "prefix": "/abstract-colapse", "body": ["??? abstract \"Abstract\""]},
     "colapse-info":     { "prefix": "/info-colapse",     "body": ["??? info \"Info\""]},
     "colapse-tip":      { "prefix": "/tip-colapse",      "body": ["??? tip \"Tip\""]},
@@ -124,14 +116,61 @@
             "```"
         ],
     },
+    "vi-en": {
+        "prefix": "/vi-en",
+        "body": [
+            "=== \"VI\"",
+            "=== \"EN\"",
+        ],
+    },
     "sticky-note": {
-        "prefix": "/sticky-note",
+        "prefix": "/vi-en",
         "body": [
             "<div class=\"sticky-note\" markdown=\"1\">",
-            "\t",
             "<div class=\"sticky-note-header\">:::</div>",
+            "Note in here",
+            "</div>",
+        ],
+    },
+    "diagram": {
+        "prefix": "/diagram",
+        "body": [
+            "{{ diagram(\"file.puml\") }}",
+        ],
+    },
+    "center-text": {
+        "prefix": "/center-text",
+        "body": [
+            "<div style=\"text-align: center; font-style: italic; font-color: gray;\">",
             "</div>"
-        ]
+        ],
+        "description": ""
+    },
+    "collapsible": {
+        "prefix": "/collapsible",
+        "body": [
+            "<details>",
+            "\t<summary>telechip-private-key</summary>",
+            "</details>"
+        ],
+        "description": ""
+    },
+    "mdbook-tabs": {
+        "prefix": "/mdbook-tabs",
+        "body": [
+            "{{#tabs }}",
+            "{{#tab name=\"Tab 1\" }}",
+            "**Tab content 1**",
+            "{{#endtab }}",
+            "{{#tab name=\"Tab 2\" }}",
+            "_Tab content 2_",
+            "{{#endtab }}",
+            "{{#tab name=\"Tab 3\" }}",
+            "~~Tab content 3~~",
+            "{{#endtab }}",
+            "{{#endtabs }}",
+        ],
+        "description": ""
     }
 }
 ```

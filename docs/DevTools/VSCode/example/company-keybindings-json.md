@@ -238,12 +238,41 @@
     },
     {
         "key": "ctrl+q",
-        "command": "workbench.action.tasks.build",
-        "when": "editorLangId == 'markdown' || editorLangId == yaml"
+        "command": "-workbench.action.quit"
+    },
+    {
+        "key": "meta+enter",
+        "command": "-notebook.cell.quitEdit",
+        "when": "inputFocus && notebookEditorFocused && !inlineChatFocused && notebookCellType == 'markup'"
+    },
+    {
+        "key": "shift+alt+meta+j",
+        "command": "-notebook.cell.joinAbove",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "alt+meta+j",
+        "command": "-notebook.cell.joinBelow",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "meta+enter",
+        "command": "-notebook.cell.execute",
+        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.tasks.test"
     },
     {
         "key": "ctrl+q",
-        "command": "-workbench.action.quit"
+        "command": "workbench.action.tasks.build",
+        "when": "editorTextFocus && (editorLangId == 'markdown' || editorLangId == 'yaml')"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "-workbench.action.tasks.build",
+        "when": "editorTextFocus && editorLangId == 'markdown'"
     }
 ]
 ```
