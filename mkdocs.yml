@@ -61,6 +61,7 @@ nav:
     - Media:
       - Audio:
         - Audio: Computing/audio.md
+        - Audio Study Concept: Computing/audio-study-concept.md
         - File Types:
           - WAV: Computing/audio-wav.md
           - MP3: Computing/audio-mp3.md

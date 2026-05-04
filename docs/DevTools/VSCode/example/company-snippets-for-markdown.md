@@ -2,6 +2,7 @@
 
 > Ví dụ về snippets cho markdown mình tự định nghĩa trên máy công ty
 
+{% raw %}
 ```json
 {
     // Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and 
@@ -174,3 +175,4 @@
     }
 }
 ```
+{% endraw %}
