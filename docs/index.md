@@ -24,9 +24,9 @@ skinparam backgroundcolor transparent
 * Technical
 **_: Common
   //Các khái niệm cơ bản//;
-*** [[/Common/audio/ Audio]]
-****_ [[/Common/audio-wav/ WAV]]
-****_ [[/Common/audio-mp3/ MP3]]
+*** [[/Computing/audio/ Audio]]
+****_ [[/Computing/audio-wav/ WAV]]
+****_ [[/Computing/audio-mp3/ MP3]]
 *** AI
 *** CPU
 ****_ CPU ISA

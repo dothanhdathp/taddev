@@ -85,4 +85,4 @@ Nhân hai số Ưu điểm và Nhược điểm của RISC và CISCƯu điểm c
 
 - (Vi)Fmuser
     - [RISC và Kiến trúc CISC với Ưu điểm và Nhược điểm là gì](https://vi.fmuser.net/wap/content/?21080.html)
-- [edgefxkits](www.edgefxkits.com)
+- <https://www.edgefxkits.com>

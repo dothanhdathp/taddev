@@ -2,6 +2,39 @@
 
 Âm thanh là hướng nghiên cứu về âm thanh, dữ liệu âm thanh, nén âm thanh và các thứ liên quan.
 
+## Đàn Ý
+
+- Kỹ Sư Âm Thanh
+- Kiến thức cơ sở
+	- Âm thanh thực tế
+- Cơ sở toán học
+	- DFT
+	- FFT
+- DSP
+	- What DSP
+		- How Quality
+- Kỹ sư Âm Thanh
+	- Dữ liệu Âm Thanh
+		- Các Khái Niệm 
+			- Sample Rate
+			- Bit Depth
+				- Dynamic Range
+				- Quantization Noise
+			- Bitrate
+			- Channels
+		- Cấu trúc tệp
+			- WAV, MP3, FLAC, ...
+		- Codec
+			- Nén / giải nén
+	- DSP
+		- EQ
+	- Open Source SW
+		- Faust
+		- DSPi
+	- Hardware
+		- Tham khảo OpenDSP (Open Hardware DSP Platform)
+
+
 ## Các Khái Niệm
 
 - [Sample Rate (Tần số lấy mẫu)](#sample-rate)
