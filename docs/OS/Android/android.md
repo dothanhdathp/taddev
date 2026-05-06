@@ -7,6 +7,17 @@
 - Điểm nổi bật nhất của __Android__ chính là khả năng tùy cao nhờ việc __*open source*__, Android có thể nói là hệ điều hành dẫn đầu trong khả năng tương thích, sáng tạo, làm được nhiều việc một lúc.
 - Bên cạnh những điểm đó, __Android__ cũng có nhiều hạn chế. Đó là về tốc độ xử lý và phản hồi không quá ấn tượng. Cho nên đến tận thời điểm hiện tại, Android chưa hề có một chương trình hiệu năng cao nào ví dụ như các __trò chơi AAA__ - đây là điều xứng đáng để đánh đổi với khả năng tương thích.
 
+## Android System Architect
+
+## Android Application Developer
+
+{{ book("Android Application Developer", "android-application-developer") }}
+
+## Android Core
+
+## Android System Engineer
+
+
 ## RoadMap
 
 ```puml
