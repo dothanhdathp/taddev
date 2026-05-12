@@ -172,6 +172,28 @@
             "{{#endtabs }}",
         ],
         "description": ""
+    },
+    "mdbook-2-pages-view": {
+        "prefix": "/mdbook-2-pages-view",
+        "body": [
+            "<div style=\"display: flex; gap: 20px;\"><div style=\"flex: 1;\">",
+            "page_1",
+            "</div><div style=\"flex: 1;\">",
+            "page_2",
+            "</div></div>"
+        ],
+        "description": ""
+    },
+    "markdown-detail": {
+		"prefix": "/markdown-detail",
+		"body": [
+			"<details>",
+			"<summary>${1:Summary}</summary>",
+			"",
+			"",
+			"",
+			"</details>"
+		]
     }
 }
 ```

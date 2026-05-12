@@ -1,41 +1,48 @@
 # OS
 
-## Map
 
+## Operating System
 
+- Cuốn sách {{ book("Operating System", "operating-system") }} viết về hệ điều hành
+
+### Tóm Tắt
 
 ```puml
 @startmindmap
+
 skinparam backgroundcolor transparent
-!$URL = "/OS"
+!$URL = "http://localhost:65000/book/operating-system/"
 
 * OS
-** Chung
-***_ [[$URL/os-overview Overview]]
-***_ [[$URL/os-endianness Endianness]]
-***_ [[$URL/os-file-system File System]]
-** Operating System APIs
-***_ [[$URL/ POSIX/Win32]]
-****_ POSIX
-*****_ [[$RUL/os-posix-signal POSIX Signal]]
-*****_ [[$RUL/os-posix-signal-sigkill SIGKILL]]
-*****_ [[$RUL/os-posix-shell POSIX Shell]]
-****_ Win32
-*****_ [[$URL/os-win32-windows-exception Windows Exception]]
-**_ OS API
-*** POSIX
-**** Linux/Ubuntu
-**** Zorin
-*****_ [[$URL/Linux/zorin-install Install Zorin]]
-***_ Win32
-**** [[$URL/Windows/windows Windows]]
-***** Version
-******_ XP //(dừng hỗ trợ)//
-******_ Vista //(dừng hỗ trợ)//
-******_ Windows 7 //(dừng hỗ trợ)//
-******_ Windows 8 //(dừng hỗ trợ)//
-******_ Windows 10 //(dừng hỗ trợ)//
-******_ Windows 11 (hiện tại)
+** [[$URL/os.html Chung]]
+
+** [[$URL/os-types.html Phân Loại]]
+***_ Theo User & Tasking
+****_ Single-user
+*****_ Single-tasking
+*****_ Multi-tasking
+****_ Multi-user
+***_ Theo Processing Style
+****_ Batch Processing
+****_ Time-sharing
+****_ Real-time OS - RTOS
+*****_ Hard Real-time
+*****_ Soft Real-time
+***_ Theo Device Types
+****_ Desktop OS
+****_ Mobile OS
+****_ Embedded OS
+****_ Network OS
+***_ Theo Kernel Architecture
+****_ Monolithic Kernel
+****_ Microkernel
+****_ Hybrid Kernel
+
+** [[$URL/os-api.html API]]
+*** [[$URL/os-posix.html POSIX]]
+*** [[$URL/os-win32.html Win32]]
+
+
 @endmindmap
 ```
 
@@ -48,3 +55,7 @@ skinparam backgroundcolor transparent
 /// html | div.hidden
 - [Os Overview](os-overview.md)
 ///
+
+## Linux
+
+- {{ book("Sổ Tay Người Dùng Linux Distribution", "linux-distribution-user-manual") }}

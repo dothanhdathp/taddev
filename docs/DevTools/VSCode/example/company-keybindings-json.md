@@ -220,15 +220,7 @@
         "key": "ctrl+shift+w",
         "command": "-workbench.action.closeWindow"
     },
-    {
-        "key": "ctrl+shift+pageup",
-        "command": "workbench.action.moveEditorLeftInGroup"
-    },
-    {
-        "key": "ctrl+shift+pagedown",
-        "command": "workbench.action.navigateBack"
-    },
-    {
+	{
         "key": "shift+alt+left",
         "command": "workbench.action.navigateBack",
     },

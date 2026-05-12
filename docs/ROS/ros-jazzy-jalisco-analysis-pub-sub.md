@@ -65,6 +65,7 @@ int main(int argc, char * argv[])
 ```cpp
 explicit Node(const std::string & node_name, const NodeOptions & options = NodeOptions());
 ```
+
 - [rclcpp::Node]()
 
 ```cpp

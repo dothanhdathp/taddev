@@ -9,3 +9,6 @@ ELF là một định dạng tập tin tiêu chuẩn phổ biến cho
 - Và **core dumps**:  Các tệp phản hồi, báo cáo khi có lỗi xảy ra trong thư viện.
 
 Để đọc ELF, có tham khảo [công cụ readelf của Linux](../OS/Linux/linux-readelf.md)
+
+!!! warning "Warning"
+	ELF của Linux, trên Windows dùng PE (Portable Executable).

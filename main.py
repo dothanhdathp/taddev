@@ -18,4 +18,10 @@ def define_env(env):
     
     @env.macro
     def book(title, book, page=""):
-        return f'''[{title}](http://localhost:65000/book/{book}/{page})'''
+        if not page:
+            html_page = ""
+        else:
+            # Kiểm tra xem page đã có đuôi .html chưa để tránh bị double (ví dụ: page.html.html)
+            html_page = page if page.endswith(".html") else f"{page}.html"
+		# Return
+        return f'''[{title}](http://localhost:65000/book/{book}/{html_page})'''

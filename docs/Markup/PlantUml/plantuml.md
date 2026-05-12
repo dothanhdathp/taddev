@@ -1,78 +1,60 @@
 # PlantUml
 
-{{ book("PlantUml", "plantuml" ) }}
-
-## Giới thiệu
-
 PlantUML là một công cụ rất linh hoạt tạo điều kiện tạo ra sự tạo ra nhanh chóng và đơn giản của một loạt các sơ đồ.
+
+## PlantUML
+
+### Tóm Tắt
+
+1. Chủ yếu mình dùng _{{ book("Docker Server", "plantuml", "plantuml-docker-server") }}_
+1. Các loại đồ thị hay dùng nhất là
+	- {{ book("Sequence diagram", "plantuml", "plantuml-sequence-diagram") }} để vẽ đồ thị 
+	- {{ book("Class diagram", "plantuml", "plantuml-class-diagram") }} để vẽ biển đồ quan hệ trong lập trình.
+	- {{ book("MindMap diagram", "plantuml", "plantuml-mindmap-diagram") }} để vẽ sơ đồ tư duy
+	- {{ book("WBS diagram", "plantuml", "plantuml-wbs-diagram") }} để vẽ đồ thị phả hệ
+
+### Nội Dung
 
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "/Markup/PlantUml"
+!$URL = "http://localhost:65000/book/plantuml/"
 
-* [[$URL/plantuml/ PlantUml]]
-** [[$URL/plantuml-local-server/ Local Server]]
+* [[$URL/plantuml.html PlantUml]]
+** PlantUml Server
+*** [[$URL/plantuml-jetty-server.html Jetty Server]]
+*** [[$URL/plantuml-docker-server.html Docker Server]]
 ** UML Diagrams
-***_ [[$URL/plantuml-sequence-diagram/ Sequence diagram 🏲]]
-***_ [[$URL/plantuml-usecase-diagram/ Usecase diagram]]
-***_ [[$URL/plantuml-class-diagram/ Class diagram 🏲]]
-***_ [[$URL/plantuml-object-diagram/ Object diagram]]
-***_ [[$URL/plantuml-activity-diagram/ Activity diagram 🏲]]
-***_ [[$URL/plantuml-component-diagram/ Component diagram]]
-***_ [[$URL/plantuml-deployment-diagram/ Deployment diagram]]
-***_ [[$URL/plantuml-state-diagram/ State diagram]]
-***_ [[$URL/plantuml-timing-diagram/ Timing diagram]]
+***_ [[$URL/plantuml-sequence-diagram.html Sequence diagram 🏲]]
+***_ [[$URL/plantuml-usecase-diagram.html Usecase diagram]]
+***_ [[$URL/plantuml-class-diagram.html Class diagram 🏲]]
+***_ [[$URL/plantuml-object-diagram.html Object diagram]]
+***_ [[$URL/plantuml-activity-diagram.html Activity diagram]]
+***_ [[$URL/plantuml-component-diagram.html Component diagram]]
+***_ [[$URL/plantuml-deployment-diagram.html Deployment diagram]]
+***_ [[$URL/plantuml-state-diagram.html State diagram]]
+***_ [[$URL/plantuml-timing-diagram.html Timing diagram]]
 ** Non-UML Diagrams
-***_ [[$URL/plantuml-json-data/ JSON data]]
-***_ [[$URL/plantuml-yaml-data/ YAML data]]
-***_ [[$URL/plantuml-ebnf-diagram/ EBNF diagram]]
-***_ [[$URL/plantuml-regex-diagram/ Regex diagram]]
-***_ [[$URL/plantuml-network-diagram-nwdiag/ Network diagram (nwdiag)]]
-***_ [[$URL/plantuml-ui-mockups-salt/ UI mockups (salt)]]
-***_ [[$URL/plantuml-archimate-diagram/ Archimate diagram]]
-***_ [[$URL/plantuml-sdl/ SDL]]
-***_ [[$URL/plantuml-ditaa-diagram/ Ditaa diagram]]
-***_ [[$URL/plantuml-gantt-diagram/ Gantt diagram]]
-***_ [[$URL/plantuml-chronology-diagram/ Chronology diagram]]
-***_ [[$URL/plantuml-mindmap-diagram/ MindMap diagram 🏲]]
-***_ [[$URL/plantuml-wbs-diagram/ WBS diagram 🏲]]
-***_ [[$URL/plantuml-mathematics/ Mathematics]]
-***_ [[$URL/plantuml-ie-diagram/ IE diagram]]
-***_ [[$URL/plantuml-er-diagram/ ER diagram]]
-
+***_ [[$URL/plantuml-json-data.html JSON data]]
+***_ [[$URL/plantuml-yaml-data.html YAML data]]
+***_ [[$URL/plantuml-ebnf-diagram.html EBNF diagram]]
+***_ [[$URL/plantuml-regex-diagram.html Regex diagram]]
+***_ [[$URL/plantuml-network-diagram-nwdiag.html Network diagram (nwdiag)]]
+***_ [[$URL/plantuml-ui-mockups-salt.html UI mockups (salt)]]
+***_ [[$URL/plantuml-archimate-diagram.html Archimate diagram]]
+***_ [[$URL/plantuml-sdl.html SDL]]
+***_ [[$URL/plantuml-ditaa-diagram.html Ditaa diagram]]
+***_ [[$URL/plantuml-gantt-diagram.html Gantt diagram]]
+***_ [[$URL/plantuml-chronology-diagram.html Chronology diagram]]
+***_ [[$URL/plantuml-mindmap-diagram.html MindMap diagram 🏲]]
+***_ [[$URL/plantuml-wbs-diagram.html WBS diagram 🏲]]
+***_ [[$URL/plantuml-mathematics-diagram.html Mathematics]]
+***_ [[$URL/plantuml-ie-diagram.html IE diagram]]
+***_ [[$URL/plantuml-er-diagram.html ER diagram]]
+** [[$URL/plantuml-themes.html Themes]]
+*** [[$URL/plantuml-themes-light.html Themes Light]]
+*** [[$URL/plantuml-themes-dark.html Themes Dark]]
+*** [[$URL/plantuml-themes-paper.html Themes Paper]]
+*** [[$URL/plantuml-themes-reddress.html Themes Reddress]]
 @endmindmap
 ```
-
-## Danh Sách
-
-### UML Diagrams
-
-1. [Sequence diagram 🏲](plantuml-sequence-diagram.md)
-1. [Usecase diagram](plantuml-usecase-diagram.md)
-1. [Class diagram 🏲](plantuml-class-diagram.md)
-1. [Object diagram](plantuml-object-diagram.md)
-1. [Activity diagram 🏲](plantuml-activity-diagram.md)
-1. [Component diagram](plantuml-component-diagram.md)
-1. [Deployment diagram](plantuml-deployment-diagram.md)
-1. [State diagram](plantuml-state-diagram.md)
-1. [Timing diagram](plantuml-timing-diagram.md)
-
-### Non-UML Diagrams
-
-1. [JSON data](plantuml-json-data.md)
-1. [YAML data](plantuml-yaml-data.md)
-1. [EBNF diagram](plantuml-ebnf-diagram.md)
-1. [Regex diagram](plantuml-regex-diagram.md)
-1. [Network diagram (nwdiag)](plantuml-network-diagram-nwdiag.md)
-1. [UI mockups (salt)](plantuml-ui-mockups-salt.md)
-1. [Archimate diagram](plantuml-archimate-diagram.md)
-1. [SDL](plantuml-sdl.md)
-1. [Ditaa diagram](plantuml-ditaa-diagram.md)
-1. [Gantt diagram](plantuml-gantt-diagram.md)
-1. [Chronology diagram](plantuml-chronology-diagram.md)
-1. [MindMap diagram 🏲](plantuml-mindmap-diagram.md)
-1. [WBS diagram 🏲](plantuml-wbs-diagram.md)
-1. [Mathematics](plantuml-mathematics.md)
-1. [IE diagram](plantuml-ie-diagram.md)
-1. [ER diagram](plantuml-er-diagram.md)

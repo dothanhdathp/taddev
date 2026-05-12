@@ -5,6 +5,7 @@
 - Theo [Wikipedia](https://en.wikipedia.org/wiki/Linux), nhân của __Linux__ được phát triển bởi 
 - __Linux__ là gốc của khá nhiều loại ngôn ngữ. Chỉ đơn giản là nó _miễn phí_.
 - Nhân __Linux__ được viết ra bởi
+- {{ book("Sổ Tay Người Dùng Linux Distribution", "linux-distribution-user-manual") }}
 
 ## Distributions
 
