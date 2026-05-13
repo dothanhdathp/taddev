@@ -43,189 +43,116 @@ plugins:
 nav:
   ##################################################################################################################################
   # - Giới Thiệu Computing: index.md
-  - Hệ Điều Hành:
-    - OS: OS/os.md
-    - Linux: OS/linux.md
-    - Windows: OS/windows.md
-    - Android: OS/android.md
-      #- OS Overview: OS/os-overview.md
-      #- Phân Loại OS: OS/os-type.md
-      #- Endianness: OS/os-endianness.md
-      #- File System: OS/os-file-system.md
-      #- POSIX & Win32: OS/os-apis.md       
-      #- Mã Hoá:
-      #  - Chữ Ký Số: Computing/digital-signature.md
-      #  - PCM: OS/os-audio-pcm.md
-      #  - Audio Sample Formats: OS/os-audio-sample-formats.md
-    - Network:
-      - Network: Computing/network.md
-      - Điều Chế/Giải Điều Chế: Computing/telecom-signal-modulation.md
-    - Media:
-      - Audio:
-        - Audio: Computing/audio.md
-        - Audio Study Concept: Computing/audio-study-concept.md
-        - File Types:
-          - WAV: Computing/audio-wav.md
-          - MP3: Computing/audio-mp3.md
-          - FLAC: Computing/audio-flac.md
-      - Video:
-        - Video: Computing/video.md
+  - Computing: 
+    - Computing: index.md
+    - Computer Architecture: Computing/computer-architecture.md
+    - Operating System: Computing/os.md
+    - Linux:
+      - Linux Getting Start: Computing/linux.md
+      - Sổ Tay Người Dùng Linux: Computing/linux-distribution-user-manual.md
+      - Linux Terminal Shell: Computing/linux-terminal-shell.md
+      - Linux System Internals: Computing/linux-system-internals.md
+    - Windows: Computing/windows.md
+    - Android: Computing/android.md
+    - Digital Standards:
+      - Digital Standards: Computing/digital-standards.md
+      - Network:
+        - Chữ Ký Số: Computing/digital-signature.md
+        - Điều Chế/Giải Điều Chế: Computing/telecom-signal-modulation.md
+      - Media:
+        - Audio:
+          - Audio: Computing/audio.md
+          - Audio Study Concept: Computing/audio-study-concept.md
+          - File Types:
+            - WAV: Computing/audio-wav.md
+            - MP3: Computing/audio-mp3.md
+            - FLAC: Computing/audio-flac.md
+        - Video:
+          - Video: Computing/video.md
     - AI:
       - AI: Computing/ai.md
-    - CPU:
-      - CPU ISA: Computing/cpu-isa.md
-      - RISC & CISC: Computing/cpu-risc-and-cisc.md
-    - FILE:
-      - ELF: Computing/file-elf.md
   ##################################################################################################################################
-  - UNIX OS:
-    - UNIX:
-      - UNIX: OS/os-unix.md
-      - POSIX Common:
-        - POSIX Signal: OS/os-posix-signal.md
-        - SIGKILL: OS/os-posix-signal-sigkill.md
-        - POSIX Shell: OS/os-posix-shell.md
-    - Linux:
-      - Linux: OS/Linux/linux.md
-      - Linux Family: OS/Linux/linux-family-overview-and-install.md
-      - Getting Start: OS/Linux/linux-getting-start.md
-      - Linux Shell:
-          - Bash Script: OS/Linux/linux-shell-bash-script.md
-          - Các Câu Lệnh Thường Dùng: OS/Linux/linux-shell-bash-commons.md
-          - Biến: OS/Linux/linux-shell-bash-variables.md
-          - So Sánh: OS/Linux/linux-shell-bash-compare.md
-          - Điều khiển luồng: OS/Linux/linux-shell-bash-flow-control.md
-      - Tools:
-        - Tools: OS/Linux/linux-tools.md
-        - Default:
-          - Symlink: OS/Linux/linux-symlinks.md
-          - Readelf: OS/Linux/linux-readelf.md
-          - Ls: linux-tools-ls.md
-          - Vim: linux-tools-vim.md
-        - Utilities:
-          - find: OS/Linux/linux-utilities-find.md
-          - compress: OS/Linux/linux-utilities-tar.md
-          - grep: OS/Linux/linux-tools-grep.md
-          - iBamboo: OS/Linux/linux-tools-ibamboo.md
-          - sed: OS/Linux/linux-tools-sed.md
-          - objdump: OS/Linux/linux-tools-objdump.md
-      - System:
-        - System Info: OS/Linux/linux-system-info.md
-        - Folder Hierarch: OS/Linux/linux-system-folder-hierarch.md
-        - System File: OS/Linux/linux-system-file.md
-        - System Folder: OS/Linux/linux-system-folder.md
-        - Daemon: OS/Linux/linux-system-daemon.md
-        - File: OS/Linux/linux-file.md
-        - Storage: OS/Linux/linux-storage.md
-        - Package: OS/Linux/linux-package.md
-        - Apt: OS/Linux/linux-apt.md
-      - Audio:
-        - Alsa:
-          - Alsa: OS/Linux/linux-alsa.md
-          - aplay: OS/Linux/linux-alsa-aplay.md
-          - amixer: OS/Linux/linux-alsa-amixer.md
-      - Kernel:
-        - Kernel: OS/Linux/linux-kernel.md
-        - Kernel Module: OS/Linux/linux-kernel-module.md
-        - dmesg: OS/Linux/linux-dmesg.md
-      - ETH:
-        - eth: OS/Linux/linux-eth.md
-        - Wifi: OS/Linux/linux-wifi.md
-        - OpenSSH: OS/Linux/linux-tools-openssh.md
-        - NetCat: OS/Linux/linux-tools-netcat.md
-      - Password:
-        - Spec. Ubuntu 16 LST: OS/Linux/linux-ubuntu-16-lts-pass.md
-      - Trick:
-        - HTTP Server: OS/Linux/linux-http-server.md
-        - Startup Script: OS/Linux/linux-startup-script.md
-      - Packages:
-        - apt: OS/Linux/linux-packages-apt.md
-      - Dev:
-        - Dev: OS/Linux/linux-dev.md
-    - Ubuntu:
-      - Ubuntu: OS/Linux/ubuntu.md
-      - Install Ubuntu: OS/Linux/linux-install-ubuntu.md
     - Zorin:
-      - Zorin: OS/Linux/zorin.md
-      - Install Zorin: OS/Linux/zorin-install.md
-      - Menu App: OS/Linux/zorin-menu-app.md
-      - (zorin) gvfs: OS/Linux/zorin-gvfs.md
-      - Zorin Font: OS/Linux/zorin-font.md
+      - Zorin: Computing/Linux/zorin.md
+      - Install Zorin: Computing/Linux/zorin-install.md
+      - Menu App: Computing/Linux/zorin-menu-app.md
+      - (zorin) gvfs: Computing/Linux/zorin-gvfs.md
+      - Zorin Font: Computing/Linux/zorin-font.md
   - Win OS:
-    - Windows Exception: OS/os-win32-windows-exception.md
+    - Windows Exception: Computing/os-win32-windows-exception.md
     - Windows:
-      - Windows: OS/Windows/windows.md
-      - Một số lệnh thường dùng: OS/Windows/windows-cmd-Concept-command.md
+      - Windows: Computing/Windows/windows.md
+      - Một số lệnh thường dùng: Computing/Windows/windows-cmd-Concept-command.md
       - System:
-        - Services (WS): OS/Windows/windows-services.md
-        - Macro PATH: OS/Windows/windows-macro-path.md
-        - Environment Variables: OS/Windows/windows-environment-variables.md
-        - Service Tag, Manufacture: OS/Windows/windows-service-tag-and-manufacture.md
-        - Start Menu: OS/Windows/windows-service-start-menu.md
-        - Resource Monitor: OS/Windows/windows-resource-monitor.md
+        - Services (WS): Computing/Windows/windows-services.md
+        - Macro PATH: Computing/Windows/windows-macro-path.md
+        - Environment Variables: Computing/Windows/windows-environment-variables.md
+        - Service Tag, Manufacture: Computing/Windows/windows-service-tag-and-manufacture.md
+        - Start Menu: Computing/Windows/windows-service-start-menu.md
+        - Resource Monitor: Computing/Windows/windows-resource-monitor.md
       - Process:
-        - Startup Process: OS/Windows/windows-startup-process.md
-      - Network: OS/Windows/windows-network.md
+        - Startup Process: Computing/Windows/windows-startup-process.md
+      - Network: Computing/Windows/windows-network.md
       - Shell:
         - cmd:
-          - cmd: OS/Windows/windows-cmd.md
-          - Command: OS/Windows/windows-cmd-command.md
-          - Common Cmd: OS/Windows/windows-cmd-common-command.md
-          - Write Script: OS/Windows/windows-cmd-write-scripts.md
+          - cmd: Computing/Windows/windows-cmd.md
+          - Command: Computing/Windows/windows-cmd-command.md
+          - Common Cmd: Computing/Windows/windows-cmd-common-command.md
+          - Write Script: Computing/Windows/windows-cmd-write-scripts.md
         - Power Shell:
-          - Power Shell: OS/Windows/windows-ps-getting-start.md
+          - Power Shell: Computing/Windows/windows-ps-getting-start.md
         - Custom:
-          - Usercmd: OS/Windows/windows-custom-usercmd.md
+          - Usercmd: Computing/Windows/windows-custom-usercmd.md
       - Regedit:
-        - Regedit: OS/Windows/windows-regedit.md
-        - Open with: OS/Windows/windows-custom-open-with.md
+        - Regedit: Computing/Windows/windows-regedit.md
+        - Open with: Computing/Windows/windows-custom-open-with.md
       - Recovery:
-        - Password: OS/Windows/windows-recovery-password.md
+        - Password: Computing/Windows/windows-recovery-password.md
       - Activate:
-        - MAS: OS/Windows/windows-crack-by-mas.md
-        - Key: OS/Windows/windows-buyed-key.md
+        - MAS: Computing/Windows/windows-crack-by-mas.md
+        - Key: Computing/Windows/windows-buyed-key.md
   ##################################################################################################################################
   - Android:
-    - Android OS: OS/Android/android.md
+    - Android OS: Computing/Android/android.md
     - Android Base:
-      - Android ABI: OS/Android/android-abi.md
+      - Android ABI: Computing/Android/android-abi.md
     - Android Core:
-      - Android Core: OS/Android/android-core.md
-      - Android Architecture: OS/Android/android-core-architecture.md
+      - Android Core: Computing/Android/android-core.md
+      - Android Architecture: Computing/Android/android-core-architecture.md
       - HAL:
-        - HAL: OS/Android/android-core-architecture-hal.md
+        - HAL: Computing/Android/android-core-architecture-hal.md
       - Kernel:
-        - SELinux: OS/Android/android-core-architecture-hal.md
+        - SELinux: Computing/Android/android-core-architecture-hal.md
     - Application:
       - Android Application:
-        - Android Application: OS/Android/android-application.md
-        - App Architecture: OS/Android/android-app-architecture.md
+        - Android Application: Computing/Android/android-application.md
+        - App Architecture: Computing/Android/android-app-architecture.md
         - UI Layer:
-          - Android Activity: OS/Android/android-activity.md
-          - Android Fragment: OS/Android/android-fragment.md
+          - Android Activity: Computing/Android/android-activity.md
+          - Android Fragment: Computing/Android/android-fragment.md
         - Component:
-          - ListView: OS/Android/android-dev-app-listview.md
-      - Menu Option: OS/Android/android-dev-menu-option.md
+          - ListView: Computing/Android/android-dev-app-listview.md
+      - Menu Option: Computing/Android/android-dev-menu-option.md
     - Android Debug:
       - ADB:
-        - ADB: OS/Android/android-adb.md
-        - ADB Logcat: OS/Android/android-adb-logcat.md
-        - ADB ETH: OS/Android/android-adb-eth.md
-        - ADB Bugreport: OS/Android/android-adb-bugreport.md
-      - Proto: OS/Android/android-bugreport-proto.md
+        - ADB: Computing/Android/android-adb.md
+        - ADB Logcat: Computing/Android/android-adb-logcat.md
+        - ADB ETH: Computing/Android/android-adb-eth.md
+        - ADB Bugreport: Computing/Android/android-adb-bugreport.md
+      - Proto: Computing/Android/android-bugreport-proto.md
     - External:
-      - Tinyalsa: OS/Android/android-core-external-tinyalsa.md
+      - Tinyalsa: Computing/Android/android-core-external-tinyalsa.md
       - JNI:
-        - Create JNI: OS/Android/android-dev-application-jni.md
-        - JNI Type: OS/Android/android-dev-jni-type.md
+        - Create JNI: Computing/Android/android-dev-application-jni.md
+        - JNI Type: Computing/Android/android-dev-jni-type.md
     - Misc:
       # Phần này tôi để trong những cái mình không biết nó nên thuộc module nào thì đưa vào đây.
-      - Enable App Optimization: OS/Android/android-enable-app-optimization.md
-      - Systrace: OS/Android/android-systrace.md
+      - Enable App Optimization: Computing/Android/android-enable-app-optimization.md
+      - Systrace: Computing/Android/android-systrace.md
     - Example:
-      - First Application: OS/Android/android-first-application.md
+      - First Application: Computing/Android/android-first-application.md
   - RTOS:
-    - Getting Start: OS/RTOS/rtos.md
+    - Getting Start: Computing/RTOS/rtos.md
   ##################################################################################################################################
   - Tools:
     - Tools: Tools/tools.md

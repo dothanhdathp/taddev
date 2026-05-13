@@ -1,98 +1,17 @@
-# Preface
+# Computing
 
-{{ book("High Performance Browser Networking", "high-performance-browser-networking") }}
+_Tất cả, tất cả các thứ liên quan đến Máy Tính và các hệ thống sử dụng đến máy tính đều ở đây._
 
-## Mô Tả
+Tôi là lập trình viên và quanh quẩn những thứ tôi được học hoặc nghiên cứu về rất rất lớn. Có một số cái chỉ lướt qua, một số cái thì chuyên sâu.
 
-Các tài liệu về
+Nhưng, tất cả chúng đều có ý nghĩa nào đó. Một lúc nào đó tôi phải quay lại một số con đường cũ và bắt đầu đọc lại tất cả những gì mình đã làm.
 
-- <mark>Android ABI và Android API.</mark>
-- <mark>Thiết kế về hệ thống PID cân bằng, yêu cầu đầu ra và đầu vào như nào.</mark>
-- Hệ điều hành, công cụ và các thuật ngữ chung.
-- Công nghệ và mô tả
-- Các công cụ và cách sử dụng công cụ, cấu hình công cụ phục vụ mục đích học tập.
+Chính vì thế nên tôi mới viết tài liệu dạng này, nơi chứa tất cả những thứ tôi học được từ lúc tôi bắt đầu tạo ra chúng cho đến lúc tôi còn thở.
 
-{{ linkslide("[Nami] Volume Control and Mute", "work/nami-nt-398.html") }}
+Xin cảm ơn bản thân vì đã cố gắng chiều theo những ý tưởng đần độn và tốn thời gian này.
 
-## Cấu Trúc
+<!--{{ book("High Performance Browser Networking", "high-performance-browser-networking") }}-->
 
-```puml
-@startmindmap
-skinparam backgroundcolor transparent
-!$URL = ""
-
-* Technical
-**_: Common
-  //Các khái niệm cơ bản//;
-*** [[/Computing/audio/ Audio]]
-****_ [[/Computing/audio-wav/ WAV]]
-****_ [[/Computing/audio-mp3/ MP3]]
-*** AI
-*** CPU
-****_ CPU ISA
-
-** [[$URL/OS/os/ OS]]
-*** [[$URL/OS/Linux/zorin/ Linux]]
-****_ =[[$URL/OS/Linux/zorin/ Zorin]]
-****_ [[$URL/OS/Linux/u****buntu/ Ubuntu]]
-***_ =[[$URL/OS/Android/android/ Android]]
-*** [[$URL/OS/Windows/windows/ Windows]]
-*** [[$URL/OS/RTOS/rtos/ RTOS]]
-
-** [[$URL/Tools/tools/ Tools]]
-***_ Tài liệu
-****_ =[[$URL/Tools/mkdocs/ MKDocs]]
-****_ [[$URL/Tools/epub-translator/ epub-translator]]
-
-***_ Dev
-****_ [[$URL/Tools/msys2/ Msys2]]
-****_ [[$URL/Tools/nodejs/ NodeJS]]
-****_ [[$URL/Tools/electron/ Electron]]
-
-***_ Đa Phương Tiện
-****_ =[[$URL/Tools/ffmpeg/ FFmpeg]]
-****_ =[[$URL/Tools/yt-dlp/ yt-dlp]]
-****_ [[$URL/Tools/putty/ Putty]]
-****_ [[$URL/Tools/scrcpy/ Scrcpy]]
-
-***_ Đa Dụng
-****_ =[[$URL/Tools/3utools/ 3Utool]]
-****_ [[$URL/Tools/anydesk/ AnyDesk]]
-****_ =[[$URL/Tools/docker/ Docker]]
-****_ =[[$URL/Tools/sambashare/ Sambashare]]
-
-** [[$URL/DevTools/dev-tools/ Dev Tools]]
-***_ =[[$URL/DevTools/VSCode/software-vscode/ VSCode]]
-***_ [[$URL/DevTools/software-android-studio/ Android Studio]]
-***_ [[$URL/DevTools/Qt/qt/ Qt]]
-
-** [[$URL/ROS/ros/ ROS2]]
-
-** [[$URL/Git/git/ Git]]
-
-** MarkUp Language
-***_ [[$URL/Markup/UML/uml/ UML (about language)]]
-***_ [[$URL/Markup/Markdown/markdown/ Markdown]]
-***_ =[[$URL/Markup/PlantUml/plantuml/ PlantUml]]
-***_ [[$URL/Markup/Mermaid/mermaid/ Mermaid]]
-***_ [[$URL/Markup/MKDocs/mkdocs/ MKDocs]]
-
-** Device
-***_ [[$URL/Device/rasberry-pi/ Rasberry Pi]]
-
-** Project
-***_ Tad App
-***_ Pokedex
-@endmindmap
-```
-
-## About this Document
-
-Đây là trang web tổng hợp lại các tài liệu, kiến thức lặt vặt về lập trình (và riêng về máy tính với lập trình) của mình. Có khá nhiều khía cạnh khác nhau ngoài khía cạnh chính được đề cập trong tài liệu này. Chủ yếu tài liệu này chính là để hỗ trợ mình làm việc trong cả công việc và cuộc sống.
-
-Trong tất cả thì trang này là trang chủ chứa khá nhiều thông tin. Chủ đề chính là nghiêng về phía __Khoa học máy tính__, chuyên nghành chính cái mà mình cả học tập lẫn tìm hiểu nhiều nhất.
-
-Nội dung của cục này xoay quanh nhiều các vấn đề về lập trình như OOP, học các ngôn ngữ lập trình, hệ điều hành, ..
 
 ## Một số nội dung tiếp tục
 
