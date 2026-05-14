@@ -1,6 +1,7 @@
 # Linux
 
-_Tôi chưa có ý tường gì ở đây cả, chỉ kéo về thôi_
+- _Tôi chưa có ý tường gì ở đây cả, chỉ kéo về thôi_
+- _Phần này nên đặt tên là **Linux Distribution** vì tôi không có làm việc với Linux thuần mà là các bản phân phối khác của nó_
 
 ## Linux Dev
 

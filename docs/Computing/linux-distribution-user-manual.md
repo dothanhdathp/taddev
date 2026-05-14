@@ -32,4 +32,7 @@
 - {{ book("Ubuntu Only", "linux-distribution-user-manual", "ubuntu-os-only") }}
 - {{ book("Zorin Only", "linux-distribution-user-manual", "zorin-os-only") }}
 
-## Linux Terminal Shell Env And Command
+## Next
+
+1. [Linux Terminal Shell](linux-terminal-shell.md)
+1. [Linux System Internals](linux-system-internals.md)

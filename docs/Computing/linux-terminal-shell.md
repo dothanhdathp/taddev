@@ -17,3 +17,7 @@ Phần này mô tả về linux shell, shell bash, các script và môi trườn
 	- **GNOME Terminator**
 - {{ book("Shell Script", "linux-terminal-shell-env-and-command", "shell-script") }}
 - {{ book("Bash Script", "linux-terminal-shell-env-and-command", "bash-script") }}
+
+## Releated
+
+1. [Linux System Internals](linux-system-internals.md)

@@ -52,66 +52,44 @@ nav:
       - Sổ Tay Người Dùng Linux: Computing/linux-distribution-user-manual.md
       - Linux Terminal Shell: Computing/linux-terminal-shell.md
       - Linux System Internals: Computing/linux-system-internals.md
+    - Zorin: Computing/zorin.md
     - Windows: Computing/windows.md
-    - Android: Computing/android.md
+    - Android:
+      - Android: Computing/android.md
+      - Android Core:
+        - Android Core: Computing/android-core.md
+      - Android ADB: Computing/android-adb.md
+    - RTOS: Computing/rtos.md
     - Digital Standards:
       - Digital Standards: Computing/digital-standards.md
       - Network:
         - Chữ Ký Số: Computing/digital-signature.md
         - Điều Chế/Giải Điều Chế: Computing/telecom-signal-modulation.md
-      - Media:
-        - Audio:
-          - Audio: Computing/audio.md
-          - Audio Study Concept: Computing/audio-study-concept.md
-          - File Types:
-            - WAV: Computing/audio-wav.md
-            - MP3: Computing/audio-mp3.md
-            - FLAC: Computing/audio-flac.md
-        - Video:
-          - Video: Computing/video.md
+      - Audio:
+        - Audio: Computing/audio.md
+        - Audio Study Concept: Computing/audio-study-concept.md
+        - File Types:
+          - WAV: Computing/audio-wav.md
+          - MP3: Computing/audio-mp3.md
+          - FLAC: Computing/audio-flac.md
+      - Video:
+        - Video: Computing/video.md
     - AI:
       - AI: Computing/ai.md
-  ##################################################################################################################################
-    - Zorin:
-      - Zorin: Computing/Linux/zorin.md
-      - Install Zorin: Computing/Linux/zorin-install.md
-      - Menu App: Computing/Linux/zorin-menu-app.md
-      - (zorin) gvfs: Computing/Linux/zorin-gvfs.md
-      - Zorin Font: Computing/Linux/zorin-font.md
-  - Win OS:
-    - Windows Exception: Computing/os-win32-windows-exception.md
-    - Windows:
-      - Windows: Computing/Windows/windows.md
-      - Một số lệnh thường dùng: Computing/Windows/windows-cmd-Concept-command.md
-      - System:
-        - Services (WS): Computing/Windows/windows-services.md
-        - Macro PATH: Computing/Windows/windows-macro-path.md
-        - Environment Variables: Computing/Windows/windows-environment-variables.md
-        - Service Tag, Manufacture: Computing/Windows/windows-service-tag-and-manufacture.md
-        - Start Menu: Computing/Windows/windows-service-start-menu.md
-        - Resource Monitor: Computing/Windows/windows-resource-monitor.md
-      - Process:
-        - Startup Process: Computing/Windows/windows-startup-process.md
-      - Network: Computing/Windows/windows-network.md
-      - Shell:
-        - cmd:
-          - cmd: Computing/Windows/windows-cmd.md
-          - Command: Computing/Windows/windows-cmd-command.md
-          - Common Cmd: Computing/Windows/windows-cmd-common-command.md
-          - Write Script: Computing/Windows/windows-cmd-write-scripts.md
-        - Power Shell:
-          - Power Shell: Computing/Windows/windows-ps-getting-start.md
-        - Custom:
-          - Usercmd: Computing/Windows/windows-custom-usercmd.md
-      - Regedit:
-        - Regedit: Computing/Windows/windows-regedit.md
-        - Open with: Computing/Windows/windows-custom-open-with.md
-      - Recovery:
-        - Password: Computing/Windows/windows-recovery-password.md
-      - Activate:
-        - MAS: Computing/Windows/windows-crack-by-mas.md
-        - Key: Computing/Windows/windows-buyed-key.md
-  ##################################################################################################################################
+##################################################################################################################################
+  - Programming:
+    - Programming: Programming/programming.md
+  - Developer:
+    - Developer: Dev/dev.md
+    - Libraries: Dev/libs.md
+    - Frameworks:
+      - ROS2: Dev/ros2.md
+    - Git:
+      - Git: Dev/git.md
+      - Git Tools: Dev/git-tools.md
+    - Tools:
+      - VSCode: Dev/vscode.md
+##################################################################################################################################
   - Android:
     - Android OS: Computing/Android/android.md
     - Android Base:
@@ -151,8 +129,6 @@ nav:
       - Systrace: Computing/Android/android-systrace.md
     - Example:
       - First Application: Computing/Android/android-first-application.md
-  - RTOS:
-    - Getting Start: Computing/RTOS/rtos.md
   ##################################################################################################################################
   - Tools:
     - Tools: Tools/tools.md
@@ -161,8 +137,7 @@ nav:
       - minicom: Tools/minicom.md
       - tmux: Tools/tmux.md
       - tree: Tools/tree.md
-      - Docker:
-        - Docker: Tools/docker.md
+      - Docker: Tools/docker.md
       - FFmpeg: Tools/ffmpeg.md
       - yt-dlp: Tools/yt-dlp.md
       - NeoVim: Tools/nvim-text-editor.md
@@ -274,52 +249,7 @@ nav:
       - CAN:
         - CANable 2.0: Device/canable.md
         - PEAK-System: Device/peak-system.md
-        - SocketCAN: Device/socketcan.md
-  ##################################################################################################################################
-  - ROS:
-    - ROS2: ROS/ros.md
-    - Phân Phối: ROS/ros-distributions.md
-    - Concepts:
-      - Basic Concepts: ROS/ros-basic-concepts.md
-      - ROS_DOMAIN_ID: ROS/ros-concepts-ros-domain-id.md
-    - Jazzy Jalisco:
-      - Install (Ubuntu): ROS/ros-jazzy-jalisco-install.md
-      - Cấu Hình Môi Trường: ROS/ros-jazzy-jalisco-configuring-ros2-environment.md
-      - Getting Start: ROS/ros-jazzy-jalisco-getting-start.md
-      - Ví Dụ:
-        - Ví Dụ Publisher/Subscriber: ROS/ros-jazzy-jalisco-example-pub-sub.md
-      - Phân Tích:
-        - Phân Tích Publisher/Subscriber: ROS/ros-jazzy-jalisco-analysis-pub-sub.md
-      - Deb Packages: ROS/ros-jazzy-jalisco-ubuntu-deb-packages.md
-    - Nav2:
-      - Nav2: ROS/nav2.md
-    - Tài Liệu:
-      - Tài Liệu: ROS/ros-document.md
-    - Dự Án:
-      - Dự Án: ROS/ros-project-example.md
-  ##################################################################################################################################
-  - Git:
-    - Git: Git/git.md
-    - Overview: Git/git-overview.md
-    - Cài Đặt: Git/git-install.md
-    - SSH: Git/git-ssh.md
-    - Concept:
-      - Git Config: Git/git-config.md
-      - Git Clone: Git/git-clone.md
-      - Git Branch: Git/git-branch.md
-      - Git Ignore: Git/git-ignore.md
-      - Git Diff: Git/git-diff.md
-    - Hướng Dẫn:
-      - Bắt Đầu: Git/git-beginer.md
-      - Ví Dụ: Git/git-example.md
-      - Custom Commands: Git/git-custom-commands.md
-    - Github:
-      - Github Overview: Git/Github/github-overview.md
-      - Github Start: Git/Github/github-start.md
-      - Github Page: Git/Github/github-page.md
-    - Support Tools:
-      - Delta: Git/git-tools-delta.md
-      - Lazygit: Git/git-tools-lazygit.md
+        - SocketCAN: Device/socketcan.md 
   ##################################################################################################################################
   - Project:
     - Tad App: 
