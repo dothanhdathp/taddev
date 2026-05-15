@@ -50,6 +50,7 @@ Xác thực một nhánh/tập bởi repo. Lệnh này sẽ kéo về một số
 ```bash
 repo init {link.git} -m {manifest}
 ```
+
 - `-b {branch}`: Tên nhánh
 - `-m {manifest}`: Tên tệp tin manifest.xml được sử dụng. Nếu không có nó sẽ khai sẽ sử dụng `default.xml`
 

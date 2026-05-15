@@ -79,16 +79,41 @@ nav:
 ##################################################################################################################################
   - Programming:
     - Programming: Programming/programming.md
+    - Complied Language:
+      - C: Programming/c.md
+      - C++: Programming/cpp.md
+      - C#: Programming/csharp.md
+      - Rust: Programming/rust.md
+    - Interpreted/Hybrid:
+      - Python: Programming/python.md
+      - Java: Programming/java.md
+      - Kotlin: Programming/kotlin.md
+      - Javascript: Programming/Javascript.md
+    - Web:
+      - HTML: Programming/html.md
+      - CSS: Programming/css.md
+    - Assembly:
+      - Assembly: Programming/assembly.md
   - Developer:
     - Developer: Dev/dev.md
     - Libraries: Dev/libs.md
     - Frameworks:
       - ROS2: Dev/ros2.md
-    - Git:
+    - Version Control:
       - Git: Dev/git.md
       - Git Tools: Dev/git-tools.md
+      - Repo: Dev/repo.md
+      - SVN: Dev/svn.md
     - Tools:
       - VSCode: Dev/vscode.md
+    - Build System:
+      - GNU: Programming/gnu.md
+      - LLVM: Programming/llvm.md
+      - Clang: Programming/clang.md
+    - Meta-Build System:
+      - Make: Programming/make.md
+      - CMake: Programming/cmake.md
+      - Yocto: Programming/yocto.md
 ##################################################################################################################################
   - Android:
     - Android OS: Computing/Android/android.md
