@@ -94,6 +94,8 @@ nav:
       - CSS: Programming/css.md
     - Assembly:
       - Assembly: Programming/assembly.md
+    - Practice:
+      - Leetcode: Programming/leetcode.md
   - Developer:
     - Developer: Dev/dev.md
     - Libraries: Dev/libs.md
@@ -107,13 +109,13 @@ nav:
     - Tools:
       - VSCode: Dev/vscode.md
     - Build System:
-      - GNU: Programming/gnu.md
-      - LLVM: Programming/llvm.md
-      - Clang: Programming/clang.md
+      - GNU: Dev/gnu.md
+      - LLVM: Dev/llvm.md
+      - Clang: Dev/clang.md
     - Meta-Build System:
-      - Make: Programming/make.md
-      - CMake: Programming/cmake.md
-      - Yocto: Programming/yocto.md
+      - Make: Dev/make.md
+      - CMake: Dev/cmake.md
+      - Yocto: Dev/yocto.md
 ##################################################################################################################################
   - Android:
     - Android OS: Computing/Android/android.md
