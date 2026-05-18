@@ -65,13 +65,13 @@ nav:
       - Network:
         - Chữ Ký Số: Computing/digital-signature.md
         - Điều Chế/Giải Điều Chế: Computing/telecom-signal-modulation.md
-      - Audio:
-        - Audio: Computing/audio.md
-        - Audio Study Concept: Computing/audio-study-concept.md
-        - File Types:
-          - WAV: Computing/audio-wav.md
-          - MP3: Computing/audio-mp3.md
-          - FLAC: Computing/audio-flac.md
+      - Digital Audio Concept: Computing/digital-audio-concept.md
+        #- Audio: Computing/audio.md
+        #- Audio Study Concept: Computing/audio-study-concept.md
+        #- File Types:
+        #  - WAV: Computing/audio-wav.md
+        #  - MP3: Computing/audio-mp3.md
+        #  - FLAC: Computing/audio-flac.md
       - Video:
         - Video: Computing/video.md
     - AI:
@@ -94,6 +94,7 @@ nav:
       - CSS: Programming/css.md
     - Assembly:
       - Assembly: Programming/assembly.md
+    - DSA: Programming/dsa.md
     - Practice:
       - Leetcode: Programming/leetcode.md
   - Developer:
